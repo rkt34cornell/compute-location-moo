@@ -1,0 +1,27 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "roman",
+ "workload": "ROMAN_TRANSIENT",
+ "variant": "C",
+ "evaluator": "linear",
+ "method": "random",
+ "seed": 2009,
+ "cfg": {
+  "n": 12000
+ },
+ "budget": 12000,
+ "job_id": "ROMAN_TRANSIENT_C_linear_random_seed2009",
+ "hv": 11154606.134090675,
+ "n_returned": 3122,
+ "n_front": 3122,
+ "feasible_found": true,
+ "n_evals": 12003,
+ "n_feasible_evals": 3122,
+ "search_feasible_rate": 0.2601016412563526,
+ "runtime_s": 12.041556026088074,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

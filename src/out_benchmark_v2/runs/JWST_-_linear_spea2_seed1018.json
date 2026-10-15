@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "JWST",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "spea2",
+ "seed": 1018,
+ "cfg": {
+  "pop_size": 80,
+  "archive_size": 80,
+  "generations": 199
+ },
+ "budget": 16000,
+ "job_id": "JWST_-_linear_spea2_seed1018",
+ "hv": 846.3230054029983,
+ "n_returned": 80,
+ "n_front": 80,
+ "feasible_found": true,
+ "n_evals": 16000,
+ "n_feasible_evals": 15914,
+ "search_feasible_rate": 0.994625,
+ "runtime_s": 27.412513996008784,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

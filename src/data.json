@@ -1,0 +1,3157 @@
+{
+  "version": 3,
+  "notes": "Four-workload enriched dataset. IDS and SUNCATCHER from Thummala & Falco (2025) extended to 30 variables. JWST and RST estimated from published mission specs: JWST Pocket Guide (STScI 2023), Roman Science Requirements Document (SRD-0001 2024), GSFC instrument specs, DSN scheduling data. Latency for telescope workloads expressed in seconds (not ms) \u2014 see per-workload notes. All values are best-estimates for research purposes; RST values will be updated with professor consultation.",
+  "workloads": {
+    "IDS": {
+      "description": "Spacecraft intrusion detection system for CDHS. Mission-critical, 5-year design life, hard real-time 250ms latency requirement. From Thummala & Falco (2025), extended to 30 variables.",
+      "mission_life_years": 5,
+      "latency_unit": "ms",
+      "tiers": [
+        "FC",
+        "ODC",
+        "GSE",
+        "TDC"
+      ],
+      "metrics": {
+        "Latency p99 (ms)": {
+          "direction": "min",
+          "unit": "ms"
+        },
+        "Success probability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Quality (0-1)": {
+          "direction": "max",
+          "unit": null
+        },
+        "Jitter (ms)": {
+          "direction": "min",
+          "unit": "ms"
+        },
+        "Throughput (GFLOPS)": {
+          "direction": "max",
+          "unit": "GFLOPS"
+        },
+        "Energy per task (J)": {
+          "direction": "min",
+          "unit": "J"
+        },
+        "Peak power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Power margin (W)": {
+          "direction": "max",
+          "unit": "W"
+        },
+        "Mass (kg)": {
+          "direction": "min",
+          "unit": "kg"
+        },
+        "Thermal margin (C)": {
+          "direction": "max",
+          "unit": "C"
+        },
+        "Link availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Contact duty cycle": {
+          "direction": "max",
+          "unit": null
+        },
+        "Reduction ratio": {
+          "direction": "max",
+          "unit": null
+        },
+        "TX power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Bandwidth (Mbps)": {
+          "direction": "max",
+          "unit": "Mbps"
+        },
+        "DTN delay (s)": {
+          "direction": "min",
+          "unit": "s"
+        },
+        "Tier clearance": {
+          "direction": "max",
+          "unit": null
+        },
+        "Security protocol level": {
+          "direction": "max",
+          "unit": null
+        },
+        "Key mgmt feasibility": {
+          "direction": "max",
+          "unit": null
+        },
+        "TRL": {
+          "direction": "max",
+          "unit": null
+        },
+        "Rad dose margin (krad)": {
+          "direction": "max",
+          "unit": "krad"
+        },
+        "SDC rate (per hr)": {
+          "direction": "min",
+          "unit": "per hr"
+        },
+        "Compute availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Recovery time (min)": {
+          "direction": "min",
+          "unit": "min"
+        },
+        "Cost per task (USD)": {
+          "direction": "min",
+          "unit": "USD"
+        },
+        "NRE (kUSD)": {
+          "direction": "min",
+          "unit": "kUSD"
+        },
+        "Ops hours/day": {
+          "direction": "min",
+          "unit": "hrs/day"
+        },
+        "Autonomy compat": {
+          "direction": "max",
+          "unit": null
+        },
+        "PQC readiness": {
+          "direction": "max",
+          "unit": null
+        },
+        "Ops minutes / 1000 tasks": {
+          "direction": "min",
+          "unit": "min/1000"
+        },
+        "Volume (cm3)": {
+          "direction": "min",
+          "unit": "cm3",
+          "description": "Compute subsystem volume"
+        },
+        "Offload ratio": {
+          "direction": "max",
+          "unit": null,
+          "description": "Fraction of task routable to this tier [0,1]"
+        },
+        "DTN enabled": {
+          "direction": "max",
+          "unit": null,
+          "description": "Bundle Protocol v7 store-and-forward available [0,1]"
+        },
+        "Queue depth (tasks)": {
+          "direction": "min",
+          "unit": "tasks",
+          "description": "Current queue occupancy at tier"
+        },
+        "Data sensitivity": {
+          "direction": "min",
+          "unit": null,
+          "description": "Classification level of data processed (0=open..4=SCI); lower is lower risk"
+        },
+        "Isolation support": {
+          "direction": "max",
+          "unit": null,
+          "description": "HW mixed-criticality isolation available [0,1]"
+        },
+        "Storage (GB)": {
+          "direction": "max",
+          "unit": "GB",
+          "description": "Accessible storage capacity"
+        },
+        "ECC level": {
+          "direction": "max",
+          "unit": null,
+          "description": "Error-correcting code strength (0=none,1=SECDED,2=chipkill)"
+        },
+        "FC_proc_type": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] Processor type score: OBC=0.5,FPGA=0.8,GPU=0.7,SEC_PROC=0.6"
+        },
+        "FC_bus_type": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] Bus bandwidth score: MIL1553=0.2,CAN=0.3,SpaceWire=0.8,PCIe=1.0"
+        },
+        "FC_reconfigurable": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] FPGA/soft-core reconfigurability [0,1]"
+        },
+        "FC_mem_type": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] Memory SEU robustness score: SRAM=0.3,NOR=0.5,MRAM=1.0"
+        }
+      },
+      "tier_values": {
+        "FC": {
+          "Latency p99 (ms)": 6,
+          "Success probability": 0.96,
+          "Quality (0-1)": 0.93,
+          "Jitter (ms)": 2,
+          "Throughput (GFLOPS)": 0.4,
+          "Energy per task (J)": 150,
+          "Peak power (W)": 18,
+          "Power margin (W)": 8,
+          "Mass (kg)": 2.5,
+          "Thermal margin (C)": 22,
+          "Link availability": 1.0,
+          "Contact duty cycle": 1.0,
+          "Reduction ratio": 12,
+          "TX power (W)": 0,
+          "Bandwidth (Mbps)": 200,
+          "DTN delay (s)": 0,
+          "Tier clearance": 4,
+          "Security protocol level": 3,
+          "Key mgmt feasibility": 1.0,
+          "TRL": 8,
+          "Rad dose margin (krad)": 50,
+          "SDC rate (per hr)": 0.005,
+          "Compute availability": 0.99,
+          "Recovery time (min)": 2,
+          "Cost per task (USD)": 2.4,
+          "NRE (kUSD)": 500,
+          "Ops hours/day": 0.5,
+          "Autonomy compat": 1.0,
+          "PQC readiness": 0.0,
+          "Ops minutes / 1000 tasks": 40,
+          "Volume (cm3)": 800,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 2,
+          "Data sensitivity": 3,
+          "Isolation support": 1,
+          "Storage (GB)": 4,
+          "ECC level": 2,
+          "FC_proc_type": 0.5,
+          "FC_bus_type": 0.8,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 1.0
+        },
+        "ODC": {
+          "Latency p99 (ms)": 180,
+          "Success probability": 0.93,
+          "Quality (0-1)": 0.91,
+          "Jitter (ms)": 45,
+          "Throughput (GFLOPS)": 50,
+          "Energy per task (J)": 90,
+          "Peak power (W)": 3500,
+          "Power margin (W)": 1500,
+          "Mass (kg)": 450,
+          "Thermal margin (C)": 12,
+          "Link availability": 0.88,
+          "Contact duty cycle": 0.85,
+          "Reduction ratio": 10,
+          "TX power (W)": 15,
+          "Bandwidth (Mbps)": 1000,
+          "DTN delay (s)": 1.5,
+          "Tier clearance": 3,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.8,
+          "TRL": 4,
+          "Rad dose margin (krad)": -15,
+          "SDC rate (per hr)": 0.08,
+          "Compute availability": 0.93,
+          "Recovery time (min)": 15,
+          "Cost per task (USD)": 1.6,
+          "NRE (kUSD)": 20000,
+          "Ops hours/day": 2.5,
+          "Autonomy compat": 0.65,
+          "PQC readiness": 0.5,
+          "Ops minutes / 1000 tasks": 25,
+          "Volume (cm3)": 50000,
+          "Offload ratio": 0.8,
+          "DTN enabled": 1,
+          "Queue depth (tasks)": 20,
+          "Data sensitivity": 2,
+          "Isolation support": 0,
+          "Storage (GB)": 10000,
+          "ECC level": 1,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        },
+        "GSE": {
+          "Latency p99 (ms)": 600,
+          "Success probability": 0.98,
+          "Quality (0-1)": 0.95,
+          "Jitter (ms)": 90,
+          "Throughput (GFLOPS)": 30,
+          "Energy per task (J)": 40,
+          "Peak power (W)": 1200,
+          "Power margin (W)": 50000,
+          "Mass (kg)": 120,
+          "Thermal margin (C)": 35,
+          "Link availability": 0.97,
+          "Contact duty cycle": 0.15,
+          "Reduction ratio": 6,
+          "TX power (W)": 80,
+          "Bandwidth (Mbps)": 150,
+          "DTN delay (s)": 3600,
+          "Tier clearance": 3,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.9,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1,
+          "SDC rate (per hr)": 0.001,
+          "Compute availability": 0.97,
+          "Recovery time (min)": 30,
+          "Cost per task (USD)": 0.9,
+          "NRE (kUSD)": 2000,
+          "Ops hours/day": 4.0,
+          "Autonomy compat": 0.25,
+          "PQC readiness": 0.5,
+          "Ops minutes / 1000 tasks": 15,
+          "Volume (cm3)": 200000,
+          "Offload ratio": 0.6,
+          "DTN enabled": 1,
+          "Queue depth (tasks)": 50,
+          "Data sensitivity": 2,
+          "Isolation support": 0,
+          "Storage (GB)": 100000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        },
+        "TDC": {
+          "Latency p99 (ms)": 320,
+          "Success probability": 0.9,
+          "Quality (0-1)": 0.88,
+          "Jitter (ms)": 70,
+          "Throughput (GFLOPS)": 800,
+          "Energy per task (J)": 25,
+          "Peak power (W)": 35000,
+          "Power margin (W)": 500000,
+          "Mass (kg)": 4000,
+          "Thermal margin (C)": 28,
+          "Link availability": 0.99,
+          "Contact duty cycle": 1.0,
+          "Reduction ratio": 14,
+          "TX power (W)": 200,
+          "Bandwidth (Mbps)": 10000,
+          "DTN delay (s)": 0.1,
+          "Tier clearance": 2,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.6,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1,
+          "SDC rate (per hr)": 0.0001,
+          "Compute availability": 0.999,
+          "Recovery time (min)": 5,
+          "Cost per task (USD)": 0.4,
+          "NRE (kUSD)": 50,
+          "Ops hours/day": 1.0,
+          "Autonomy compat": 0.05,
+          "PQC readiness": 1.0,
+          "Ops minutes / 1000 tasks": 12,
+          "Volume (cm3)": 10000000,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 5,
+          "Data sensitivity": 1,
+          "Isolation support": 0,
+          "Storage (GB)": 1000000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        }
+      },
+      "constraints": {
+        "thresholds": {
+          "Latency p99 (ms)": {
+            "max": 250
+          },
+          "Success probability": {
+            "min": 0.92
+          },
+          "Quality (0-1)": {
+            "min": 0.9
+          },
+          "Cost per task (USD)": {
+            "max": 3.0
+          },
+          "Rad dose margin (krad)": {
+            "min": 0.0
+          },
+          "TRL": {
+            "min": 6.0
+          },
+          "Autonomy compat": {
+            "min": 0.4
+          },
+          "Key mgmt feasibility": {
+            "min": 0.65
+          }
+        },
+        "binary": {}
+      },
+      "defaults": {
+        "plot_2d": {
+          "x": "Latency p99 (ms)",
+          "y": "Cost per task (USD)",
+          "color": "Autonomy compat",
+          "size": "TRL"
+        },
+        "plot_3d": {
+          "x": "Latency p99 (ms)",
+          "y": "Cost per task (USD)",
+          "z": "Autonomy compat"
+        }
+      }
+    },
+    "SUNCATCHER": {
+      "description": "Large-scale neural network training. Google Suncatcher concept (arXiv 2511.19468). 10-year mission life. Tiers: LEO TPU constellation, ground TPU DC, ground GPU DC, hybrid split.",
+      "mission_life_years": 10,
+      "latency_unit": "ms",
+      "tiers": [
+        "LEO_TPU_CLUSTER",
+        "GROUND_TPU_DC",
+        "GROUND_GPU_DC",
+        "HYBRID_SPLIT"
+      ],
+      "metrics": {
+        "Latency p99 (ms)": {
+          "direction": "min",
+          "unit": "ms"
+        },
+        "Success probability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Quality score": {
+          "direction": "max",
+          "unit": null
+        },
+        "Jitter (ms)": {
+          "direction": "min",
+          "unit": "ms"
+        },
+        "Throughput (GFLOPS)": {
+          "direction": "max",
+          "unit": "GFLOPS"
+        },
+        "Energy per unit (J)": {
+          "direction": "min",
+          "unit": "J"
+        },
+        "Peak power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Power margin (W)": {
+          "direction": "max",
+          "unit": "W"
+        },
+        "Thermal margin (C)": {
+          "direction": "max",
+          "unit": "C"
+        },
+        "Link availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Contact duty cycle": {
+          "direction": "max",
+          "unit": null
+        },
+        "Reduction ratio": {
+          "direction": "max",
+          "unit": null
+        },
+        "TX power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Bandwidth (Mbps)": {
+          "direction": "max",
+          "unit": "Mbps"
+        },
+        "DTN delay (s)": {
+          "direction": "min",
+          "unit": "s"
+        },
+        "Security protocol level": {
+          "direction": "max",
+          "unit": null
+        },
+        "Key mgmt feasibility": {
+          "direction": "max",
+          "unit": null
+        },
+        "TRL": {
+          "direction": "max",
+          "unit": null
+        },
+        "Rad dose margin (krad)": {
+          "direction": "max",
+          "unit": "krad"
+        },
+        "SDC rate (per hr)": {
+          "direction": "min",
+          "unit": "per hr"
+        },
+        "Compute availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Recovery time (min)": {
+          "direction": "min",
+          "unit": "min"
+        },
+        "Cost per unit (USD)": {
+          "direction": "min",
+          "unit": "USD"
+        },
+        "NRE (MUSD)": {
+          "direction": "min",
+          "unit": "MUSD"
+        },
+        "Ops min. / 1000 units": {
+          "direction": "min",
+          "unit": "min/1000"
+        },
+        "Autonomy compat": {
+          "direction": "max",
+          "unit": null
+        },
+        "PQC readiness": {
+          "direction": "max",
+          "unit": null
+        },
+        "Compute mass (kg)": {
+          "direction": "min",
+          "unit": "kg"
+        },
+        "Orbital altitude (km)": {
+          "direction": "min",
+          "unit": "km"
+        },
+        "Volume (cm3)": {
+          "direction": "min",
+          "unit": "cm3"
+        },
+        "Offload ratio": {
+          "direction": "max",
+          "unit": null
+        },
+        "DTN enabled": {
+          "direction": "max",
+          "unit": null
+        },
+        "Queue depth (tasks)": {
+          "direction": "min",
+          "unit": "tasks"
+        },
+        "Data sensitivity": {
+          "direction": "min",
+          "unit": null
+        },
+        "Isolation support": {
+          "direction": "max",
+          "unit": null
+        },
+        "Storage (GB)": {
+          "direction": "max",
+          "unit": "GB"
+        },
+        "ECC level": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_proc_type": {
+          "direction": "max",
+          "unit": null,
+          "description": "[Stage 1] N/A for non-FC tiers = 0"
+        },
+        "FC_bus_type": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_reconfigurable": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_mem_type": {
+          "direction": "max",
+          "unit": null
+        }
+      },
+      "tier_values": {
+        "LEO_TPU_CLUSTER": {
+          "Latency p99 (ms)": 80,
+          "Success probability": 0.995,
+          "Quality score": 0.99,
+          "Jitter (ms)": 8,
+          "Throughput (GFLOPS)": 500,
+          "Energy per unit (J)": 1100000,
+          "Peak power (W)": 250000,
+          "Power margin (W)": 150000,
+          "Thermal margin (C)": 15,
+          "Link availability": 0.98,
+          "Contact duty cycle": 0.7,
+          "Reduction ratio": 20,
+          "TX power (W)": 25,
+          "Bandwidth (Mbps)": 2000,
+          "DTN delay (s)": 2,
+          "Security protocol level": 3,
+          "Key mgmt feasibility": 1.0,
+          "TRL": 3,
+          "Rad dose margin (krad)": -70,
+          "SDC rate (per hr)": 0.12,
+          "Compute availability": 0.985,
+          "Recovery time (min)": 25,
+          "Cost per unit (USD)": 10,
+          "NRE (MUSD)": 500,
+          "Ops min. / 1000 units": 40,
+          "Autonomy compat": 0.8,
+          "PQC readiness": 0.5,
+          "Compute mass (kg)": 575,
+          "Orbital altitude (km)": 550,
+          "Volume (cm3)": 500000,
+          "Offload ratio": 0.7,
+          "DTN enabled": 1,
+          "Queue depth (tasks)": 10,
+          "Data sensitivity": 0,
+          "Isolation support": 0,
+          "Storage (GB)": 50000,
+          "ECC level": 1,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        },
+        "GROUND_TPU_DC": {
+          "Latency p99 (ms)": 40,
+          "Success probability": 0.999,
+          "Quality score": 0.99,
+          "Jitter (ms)": 5,
+          "Throughput (GFLOPS)": 1000,
+          "Energy per unit (J)": 1000000,
+          "Peak power (W)": 300000,
+          "Power margin (W)": 80000,
+          "Thermal margin (C)": 10,
+          "Link availability": 0.999,
+          "Contact duty cycle": 1.0,
+          "Reduction ratio": 1,
+          "TX power (W)": 0,
+          "Bandwidth (Mbps)": 100000,
+          "DTN delay (s)": 0.05,
+          "Security protocol level": 5,
+          "Key mgmt feasibility": 1.0,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1,
+          "SDC rate (per hr)": 0.0001,
+          "Compute availability": 0.999,
+          "Recovery time (min)": 3,
+          "Cost per unit (USD)": 12,
+          "NRE (MUSD)": 10,
+          "Ops min. / 1000 units": 20,
+          "Autonomy compat": 0.1,
+          "PQC readiness": 1.0,
+          "Compute mass (kg)": 2000,
+          "Orbital altitude (km)": 0,
+          "Volume (cm3)": 5000000,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 100,
+          "Data sensitivity": 0,
+          "Isolation support": 0,
+          "Storage (GB)": 10000000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        },
+        "GROUND_GPU_DC": {
+          "Latency p99 (ms)": 60,
+          "Success probability": 0.998,
+          "Quality score": 0.985,
+          "Jitter (ms)": 8,
+          "Throughput (GFLOPS)": 800,
+          "Energy per unit (J)": 1500000,
+          "Peak power (W)": 350000,
+          "Power margin (W)": 60000,
+          "Thermal margin (C)": 8,
+          "Link availability": 0.997,
+          "Contact duty cycle": 1.0,
+          "Reduction ratio": 1,
+          "TX power (W)": 0,
+          "Bandwidth (Mbps)": 80000,
+          "DTN delay (s)": 0.08,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.9,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1,
+          "SDC rate (per hr)": 0.0002,
+          "Compute availability": 0.998,
+          "Recovery time (min)": 5,
+          "Cost per unit (USD)": 15,
+          "NRE (MUSD)": 8,
+          "Ops min. / 1000 units": 25,
+          "Autonomy compat": 0.1,
+          "PQC readiness": 0.8,
+          "Compute mass (kg)": 2200,
+          "Orbital altitude (km)": 0,
+          "Volume (cm3)": 6000000,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 200,
+          "Data sensitivity": 0,
+          "Isolation support": 0,
+          "Storage (GB)": 12000000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        },
+        "HYBRID_SPLIT": {
+          "Latency p99 (ms)": 100,
+          "Success probability": 0.993,
+          "Quality score": 0.99,
+          "Jitter (ms)": 20,
+          "Throughput (GFLOPS)": 600,
+          "Energy per unit (J)": 1200000,
+          "Peak power (W)": 270000,
+          "Power margin (W)": 100000,
+          "Thermal margin (C)": 12,
+          "Link availability": 0.96,
+          "Contact duty cycle": 0.85,
+          "Reduction ratio": 10,
+          "TX power (W)": 15,
+          "Bandwidth (Mbps)": 5000,
+          "DTN delay (s)": 1.5,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.9,
+          "TRL": 4,
+          "Rad dose margin (krad)": -35,
+          "SDC rate (per hr)": 0.06,
+          "Compute availability": 0.97,
+          "Recovery time (min)": 12,
+          "Cost per unit (USD)": 13,
+          "NRE (MUSD)": 50,
+          "Ops min. / 1000 units": 50,
+          "Autonomy compat": 0.5,
+          "PQC readiness": 0.7,
+          "Compute mass (kg)": 1500,
+          "Orbital altitude (km)": 550,
+          "Volume (cm3)": 800000,
+          "Offload ratio": 0.5,
+          "DTN enabled": 1,
+          "Queue depth (tasks)": 15,
+          "Data sensitivity": 0,
+          "Isolation support": 0,
+          "Storage (GB)": 100000,
+          "ECC level": 1,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        }
+      },
+      "constraints": {
+        "thresholds": {
+          "Cost per unit (USD)": {
+            "max": 14.0
+          },
+          "Rad dose margin (krad)": {
+            "min": 0.0
+          },
+          "TRL": {
+            "min": 4.0
+          },
+          "Key mgmt feasibility": {
+            "min": 0.7
+          }
+        },
+        "binary": {}
+      },
+      "defaults": {
+        "plot_2d": {
+          "x": "Latency p99 (ms)",
+          "y": "Cost per unit (USD)",
+          "color": "Reduction ratio",
+          "size": "Energy per unit (J)"
+        },
+        "plot_3d": {
+          "x": "Latency p99 (ms)",
+          "y": "Cost per unit (USD)",
+          "z": "Autonomy compat"
+        }
+      }
+    },
+    "JWST": {
+      "description": "James Webb Space Telescope science data calibration pipeline (NIRCam/NIRSpec/MIRI Stage 1-3). Workload: from raw detector readouts to science-grade calibrated exposures. JWST orbits Sun-Earth L2 at 1.5M km. Latency in HOURS (multiply ms column by 3600000 to convert). Design life 10 years (launched Dec 2021). Sources: STScI JWST Pocket Guide 2023, JDox calibration pipeline docs, DSN scheduling data.",
+      "mission_life_years": 10,
+      "latency_unit": "hours",
+      "tiers": [
+        "FC_ICDH",
+        "GSE_STSCI",
+        "TDC_MAST"
+      ],
+      "metrics": {
+        "Latency (hrs)": {
+          "direction": "min",
+          "unit": "hrs",
+          "description": "Time from observation completion to calibrated science product"
+        },
+        "Success probability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Science quality (0-1)": {
+          "direction": "max",
+          "unit": null,
+          "description": "1.0=fully calibrated pipeline product; 0.65=basic compression+CR flagging only"
+        },
+        "Jitter (hrs)": {
+          "direction": "min",
+          "unit": "hrs",
+          "description": "Variability in processing time"
+        },
+        "Throughput (GFLOPS)": {
+          "direction": "max",
+          "unit": "GFLOPS"
+        },
+        "Energy per obs (kJ)": {
+          "direction": "min",
+          "unit": "kJ"
+        },
+        "Peak power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Power margin (W)": {
+          "direction": "max",
+          "unit": "W"
+        },
+        "Mass (kg)": {
+          "direction": "min",
+          "unit": "kg"
+        },
+        "Thermal margin (C)": {
+          "direction": "max",
+          "unit": "C"
+        },
+        "Link availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Contact duty cycle": {
+          "direction": "max",
+          "unit": null,
+          "description": "Fraction of time data can be transferred"
+        },
+        "Compression ratio": {
+          "direction": "max",
+          "unit": null,
+          "description": "Data volume reduction before downlink"
+        },
+        "TX power (W)": {
+          "direction": "min",
+          "unit": "W",
+          "description": "Satellite transmitter power for this tier"
+        },
+        "Downlink rate (Mbps)": {
+          "direction": "max",
+          "unit": "Mbps"
+        },
+        "DTN delay (hrs)": {
+          "direction": "min",
+          "unit": "hrs"
+        },
+        "Tier clearance": {
+          "direction": "max",
+          "unit": null
+        },
+        "Security protocol level": {
+          "direction": "max",
+          "unit": null
+        },
+        "Key mgmt feasibility": {
+          "direction": "max",
+          "unit": null
+        },
+        "TRL": {
+          "direction": "max",
+          "unit": null
+        },
+        "Rad dose margin (krad)": {
+          "direction": "max",
+          "unit": "krad",
+          "description": "L2 environment ~2 krad/yr; RAD750 rated 1 Mrad"
+        },
+        "SDC rate (per hr)": {
+          "direction": "min",
+          "unit": "per hr"
+        },
+        "Compute availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Recovery time (min)": {
+          "direction": "min",
+          "unit": "min"
+        },
+        "Cost per obs (USD)": {
+          "direction": "min",
+          "unit": "USD",
+          "description": "Amortized processing cost per observation"
+        },
+        "NRE (MUSD)": {
+          "direction": "min",
+          "unit": "MUSD"
+        },
+        "Ops hrs/day": {
+          "direction": "min",
+          "unit": "hrs/day"
+        },
+        "Autonomy compat": {
+          "direction": "max",
+          "unit": null,
+          "description": "Fraction of pipeline executable without ground commanding"
+        },
+        "PQC readiness": {
+          "direction": "max",
+          "unit": null
+        },
+        "Volume (cm3)": {
+          "direction": "min",
+          "unit": "cm3"
+        },
+        "Offload ratio": {
+          "direction": "max",
+          "unit": null
+        },
+        "DTN enabled": {
+          "direction": "max",
+          "unit": null
+        },
+        "Queue depth (tasks)": {
+          "direction": "min",
+          "unit": "tasks"
+        },
+        "Data sensitivity": {
+          "direction": "min",
+          "unit": null
+        },
+        "Isolation support": {
+          "direction": "max",
+          "unit": null
+        },
+        "Storage (GB)": {
+          "direction": "max",
+          "unit": "GB"
+        },
+        "ECC level": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_proc_type": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_bus_type": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_reconfigurable": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_mem_type": {
+          "direction": "max",
+          "unit": null
+        }
+      },
+      "tier_values": {
+        "FC_ICDH": {
+          "_notes": "BAE Systems RAD750 processor at 200MHz, 256MB SDRAM. Performs lossless compression (ICER), cosmic ray flagging, guide star acquisition. No full calibration pipeline possible onboard. L2 radiation: ~2 krad/yr x 10yr = 20 krad; RAD750 rated 1 Mrad -> margin 980 krad.",
+          "Latency (hrs)": 0.001,
+          "Success probability": 0.997,
+          "Science quality (0-1)": 0.65,
+          "Jitter (hrs)": 0.0001,
+          "Throughput (GFLOPS)": 0.2,
+          "Energy per obs (kJ)": 8.0,
+          "Peak power (W)": 4.0,
+          "Power margin (W)": 14.0,
+          "Mass (kg)": 1.5,
+          "Thermal margin (C)": 40.0,
+          "Link availability": 1.0,
+          "Contact duty cycle": 1.0,
+          "Compression ratio": 3.0,
+          "TX power (W)": 0.0,
+          "Downlink rate (Mbps)": 0.5,
+          "DTN delay (hrs)": 0.0,
+          "Tier clearance": 4,
+          "Security protocol level": 3,
+          "Key mgmt feasibility": 1.0,
+          "TRL": 9,
+          "Rad dose margin (krad)": 980.0,
+          "SDC rate (per hr)": 0.002,
+          "Compute availability": 0.998,
+          "Recovery time (min)": 1.0,
+          "Cost per obs (USD)": 15.0,
+          "NRE (MUSD)": 50.0,
+          "Ops hrs/day": 0.2,
+          "Autonomy compat": 1.0,
+          "PQC readiness": 0.0,
+          "Volume (cm3)": 600,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 1,
+          "Data sensitivity": 2,
+          "Isolation support": 1,
+          "Storage (GB)": 0.256,
+          "ECC level": 2,
+          "FC_proc_type": 0.5,
+          "FC_bus_type": 0.3,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0.5
+        },
+        "GSE_STSCI": {
+          "_notes": "STScI Baltimore science operations center + DSN receive nodes (Madrid, Goldstone, Canberra). JWST has 2 contact windows/day ~1hr each via DSN Ka-band at 28 Mbps. Stage 1 calibration (detector-level corrections) completed at STScI edge within 6 hours of data receipt.",
+          "Latency (hrs)": 6.0,
+          "Success probability": 0.992,
+          "Science quality (0-1)": 0.85,
+          "Jitter (hrs)": 2.0,
+          "Throughput (GFLOPS)": 20.0,
+          "Energy per obs (kJ)": 500.0,
+          "Peak power (W)": 5000.0,
+          "Power margin (W)": 1000000.0,
+          "Mass (kg)": 50.0,
+          "Thermal margin (C)": 35.0,
+          "Link availability": 0.94,
+          "Contact duty cycle": 0.42,
+          "Compression ratio": 1.0,
+          "TX power (W)": 28.0,
+          "Downlink rate (Mbps)": 28.0,
+          "DTN delay (hrs)": 0.0014,
+          "Tier clearance": 3,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.95,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1.0,
+          "SDC rate (per hr)": 0.0001,
+          "Compute availability": 0.98,
+          "Recovery time (min)": 15.0,
+          "Cost per obs (USD)": 3.0,
+          "NRE (MUSD)": 2.0,
+          "Ops hrs/day": 8.0,
+          "Autonomy compat": 0.1,
+          "PQC readiness": 0.5,
+          "Volume (cm3)": 500000,
+          "Offload ratio": 0.9,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 200,
+          "Data sensitivity": 2,
+          "Isolation support": 0,
+          "Storage (GB)": 100000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0,
+          "Contact duty cycle_note": "STScI nominal: ~10 hr/day total contact across 2 daily contacts (0.42); downlink-only conservative is ~0.33. Original value 0.08 reflected a non-nominal commissioning scenario. Sources: STScI JWST User Documentation (JWST Data Volume / SSR page); NASA Science Blog."
+        },
+        "TDC_MAST": {
+          "_notes": "STScI MAST archive + full calibration pipeline (Stages 1-2-3). Full science-grade products including flux calibration, WCS, source extraction. Available to PI within 24-48hrs. Also accessible via Barbara A. Mikulski Archive.",
+          "Latency (hrs)": 24.0,
+          "Success probability": 0.995,
+          "Science quality (0-1)": 0.99,
+          "Jitter (hrs)": 8.0,
+          "Throughput (GFLOPS)": 200.0,
+          "Energy per obs (kJ)": 2000.0,
+          "Peak power (W)": 50000.0,
+          "Power margin (W)": 10000000.0,
+          "Mass (kg)": 500.0,
+          "Thermal margin (C)": 30.0,
+          "Link availability": 0.999,
+          "Contact duty cycle": 1.0,
+          "Compression ratio": 1.0,
+          "TX power (W)": 28.0,
+          "Downlink rate (Mbps)": 28.0,
+          "DTN delay (hrs)": 0.0014,
+          "Tier clearance": 2,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.85,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1.0,
+          "SDC rate (per hr)": 1e-05,
+          "Compute availability": 0.999,
+          "Recovery time (min)": 30.0,
+          "Cost per obs (USD)": 0.5,
+          "NRE (MUSD)": 5.0,
+          "Ops hrs/day": 4.0,
+          "Autonomy compat": 0.05,
+          "PQC readiness": 0.8,
+          "Volume (cm3)": 10000000,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 1000,
+          "Data sensitivity": 1,
+          "Isolation support": 0,
+          "Storage (GB)": 10000000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        }
+      },
+      "constraints": {
+        "thresholds": {
+          "Latency (hrs)": {
+            "max": 48.0
+          },
+          "Science quality (0-1)": {
+            "min": 0.8
+          },
+          "Success probability": {
+            "min": 0.98
+          },
+          "Rad dose margin (krad)": {
+            "min": 0.0
+          },
+          "TRL": {
+            "min": 8.0
+          },
+          "Key mgmt feasibility": {
+            "min": 0.8
+          }
+        },
+        "binary": {}
+      },
+      "defaults": {
+        "plot_2d": {
+          "x": "Latency (hrs)",
+          "y": "Cost per obs (USD)",
+          "color": "Science quality (0-1)",
+          "size": "Throughput (GFLOPS)"
+        },
+        "plot_3d": {
+          "x": "Latency (hrs)",
+          "y": "Cost per obs (USD)",
+          "z": "Science quality (0-1)"
+        }
+      }
+    },
+    "RST": {
+      "description": "Nancy Grace Roman Space Telescope Wide Field Survey data reduction pipeline. Roman WFI: 18 H4RG-10 detectors, 300 megapixel, 0.281 sq-deg FOV. Target: ~500 GB/day downlink. Planned launch 2027, 6-year prime mission at Sun-Earth L2. Tiers: FC (onboard processor), GSE (ground station edge), TDC (IPAC/STScI science center). Values estimated from Roman SRD-0001 (2024), IPAC Roman Science Support Center docs, and extrapolation from JWST heritage. PLACEHOLDER: update with professor consultation.",
+      "mission_life_years": 6,
+      "latency_unit": "hours",
+      "tiers": [
+        "FC_ROMAN",
+        "GSE_GODDARD",
+        "TDC_IPAC"
+      ],
+      "metrics": {
+        "Latency (hrs)": {
+          "direction": "min",
+          "unit": "hrs"
+        },
+        "Success probability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Science quality (0-1)": {
+          "direction": "max",
+          "unit": null,
+          "description": "1.0=fully calibrated mosaic; 0.70=basic pixel corrections only"
+        },
+        "Jitter (hrs)": {
+          "direction": "min",
+          "unit": "hrs"
+        },
+        "Throughput (GFLOPS)": {
+          "direction": "max",
+          "unit": "GFLOPS"
+        },
+        "Energy per obs (kJ)": {
+          "direction": "min",
+          "unit": "kJ"
+        },
+        "Peak power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Power margin (W)": {
+          "direction": "max",
+          "unit": "W"
+        },
+        "Mass (kg)": {
+          "direction": "min",
+          "unit": "kg"
+        },
+        "Thermal margin (C)": {
+          "direction": "max",
+          "unit": "C"
+        },
+        "Link availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Contact duty cycle": {
+          "direction": "max",
+          "unit": null
+        },
+        "Compression ratio": {
+          "direction": "max",
+          "unit": null,
+          "description": "Roman onboard lossless compression target 2:1"
+        },
+        "TX power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Downlink rate (Mbps)": {
+          "direction": "max",
+          "unit": "Mbps"
+        },
+        "DTN delay (hrs)": {
+          "direction": "min",
+          "unit": "hrs"
+        },
+        "Tier clearance": {
+          "direction": "max",
+          "unit": null
+        },
+        "Security protocol level": {
+          "direction": "max",
+          "unit": null
+        },
+        "Key mgmt feasibility": {
+          "direction": "max",
+          "unit": null
+        },
+        "TRL": {
+          "direction": "max",
+          "unit": null
+        },
+        "Rad dose margin (krad)": {
+          "direction": "max",
+          "unit": "krad",
+          "description": "L2: ~2 krad/yr x 6yr = 12 krad lifetime"
+        },
+        "SDC rate (per hr)": {
+          "direction": "min",
+          "unit": "per hr"
+        },
+        "Compute availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Recovery time (min)": {
+          "direction": "min",
+          "unit": "min"
+        },
+        "Cost per obs (USD)": {
+          "direction": "min",
+          "unit": "USD"
+        },
+        "NRE (MUSD)": {
+          "direction": "min",
+          "unit": "MUSD"
+        },
+        "Ops hrs/day": {
+          "direction": "min",
+          "unit": "hrs/day"
+        },
+        "Autonomy compat": {
+          "direction": "max",
+          "unit": null
+        },
+        "PQC readiness": {
+          "direction": "max",
+          "unit": null
+        },
+        "Volume (cm3)": {
+          "direction": "min",
+          "unit": "cm3"
+        },
+        "Offload ratio": {
+          "direction": "max",
+          "unit": null
+        },
+        "DTN enabled": {
+          "direction": "max",
+          "unit": null
+        },
+        "Queue depth (tasks)": {
+          "direction": "min",
+          "unit": "tasks"
+        },
+        "Data sensitivity": {
+          "direction": "min",
+          "unit": null
+        },
+        "Isolation support": {
+          "direction": "max",
+          "unit": null
+        },
+        "Storage (GB)": {
+          "direction": "max",
+          "unit": "GB"
+        },
+        "ECC level": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_proc_type": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_bus_type": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_reconfigurable": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_mem_type": {
+          "direction": "max",
+          "unit": null
+        }
+      },
+      "tier_values": {
+        "FC_ROMAN": {
+          "_notes": "Roman onboard processor: estimated ~2 GFLOPS (upgraded vs JWST RAD750, likely rad-hard RISC-V or PowerPC derivative). 64 GB solid-state recorder. L2 radiation 2 krad/yr x 6yr = 12 krad; rad-hard processor rated ~200 krad -> margin 188 krad. Onboard tasks: lossless compression 2:1, persistence correction, cosmic ray flagging, guide window processing for fine guidance sensor.",
+          "Latency (hrs)": 0.001,
+          "Success probability": 0.996,
+          "Science quality (0-1)": 0.7,
+          "Jitter (hrs)": 0.0001,
+          "Throughput (GFLOPS)": 2.0,
+          "Energy per obs (kJ)": 20.0,
+          "Peak power (W)": 10.0,
+          "Power margin (W)": 50.0,
+          "Mass (kg)": 3.0,
+          "Thermal margin (C)": 35.0,
+          "Link availability": 1.0,
+          "Contact duty cycle": 1.0,
+          "Compression ratio": 2.0,
+          "TX power (W)": 0.0,
+          "Downlink rate (Mbps)": 1.0,
+          "DTN delay (hrs)": 0.0,
+          "Tier clearance": 4,
+          "Security protocol level": 3,
+          "Key mgmt feasibility": 1.0,
+          "TRL": 8,
+          "Rad dose margin (krad)": 188.0,
+          "SDC rate (per hr)": 0.003,
+          "Compute availability": 0.997,
+          "Recovery time (min)": 2.0,
+          "Cost per obs (USD)": 20.0,
+          "NRE (MUSD)": 30.0,
+          "Ops hrs/day": 0.3,
+          "Autonomy compat": 1.0,
+          "PQC readiness": 0.0,
+          "Volume (cm3)": 1200,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 2,
+          "Data sensitivity": 1,
+          "Isolation support": 1,
+          "Storage (GB)": 64,
+          "ECC level": 2,
+          "FC_proc_type": 0.6,
+          "FC_bus_type": 0.8,
+          "FC_reconfigurable": 1,
+          "FC_mem_type": 1.0
+        },
+        "GSE_GODDARD": {
+          "_notes": "NASA GSFC White Sands Complex + Goddard Space Flight Center science operations. Roman downlinks via Ka-band at 500 Mbps (vs JWST 28 Mbps \u2014 major upgrade). Contact: 2x ~2hr windows/day at White Sands. GSE performs quick-look reduction (Level 1 products) for survey scheduling decisions within same operational day.",
+          "Latency (hrs)": 4.0,
+          "Success probability": 0.993,
+          "Science quality (0-1)": 0.82,
+          "Jitter (hrs)": 1.5,
+          "Throughput (GFLOPS)": 50.0,
+          "Energy per obs (kJ)": 800.0,
+          "Peak power (W)": 8000.0,
+          "Power margin (W)": 1000000.0,
+          "Mass (kg)": 80.0,
+          "Thermal margin (C)": 30.0,
+          "Link availability": 0.92,
+          "Contact duty cycle": 0.45,
+          "Compression ratio": 1.0,
+          "TX power (W)": 40.0,
+          "Downlink rate (Mbps)": 500.0,
+          "DTN delay (hrs)": 0.0014,
+          "Tier clearance": 3,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.95,
+          "TRL": 8,
+          "Rad dose margin (krad)": 1.0,
+          "SDC rate (per hr)": 0.0001,
+          "Compute availability": 0.97,
+          "Recovery time (min)": 20.0,
+          "Cost per obs (USD)": 4.0,
+          "NRE (MUSD)": 3.0,
+          "Ops hrs/day": 10.0,
+          "Autonomy compat": 0.15,
+          "PQC readiness": 0.5,
+          "Volume (cm3)": 800000,
+          "Offload ratio": 0.95,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 500,
+          "Data sensitivity": 1,
+          "Isolation support": 0,
+          "Storage (GB)": 500000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0,
+          "Contact duty cycle_note": "Updated from 0.17 (single-DSN baseline) to 0.45 (Roman uses NEN/DSN/ESA/JAXA combined, ~10-12 hr/day). Matches the 0.45 used for ROMAN_TRANSIENT GSE. Original 0.17 was the single-DSN 4-hr/day worst case. Source: Roman SRD, NASA/GSFC; matches STScI nominal for JWST (0.42)."
+        },
+        "TDC_IPAC": {
+          "_notes": "IPAC at Caltech (Roman Science Support Center) + STScI archive (Barbara A. Mikulski Archive). Full Level 2/3 pipeline: flat field, flux calibration, WCS solution, co-addition, source catalogs. Estimated 12-24hr turnaround for survey data. ~10 PB/yr archive scale. Cost estimate: $0.50/obs at cloud-scale compute.",
+          "Latency (hrs)": 18.0,
+          "Success probability": 0.997,
+          "Science quality (0-1)": 0.99,
+          "Jitter (hrs)": 6.0,
+          "Throughput (GFLOPS)": 500.0,
+          "Energy per obs (kJ)": 5000.0,
+          "Peak power (W)": 100000.0,
+          "Power margin (W)": 10000000.0,
+          "Mass (kg)": 2000.0,
+          "Thermal margin (C)": 25.0,
+          "Link availability": 0.999,
+          "Contact duty cycle": 1.0,
+          "Compression ratio": 1.0,
+          "TX power (W)": 40.0,
+          "Downlink rate (Mbps)": 500.0,
+          "DTN delay (hrs)": 0.0014,
+          "Tier clearance": 2,
+          "Security protocol level": 5,
+          "Key mgmt feasibility": 0.9,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1.0,
+          "SDC rate (per hr)": 1e-05,
+          "Compute availability": 0.999,
+          "Recovery time (min)": 20.0,
+          "Cost per obs (USD)": 0.5,
+          "NRE (MUSD)": 8.0,
+          "Ops hrs/day": 6.0,
+          "Autonomy compat": 0.05,
+          "PQC readiness": 1.0,
+          "Volume (cm3)": 20000000,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 5000,
+          "Data sensitivity": 0,
+          "Isolation support": 0,
+          "Storage (GB)": 50000000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        }
+      },
+      "constraints": {
+        "thresholds": {
+          "Latency (hrs)": {
+            "max": 24.0
+          },
+          "Science quality (0-1)": {
+            "min": 0.75
+          },
+          "Success probability": {
+            "min": 0.99
+          },
+          "Rad dose margin (krad)": {
+            "min": 0.0
+          },
+          "TRL": {
+            "min": 7.0
+          },
+          "Key mgmt feasibility": {
+            "min": 0.85
+          }
+        },
+        "binary": {}
+      },
+      "defaults": {
+        "plot_2d": {
+          "x": "Latency (hrs)",
+          "y": "Cost per obs (USD)",
+          "color": "Science quality (0-1)",
+          "size": "Throughput (GFLOPS)"
+        },
+        "plot_3d": {
+          "x": "Latency (hrs)",
+          "y": "Cost per obs (USD)",
+          "z": "Science quality (0-1)"
+        }
+      }
+    },
+    "ROMAN_TRANSIENT": {
+      "description": "Roman Space Telescope transient detection and follow-up pipeline (real-time, layered on continuous WFI survey). Regular alerting profile (24 hr latency budget for broker dissemination).",
+      "mission_life_years": 5,
+      "latency_unit": "ms",
+      "odc_status": "exploratory_design_concept",
+      "odc_motivation": "Quantifies value-of-L2-companion-ODC under three variants: A=TRL3 concept (default; will be TRL-gated for mission-critical), B=TRL7 mature (override at runtime), C=ODC-ablation (3-tier).",
+      "tiers": [
+        "FC",
+        "ODC",
+        "GSE",
+        "TDC"
+      ],
+      "metrics": {
+        "Latency p99 (ms)": {
+          "direction": "min",
+          "unit": "ms"
+        },
+        "Success probability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Quality (0-1)": {
+          "direction": "max",
+          "unit": null
+        },
+        "Jitter (ms)": {
+          "direction": "min",
+          "unit": "ms"
+        },
+        "Throughput (GFLOPS)": {
+          "direction": "max",
+          "unit": "GFLOPS"
+        },
+        "Energy per task (J)": {
+          "direction": "min",
+          "unit": "J"
+        },
+        "Peak power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Power margin (W)": {
+          "direction": "max",
+          "unit": "W"
+        },
+        "Mass (kg)": {
+          "direction": "min",
+          "unit": "kg"
+        },
+        "Thermal margin (C)": {
+          "direction": "max",
+          "unit": "C"
+        },
+        "Link availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Contact duty cycle": {
+          "direction": "max",
+          "unit": null
+        },
+        "Reduction ratio": {
+          "direction": "max",
+          "unit": null
+        },
+        "TX power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Bandwidth (Mbps)": {
+          "direction": "max",
+          "unit": "Mbps"
+        },
+        "DTN delay (s)": {
+          "direction": "min",
+          "unit": "s"
+        },
+        "Tier clearance": {
+          "direction": "max",
+          "unit": null
+        },
+        "Security protocol level": {
+          "direction": "max",
+          "unit": null
+        },
+        "Key mgmt feasibility": {
+          "direction": "max",
+          "unit": null
+        },
+        "TRL": {
+          "direction": "max",
+          "unit": null
+        },
+        "Rad dose margin (krad)": {
+          "direction": "max",
+          "unit": "krad"
+        },
+        "SDC rate (per hr)": {
+          "direction": "min",
+          "unit": "per hr"
+        },
+        "Compute availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Recovery time (min)": {
+          "direction": "min",
+          "unit": "min"
+        },
+        "Cost per task (USD)": {
+          "direction": "min",
+          "unit": "USD"
+        },
+        "NRE (kUSD)": {
+          "direction": "min",
+          "unit": "kUSD"
+        },
+        "Ops hours/day": {
+          "direction": "min",
+          "unit": "hrs/day"
+        },
+        "Autonomy compat": {
+          "direction": "max",
+          "unit": null
+        },
+        "PQC readiness": {
+          "direction": "max",
+          "unit": null
+        },
+        "Ops minutes / 1000 tasks": {
+          "direction": "min",
+          "unit": "min/1000"
+        },
+        "Volume (cm3)": {
+          "direction": "min",
+          "unit": "cm3",
+          "description": "Compute subsystem volume"
+        },
+        "Offload ratio": {
+          "direction": "max",
+          "unit": null,
+          "description": "Fraction of task routable to this tier [0,1]"
+        },
+        "DTN enabled": {
+          "direction": "max",
+          "unit": null,
+          "description": "Bundle Protocol v7 store-and-forward available [0,1]"
+        },
+        "Queue depth (tasks)": {
+          "direction": "min",
+          "unit": "tasks",
+          "description": "Current queue occupancy at tier"
+        },
+        "Data sensitivity": {
+          "direction": "min",
+          "unit": null,
+          "description": "Classification level of data processed (0=open..4=SCI); lower is lower risk"
+        },
+        "Isolation support": {
+          "direction": "max",
+          "unit": null,
+          "description": "HW mixed-criticality isolation available [0,1]"
+        },
+        "Storage (GB)": {
+          "direction": "max",
+          "unit": "GB",
+          "description": "Accessible storage capacity"
+        },
+        "ECC level": {
+          "direction": "max",
+          "unit": null,
+          "description": "Error-correcting code strength (0=none,1=SECDED,2=chipkill)"
+        },
+        "FC_proc_type": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] Processor type score: OBC=0.5,FPGA=0.8,GPU=0.7,SEC_PROC=0.6"
+        },
+        "FC_bus_type": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] Bus bandwidth score: MIL1553=0.2,CAN=0.3,SpaceWire=0.8,PCIe=1.0"
+        },
+        "FC_reconfigurable": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] FPGA/soft-core reconfigurability [0,1]"
+        },
+        "FC_mem_type": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] Memory SEU robustness score: SRAM=0.3,NOR=0.5,MRAM=1.0"
+        }
+      },
+      "tier_values": {
+        "FC": {
+          "Latency p99 (ms)": 500,
+          "Success probability": 0.97,
+          "Quality (0-1)": 0.55,
+          "Jitter (ms)": 50,
+          "Throughput (GFLOPS)": 0.3,
+          "Energy per task (J)": 2.0,
+          "Peak power (W)": 5,
+          "Power margin (W)": 3,
+          "Mass (kg)": 2,
+          "Thermal margin (C)": 15,
+          "Link availability": 1.0,
+          "Contact duty cycle": 1.0,
+          "Reduction ratio": 100,
+          "TX power (W)": null,
+          "Bandwidth (Mbps)": null,
+          "DTN delay (s)": 0,
+          "Tier clearance": 4,
+          "Security protocol level": 2,
+          "Key mgmt feasibility": 0.95,
+          "TRL": 9,
+          "Rad dose margin (krad)": 90,
+          "SDC rate (per hr)": 1e-07,
+          "Compute availability": 0.99,
+          "Recovery time (min)": 60,
+          "Cost per task (USD)": 0.001,
+          "NRE (kUSD)": 50000,
+          "Ops hours/day": 0.5,
+          "Autonomy compat": 0.95,
+          "PQC readiness": 0.2,
+          "Ops minutes / 1000 tasks": 0.1,
+          "Volume (cm3)": 1500,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 16,
+          "Data sensitivity": 1,
+          "Isolation support": 1,
+          "Storage (GB)": 65,
+          "ECC level": 1,
+          "FC_proc_type": 2,
+          "FC_bus_type": 3,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 2,
+          "Storage (GB)_note": "estimated from JWST analog; Roman SSR capacity not officially confirmed",
+          "FC_proc_type_note": "Roman FC assumed RAD750-class based on JWST heritage; not officially confirmed",
+          "Rad dose margin (krad)_note": "assumes ~10 krad lifetime dose at L2 (verify against ECSS-E-ST-10-04C); RAD750 board ~100 krad"
+        },
+        "ODC": {
+          "Latency p99 (ms)": 75,
+          "Success probability": 0.93,
+          "Quality (0-1)": 0.85,
+          "Jitter (ms)": 10,
+          "Throughput (GFLOPS)": 1000,
+          "Energy per task (J)": 0.5,
+          "Peak power (W)": 200,
+          "Power margin (W)": 50,
+          "Mass (kg)": 15,
+          "Thermal margin (C)": 8,
+          "Link availability": 0.92,
+          "Contact duty cycle": 0.88,
+          "Reduction ratio": 10,
+          "TX power (W)": 15,
+          "Bandwidth (Mbps)": 1000,
+          "DTN delay (s)": 0.01,
+          "Tier clearance": 3,
+          "Security protocol level": 3,
+          "Key mgmt feasibility": 0.6,
+          "TRL": 3,
+          "Rad dose margin (krad)": 15,
+          "SDC rate (per hr)": 0.0001,
+          "Compute availability": 0.92,
+          "Recovery time (min)": 180,
+          "Cost per task (USD)": 0.05,
+          "NRE (kUSD)": 1500000,
+          "Ops hours/day": 6,
+          "Autonomy compat": 0.8,
+          "PQC readiness": 0.5,
+          "Ops minutes / 1000 tasks": 2,
+          "Volume (cm3)": 25000,
+          "Offload ratio": 0.8,
+          "DTN enabled": 1,
+          "Queue depth (tasks)": 256,
+          "Data sensitivity": 1,
+          "Isolation support": 1,
+          "Storage (GB)": 0,
+          "ECC level": 1,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0,
+          "_status": "exploratory_design_concept",
+          "_scenario": "L2_companion_spacecraft_~100km_from_Roman",
+          "_motivating_programs": [
+            "Project Suncatcher (Google)",
+            "Starcloud",
+            "ESA CDF orbital data centre study"
+          ],
+          "Rad dose margin (krad)_note": "L2 5-yr dose ~10 krad (lower than LEO; outside Van Allen) + COTS GPU 25 krad rating with light shielding",
+          "NRE (kUSD)_note": "rough order-of-magnitude for small-spacecraft-class companion; sensitivity matters",
+          "Throughput (GFLOPS)_note": "single shielded GPU; sweep target",
+          "Bandwidth (Mbps)_note": "Ka-band crosslink baseline; optical ISL could reach 10000",
+          "TRL_note": "Variant A uses 3 (TRL=concept demos); Variant B overrides to 7 (mature)"
+        },
+        "GSE": {
+          "Latency p99 (ms)": 30000,
+          "Success probability": 0.96,
+          "Quality (0-1)": 0.92,
+          "Jitter (ms)": 5000,
+          "Throughput (GFLOPS)": 50000,
+          "Energy per task (J)": 0.3,
+          "Peak power (W)": 800,
+          "Power margin (W)": 10000,
+          "Mass (kg)": 200,
+          "Thermal margin (C)": 30,
+          "Link availability": 0.95,
+          "Contact duty cycle": 0.45,
+          "Reduction ratio": 5,
+          "TX power (W)": null,
+          "Bandwidth (Mbps)": 500,
+          "DTN delay (s)": 0,
+          "Tier clearance": 4,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.9,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1000000.0,
+          "SDC rate (per hr)": 1e-09,
+          "Compute availability": 0.995,
+          "Recovery time (min)": 30,
+          "Cost per task (USD)": 0.01,
+          "NRE (kUSD)": 1000,
+          "Ops hours/day": 6,
+          "Autonomy compat": 0.5,
+          "PQC readiness": 0.8,
+          "Ops minutes / 1000 tasks": 5,
+          "Volume (cm3)": 500000,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 1024,
+          "Data sensitivity": 1,
+          "Isolation support": 0,
+          "Storage (GB)": 100000,
+          "ECC level": 1,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0,
+          "Contact duty cycle_note": "10-12 hr/day across NEN White Sands + ESA New Norcia + JAXA GREAT + DSN"
+        },
+        "TDC": {
+          "Latency p99 (ms)": 120000,
+          "Success probability": 0.99,
+          "Quality (0-1)": 0.99,
+          "Jitter (ms)": 20000,
+          "Throughput (GFLOPS)": 10000000.0,
+          "Energy per task (J)": 0.2,
+          "Peak power (W)": 50000,
+          "Power margin (W)": 1000000.0,
+          "Mass (kg)": 5000,
+          "Thermal margin (C)": 25,
+          "Link availability": 0.99,
+          "Contact duty cycle": 1.0,
+          "Reduction ratio": 20,
+          "TX power (W)": null,
+          "Bandwidth (Mbps)": 10000,
+          "DTN delay (s)": 30,
+          "Tier clearance": 4,
+          "Security protocol level": 5,
+          "Key mgmt feasibility": 0.95,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1000000.0,
+          "SDC rate (per hr)": 1e-10,
+          "Compute availability": 0.999,
+          "Recovery time (min)": 5,
+          "Cost per task (USD)": 0.05,
+          "NRE (kUSD)": 50,
+          "Ops hours/day": 1.0,
+          "Autonomy compat": 0.0,
+          "PQC readiness": 0.95,
+          "Ops minutes / 1000 tasks": 12,
+          "Volume (cm3)": 10000000,
+          "Offload ratio": 1.0,
+          "DTN enabled": 1,
+          "Queue depth (tasks)": 100000,
+          "Data sensitivity": 1,
+          "Isolation support": 0,
+          "Storage (GB)": 1000000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        }
+      },
+      "constraints": {
+        "thresholds": {
+          "Latency p99 (ms)": {
+            "max": 86400000.0
+          },
+          "Quality (0-1)": {
+            "min": 0.85
+          },
+          "Success probability": {
+            "min": 0.95
+          },
+          "Cost per task (USD)": {
+            "max": 0.1
+          },
+          "Rad dose margin (krad)": {
+            "min": 0.0
+          },
+          "TRL": {
+            "min": 6.0
+          },
+          "Autonomy compat": {
+            "min": 0.3
+          },
+          "Key mgmt feasibility": {
+            "min": 0.6
+          }
+        },
+        "binary": {}
+      },
+      "defaults": {
+        "plot_2d": {
+          "x": "Latency p99 (ms)",
+          "y": "Cost per task (USD)",
+          "color": "Quality (0-1)",
+          "size": "TRL"
+        },
+        "plot_3d": {
+          "x": "Latency p99 (ms)",
+          "y": "Cost per task (USD)",
+          "z": "Quality (0-1)"
+        }
+      }
+    },
+    "ROMAN_TRANSIENT_FOLLOWUP": {
+      "description": "Roman Space Telescope transient detection and follow-up pipeline (real-time, layered on continuous WFI survey). Time-critical follow-up profile (1 hr latency for spectroscopic triggers).",
+      "mission_life_years": 5,
+      "latency_unit": "ms",
+      "odc_status": "exploratory_design_concept",
+      "odc_motivation": "Quantifies value-of-L2-companion-ODC under three variants: A=TRL3 concept (default; will be TRL-gated for mission-critical), B=TRL7 mature (override at runtime), C=ODC-ablation (3-tier).",
+      "tiers": [
+        "FC",
+        "ODC",
+        "GSE",
+        "TDC"
+      ],
+      "metrics": {
+        "Latency p99 (ms)": {
+          "direction": "min",
+          "unit": "ms"
+        },
+        "Success probability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Quality (0-1)": {
+          "direction": "max",
+          "unit": null
+        },
+        "Jitter (ms)": {
+          "direction": "min",
+          "unit": "ms"
+        },
+        "Throughput (GFLOPS)": {
+          "direction": "max",
+          "unit": "GFLOPS"
+        },
+        "Energy per task (J)": {
+          "direction": "min",
+          "unit": "J"
+        },
+        "Peak power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Power margin (W)": {
+          "direction": "max",
+          "unit": "W"
+        },
+        "Mass (kg)": {
+          "direction": "min",
+          "unit": "kg"
+        },
+        "Thermal margin (C)": {
+          "direction": "max",
+          "unit": "C"
+        },
+        "Link availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Contact duty cycle": {
+          "direction": "max",
+          "unit": null
+        },
+        "Reduction ratio": {
+          "direction": "max",
+          "unit": null
+        },
+        "TX power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Bandwidth (Mbps)": {
+          "direction": "max",
+          "unit": "Mbps"
+        },
+        "DTN delay (s)": {
+          "direction": "min",
+          "unit": "s"
+        },
+        "Tier clearance": {
+          "direction": "max",
+          "unit": null
+        },
+        "Security protocol level": {
+          "direction": "max",
+          "unit": null
+        },
+        "Key mgmt feasibility": {
+          "direction": "max",
+          "unit": null
+        },
+        "TRL": {
+          "direction": "max",
+          "unit": null
+        },
+        "Rad dose margin (krad)": {
+          "direction": "max",
+          "unit": "krad"
+        },
+        "SDC rate (per hr)": {
+          "direction": "min",
+          "unit": "per hr"
+        },
+        "Compute availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Recovery time (min)": {
+          "direction": "min",
+          "unit": "min"
+        },
+        "Cost per task (USD)": {
+          "direction": "min",
+          "unit": "USD"
+        },
+        "NRE (kUSD)": {
+          "direction": "min",
+          "unit": "kUSD"
+        },
+        "Ops hours/day": {
+          "direction": "min",
+          "unit": "hrs/day"
+        },
+        "Autonomy compat": {
+          "direction": "max",
+          "unit": null
+        },
+        "PQC readiness": {
+          "direction": "max",
+          "unit": null
+        },
+        "Ops minutes / 1000 tasks": {
+          "direction": "min",
+          "unit": "min/1000"
+        },
+        "Volume (cm3)": {
+          "direction": "min",
+          "unit": "cm3",
+          "description": "Compute subsystem volume"
+        },
+        "Offload ratio": {
+          "direction": "max",
+          "unit": null,
+          "description": "Fraction of task routable to this tier [0,1]"
+        },
+        "DTN enabled": {
+          "direction": "max",
+          "unit": null,
+          "description": "Bundle Protocol v7 store-and-forward available [0,1]"
+        },
+        "Queue depth (tasks)": {
+          "direction": "min",
+          "unit": "tasks",
+          "description": "Current queue occupancy at tier"
+        },
+        "Data sensitivity": {
+          "direction": "min",
+          "unit": null,
+          "description": "Classification level of data processed (0=open..4=SCI); lower is lower risk"
+        },
+        "Isolation support": {
+          "direction": "max",
+          "unit": null,
+          "description": "HW mixed-criticality isolation available [0,1]"
+        },
+        "Storage (GB)": {
+          "direction": "max",
+          "unit": "GB",
+          "description": "Accessible storage capacity"
+        },
+        "ECC level": {
+          "direction": "max",
+          "unit": null,
+          "description": "Error-correcting code strength (0=none,1=SECDED,2=chipkill)"
+        },
+        "FC_proc_type": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] Processor type score: OBC=0.5,FPGA=0.8,GPU=0.7,SEC_PROC=0.6"
+        },
+        "FC_bus_type": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] Bus bandwidth score: MIL1553=0.2,CAN=0.3,SpaceWire=0.8,PCIe=1.0"
+        },
+        "FC_reconfigurable": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] FPGA/soft-core reconfigurability [0,1]"
+        },
+        "FC_mem_type": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] Memory SEU robustness score: SRAM=0.3,NOR=0.5,MRAM=1.0"
+        }
+      },
+      "tier_values": {
+        "FC": {
+          "Latency p99 (ms)": 500,
+          "Success probability": 0.97,
+          "Quality (0-1)": 0.55,
+          "Jitter (ms)": 50,
+          "Throughput (GFLOPS)": 0.3,
+          "Energy per task (J)": 2.0,
+          "Peak power (W)": 5,
+          "Power margin (W)": 3,
+          "Mass (kg)": 2,
+          "Thermal margin (C)": 15,
+          "Link availability": 1.0,
+          "Contact duty cycle": 1.0,
+          "Reduction ratio": 100,
+          "TX power (W)": null,
+          "Bandwidth (Mbps)": null,
+          "DTN delay (s)": 0,
+          "Tier clearance": 4,
+          "Security protocol level": 2,
+          "Key mgmt feasibility": 0.95,
+          "TRL": 9,
+          "Rad dose margin (krad)": 90,
+          "SDC rate (per hr)": 1e-07,
+          "Compute availability": 0.99,
+          "Recovery time (min)": 60,
+          "Cost per task (USD)": 0.001,
+          "NRE (kUSD)": 50000,
+          "Ops hours/day": 0.5,
+          "Autonomy compat": 0.95,
+          "PQC readiness": 0.2,
+          "Ops minutes / 1000 tasks": 0.1,
+          "Volume (cm3)": 1500,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 16,
+          "Data sensitivity": 1,
+          "Isolation support": 1,
+          "Storage (GB)": 65,
+          "ECC level": 1,
+          "FC_proc_type": 2,
+          "FC_bus_type": 3,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 2,
+          "Storage (GB)_note": "estimated from JWST analog; Roman SSR capacity not officially confirmed",
+          "FC_proc_type_note": "Roman FC assumed RAD750-class based on JWST heritage; not officially confirmed",
+          "Rad dose margin (krad)_note": "assumes ~10 krad lifetime dose at L2 (verify against ECSS-E-ST-10-04C); RAD750 board ~100 krad"
+        },
+        "ODC": {
+          "Latency p99 (ms)": 75,
+          "Success probability": 0.93,
+          "Quality (0-1)": 0.85,
+          "Jitter (ms)": 10,
+          "Throughput (GFLOPS)": 1000,
+          "Energy per task (J)": 0.5,
+          "Peak power (W)": 200,
+          "Power margin (W)": 50,
+          "Mass (kg)": 15,
+          "Thermal margin (C)": 8,
+          "Link availability": 0.92,
+          "Contact duty cycle": 0.88,
+          "Reduction ratio": 10,
+          "TX power (W)": 15,
+          "Bandwidth (Mbps)": 1000,
+          "DTN delay (s)": 0.01,
+          "Tier clearance": 3,
+          "Security protocol level": 3,
+          "Key mgmt feasibility": 0.6,
+          "TRL": 3,
+          "Rad dose margin (krad)": 15,
+          "SDC rate (per hr)": 0.0001,
+          "Compute availability": 0.92,
+          "Recovery time (min)": 180,
+          "Cost per task (USD)": 0.05,
+          "NRE (kUSD)": 1500000,
+          "Ops hours/day": 6,
+          "Autonomy compat": 0.8,
+          "PQC readiness": 0.5,
+          "Ops minutes / 1000 tasks": 2,
+          "Volume (cm3)": 25000,
+          "Offload ratio": 0.8,
+          "DTN enabled": 1,
+          "Queue depth (tasks)": 256,
+          "Data sensitivity": 1,
+          "Isolation support": 1,
+          "Storage (GB)": 0,
+          "ECC level": 1,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0,
+          "_status": "exploratory_design_concept",
+          "_scenario": "L2_companion_spacecraft_~100km_from_Roman",
+          "_motivating_programs": [
+            "Project Suncatcher (Google)",
+            "Starcloud",
+            "ESA CDF orbital data centre study"
+          ],
+          "Rad dose margin (krad)_note": "L2 5-yr dose ~10 krad (lower than LEO; outside Van Allen) + COTS GPU 25 krad rating with light shielding",
+          "NRE (kUSD)_note": "rough order-of-magnitude for small-spacecraft-class companion; sensitivity matters",
+          "Throughput (GFLOPS)_note": "single shielded GPU; sweep target",
+          "Bandwidth (Mbps)_note": "Ka-band crosslink baseline; optical ISL could reach 10000",
+          "TRL_note": "Variant A uses 3 (TRL=concept demos); Variant B overrides to 7 (mature)"
+        },
+        "GSE": {
+          "Latency p99 (ms)": 30000,
+          "Success probability": 0.96,
+          "Quality (0-1)": 0.92,
+          "Jitter (ms)": 5000,
+          "Throughput (GFLOPS)": 50000,
+          "Energy per task (J)": 0.3,
+          "Peak power (W)": 800,
+          "Power margin (W)": 10000,
+          "Mass (kg)": 200,
+          "Thermal margin (C)": 30,
+          "Link availability": 0.95,
+          "Contact duty cycle": 0.45,
+          "Reduction ratio": 5,
+          "TX power (W)": null,
+          "Bandwidth (Mbps)": 500,
+          "DTN delay (s)": 0,
+          "Tier clearance": 4,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.9,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1000000.0,
+          "SDC rate (per hr)": 1e-09,
+          "Compute availability": 0.995,
+          "Recovery time (min)": 30,
+          "Cost per task (USD)": 0.01,
+          "NRE (kUSD)": 1000,
+          "Ops hours/day": 6,
+          "Autonomy compat": 0.5,
+          "PQC readiness": 0.8,
+          "Ops minutes / 1000 tasks": 5,
+          "Volume (cm3)": 500000,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 1024,
+          "Data sensitivity": 1,
+          "Isolation support": 0,
+          "Storage (GB)": 100000,
+          "ECC level": 1,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0,
+          "Contact duty cycle_note": "10-12 hr/day across NEN White Sands + ESA New Norcia + JAXA GREAT + DSN"
+        },
+        "TDC": {
+          "Latency p99 (ms)": 120000,
+          "Success probability": 0.99,
+          "Quality (0-1)": 0.99,
+          "Jitter (ms)": 20000,
+          "Throughput (GFLOPS)": 10000000.0,
+          "Energy per task (J)": 0.2,
+          "Peak power (W)": 50000,
+          "Power margin (W)": 1000000.0,
+          "Mass (kg)": 5000,
+          "Thermal margin (C)": 25,
+          "Link availability": 0.99,
+          "Contact duty cycle": 1.0,
+          "Reduction ratio": 20,
+          "TX power (W)": null,
+          "Bandwidth (Mbps)": 10000,
+          "DTN delay (s)": 30,
+          "Tier clearance": 4,
+          "Security protocol level": 5,
+          "Key mgmt feasibility": 0.95,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1000000.0,
+          "SDC rate (per hr)": 1e-10,
+          "Compute availability": 0.999,
+          "Recovery time (min)": 5,
+          "Cost per task (USD)": 0.05,
+          "NRE (kUSD)": 50,
+          "Ops hours/day": 1.0,
+          "Autonomy compat": 0.0,
+          "PQC readiness": 0.95,
+          "Ops minutes / 1000 tasks": 12,
+          "Volume (cm3)": 10000000,
+          "Offload ratio": 1.0,
+          "DTN enabled": 1,
+          "Queue depth (tasks)": 100000,
+          "Data sensitivity": 1,
+          "Isolation support": 0,
+          "Storage (GB)": 1000000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        }
+      },
+      "constraints": {
+        "thresholds": {
+          "Latency p99 (ms)": {
+            "max": 3600000.0
+          },
+          "Quality (0-1)": {
+            "min": 0.85
+          },
+          "Success probability": {
+            "min": 0.95
+          },
+          "Cost per task (USD)": {
+            "max": 0.1
+          },
+          "Rad dose margin (krad)": {
+            "min": 0.0
+          },
+          "TRL": {
+            "min": 6.0
+          },
+          "Autonomy compat": {
+            "min": 0.3
+          },
+          "Key mgmt feasibility": {
+            "min": 0.6
+          }
+        },
+        "binary": {}
+      },
+      "defaults": {
+        "plot_2d": {
+          "x": "Latency p99 (ms)",
+          "y": "Cost per task (USD)",
+          "color": "Quality (0-1)",
+          "size": "TRL"
+        },
+        "plot_3d": {
+          "x": "Latency p99 (ms)",
+          "y": "Cost per task (USD)",
+          "z": "Quality (0-1)"
+        }
+      }
+    },
+    "LEO_OOS": {
+      "description": "LEO on-orbit servicing autonomy: vision-based pose estimation, motion planning, and grasping for satellite servicing. Real-time during proximity ops, with high autonomy compat since ground contact is sparse during the operation window.",
+      "mission_life_years": 5,
+      "latency_unit": "ms",
+      "tiers": [
+        "FC",
+        "ODC",
+        "GSE",
+        "TDC"
+      ],
+      "metrics": {
+        "Latency p99 (ms)": {
+          "direction": "min",
+          "unit": "ms"
+        },
+        "Success probability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Quality (0-1)": {
+          "direction": "max",
+          "unit": null
+        },
+        "Jitter (ms)": {
+          "direction": "min",
+          "unit": "ms"
+        },
+        "Throughput (GFLOPS)": {
+          "direction": "max",
+          "unit": "GFLOPS"
+        },
+        "Energy per task (J)": {
+          "direction": "min",
+          "unit": "J"
+        },
+        "Peak power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Power margin (W)": {
+          "direction": "max",
+          "unit": "W"
+        },
+        "Mass (kg)": {
+          "direction": "min",
+          "unit": "kg"
+        },
+        "Thermal margin (C)": {
+          "direction": "max",
+          "unit": "C"
+        },
+        "Link availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Contact duty cycle": {
+          "direction": "max",
+          "unit": null
+        },
+        "Reduction ratio": {
+          "direction": "max",
+          "unit": null
+        },
+        "TX power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Bandwidth (Mbps)": {
+          "direction": "max",
+          "unit": "Mbps"
+        },
+        "DTN delay (s)": {
+          "direction": "min",
+          "unit": "s"
+        },
+        "Tier clearance": {
+          "direction": "max",
+          "unit": null
+        },
+        "Security protocol level": {
+          "direction": "max",
+          "unit": null
+        },
+        "Key mgmt feasibility": {
+          "direction": "max",
+          "unit": null
+        },
+        "TRL": {
+          "direction": "max",
+          "unit": null
+        },
+        "Rad dose margin (krad)": {
+          "direction": "max",
+          "unit": "krad"
+        },
+        "SDC rate (per hr)": {
+          "direction": "min",
+          "unit": "per hr"
+        },
+        "Compute availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Recovery time (min)": {
+          "direction": "min",
+          "unit": "min"
+        },
+        "Cost per task (USD)": {
+          "direction": "min",
+          "unit": "USD"
+        },
+        "NRE (kUSD)": {
+          "direction": "min",
+          "unit": "kUSD"
+        },
+        "Ops hours/day": {
+          "direction": "min",
+          "unit": "hrs/day"
+        },
+        "Autonomy compat": {
+          "direction": "max",
+          "unit": null
+        },
+        "PQC readiness": {
+          "direction": "max",
+          "unit": null
+        },
+        "Ops minutes / 1000 tasks": {
+          "direction": "min",
+          "unit": "min/1000"
+        },
+        "Volume (cm3)": {
+          "direction": "min",
+          "unit": "cm3",
+          "description": "Compute subsystem volume"
+        },
+        "Offload ratio": {
+          "direction": "max",
+          "unit": null,
+          "description": "Fraction of task routable to this tier [0,1]"
+        },
+        "DTN enabled": {
+          "direction": "max",
+          "unit": null,
+          "description": "Bundle Protocol v7 store-and-forward available [0,1]"
+        },
+        "Queue depth (tasks)": {
+          "direction": "min",
+          "unit": "tasks",
+          "description": "Current queue occupancy at tier"
+        },
+        "Data sensitivity": {
+          "direction": "min",
+          "unit": null,
+          "description": "Classification level of data processed (0=open..4=SCI); lower is lower risk"
+        },
+        "Isolation support": {
+          "direction": "max",
+          "unit": null,
+          "description": "HW mixed-criticality isolation available [0,1]"
+        },
+        "Storage (GB)": {
+          "direction": "max",
+          "unit": "GB",
+          "description": "Accessible storage capacity"
+        },
+        "ECC level": {
+          "direction": "max",
+          "unit": null,
+          "description": "Error-correcting code strength (0=none,1=SECDED,2=chipkill)"
+        },
+        "FC_proc_type": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] Processor type score: OBC=0.5,FPGA=0.8,GPU=0.7,SEC_PROC=0.6"
+        },
+        "FC_bus_type": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] Bus bandwidth score: MIL1553=0.2,CAN=0.3,SpaceWire=0.8,PCIe=1.0"
+        },
+        "FC_reconfigurable": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] FPGA/soft-core reconfigurability [0,1]"
+        },
+        "FC_mem_type": {
+          "direction": "max",
+          "unit": null,
+          "description": "[FC Stage 1] Memory SEU robustness score: SRAM=0.3,NOR=0.5,MRAM=1.0"
+        }
+      },
+      "tier_values": {
+        "FC": {
+          "Latency p99 (ms)": 110,
+          "Success probability": 0.94,
+          "Quality (0-1)": 0.91,
+          "Jitter (ms)": 15,
+          "Throughput (GFLOPS)": 0.4,
+          "Energy per task (J)": 150,
+          "Peak power (W)": 18,
+          "Power margin (W)": 8,
+          "Mass (kg)": 2.5,
+          "Thermal margin (C)": 22,
+          "Link availability": 1.0,
+          "Contact duty cycle": 1.0,
+          "Reduction ratio": 12,
+          "TX power (W)": 0,
+          "Bandwidth (Mbps)": 200,
+          "DTN delay (s)": 0,
+          "Tier clearance": 4,
+          "Security protocol level": 3,
+          "Key mgmt feasibility": 1.0,
+          "TRL": 8,
+          "Rad dose margin (krad)": 50,
+          "SDC rate (per hr)": 0.005,
+          "Compute availability": 0.99,
+          "Recovery time (min)": 2,
+          "Cost per task (USD)": 0.8,
+          "NRE (kUSD)": 500,
+          "Ops hours/day": 0.5,
+          "Autonomy compat": 0.95,
+          "PQC readiness": 0.0,
+          "Ops minutes / 1000 tasks": 40,
+          "Volume (cm3)": 800,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 2,
+          "Data sensitivity": 3,
+          "Isolation support": 1,
+          "Storage (GB)": 4,
+          "ECC level": 2,
+          "FC_proc_type": 0.5,
+          "FC_bus_type": 0.8,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 1.0
+        },
+        "ODC": {
+          "Latency p99 (ms)": 200,
+          "Success probability": 0.96,
+          "Quality (0-1)": 0.95,
+          "Jitter (ms)": 45,
+          "Throughput (GFLOPS)": 50,
+          "Energy per task (J)": 90,
+          "Peak power (W)": 3500,
+          "Power margin (W)": 1500,
+          "Mass (kg)": 450,
+          "Thermal margin (C)": 12,
+          "Link availability": 0.88,
+          "Contact duty cycle": 0.85,
+          "Reduction ratio": 10,
+          "TX power (W)": 15,
+          "Bandwidth (Mbps)": 1000,
+          "DTN delay (s)": 1.5,
+          "Tier clearance": 3,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.8,
+          "TRL": 5,
+          "Rad dose margin (krad)": -15,
+          "SDC rate (per hr)": 0.08,
+          "Compute availability": 0.93,
+          "Recovery time (min)": 15,
+          "Cost per task (USD)": 1.4,
+          "NRE (kUSD)": 20000,
+          "Ops hours/day": 2.5,
+          "Autonomy compat": 0.85,
+          "PQC readiness": 0.5,
+          "Ops minutes / 1000 tasks": 25,
+          "Volume (cm3)": 50000,
+          "Offload ratio": 0.8,
+          "DTN enabled": 1,
+          "Queue depth (tasks)": 20,
+          "Data sensitivity": 2,
+          "Isolation support": 0,
+          "Storage (GB)": 10000,
+          "ECC level": 1,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        },
+        "GSE": {
+          "Latency p99 (ms)": 600,
+          "Success probability": 0.97,
+          "Quality (0-1)": 0.96,
+          "Jitter (ms)": 90,
+          "Throughput (GFLOPS)": 30,
+          "Energy per task (J)": 40,
+          "Peak power (W)": 1200,
+          "Power margin (W)": 50000,
+          "Mass (kg)": 120,
+          "Thermal margin (C)": 35,
+          "Link availability": 0.97,
+          "Contact duty cycle": 0.15,
+          "Reduction ratio": 6,
+          "TX power (W)": 80,
+          "Bandwidth (Mbps)": 150,
+          "DTN delay (s)": 3600,
+          "Tier clearance": 3,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.9,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1,
+          "SDC rate (per hr)": 0.001,
+          "Compute availability": 0.97,
+          "Recovery time (min)": 30,
+          "Cost per task (USD)": 1.6,
+          "NRE (kUSD)": 2000,
+          "Ops hours/day": 4.0,
+          "Autonomy compat": 0.4,
+          "PQC readiness": 0.5,
+          "Ops minutes / 1000 tasks": 15,
+          "Volume (cm3)": 200000,
+          "Offload ratio": 0.6,
+          "DTN enabled": 1,
+          "Queue depth (tasks)": 50,
+          "Data sensitivity": 2,
+          "Isolation support": 0,
+          "Storage (GB)": 100000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        },
+        "TDC": {
+          "Latency p99 (ms)": 1200,
+          "Success probability": 0.98,
+          "Quality (0-1)": 0.97,
+          "Jitter (ms)": 70,
+          "Throughput (GFLOPS)": 800,
+          "Energy per task (J)": 25,
+          "Peak power (W)": 35000,
+          "Power margin (W)": 500000,
+          "Mass (kg)": 4000,
+          "Thermal margin (C)": 28,
+          "Link availability": 0.99,
+          "Contact duty cycle": 1.0,
+          "Reduction ratio": 14,
+          "TX power (W)": 200,
+          "Bandwidth (Mbps)": 10000,
+          "DTN delay (s)": 0.1,
+          "Tier clearance": 2,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.6,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1,
+          "SDC rate (per hr)": 0.0001,
+          "Compute availability": 0.999,
+          "Recovery time (min)": 5,
+          "Cost per task (USD)": 2.4,
+          "NRE (kUSD)": 50,
+          "Ops hours/day": 1.0,
+          "Autonomy compat": 0.2,
+          "PQC readiness": 1.0,
+          "Ops minutes / 1000 tasks": 12,
+          "Volume (cm3)": 10000000,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 5,
+          "Data sensitivity": 1,
+          "Isolation support": 0,
+          "Storage (GB)": 1000000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        }
+      },
+      "constraints": {
+        "thresholds": {
+          "Latency p99 (ms)": {
+            "max": 300
+          },
+          "Success probability": {
+            "min": 0.95
+          },
+          "Quality (0-1)": {
+            "min": 0.92
+          },
+          "Cost per task (USD)": {
+            "max": 2.0
+          },
+          "Rad dose margin (krad)": {
+            "min": 0.0
+          },
+          "TRL": {
+            "min": 7.0
+          },
+          "Autonomy compat": {
+            "min": 0.7
+          },
+          "Key mgmt feasibility": {
+            "min": 0.7
+          }
+        },
+        "binary": {}
+      },
+      "defaults": {
+        "plot_2d": {
+          "x": "Latency p99 (ms)",
+          "y": "Cost per task (USD)",
+          "color": "Autonomy compat",
+          "size": "TRL"
+        },
+        "plot_3d": {
+          "x": "Latency p99 (ms)",
+          "y": "Cost per task (USD)",
+          "z": "Autonomy compat"
+        }
+      }
+    },
+    "DEEP_SPACE_CRUISE": {
+      "description": "Deep-space cruise phase telemetry triage and onboard fault detection on an interplanetary cruise leg. Latency in hours, with downlink budget bounded by DSN contact-window scheduling negotiated months in advance.",
+      "mission_life_years": 7,
+      "latency_unit": "hours",
+      "tiers": [
+        "FC_DSCRUISE",
+        "GSE_DSN",
+        "TDC_JPL"
+      ],
+      "metrics": {
+        "Latency (hrs)": {
+          "direction": "min",
+          "unit": "hrs",
+          "description": "Time from observation completion to calibrated science product"
+        },
+        "Success probability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Science quality (0-1)": {
+          "direction": "max",
+          "unit": null,
+          "description": "1.0=fully calibrated pipeline product; 0.65=basic compression+CR flagging only"
+        },
+        "Jitter (hrs)": {
+          "direction": "min",
+          "unit": "hrs",
+          "description": "Variability in processing time"
+        },
+        "Throughput (GFLOPS)": {
+          "direction": "max",
+          "unit": "GFLOPS"
+        },
+        "Energy per obs (kJ)": {
+          "direction": "min",
+          "unit": "kJ"
+        },
+        "Peak power (W)": {
+          "direction": "min",
+          "unit": "W"
+        },
+        "Power margin (W)": {
+          "direction": "max",
+          "unit": "W"
+        },
+        "Mass (kg)": {
+          "direction": "min",
+          "unit": "kg"
+        },
+        "Thermal margin (C)": {
+          "direction": "max",
+          "unit": "C"
+        },
+        "Link availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Contact duty cycle": {
+          "direction": "max",
+          "unit": null,
+          "description": "Fraction of time data can be transferred"
+        },
+        "Compression ratio": {
+          "direction": "max",
+          "unit": null,
+          "description": "Data volume reduction before downlink"
+        },
+        "TX power (W)": {
+          "direction": "min",
+          "unit": "W",
+          "description": "Satellite transmitter power for this tier"
+        },
+        "Downlink rate (Mbps)": {
+          "direction": "max",
+          "unit": "Mbps"
+        },
+        "DTN delay (hrs)": {
+          "direction": "min",
+          "unit": "hrs"
+        },
+        "Tier clearance": {
+          "direction": "max",
+          "unit": null
+        },
+        "Security protocol level": {
+          "direction": "max",
+          "unit": null
+        },
+        "Key mgmt feasibility": {
+          "direction": "max",
+          "unit": null
+        },
+        "TRL": {
+          "direction": "max",
+          "unit": null
+        },
+        "Rad dose margin (krad)": {
+          "direction": "max",
+          "unit": "krad",
+          "description": "L2 environment ~2 krad/yr; RAD750 rated 1 Mrad"
+        },
+        "SDC rate (per hr)": {
+          "direction": "min",
+          "unit": "per hr"
+        },
+        "Compute availability": {
+          "direction": "max",
+          "unit": null
+        },
+        "Recovery time (min)": {
+          "direction": "min",
+          "unit": "min"
+        },
+        "Cost per obs (USD)": {
+          "direction": "min",
+          "unit": "USD",
+          "description": "Amortized processing cost per observation"
+        },
+        "NRE (MUSD)": {
+          "direction": "min",
+          "unit": "MUSD"
+        },
+        "Ops hrs/day": {
+          "direction": "min",
+          "unit": "hrs/day"
+        },
+        "Autonomy compat": {
+          "direction": "max",
+          "unit": null,
+          "description": "Fraction of pipeline executable without ground commanding"
+        },
+        "PQC readiness": {
+          "direction": "max",
+          "unit": null
+        },
+        "Volume (cm3)": {
+          "direction": "min",
+          "unit": "cm3"
+        },
+        "Offload ratio": {
+          "direction": "max",
+          "unit": null
+        },
+        "DTN enabled": {
+          "direction": "max",
+          "unit": null
+        },
+        "Queue depth (tasks)": {
+          "direction": "min",
+          "unit": "tasks"
+        },
+        "Data sensitivity": {
+          "direction": "min",
+          "unit": null
+        },
+        "Isolation support": {
+          "direction": "max",
+          "unit": null
+        },
+        "Storage (GB)": {
+          "direction": "max",
+          "unit": "GB"
+        },
+        "ECC level": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_proc_type": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_bus_type": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_reconfigurable": {
+          "direction": "max",
+          "unit": null
+        },
+        "FC_mem_type": {
+          "direction": "max",
+          "unit": null
+        }
+      },
+      "tier_values": {
+        "FC_DSCRUISE": {
+          "_notes": "BAE Systems RAD750 processor at 200MHz, 256MB SDRAM. Performs lossless compression (ICER), cosmic ray flagging, guide star acquisition. No full calibration pipeline possible onboard. L2 radiation: ~2 krad/yr x 10yr = 20 krad; RAD750 rated 1 Mrad -> margin 980 krad.",
+          "Latency (hrs)": 2.5,
+          "Success probability": 0.96,
+          "Science quality (0-1)": 0.78,
+          "Jitter (hrs)": 0.0001,
+          "Throughput (GFLOPS)": 0.2,
+          "Energy per obs (kJ)": 8.0,
+          "Peak power (W)": 4.0,
+          "Power margin (W)": 14.0,
+          "Mass (kg)": 1.5,
+          "Thermal margin (C)": 40.0,
+          "Link availability": 1.0,
+          "Contact duty cycle": 1.0,
+          "Compression ratio": 3.0,
+          "TX power (W)": 0.0,
+          "Downlink rate (Mbps)": 0.5,
+          "DTN delay (hrs)": 0.0,
+          "Tier clearance": 4,
+          "Security protocol level": 3,
+          "Key mgmt feasibility": 0.85,
+          "TRL": 9,
+          "Rad dose margin (krad)": 80.0,
+          "SDC rate (per hr)": 0.002,
+          "Compute availability": 0.998,
+          "Recovery time (min)": 1.0,
+          "Cost per obs (USD)": 2.0,
+          "NRE (MUSD)": 50.0,
+          "Ops hrs/day": 0.2,
+          "Autonomy compat": 1.0,
+          "PQC readiness": 0.0,
+          "Volume (cm3)": 600,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 1,
+          "Data sensitivity": 2,
+          "Isolation support": 1,
+          "Storage (GB)": 0.256,
+          "ECC level": 2,
+          "FC_proc_type": 0.5,
+          "FC_bus_type": 0.3,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0.5
+        },
+        "GSE_DSN": {
+          "_notes": "STScI Baltimore science operations center + DSN receive nodes (Madrid, Goldstone, Canberra). JWST has 2 contact windows/day ~1hr each via DSN Ka-band at 28 Mbps. Stage 1 calibration (detector-level corrections) completed at STScI edge within 6 hours of data receipt.",
+          "Latency (hrs)": 3.5,
+          "Success probability": 0.97,
+          "Science quality (0-1)": 0.86,
+          "Jitter (hrs)": 2.0,
+          "Throughput (GFLOPS)": 20.0,
+          "Energy per obs (kJ)": 500.0,
+          "Peak power (W)": 5000.0,
+          "Power margin (W)": 1000000.0,
+          "Mass (kg)": 50.0,
+          "Thermal margin (C)": 35.0,
+          "Link availability": 0.94,
+          "Contact duty cycle": 0.35,
+          "Compression ratio": 1.0,
+          "TX power (W)": 28.0,
+          "Downlink rate (Mbps)": 28.0,
+          "DTN delay (hrs)": 0.0014,
+          "Tier clearance": 3,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.9,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1000.0,
+          "SDC rate (per hr)": 0.0001,
+          "Compute availability": 0.98,
+          "Recovery time (min)": 15.0,
+          "Cost per obs (USD)": 6.0,
+          "NRE (MUSD)": 2.0,
+          "Ops hrs/day": 8.0,
+          "Autonomy compat": 0.1,
+          "PQC readiness": 0.5,
+          "Volume (cm3)": 500000,
+          "Offload ratio": 0.9,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 200,
+          "Data sensitivity": 2,
+          "Isolation support": 0,
+          "Storage (GB)": 100000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0,
+          "Contact duty cycle_note": "STScI nominal: ~10 hr/day total contact across 2 daily contacts (0.42); downlink-only conservative is ~0.33. Original value 0.08 reflected a non-nominal commissioning scenario. Sources: STScI JWST User Documentation (JWST Data Volume / SSR page); NASA Science Blog."
+        },
+        "TDC_JPL": {
+          "_notes": "STScI MAST archive + full calibration pipeline (Stages 1-2-3). Full science-grade products including flux calibration, WCS, source extraction. Available to PI within 24-48hrs. Also accessible via Barbara A. Mikulski Archive.",
+          "Latency (hrs)": 5.0,
+          "Success probability": 0.98,
+          "Science quality (0-1)": 0.93,
+          "Jitter (hrs)": 8.0,
+          "Throughput (GFLOPS)": 200.0,
+          "Energy per obs (kJ)": 2000.0,
+          "Peak power (W)": 50000.0,
+          "Power margin (W)": 10000000.0,
+          "Mass (kg)": 500.0,
+          "Thermal margin (C)": 30.0,
+          "Link availability": 0.999,
+          "Contact duty cycle": 1.0,
+          "Compression ratio": 1.0,
+          "TX power (W)": 28.0,
+          "Downlink rate (Mbps)": 28.0,
+          "DTN delay (hrs)": 0.0014,
+          "Tier clearance": 2,
+          "Security protocol level": 4,
+          "Key mgmt feasibility": 0.9,
+          "TRL": 9,
+          "Rad dose margin (krad)": 1000.0,
+          "SDC rate (per hr)": 1e-05,
+          "Compute availability": 0.999,
+          "Recovery time (min)": 30.0,
+          "Cost per obs (USD)": 12.0,
+          "NRE (MUSD)": 5.0,
+          "Ops hrs/day": 4.0,
+          "Autonomy compat": 0.05,
+          "PQC readiness": 0.8,
+          "Volume (cm3)": 10000000,
+          "Offload ratio": 1.0,
+          "DTN enabled": 0,
+          "Queue depth (tasks)": 1000,
+          "Data sensitivity": 1,
+          "Isolation support": 0,
+          "Storage (GB)": 10000000,
+          "ECC level": 0,
+          "FC_proc_type": 0,
+          "FC_bus_type": 0,
+          "FC_reconfigurable": 0,
+          "FC_mem_type": 0
+        }
+      },
+      "constraints": {
+        "thresholds": {
+          "Latency (hrs)": {
+            "max": 4.0
+          },
+          "Science quality (0-1)": {
+            "min": 0.86
+          },
+          "Success probability": {
+            "min": 0.95
+          },
+          "Rad dose margin (krad)": {
+            "min": 0.0
+          },
+          "TRL": {
+            "min": 7.0
+          },
+          "Key mgmt feasibility": {
+            "min": 0.7
+          }
+        },
+        "binary": {}
+      },
+      "defaults": {
+        "plot_2d": {
+          "x": "Latency (hrs)",
+          "y": "Cost per obs (USD)",
+          "color": "Science quality (0-1)",
+          "size": "Throughput (GFLOPS)"
+        },
+        "plot_3d": {
+          "x": "Latency (hrs)",
+          "y": "Cost per obs (USD)",
+          "z": "Science quality (0-1)"
+        }
+      }
+    }
+  },
+  "notes_appended": [
+    "v4: Added ROMAN_TRANSIENT and ROMAN_TRANSIENT_FOLLOWUP workloads with ODC tier as parameterized design concept (L2 companion, ~100km from Roman). ODC TRL=3 baseline (Variant A); Variant B overrides to TRL=7; Variant C ablates ODC entirely. Motivating programs: Project Suncatcher, Starcloud, ESA CDF orbital data centre study.",
+    "v5: JWST GSE_STSCI Contact duty cycle corrected 0.08 -> 0.42 (STScI nominal). Original value reflected commissioning, not operations. Affects JWST nonlinear results: contact-saturation knee moves from p_GSE > 0.08 to p_GSE > 0.42.",
+    "v6: RST GSE_GODDARD Contact duty cycle corrected 0.17 -> 0.45 (multi-station NEN/DSN/ESA/JAXA aggregate). Same correction class as JWST v5. Affects RST nonlinear contact-saturation knee and feasibility rate; expected to improve RST linear-vs-NL validity ratio significantly.",
+    {
+      "tag": "hil_validation_2026-06-07_v2",
+      "scope": "IDS.tier_values.FC",
+      "prior": {
+        "Latency p99 (ms)": 90,
+        "Jitter (ms)": 15
+      },
+      "replaced_with": {
+        "Latency p99 (ms)": 6,
+        "Jitter (ms)": 2
+      },
+      "source": "Measured on the cfs_ids_workload NASA cFS application running on a NASA TRL-8 spaceflight computer. The application implements a generic spacecraft intrusion-detection workload (CCSDS-style header validation, rolling source-rate anomaly check, CRC-32 payload verification, with a NORMAL -> SUSPECT -> BLOCKED state machine using K-clean recovery) and carries no sensor-specific semantics. Per-task CLOCK_MONOTONIC instrumentation around the IDS pipe-receive and processing path, driven by a Poisson injector (apps/ids_loadgen) at controlled lambda. Calibration at lambda=5/s (rho ~ 0.02) yields E[T_svc] = 4.00 ms and p99 = 5.62 ms; jitter (p99 - median) ~ 1.6 ms, rounded to 2. Throughput (GFLOPS) is not measured by this experiment and is taken from vendor specifications.",
+      "experiment_artifacts": "/home/tempuser/cFS_standalone/hil_experiment/results/"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+ "table": "hyperparameters",
+ "caption": "Optimizer configurations read from the experiment scripts. Evaluations count objective evaluations (the $\\varepsilon$ methods include a 2,000-sample range survey).",
+ "columns": [
+  "Experiment",
+  "Method",
+  "Configuration (from code)",
+  "Evaluations"
+ ],
+ "rows": [
+  {
+   "Experiment": "Main benchmark (16k)",
+   "Method": "random",
+   "Configuration (from code)": "{\"n\": 16000}",
+   "Evaluations": 16000
+  },
+  {
+   "Experiment": "Main benchmark (16k)",
+   "Method": "mopso",
+   "Configuration (from code)": "{\"particles\": 80, \"iters\": 199, \"archive_max\": 350}",
+   "Evaluations": 16000
+  },
+  {
+   "Experiment": "Main benchmark (16k)",
+   "Method": "nsga2",
+   "Configuration (from code)": "{\"pop_size\": 80, \"generations\": 199}",
+   "Evaluations": 16000
+  },
+  {
+   "Experiment": "Main benchmark (16k)",
+   "Method": "spea2",
+   "Configuration (from code)": "{\"pop_size\": 80, \"archive_size\": 80, \"generations\": 199}",
+   "Evaluations": 16000
+  },
+  {
+   "Experiment": "Main benchmark (16k)",
+   "Method": "moead",
+   "Configuration (from code)": "{\"T\": 5, \"generations\": 132}",
+   "Evaluations": 15960
+  },
+  {
+   "Experiment": "Main benchmark (16k)",
+   "Method": "epsilon",
+   "Configuration (from code)": "{\"n_levels\": 28, \"samples_per_level\": 500}",
+   "Evaluations": 16000
+  },
+  {
+   "Experiment": "Main benchmark (16k)",
+   "Method": "epsilon2d",
+   "Configuration (from code)": "{\"n_levels\": 28, \"samples_per_level\": 500, \"secondary_keys\": [\"<HV cost metric>\"]}",
+   "Evaluations": 16000
+  },
+  {
+   "Experiment": "ROMAN benchmark (12k)",
+   "Method": "random",
+   "Configuration (from code)": "{\"n\": 12000}",
+   "Evaluations": 12000
+  },
+  {
+   "Experiment": "ROMAN benchmark (12k)",
+   "Method": "mopso",
+   "Configuration (from code)": "{\"particles\": 60, \"iters\": 199, \"archive_max\": 250}",
+   "Evaluations": 12000
+  },
+  {
+   "Experiment": "ROMAN benchmark (12k)",
+   "Method": "nsga2",
+   "Configuration (from code)": "{\"pop_size\": 60, \"generations\": 199}",
+   "Evaluations": 12000
+  },
+  {
+   "Experiment": "ROMAN benchmark (12k)",
+   "Method": "spea2",
+   "Configuration (from code)": "{\"pop_size\": 60, \"archive_size\": 60, \"generations\": 199}",
+   "Evaluations": 12000
+  },
+  {
+   "Experiment": "ROMAN benchmark (12k)",
+   "Method": "moead",
+   "Configuration (from code)": "{\"T\": 5, \"generations\": 99}",
+   "Evaluations": 12000
+  },
+  {
+   "Experiment": "ROMAN benchmark (12k)",
+   "Method": "epsilon",
+   "Configuration (from code)": "{\"n_levels\": 20, \"samples_per_level\": 500}",
+   "Evaluations": 12000
+  },
+  {
+   "Experiment": "ROMAN benchmark (12k)",
+   "Method": "epsilon2d",
+   "Configuration (from code)": "{\"n_levels\": 20, \"samples_per_level\": 500, \"secondary_keys\": [\"<HV cost metric>\"]}",
+   "Evaluations": 12000
+  },
+  {
+   "Experiment": "Convergence (20 seeds)",
+   "Method": "mopso",
+   "Configuration (from code)": "{\"particles\": 60, \"iters\": 120, \"archive_max\": 200}",
+   "Evaluations": 7260
+  },
+  {
+   "Experiment": "Convergence (20 seeds)",
+   "Method": "nsga2",
+   "Configuration (from code)": "{\"pop_size\": 60, \"generations\": 120}",
+   "Evaluations": 7260
+  },
+  {
+   "Experiment": "Convergence (20 seeds)",
+   "Method": "spea2",
+   "Configuration (from code)": "{\"pop_size\": 60, \"archive_size\": 60, \"generations\": 120}",
+   "Evaluations": 7260
+  },
+  {
+   "Experiment": "Convergence (20 seeds)",
+   "Method": "moead",
+   "Configuration (from code)": "{\"T\": 5, \"generations\": 120}",
+   "Evaluations": 14520
+  },
+  {
+   "Experiment": "Variable ablation",
+   "Method": "random",
+   "Configuration (from code)": "{\"n\": 4860}",
+   "Evaluations": 4860
+  },
+  {
+   "Experiment": "Variable ablation",
+   "Method": "mopso",
+   "Configuration (from code)": "{\"particles\": 60, \"iters\": 80, \"archive_max\": 200}",
+   "Evaluations": 4860
+  },
+  {
+   "Experiment": "Variable ablation",
+   "Method": "nsga2",
+   "Configuration (from code)": "{\"pop_size\": 60, \"generations\": 80}",
+   "Evaluations": 4860
+  },
+  {
+   "Experiment": "Variable ablation",
+   "Method": "spea2",
+   "Configuration (from code)": "{\"pop_size\": 60, \"archive_size\": 60, \"generations\": 80}",
+   "Evaluations": 4860
+  },
+  {
+   "Experiment": "Variable ablation",
+   "Method": "moead",
+   "Configuration (from code)": "{\"T\": 5, \"generations\": 39}",
+   "Evaluations": 4800
+  },
+  {
+   "Experiment": "Inner loop vs proxy",
+   "Method": "mopso",
+   "Configuration (from code)": "{\"particles\": 60, \"iters\": 80, \"archive_max\": 200}",
+   "Evaluations": 4860
+  },
+  {
+   "Experiment": "Inner loop vs proxy",
+   "Method": "nsga2",
+   "Configuration (from code)": "{\"pop_size\": 60, \"generations\": 80}",
+   "Evaluations": 4860
+  },
+  {
+   "Experiment": "Coefficient sensitivity",
+   "Method": "mopso",
+   "Configuration (from code)": "{\"particles\": 60, \"iters\": 60, \"archive_max\": 200}",
+   "Evaluations": 3660
+  },
+  {
+   "Experiment": "Coefficient sensitivity",
+   "Method": "nsga2",
+   "Configuration (from code)": "{\"pop_size\": 60, \"generations\": 60}",
+   "Evaluations": 3660
+  },
+  {
+   "Experiment": "Coefficient sensitivity",
+   "Method": "random",
+   "Configuration (from code)": "{\"n\": 3660}",
+   "Evaluations": 3660
+  },
+  {
+   "Experiment": "ODC throughput x radiation-margin sweep",
+   "Method": "mopso",
+   "Configuration (from code)": "{\"particles\": 50, \"iters\": 60, \"archive_max\": 150}",
+   "Evaluations": 3050
+  },
+  {
+   "Experiment": "ROMAN arrival sweep",
+   "Method": "mopso",
+   "Configuration (from code)": "{\"particles\": 50, \"iters\": 70, \"archive_max\": 180, \"seeds\": \"21-30\"}",
+   "Evaluations": 3550
+  },
+  {
+   "Experiment": "ROMAN burst sweep",
+   "Method": "mopso",
+   "Configuration (from code)": "{\"particles\": 50, \"iters\": 70, \"archive_max\": 180, \"seeds\": \"31-40\"}",
+   "Evaluations": 3550
+  },
+  {
+   "Experiment": "ROMAN quality sweep",
+   "Method": "mopso",
+   "Configuration (from code)": "{\"particles\": 50, \"iters\": 70, \"archive_max\": 180, \"seeds\": \"22-31\"}",
+   "Evaluations": 3550
+  },
+  {
+   "Experiment": "ROMAN nre sweep",
+   "Method": "mopso",
+   "Configuration (from code)": "{\"particles\": 50, \"iters\": 60, \"archive_max\": 180, \"seeds\": \"41-50\"}",
+   "Evaluations": 3050
+  },
+  {
+   "Experiment": "q-EHVI (BO)",
+   "Method": "qehvi",
+   "Configuration (from code)": "{\"n_sobol\": 16, \"n_dirichlet\": 4, \"n_bo_iter\": 64, \"q\": 1, \"num_restarts\": 4, \"raw_samples\": 128, \"mc_samples\": 64}",
+   "Evaluations": 84
+  }
+ ]
+}

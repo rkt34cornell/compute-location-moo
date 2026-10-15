@@ -1,0 +1,30 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "archive",
+ "workload": "JWST",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "mopso",
+ "seed": 1003,
+ "cfg": {
+  "particles": 80,
+  "iters": 199,
+  "archive_max": 350
+ },
+ "archive_max": 350,
+ "budget": 16000,
+ "job_id": "JWST_-_linear_mopso_arch350_seed1003",
+ "hv": 854.6275310329096,
+ "n_returned": 350,
+ "n_front": 350,
+ "feasible_found": true,
+ "n_evals": 16080,
+ "n_feasible_evals": 13734,
+ "search_feasible_rate": 0.8541044776119403,
+ "runtime_s": 172.61341079999693,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

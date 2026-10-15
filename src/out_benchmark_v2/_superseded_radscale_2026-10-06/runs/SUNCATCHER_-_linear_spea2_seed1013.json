@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "SUNCATCHER",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "spea2",
+ "seed": 1013,
+ "cfg": {
+  "pop_size": 80,
+  "archive_size": 80,
+  "generations": 199
+ },
+ "budget": 16000,
+ "job_id": "SUNCATCHER_-_linear_spea2_seed1013",
+ "hv": 106.67946786833068,
+ "n_returned": 80,
+ "n_front": 80,
+ "feasible_found": true,
+ "n_evals": 16000,
+ "n_feasible_evals": 13411,
+ "search_feasible_rate": 0.8381875,
+ "runtime_s": 26.51047869899776,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

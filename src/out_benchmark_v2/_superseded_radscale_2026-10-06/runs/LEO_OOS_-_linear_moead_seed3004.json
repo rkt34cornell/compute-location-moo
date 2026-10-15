@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "LEO_OOS",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "moead",
+ "seed": 3004,
+ "cfg": {
+  "H": 8,
+  "T": 5,
+  "generations": 132
+ },
+ "budget": 16000,
+ "job_id": "LEO_OOS_-_linear_moead_seed3004",
+ "hv": 156.58425787973275,
+ "n_returned": 109,
+ "n_front": 109,
+ "feasible_found": true,
+ "n_evals": 15960,
+ "n_feasible_evals": 13182,
+ "search_feasible_rate": 0.8259398496240602,
+ "runtime_s": 18.154747123015113,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

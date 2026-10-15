@@ -1,0 +1,22 @@
+{
+  "outdir": "out_inner_loop_v2",
+  "workloads": [
+    "IDS",
+    "SUNCATCHER"
+  ],
+  "seeds": 10,
+  "violation": "normalized",
+  "handling": "deb",
+  "jobs": 8,
+  "cfg": {
+    "mopso": {
+      "particles": 60,
+      "iters": 80,
+      "archive_max": 200
+    },
+    "nsga2": {
+      "pop_size": 60,
+      "generations": 80
+    }
+  }
+}

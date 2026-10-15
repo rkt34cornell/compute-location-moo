@@ -1,0 +1,28 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "IDS",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "nsga2",
+ "seed": 1009,
+ "cfg": {
+  "pop_size": 80,
+  "generations": 199
+ },
+ "budget": 16000,
+ "job_id": "IDS_-_linear_nsga2_seed1009",
+ "hv": 371.4572405811393,
+ "n_returned": 79,
+ "n_front": 79,
+ "feasible_found": true,
+ "n_evals": 16000,
+ "n_feasible_evals": 13117,
+ "search_feasible_rate": 0.8198125,
+ "runtime_s": 14.908746744971722,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

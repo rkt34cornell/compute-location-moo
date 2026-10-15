@@ -1,0 +1,24 @@
+{
+ "table": "bo",
+ "caption": "q-EHVI results (current data, normalized violation as the GP constraint outcome).",
+ "columns": [
+  "Run",
+  "Seeds",
+  "Evaluations",
+  "HV"
+ ],
+ "rows": [
+  {
+   "Run": "IDS_linear",
+   "Seeds": "5",
+   "Evaluations": "84",
+   "HV": "296.44 \\pm 21"
+  },
+  {
+   "Run": "IDS_nonlinear",
+   "Seeds": "5",
+   "Evaluations": "84",
+   "HV": "274.55 \\pm 16"
+  }
+ ]
+}

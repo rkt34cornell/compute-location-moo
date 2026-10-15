@@ -1,0 +1,4 @@
+Criticality,Highest-ranked,Utility
+mission_critical,FPGA,0.7353
+mission_enhancing,FPGA,0.7353
+experimental,FPGA,0.7353

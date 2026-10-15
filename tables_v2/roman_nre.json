@@ -1,0 +1,90 @@
+{
+ "table": "roman_nre",
+ "caption": "ROMAN\\_TRANSIENT ODC NRE (cost) sweep, Variant~B (nonlinear evaluator, MOPSO 50 particles, archive 180, 10 seeds per condition; HV against the tight reference 2$\\times$10$^6$ ms, 0.06 USD).",
+ "columns": [
+  "Variant",
+  "Condition",
+  "HV (tight ref)",
+  "Front",
+  "Feasible seeds",
+  "Random feasible %",
+  "Min-cost policy FC/ODC/GSE/TDC",
+  "p_ODC mean",
+  "p_ODC SD",
+  "p_ODC median",
+  "p_ODC P5",
+  "p_ODC P95"
+ ],
+ "rows": [
+  {
+   "Variant": "B",
+   "Condition": "NRE=300M",
+   "HV (tight ref)": "1.0168e+05 \\pm 77",
+   "Front": "180",
+   "Feasible seeds": "10/10",
+   "Random feasible %": "33.7",
+   "Min-cost policy FC/ODC/GSE/TDC": "0.18/0.0061/0.81/0",
+   "p_ODC mean": "0.247",
+   "p_ODC SD": "0.200",
+   "p_ODC median": "0.213",
+   "p_ODC P5": "0",
+   "p_ODC P95": "0.600"
+  },
+  {
+   "Variant": "B",
+   "Condition": "NRE=750M",
+   "HV (tight ref)": "1.0124e+05 \\pm 179",
+   "Front": "180",
+   "Feasible seeds": "10/10",
+   "Random feasible %": "33.7",
+   "Min-cost policy FC/ODC/GSE/TDC": "0.18/8.5e-04/0.82/0",
+   "p_ODC mean": "0.247",
+   "p_ODC SD": "0.199",
+   "p_ODC median": "0.215",
+   "p_ODC P5": "0",
+   "p_ODC P95": "0.598"
+  },
+  {
+   "Variant": "B",
+   "Condition": "NRE=1500M",
+   "HV (tight ref)": "1.0075e+05 \\pm 259",
+   "Front": "180",
+   "Feasible seeds": "10/10",
+   "Random feasible %": "33.7",
+   "Min-cost policy FC/ODC/GSE/TDC": "0.18/1.4e-04/0.82/0",
+   "p_ODC mean": "0.249",
+   "p_ODC SD": "0.201",
+   "p_ODC median": "0.218",
+   "p_ODC P5": "0",
+   "p_ODC P95": "0.602"
+  },
+  {
+   "Variant": "B",
+   "Condition": "NRE=3000M",
+   "HV (tight ref)": "99951 \\pm 133",
+   "Front": "180",
+   "Feasible seeds": "10/10",
+   "Random feasible %": "33.7",
+   "Min-cost policy FC/ODC/GSE/TDC": "0.18/0/0.82/0",
+   "p_ODC mean": "0.255",
+   "p_ODC SD": "0.200",
+   "p_ODC median": "0.226",
+   "p_ODC P5": "0",
+   "p_ODC P95": "0.604"
+  },
+  {
+   "Variant": "B",
+   "Condition": "NRE=5000M",
+   "HV (tight ref)": "99221 \\pm 196",
+   "Front": "180",
+   "Feasible seeds": "10/10",
+   "Random feasible %": "31.6",
+   "Min-cost policy FC/ODC/GSE/TDC": "0.18/0/0.82/0",
+   "p_ODC mean": "0.212",
+   "p_ODC SD": "0.162",
+   "p_ODC median": "0.197",
+   "p_ODC P5": "0",
+   "p_ODC P95": "0.479"
+  }
+ ]
+}

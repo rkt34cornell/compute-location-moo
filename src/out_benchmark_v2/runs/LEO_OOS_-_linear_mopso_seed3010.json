@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "LEO_OOS",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "mopso",
+ "seed": 3010,
+ "cfg": {
+  "particles": 80,
+  "iters": 199,
+  "archive_max": 350
+ },
+ "budget": 16000,
+ "job_id": "LEO_OOS_-_linear_mopso_seed3010",
+ "hv": 187.9335419816803,
+ "n_returned": 350,
+ "n_front": 350,
+ "feasible_found": true,
+ "n_evals": 16080,
+ "n_feasible_evals": 4972,
+ "search_feasible_rate": 0.3092039800995025,
+ "runtime_s": 119.25115561694838,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

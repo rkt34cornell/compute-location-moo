@@ -1,0 +1,28 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "SUNCATCHER",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "nsga2",
+ "seed": 1016,
+ "cfg": {
+  "pop_size": 80,
+  "generations": 199
+ },
+ "budget": 16000,
+ "job_id": "SUNCATCHER_-_linear_nsga2_seed1016",
+ "hv": 176.9436639045656,
+ "n_returned": 79,
+ "n_front": 79,
+ "feasible_found": true,
+ "n_evals": 16000,
+ "n_feasible_evals": 12383,
+ "search_feasible_rate": 0.7739375,
+ "runtime_s": 16.02237470797263,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

@@ -1,0 +1,166 @@
+{
+ "table": "archive_cap",
+ "caption": "MOPSO archive-cap sensitivity (20 seeds, 16{,}000 evaluations); comparison methods from the main benchmark.",
+ "columns": [
+  "Workload",
+  "Archive cap",
+  "MOPSO HV",
+  "Front size",
+  "Best other method",
+  "Its HV",
+  "MOPSO - best other",
+  "MOPSO rank"
+ ],
+ "rows": [
+  {
+   "Workload": "IDS",
+   "Archive cap": "50",
+   "MOPSO HV": "377.46 \\pm 3.3",
+   "Front size": "50.00",
+   "Best other method": "random",
+   "Its HV": "390.67",
+   "MOPSO - best other": "-13.22",
+   "MOPSO rank": "2"
+  },
+  {
+   "Workload": "IDS",
+   "Archive cap": "100",
+   "MOPSO HV": "385.31 \\pm 1.7",
+   "Front size": "100.0",
+   "Best other method": "random",
+   "Its HV": "390.67",
+   "MOPSO - best other": "-5.366",
+   "MOPSO rank": "2"
+  },
+  {
+   "Workload": "IDS",
+   "Archive cap": "250",
+   "MOPSO HV": "390.96 \\pm 0.59",
+   "Front size": "250.0",
+   "Best other method": "random",
+   "Its HV": "390.67",
+   "MOPSO - best other": "0.2866",
+   "MOPSO rank": "1"
+  },
+  {
+   "Workload": "IDS",
+   "Archive cap": "350",
+   "MOPSO HV": "392.38 \\pm 0.64",
+   "Front size": "350.0",
+   "Best other method": "random",
+   "Its HV": "390.67",
+   "MOPSO - best other": "1.703",
+   "MOPSO rank": "1"
+  },
+  {
+   "Workload": "IDS",
+   "Archive cap": "500",
+   "MOPSO HV": "393.59 \\pm 0.50",
+   "Front size": "500.0",
+   "Best other method": "random",
+   "Its HV": "390.67",
+   "MOPSO - best other": "2.912",
+   "MOPSO rank": "1"
+  },
+  {
+   "Workload": "JWST",
+   "Archive cap": "50",
+   "MOPSO HV": "850.35 \\pm 1.5",
+   "Front size": "50.00",
+   "Best other method": "random",
+   "Its HV": "856.88",
+   "MOPSO - best other": "-6.531",
+   "MOPSO rank": "2"
+  },
+  {
+   "Workload": "JWST",
+   "Archive cap": "100",
+   "MOPSO HV": "852.87 \\pm 0.73",
+   "Front size": "100.0",
+   "Best other method": "random",
+   "Its HV": "856.88",
+   "MOPSO - best other": "-4.011",
+   "MOPSO rank": "2"
+  },
+  {
+   "Workload": "JWST",
+   "Archive cap": "250",
+   "MOPSO HV": "854.74 \\pm 0.53",
+   "Front size": "250.0",
+   "Best other method": "random",
+   "Its HV": "856.88",
+   "MOPSO - best other": "-2.144",
+   "MOPSO rank": "2"
+  },
+  {
+   "Workload": "JWST",
+   "Archive cap": "350",
+   "MOPSO HV": "854.83 \\pm 0.48",
+   "Front size": "350.0",
+   "Best other method": "random",
+   "Its HV": "856.88",
+   "MOPSO - best other": "-2.057",
+   "MOPSO rank": "2"
+  },
+  {
+   "Workload": "JWST",
+   "Archive cap": "500",
+   "MOPSO HV": "855.68 \\pm 0.33",
+   "Front size": "500.0",
+   "Best other method": "random",
+   "Its HV": "856.88",
+   "MOPSO - best other": "-1.206",
+   "MOPSO rank": "2"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Archive cap": "50",
+   "MOPSO HV": "176.87 \\pm 0.11",
+   "Front size": "50.00",
+   "Best other method": "random",
+   "Its HV": "175.00",
+   "MOPSO - best other": "1.868",
+   "MOPSO rank": "1"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Archive cap": "100",
+   "MOPSO HV": "176.83 \\pm 0.11",
+   "Front size": "100.0",
+   "Best other method": "random",
+   "Its HV": "175.00",
+   "MOPSO - best other": "1.831",
+   "MOPSO rank": "1"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Archive cap": "250",
+   "MOPSO HV": "176.83 \\pm 0.14",
+   "Front size": "250.0",
+   "Best other method": "random",
+   "Its HV": "175.00",
+   "MOPSO - best other": "1.832",
+   "MOPSO rank": "1"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Archive cap": "350",
+   "MOPSO HV": "176.77 \\pm 0.23",
+   "Front size": "350.0",
+   "Best other method": "random",
+   "Its HV": "175.00",
+   "MOPSO - best other": "1.769",
+   "MOPSO rank": "1"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Archive cap": "500",
+   "MOPSO HV": "176.86 \\pm 0.11",
+   "Front size": "500.0",
+   "Best other method": "random",
+   "Its HV": "175.00",
+   "MOPSO - best other": "1.859",
+   "MOPSO rank": "1"
+  }
+ ]
+}

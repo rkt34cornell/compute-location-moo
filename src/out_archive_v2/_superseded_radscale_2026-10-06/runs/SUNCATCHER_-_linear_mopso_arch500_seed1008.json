@@ -1,0 +1,30 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "archive",
+ "workload": "SUNCATCHER",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "mopso",
+ "seed": 1008,
+ "cfg": {
+  "particles": 80,
+  "iters": 199,
+  "archive_max": 500
+ },
+ "archive_max": 500,
+ "budget": 16000,
+ "job_id": "SUNCATCHER_-_linear_mopso_arch500_seed1008",
+ "hv": 176.74150843848184,
+ "n_returned": 500,
+ "n_front": 500,
+ "feasible_found": true,
+ "n_evals": 16080,
+ "n_feasible_evals": 10798,
+ "search_feasible_rate": 0.6715174129353234,
+ "runtime_s": 188.91577465005685,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

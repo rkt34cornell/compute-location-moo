@@ -1,0 +1,21 @@
+{
+  "suite": "main",
+  "violation": "normalized",
+  "handling": "deb",
+  "data": "data.json",
+  "data_mtime": 1780873113.2661283,
+  "n_jobs": 840,
+  "methods": [
+    "random",
+    "mopso",
+    "nsga2",
+    "spea2",
+    "moead",
+    "epsilon",
+    "epsilon2d"
+  ],
+  "seeds": 20,
+  "workloads": null,
+  "numpy": "2.2.6",
+  "python": "3.10.19 | packaged by conda-forge | (main, Jan 26 2026, 23:45:08) [GCC 14.3.0]"
+}

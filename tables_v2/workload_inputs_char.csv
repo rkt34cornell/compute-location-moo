@@ -1,0 +1,9 @@
+Workload,J,lambda (task/s),theta (GFLOP/task),Mission life (yr; sets radiation-violation scale),No. of thresholds
+IDS,4,500.0,0.001000,5,8
+SUNCATCHER,4,1.000e-04,5.000e+06,10,4
+JWST,3,2.778e-04,800.0,10,6
+RST,3,0.001667,300.0,6,6
+LEO_OOS,4,10.00,20.00,5,8
+DEEP_SPACE_CRUISE,3,0.01667,50.00,7,6
+ROMAN_TRANSIENT,4,0.01000,100.0,5,8
+ROMAN_TRANSIENT_FOLLOWUP,4,0.01000,100.0,5,8

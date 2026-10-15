@@ -1,0 +1,33 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "LEO_OOS",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "epsilon",
+ "seed": 3010,
+ "cfg": {
+  "n_levels": 28,
+  "samples_per_level": 500
+ },
+ "budget": 16000,
+ "job_id": "LEO_OOS_-_linear_epsilon_seed3010",
+ "hv": 171.40198836529112,
+ "n_returned": 1,
+ "n_front": 1,
+ "feasible_found": true,
+ "n_evals": 14000,
+ "n_feasible_evals": 373,
+ "search_feasible_rate": 0.026642857142857142,
+ "runtime_s": 6.464211914106272,
+ "epsilon_diag": {
+  "levels_satisfied": 0,
+  "n_levels": 28,
+  "fallback": true,
+  "any_feasible": true
+ },
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

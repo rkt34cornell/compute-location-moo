@@ -1,0 +1,28 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "roman",
+ "workload": "ROMAN_TRANSIENT",
+ "variant": "A",
+ "evaluator": "linear",
+ "method": "nsga2",
+ "seed": 2012,
+ "cfg": {
+  "pop_size": 60,
+  "generations": 199
+ },
+ "budget": 12000,
+ "job_id": "ROMAN_TRANSIENT_A_linear_nsga2_seed2012",
+ "hv": 11035612.574541023,
+ "n_returned": 59,
+ "n_front": 59,
+ "feasible_found": true,
+ "n_evals": 12000,
+ "n_feasible_evals": 9908,
+ "search_feasible_rate": 0.8256666666666667,
+ "runtime_s": 11.03469141293317,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

@@ -1,0 +1,537 @@
+{
+ "table": "variable_schema",
+ "caption": "Engineering metrics as implemented (data.json and moo\\_core). Every metric enters the Stage-2 objective vector; the decision variables are the routing vector $\\mathbf{p}$ (and, in Stage~1, the processor choice $a$). E1--E8 = nonlinear effects.",
+ "columns": [
+  "Metric (engineering attribute)",
+  "Unit",
+  "Direction",
+  "Workloads",
+  "Role(s) in Stage 2",
+  "Thresholds (workload: bound)",
+  "Missing tier values"
+ ],
+ "rows": [
+  {
+   "Metric (engineering attribute)": "Latency p99 (ms)",
+   "Unit": "ms",
+   "Direction": "min",
+   "Workloads": "IDS SUN LEO RT RTF",
+   "Role(s) in Stage 2": "objective; HV axis; constraint; NL input E1,E2 (base latency); NL-modified output",
+   "Thresholds (workload: bound)": "IDS(<=250) LEO(<=300) RT(<=86400000.0) RTF(<=3600000.0)",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Success probability",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; constraint",
+   "Thresholds (workload: bound)": "IDS(>=0.92) JWST(>=0.98) RST(>=0.99) LEO(>=0.95) DSC(>=0.95) RT(>=0.95) RTF(>=0.95)",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Quality (0-1)",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "IDS LEO RT RTF",
+   "Role(s) in Stage 2": "objective; constraint",
+   "Thresholds (workload: bound)": "IDS(>=0.9) LEO(>=0.92) RT(>=0.85) RTF(>=0.85)",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Jitter (ms)",
+   "Unit": "ms",
+   "Direction": "min",
+   "Workloads": "IDS SUN LEO RT RTF",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Throughput (GFLOPS)",
+   "Unit": "GFLOPS",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; NL input E1 (service rate mu); Stage-1 attribute",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Energy per task (J)",
+   "Unit": "J",
+   "Direction": "min",
+   "Workloads": "IDS LEO RT RTF",
+   "Role(s) in Stage 2": "objective; NL input E3,E4 (base energy); NL-modified output",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Peak power (W)",
+   "Unit": "W",
+   "Direction": "min",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; NL input E5",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Power margin (W)",
+   "Unit": "W",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Mass (kg)",
+   "Unit": "kg",
+   "Direction": "min",
+   "Workloads": "IDS JWST RST LEO DSC RT RTF",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Thermal margin (C)",
+   "Unit": "C",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; NL input E5 (base); NL-modified output",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Link availability",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; NL input E6 (base); NL-modified output",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Contact duty cycle",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; NL input E2, E6",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Reduction ratio",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "IDS SUN LEO RT RTF",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "TX power (W)",
+   "Unit": "W",
+   "Direction": "min",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "RT:FC RT:GSE RT:TDC RTF:FC RTF:GSE RTF:TDC"
+  },
+  {
+   "Metric (engineering attribute)": "Bandwidth (Mbps)",
+   "Unit": "Mbps",
+   "Direction": "max",
+   "Workloads": "IDS SUN LEO RT RTF",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "RT:FC RTF:FC"
+  },
+  {
+   "Metric (engineering attribute)": "DTN delay (s)",
+   "Unit": "s",
+   "Direction": "min",
+   "Workloads": "IDS SUN LEO RT RTF",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Tier clearance",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "IDS JWST RST LEO DSC RT RTF",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Security protocol level",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; NL input E4",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Key mgmt feasibility",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; constraint",
+   "Thresholds (workload: bound)": "IDS(>=0.65) SUN(>=0.7) JWST(>=0.8) RST(>=0.85) LEO(>=0.7) DSC(>=0.7) RT(>=0.6) RTF(>=0.6)",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "TRL",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; constraint; Stage-1 attribute",
+   "Thresholds (workload: bound)": "IDS(>=6.0) SUN(>=4.0) JWST(>=8.0) RST(>=7.0) LEO(>=7.0) DSC(>=7.0) RT(>=6.0) RTF(>=6.0)",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Rad dose margin (krad)",
+   "Unit": "krad",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; constraint; Stage-1 attribute",
+   "Thresholds (workload: bound)": "IDS(>=0.0) SUN(>=0.0) JWST(>=0.0) RST(>=0.0) LEO(>=0.0) DSC(>=0.0) RT(>=0.0) RTF(>=0.0)",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "SDC rate (per hr)",
+   "Unit": "per hr",
+   "Direction": "min",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; NL input E7 (base); NL-modified output; Stage-1 attribute",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Compute availability",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Recovery time (min)",
+   "Unit": "min",
+   "Direction": "min",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Cost per task (USD)",
+   "Unit": "USD",
+   "Direction": "min",
+   "Workloads": "IDS LEO RT RTF",
+   "Role(s) in Stage 2": "objective; HV axis; constraint",
+   "Thresholds (workload: bound)": "IDS(<=3.0) LEO(<=2.0) RT(<=0.1) RTF(<=0.1)",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "NRE (kUSD)",
+   "Unit": "kUSD",
+   "Direction": "min",
+   "Workloads": "IDS LEO RT RTF",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Ops hours/day",
+   "Unit": "hrs/day",
+   "Direction": "min",
+   "Workloads": "IDS LEO RT RTF",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Autonomy compat",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; constraint",
+   "Thresholds (workload: bound)": "IDS(>=0.4) LEO(>=0.7) RT(>=0.3) RTF(>=0.3)",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "PQC readiness",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Ops minutes / 1000 tasks",
+   "Unit": "min/1000",
+   "Direction": "min",
+   "Workloads": "IDS LEO RT RTF",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Volume (cm3)",
+   "Unit": "cm3",
+   "Direction": "min",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Offload ratio",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "DTN enabled",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Queue depth (tasks)",
+   "Unit": "tasks",
+   "Direction": "min",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Data sensitivity",
+   "Unit": "-",
+   "Direction": "min",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Isolation support",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Storage (GB)",
+   "Unit": "GB",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "ECC level",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "FC_proc_type",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; Stage-1 attribute",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "FC_bus_type",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; Stage-1 attribute",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "FC_reconfigurable",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; Stage-1 attribute",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "FC_mem_type",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "all",
+   "Role(s) in Stage 2": "objective; Stage-1 attribute",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Quality score",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "SUN",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Energy per unit (J)",
+   "Unit": "J",
+   "Direction": "min",
+   "Workloads": "SUN",
+   "Role(s) in Stage 2": "objective; NL input E3,E4 (base energy); NL-modified output",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Cost per unit (USD)",
+   "Unit": "USD",
+   "Direction": "min",
+   "Workloads": "SUN",
+   "Role(s) in Stage 2": "objective; HV axis; constraint",
+   "Thresholds (workload: bound)": "SUN(<=14.0)",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "NRE (MUSD)",
+   "Unit": "MUSD",
+   "Direction": "min",
+   "Workloads": "SUN JWST RST DSC",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Ops min. / 1000 units",
+   "Unit": "min/1000",
+   "Direction": "min",
+   "Workloads": "SUN",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Compute mass (kg)",
+   "Unit": "kg",
+   "Direction": "min",
+   "Workloads": "SUN",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Orbital altitude (km)",
+   "Unit": "km",
+   "Direction": "min",
+   "Workloads": "SUN",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Latency (hrs)",
+   "Unit": "hrs",
+   "Direction": "min",
+   "Workloads": "JWST RST DSC",
+   "Role(s) in Stage 2": "objective; HV axis; constraint; NL input E1,E2 (base latency); NL-modified output",
+   "Thresholds (workload: bound)": "JWST(<=48.0) RST(<=24.0) DSC(<=4.0)",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Science quality (0-1)",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "JWST RST DSC",
+   "Role(s) in Stage 2": "objective; constraint",
+   "Thresholds (workload: bound)": "JWST(>=0.8) RST(>=0.75) DSC(>=0.86)",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Jitter (hrs)",
+   "Unit": "hrs",
+   "Direction": "min",
+   "Workloads": "JWST RST DSC",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Energy per obs (kJ)",
+   "Unit": "kJ",
+   "Direction": "min",
+   "Workloads": "JWST RST DSC",
+   "Role(s) in Stage 2": "objective; NL input E3,E4 (base energy); NL-modified output",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Compression ratio",
+   "Unit": "-",
+   "Direction": "max",
+   "Workloads": "JWST RST DSC",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Downlink rate (Mbps)",
+   "Unit": "Mbps",
+   "Direction": "max",
+   "Workloads": "JWST RST DSC",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "DTN delay (hrs)",
+   "Unit": "hrs",
+   "Direction": "min",
+   "Workloads": "JWST RST DSC",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Cost per obs (USD)",
+   "Unit": "USD",
+   "Direction": "min",
+   "Workloads": "JWST RST DSC",
+   "Role(s) in Stage 2": "objective; HV axis",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  },
+  {
+   "Metric (engineering attribute)": "Ops hrs/day",
+   "Unit": "hrs/day",
+   "Direction": "min",
+   "Workloads": "JWST RST DSC",
+   "Role(s) in Stage 2": "objective",
+   "Thresholds (workload: bound)": "-",
+   "Missing tier values": "-"
+  }
+ ]
+}

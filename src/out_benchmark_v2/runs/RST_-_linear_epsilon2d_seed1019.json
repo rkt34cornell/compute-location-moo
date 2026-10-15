@@ -1,0 +1,33 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "RST",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "epsilon2d",
+ "seed": 1019,
+ "cfg": {
+  "n_levels": 28,
+  "samples_per_level": 500
+ },
+ "budget": 16000,
+ "job_id": "RST_-_linear_epsilon2d_seed1019",
+ "hv": 538.1626719298688,
+ "n_returned": 27,
+ "n_front": 27,
+ "feasible_found": true,
+ "n_evals": 14000,
+ "n_feasible_evals": 12992,
+ "search_feasible_rate": 0.928,
+ "runtime_s": 4.167772587039508,
+ "epsilon_diag": {
+  "levels_satisfied": 27,
+  "n_levels": 28,
+  "fallback": false,
+  "any_feasible": true
+ },
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

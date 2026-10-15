@@ -1,0 +1,102 @@
+{
+ "table": "nonlinear_coefficients",
+ "caption": "Nonlinear-evaluator parameters exactly as defined in moo\\_core.NonlinearParams and WORKLOAD\\_NONLINEAR\\_PARAMS.",
+ "columns": [
+  "Parameter",
+  "Role",
+  "Default",
+  "Per-workload overrides"
+ ],
+ "rows": [
+  {
+   "Parameter": "lambda_tasks_per_s",
+   "Role": "Effect 1 arrival rate (per workload)",
+   "Default": "100.0",
+   "Per-workload overrides": "IDS: 500.0; SUNCATCHER: 0.0001; JWST: 0.0002777777777777778; RST: 0.0016666666666666668; ROMAN_TRANSIENT: 0.01; ROMAN_TRANSIENT_FOLLOWUP: 0.01; LEO_OOS: 10.0; DEEP_SPACE_CRUISE: 0.016666666666666666"
+  },
+  {
+   "Parameter": "compute_gflops_per_task",
+   "Role": "Effect 1 compute intensity (per workload)",
+   "Default": "0.002",
+   "Per-workload overrides": "IDS: 0.001; SUNCATCHER: 5000000.0; JWST: 800.0; RST: 300.0; ROMAN_TRANSIENT: 100.0; ROMAN_TRANSIENT_FOLLOWUP: 100.0; LEO_OOS: 20.0; DEEP_SPACE_CRUISE: 50.0"
+  },
+  {
+   "Parameter": "queue_max_utilization",
+   "Role": "Effect 1 utilization cap rho_max",
+   "Default": "0.92",
+   "Per-workload overrides": "--"
+  },
+  {
+   "Parameter": "contact_sat_exponent",
+   "Role": "Effect 2 contact-saturation exponent",
+   "Default": "2.0",
+   "Per-workload overrides": "--"
+  },
+  {
+   "Parameter": "contact_sat_scale",
+   "Role": "Effect 2 scale",
+   "Default": "1.0",
+   "Per-workload overrides": "--"
+  },
+  {
+   "Parameter": "link_setup_threshold",
+   "Role": "Effect 3 activation threshold on p_j",
+   "Default": "0.02",
+   "Per-workload overrides": "--"
+  },
+  {
+   "Parameter": "link_setup_energy_fraction",
+   "Role": "Effect 3 fixed setup energy fraction",
+   "Default": "0.12",
+   "Per-workload overrides": "--"
+  },
+  {
+   "Parameter": "sec_overhead",
+   "Role": "Effect 4 energy factor by protocol level 1-5",
+   "Default": "1:1.0, 2:1.02, 3:1.05, 4:1.08, 5:1.15",
+   "Per-workload overrides": "--"
+  },
+  {
+   "Parameter": "thermal_power_exponent",
+   "Role": "Effect 5 thermal exponent",
+   "Default": "1.35",
+   "Per-workload overrides": "--"
+  },
+  {
+   "Parameter": "thermal_coupling_coeff",
+   "Role": "Effect 5 coupling",
+   "Default": "3e-05",
+   "Per-workload overrides": "--"
+  },
+  {
+   "Parameter": "link_congestion_exponent",
+   "Role": "Effect 6 availability exponent",
+   "Default": "0.5",
+   "Per-workload overrides": "--"
+  },
+  {
+   "Parameter": "sdc_compound_factor",
+   "Role": "Effect 7 SDC factor per extra active tier",
+   "Default": "1.6",
+   "Per-workload overrides": "--"
+  },
+  {
+   "Parameter": "sdc_active_threshold",
+   "Role": "Effect 7 activity threshold on p_j",
+   "Default": "0.02",
+   "Per-workload overrides": "--"
+  },
+  {
+   "Parameter": "eclipse_duty_cycle",
+   "Role": "Effect 8 sunlit fraction eta_sun (per destination)",
+   "Default": "{}",
+   "Per-workload overrides": "SUNCATCHER: {'LEO_TPU_CLUSTER': 0.63, 'HYBRID_SPLIT': 0.8}; LEO_OOS: {'ODC': 0.63}"
+  },
+  {
+   "Parameter": "lambda_burst",
+   "Role": "Burst arrival rate (experiments only)",
+   "Default": "0.0",
+   "Per-workload overrides": "ROMAN_TRANSIENT: 0.1; ROMAN_TRANSIENT_FOLLOWUP: 0.1"
+  }
+ ]
+}

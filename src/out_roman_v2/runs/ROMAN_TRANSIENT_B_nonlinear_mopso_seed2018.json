@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "roman",
+ "workload": "ROMAN_TRANSIENT",
+ "variant": "B",
+ "evaluator": "nonlinear",
+ "method": "mopso",
+ "seed": 2018,
+ "cfg": {
+  "particles": 60,
+  "iters": 199,
+  "archive_max": 250
+ },
+ "budget": 12000,
+ "job_id": "ROMAN_TRANSIENT_B_nonlinear_mopso_seed2018",
+ "hv": 11163982.410242599,
+ "n_returned": 250,
+ "n_front": 250,
+ "feasible_found": true,
+ "n_evals": 12060,
+ "n_feasible_evals": 6978,
+ "search_feasible_rate": 0.5786069651741294,
+ "runtime_s": 90.68255546805449,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

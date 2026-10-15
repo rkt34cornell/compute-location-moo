@@ -1,0 +1,76 @@
+{
+ "table": "perturbed_coefficients",
+ "caption": "The nine coefficients perturbed in the sensitivity experiment (IDS). $\\rho_{\\max}$ at +25\\% exceeds 1; the M/M/1 term is then evaluated with $(1-\\rho)$ floored at $10^{-6}$.",
+ "columns": [
+  "Coefficient",
+  "Symbol",
+  "IDS baseline",
+  "-25%",
+  "+25%"
+ ],
+ "rows": [
+  {
+   "Coefficient": "lambda_tasks_per_s",
+   "Symbol": "$\\lambda$",
+   "IDS baseline": "500.0",
+   "-25%": "375.0",
+   "+25%": "625.0"
+  },
+  {
+   "Coefficient": "compute_gflops_per_task",
+   "Symbol": "$\\theta$",
+   "IDS baseline": "0.001000",
+   "-25%": "7.500e-04",
+   "+25%": "0.001250"
+  },
+  {
+   "Coefficient": "queue_max_utilization",
+   "Symbol": "$\\rho_{\\max}$",
+   "IDS baseline": "0.9200",
+   "-25%": "0.6900",
+   "+25%": "1.150"
+  },
+  {
+   "Coefficient": "contact_sat_exponent",
+   "Symbol": "$\\alpha_c$",
+   "IDS baseline": "2.000",
+   "-25%": "1.500",
+   "+25%": "2.500"
+  },
+  {
+   "Coefficient": "link_setup_energy_fraction",
+   "Symbol": "$\\eta$",
+   "IDS baseline": "0.1200",
+   "-25%": "0.09000",
+   "+25%": "0.1500"
+  },
+  {
+   "Coefficient": "thermal_power_exponent",
+   "Symbol": "$\\beta$",
+   "IDS baseline": "1.350",
+   "-25%": "1.013",
+   "+25%": "1.688"
+  },
+  {
+   "Coefficient": "thermal_coupling_coeff",
+   "Symbol": "$\\kappa$",
+   "IDS baseline": "3.000e-05",
+   "-25%": "2.250e-05",
+   "+25%": "3.750e-05"
+  },
+  {
+   "Coefficient": "link_congestion_exponent",
+   "Symbol": "$\\gamma_c$",
+   "IDS baseline": "0.5000",
+   "-25%": "0.3750",
+   "+25%": "0.6250"
+  },
+  {
+   "Coefficient": "sdc_compound_factor",
+   "Symbol": "$\\xi$",
+   "IDS baseline": "1.600",
+   "-25%": "1.200",
+   "+25%": "2.000"
+  }
+ ]
+}

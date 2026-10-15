@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "RST",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "mopso",
+ "seed": 1015,
+ "cfg": {
+  "particles": 80,
+  "iters": 199,
+  "archive_max": 350
+ },
+ "budget": 16000,
+ "job_id": "RST_-_linear_mopso_seed1015",
+ "hv": 547.9520119422316,
+ "n_returned": 350,
+ "n_front": 350,
+ "feasible_found": true,
+ "n_evals": 16080,
+ "n_feasible_evals": 14565,
+ "search_feasible_rate": 0.9057835820895522,
+ "runtime_s": 229.146301370929,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

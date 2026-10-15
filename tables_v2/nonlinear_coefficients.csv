@@ -1,0 +1,16 @@
+Parameter,Role,Default,Per-workload overrides
+lambda_tasks_per_s,Effect 1 arrival rate (per workload),100.0,IDS: 500.0; SUNCATCHER: 0.0001; JWST: 0.0002777777777777778; RST: 0.0016666666666666668; ROMAN_TRANSIENT: 0.01; ROMAN_TRANSIENT_FOLLOWUP: 0.01; LEO_OOS: 10.0; DEEP_SPACE_CRUISE: 0.016666666666666666
+compute_gflops_per_task,Effect 1 compute intensity (per workload),0.002,IDS: 0.001; SUNCATCHER: 5000000.0; JWST: 800.0; RST: 300.0; ROMAN_TRANSIENT: 100.0; ROMAN_TRANSIENT_FOLLOWUP: 100.0; LEO_OOS: 20.0; DEEP_SPACE_CRUISE: 50.0
+queue_max_utilization,Effect 1 utilization cap rho_max,0.92,--
+contact_sat_exponent,Effect 2 contact-saturation exponent,2.0,--
+contact_sat_scale,Effect 2 scale,1.0,--
+link_setup_threshold,Effect 3 activation threshold on p_j,0.02,--
+link_setup_energy_fraction,Effect 3 fixed setup energy fraction,0.12,--
+sec_overhead,Effect 4 energy factor by protocol level 1-5,"1:1.0, 2:1.02, 3:1.05, 4:1.08, 5:1.15",--
+thermal_power_exponent,Effect 5 thermal exponent,1.35,--
+thermal_coupling_coeff,Effect 5 coupling,3e-05,--
+link_congestion_exponent,Effect 6 availability exponent,0.5,--
+sdc_compound_factor,Effect 7 SDC factor per extra active tier,1.6,--
+sdc_active_threshold,Effect 7 activity threshold on p_j,0.02,--
+eclipse_duty_cycle,Effect 8 sunlit fraction eta_sun (per destination),{},"SUNCATCHER: {'LEO_TPU_CLUSTER': 0.63, 'HYBRID_SPLIT': 0.8}; LEO_OOS: {'ODC': 0.63}"
+lambda_burst,Burst arrival rate (experiments only),0.0,ROMAN_TRANSIENT: 0.1; ROMAN_TRANSIENT_FOLLOWUP: 0.1

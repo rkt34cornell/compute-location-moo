@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "roman",
+ "workload": "ROMAN_TRANSIENT",
+ "variant": "C",
+ "evaluator": "nonlinear",
+ "method": "spea2",
+ "seed": 2018,
+ "cfg": {
+  "pop_size": 60,
+  "archive_size": 60,
+  "generations": 199
+ },
+ "budget": 12000,
+ "job_id": "ROMAN_TRANSIENT_C_nonlinear_spea2_seed2018",
+ "hv": 11072586.35860441,
+ "n_returned": 60,
+ "n_front": 60,
+ "feasible_found": true,
+ "n_evals": 12000,
+ "n_feasible_evals": 11311,
+ "search_feasible_rate": 0.9425833333333333,
+ "runtime_s": 16.13079009996727,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

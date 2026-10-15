@@ -1,0 +1,123 @@
+{
+ "table": "feasibility",
+ "caption": "Random-policy (uniform Dirichlet) feasibility density, sorted by the linear value.",
+ "columns": [
+  "Workload",
+  "J",
+  "Samples",
+  "Linear feasible (%)",
+  "Linear 95% CI",
+  "Nonlinear feasible (%)",
+  "Nonlinear 95% CI"
+ ],
+ "rows": [
+  {
+   "Workload": "SUNCATCHER",
+   "J": 4,
+   "Samples": 100000,
+   "Linear feasible (%)": "0.094",
+   "Linear 95% CI": "[0.077, 0.115]",
+   "Nonlinear feasible (%)": "0.094",
+   "Nonlinear 95% CI": "[0.077, 0.115]"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "J": 4,
+   "Samples": 100000,
+   "Linear feasible (%)": "2.692",
+   "Linear 95% CI": "[2.593, 2.794]",
+   "Nonlinear feasible (%)": "0.000",
+   "Nonlinear 95% CI": "[0.000, 0.004]"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "J": 3,
+   "Samples": 100000,
+   "Linear feasible (%)": "19.973",
+   "Linear 95% CI": "[19.726, 20.222]",
+   "Nonlinear feasible (%)": "0.141",
+   "Nonlinear 95% CI": "[0.120, 0.166]"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT|C",
+   "J": 3,
+   "Samples": 100000,
+   "Linear feasible (%)": "25.726",
+   "Linear 95% CI": "[25.456, 25.998]",
+   "Nonlinear feasible (%)": "25.726",
+   "Nonlinear 95% CI": "[25.456, 25.998]"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP|C",
+   "J": 3,
+   "Samples": 100000,
+   "Linear feasible (%)": "25.726",
+   "Linear 95% CI": "[25.456, 25.998]",
+   "Nonlinear feasible (%)": "25.726",
+   "Nonlinear 95% CI": "[25.456, 25.998]"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT|A",
+   "J": 4,
+   "Samples": 100000,
+   "Linear feasible (%)": "31.243",
+   "Linear 95% CI": "[30.956, 31.531]",
+   "Nonlinear feasible (%)": "31.243",
+   "Nonlinear 95% CI": "[30.956, 31.531]"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP|A",
+   "J": 4,
+   "Samples": 100000,
+   "Linear feasible (%)": "31.243",
+   "Linear 95% CI": "[30.956, 31.531]",
+   "Nonlinear feasible (%)": "31.243",
+   "Nonlinear 95% CI": "[30.956, 31.531]"
+  },
+  {
+   "Workload": "IDS",
+   "J": 4,
+   "Samples": 100000,
+   "Linear feasible (%)": "32.572",
+   "Linear 95% CI": "[32.282, 32.863]",
+   "Nonlinear feasible (%)": "24.388",
+   "Nonlinear 95% CI": "[24.123, 24.655]"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT|B",
+   "J": 4,
+   "Samples": 100000,
+   "Linear feasible (%)": "32.967",
+   "Linear 95% CI": "[32.676, 33.259]",
+   "Nonlinear feasible (%)": "32.967",
+   "Nonlinear 95% CI": "[32.676, 33.259]"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP|B",
+   "J": 4,
+   "Samples": 100000,
+   "Linear feasible (%)": "32.967",
+   "Linear 95% CI": "[32.676, 33.259]",
+   "Nonlinear feasible (%)": "32.967",
+   "Nonlinear 95% CI": "[32.676, 33.259]"
+  },
+  {
+   "Workload": "JWST",
+   "J": 3,
+   "Samples": 100000,
+   "Linear feasible (%)": "67.204",
+   "Linear 95% CI": "[66.912, 67.494]",
+   "Nonlinear feasible (%)": "67.204",
+   "Nonlinear 95% CI": "[66.912, 67.494]"
+  },
+  {
+   "Workload": "RST",
+   "J": 3,
+   "Samples": 100000,
+   "Linear feasible (%)": "92.924",
+   "Linear 95% CI": "[92.763, 93.081]",
+   "Nonlinear feasible (%)": "92.924",
+   "Nonlinear 95% CI": "[92.763, 93.081]"
+  }
+ ]
+}

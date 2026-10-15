@@ -1,0 +1,8 @@
+Policy,Mean HV regret (%),Median HV regret (%),Worst-case HV regret (%),Choices
+"Feasibility rule ($t_1$ = 1\%, $t_2$ = 10\%)",0.8665,0.2170,3.523,"NSGA-II, MOPSO, Random, Random, Random, Random"
+Always MOPSO,0.3441,0.1200,1.242,"MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO"
+Always Random,1.837,0.2170,9.587,"Random, Random, Random, Random, Random, Random"
+Always NSGA-II,2.147,2.021,5.316,"NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II"
+Oracle (best per workload),0,0,0,"MOPSO, NSGA-II, MOPSO, Random, Random, Random"
+"Feasibility rule, best thresholds in range ($t_1$ = 2.8\%, $t_2$ = 5.0\%)",0.6594,0,3.523,
+"Feasibility rule, worst thresholds in range ($t_1$ = 0.2\%, $t_2$ = 5.0\%)",0.8665,0.2170,3.523,

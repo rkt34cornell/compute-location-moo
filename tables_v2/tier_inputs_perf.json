@@ -1,0 +1,306 @@
+{
+ "table": "tier_inputs_perf",
+ "caption": "Per-destination performance, communications, and derived queueing inputs (workload display names as in Table~\\ref{tab:v2_workload_inputs}). The M/M/1 service rate is $\\mu_j = \\mathrm{Throughput}_j\\,\\eta_{\\mathrm{sun},j}/\\theta$, and the utilization at full allocation ($p_j = 1$) is $\\rho = \\lambda/\\mu_j$ before clipping at $\\rho_{\\max} = 0.92$.",
+ "columns": [
+  "Workload",
+  "Destination",
+  "Base latency",
+  "Throughput (GFLOPS)",
+  "eta_sun",
+  "mu = thr/theta*eta (task/s)",
+  "rho at p_j=1 (lambda/mu)",
+  "Contact duty c_j"
+ ],
+ "rows": [
+  {
+   "Workload": "IDS",
+   "Destination": "FC",
+   "Base latency": "6.000 ms",
+   "Throughput (GFLOPS)": "0.4000",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "400.0",
+   "rho at p_j=1 (lambda/mu)": "1.250",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "IDS",
+   "Destination": "ODC",
+   "Base latency": "180.0 ms",
+   "Throughput (GFLOPS)": "50.00",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "50000",
+   "rho at p_j=1 (lambda/mu)": "0.01000",
+   "Contact duty c_j": "0.8500"
+  },
+  {
+   "Workload": "IDS",
+   "Destination": "GSE",
+   "Base latency": "600.0 ms",
+   "Throughput (GFLOPS)": "30.00",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "30000",
+   "rho at p_j=1 (lambda/mu)": "0.01667",
+   "Contact duty c_j": "0.1500"
+  },
+  {
+   "Workload": "IDS",
+   "Destination": "TDC",
+   "Base latency": "320.0 ms",
+   "Throughput (GFLOPS)": "800.0",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "8.000e+05",
+   "rho at p_j=1 (lambda/mu)": "6.250e-04",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Destination": "LEO_TPU_CLUSTER",
+   "Base latency": "80.00 ms",
+   "Throughput (GFLOPS)": "500.0",
+   "eta_sun": "0.6300",
+   "mu = thr/theta*eta (task/s)": "6.300e-05",
+   "rho at p_j=1 (lambda/mu)": "1.587",
+   "Contact duty c_j": "0.7000"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Destination": "GROUND_TPU_DC",
+   "Base latency": "40.00 ms",
+   "Throughput (GFLOPS)": "1000",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "2.000e-04",
+   "rho at p_j=1 (lambda/mu)": "0.5000",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Destination": "GROUND_GPU_DC",
+   "Base latency": "60.00 ms",
+   "Throughput (GFLOPS)": "800.0",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "1.600e-04",
+   "rho at p_j=1 (lambda/mu)": "0.6250",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Destination": "HYBRID_SPLIT",
+   "Base latency": "100.0 ms",
+   "Throughput (GFLOPS)": "600.0",
+   "eta_sun": "0.8000",
+   "mu = thr/theta*eta (task/s)": "9.600e-05",
+   "rho at p_j=1 (lambda/mu)": "1.042",
+   "Contact duty c_j": "0.8500"
+  },
+  {
+   "Workload": "JWST",
+   "Destination": "FC_ICDH",
+   "Base latency": "0.001000 h",
+   "Throughput (GFLOPS)": "0.2000",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "2.500e-04",
+   "rho at p_j=1 (lambda/mu)": "1.111",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "JWST",
+   "Destination": "GSE_STSCI",
+   "Base latency": "6.000 h",
+   "Throughput (GFLOPS)": "20.00",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "0.02500",
+   "rho at p_j=1 (lambda/mu)": "0.01111",
+   "Contact duty c_j": "0.4200"
+  },
+  {
+   "Workload": "JWST",
+   "Destination": "TDC_MAST",
+   "Base latency": "24.00 h",
+   "Throughput (GFLOPS)": "200.0",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "0.2500",
+   "rho at p_j=1 (lambda/mu)": "0.001111",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "RST",
+   "Destination": "FC_ROMAN",
+   "Base latency": "0.001000 h",
+   "Throughput (GFLOPS)": "2.000",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "0.006667",
+   "rho at p_j=1 (lambda/mu)": "0.2500",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "RST",
+   "Destination": "GSE_GODDARD",
+   "Base latency": "4.000 h",
+   "Throughput (GFLOPS)": "50.00",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "0.1667",
+   "rho at p_j=1 (lambda/mu)": "0.01000",
+   "Contact duty c_j": "0.4500"
+  },
+  {
+   "Workload": "RST",
+   "Destination": "TDC_IPAC",
+   "Base latency": "18.00 h",
+   "Throughput (GFLOPS)": "500.0",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "1.667",
+   "rho at p_j=1 (lambda/mu)": "0.001000",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Destination": "FC",
+   "Base latency": "110.0 ms",
+   "Throughput (GFLOPS)": "0.4000",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "0.02000",
+   "rho at p_j=1 (lambda/mu)": "500.0",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Destination": "ODC",
+   "Base latency": "200.0 ms",
+   "Throughput (GFLOPS)": "50.00",
+   "eta_sun": "0.6300",
+   "mu = thr/theta*eta (task/s)": "1.575",
+   "rho at p_j=1 (lambda/mu)": "6.349",
+   "Contact duty c_j": "0.8500"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Destination": "GSE",
+   "Base latency": "600.0 ms",
+   "Throughput (GFLOPS)": "30.00",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "1.500",
+   "rho at p_j=1 (lambda/mu)": "6.667",
+   "Contact duty c_j": "0.1500"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Destination": "TDC",
+   "Base latency": "1200 ms",
+   "Throughput (GFLOPS)": "800.0",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "40.00",
+   "rho at p_j=1 (lambda/mu)": "0.2500",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Destination": "FC_DSCRUISE",
+   "Base latency": "2.500 h",
+   "Throughput (GFLOPS)": "0.2000",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "0.004000",
+   "rho at p_j=1 (lambda/mu)": "4.167",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Destination": "GSE_DSN",
+   "Base latency": "3.500 h",
+   "Throughput (GFLOPS)": "20.00",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "0.4000",
+   "rho at p_j=1 (lambda/mu)": "0.04167",
+   "Contact duty c_j": "0.3500"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Destination": "TDC_JPL",
+   "Base latency": "5.000 h",
+   "Throughput (GFLOPS)": "200.0",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "4.000",
+   "rho at p_j=1 (lambda/mu)": "0.004167",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Destination": "FC",
+   "Base latency": "500.0 ms",
+   "Throughput (GFLOPS)": "0.3000",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "0.003000",
+   "rho at p_j=1 (lambda/mu)": "3.333",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Destination": "ODC",
+   "Base latency": "75.00 ms",
+   "Throughput (GFLOPS)": "1000",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "10.00",
+   "rho at p_j=1 (lambda/mu)": "0.001000",
+   "Contact duty c_j": "0.8800"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Destination": "GSE",
+   "Base latency": "30000 ms",
+   "Throughput (GFLOPS)": "50000",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "500.0",
+   "rho at p_j=1 (lambda/mu)": "2.000e-05",
+   "Contact duty c_j": "0.4500"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Destination": "TDC",
+   "Base latency": "1.200e+05 ms",
+   "Throughput (GFLOPS)": "1.000e+07",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "1.000e+05",
+   "rho at p_j=1 (lambda/mu)": "1.000e-07",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Destination": "FC",
+   "Base latency": "500.0 ms",
+   "Throughput (GFLOPS)": "0.3000",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "0.003000",
+   "rho at p_j=1 (lambda/mu)": "3.333",
+   "Contact duty c_j": "1.000"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Destination": "ODC",
+   "Base latency": "75.00 ms",
+   "Throughput (GFLOPS)": "1000",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "10.00",
+   "rho at p_j=1 (lambda/mu)": "0.001000",
+   "Contact duty c_j": "0.8800"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Destination": "GSE",
+   "Base latency": "30000 ms",
+   "Throughput (GFLOPS)": "50000",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "500.0",
+   "rho at p_j=1 (lambda/mu)": "2.000e-05",
+   "Contact duty c_j": "0.4500"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Destination": "TDC",
+   "Base latency": "1.200e+05 ms",
+   "Throughput (GFLOPS)": "1.000e+07",
+   "eta_sun": "1.000",
+   "mu = thr/theta*eta (task/s)": "1.000e+05",
+   "rho at p_j=1 (lambda/mu)": "1.000e-07",
+   "Contact duty c_j": "1.000"
+  }
+ ]
+}

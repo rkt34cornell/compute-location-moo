@@ -1,0 +1,33 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "SUNCATCHER",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "epsilon2d",
+ "seed": 1007,
+ "cfg": {
+  "n_levels": 28,
+  "samples_per_level": 500
+ },
+ "budget": 16000,
+ "job_id": "SUNCATCHER_-_linear_epsilon2d_seed1007",
+ "hv": 134.32676397345057,
+ "n_returned": 2,
+ "n_front": 2,
+ "feasible_found": true,
+ "n_evals": 14000,
+ "n_feasible_evals": 10,
+ "search_feasible_rate": 0.0007142857142857143,
+ "runtime_s": 5.711014782078564,
+ "epsilon_diag": {
+  "levels_satisfied": 2,
+  "n_levels": 28,
+  "fallback": false,
+  "any_feasible": true
+ },
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

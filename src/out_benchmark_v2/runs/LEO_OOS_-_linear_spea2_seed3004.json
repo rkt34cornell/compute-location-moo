@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "LEO_OOS",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "spea2",
+ "seed": 3004,
+ "cfg": {
+  "pop_size": 80,
+  "archive_size": 80,
+  "generations": 199
+ },
+ "budget": 16000,
+ "job_id": "LEO_OOS_-_linear_spea2_seed3004",
+ "hv": 141.72937481087283,
+ "n_returned": 80,
+ "n_front": 80,
+ "feasible_found": true,
+ "n_evals": 16000,
+ "n_feasible_evals": 14825,
+ "search_feasible_rate": 0.9265625,
+ "runtime_s": 26.551035932963714,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

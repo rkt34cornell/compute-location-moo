@@ -1,0 +1,38 @@
+{
+ "table": "nl_sensitivity_agreement",
+ "caption": "Agreement of coefficient-importance orderings across algorithms.",
+ "columns": [
+  "Pair",
+  "Kendall tau",
+  "p",
+  "Spearman rho",
+  "Top-3 A",
+  "Top-3 B"
+ ],
+ "rows": [
+  {
+   "Pair": "mopso_vs_nsga2",
+   "Kendall tau": "0.778",
+   "p": "0.00243",
+   "Spearman rho": "0.900",
+   "Top-3 A": "queue_max_utilization compute_gflops_per_task lambda_tasks_per_s",
+   "Top-3 B": "queue_max_utilization compute_gflops_per_task lambda_tasks_per_s"
+  },
+  {
+   "Pair": "mopso_vs_random",
+   "Kendall tau": "0.764",
+   "p": "0.00849",
+   "Spearman rho": "0.842",
+   "Top-3 A": "queue_max_utilization compute_gflops_per_task lambda_tasks_per_s",
+   "Top-3 B": "queue_max_utilization compute_gflops_per_task lambda_tasks_per_s"
+  },
+  {
+   "Pair": "nsga2_vs_random",
+   "Kendall tau": "0.764",
+   "p": "0.00849",
+   "Spearman rho": "0.842",
+   "Top-3 A": "queue_max_utilization compute_gflops_per_task lambda_tasks_per_s",
+   "Top-3 B": "queue_max_utilization compute_gflops_per_task lambda_tasks_per_s"
+  }
+ ]
+}

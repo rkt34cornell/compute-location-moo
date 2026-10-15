@@ -1,0 +1,260 @@
+{
+ "table": "nl_sensitivity",
+ "caption": "IDS coefficient sensitivity (nonlinear evaluator, 10 seeds, 3{,}660 evaluations).",
+ "columns": [
+  "Method",
+  "Coefficient",
+  "dHV% (-25%) mean",
+  "SD",
+  "p",
+  "dHV% (+25%) mean",
+  "SD",
+  "p",
+  "Importance rank"
+ ],
+ "rows": [
+  {
+   "Method": "mopso",
+   "Coefficient": "lambda_tasks_per_s",
+   "dHV% (-25%) mean": "2.29",
+   "SD": "0.15",
+   "p": "0.00195",
+   "dHV% (+25%) mean": "-1.43",
+   "Importance rank": 3
+  },
+  {
+   "Method": "mopso",
+   "Coefficient": "compute_gflops_per_task",
+   "dHV% (-25%) mean": "4.05",
+   "SD": "0.19",
+   "p": "0.00195",
+   "dHV% (+25%) mean": "-4.10",
+   "Importance rank": 2
+  },
+  {
+   "Method": "mopso",
+   "Coefficient": "queue_max_utilization",
+   "dHV% (-25%) mean": "7.71",
+   "SD": "0.20",
+   "p": "0.00195",
+   "dHV% (+25%) mean": "-8.96",
+   "Importance rank": 1
+  },
+  {
+   "Method": "mopso",
+   "Coefficient": "contact_sat_exponent",
+   "dHV% (-25%) mean": "-0.0548",
+   "SD": "0.19",
+   "p": "0.0371",
+   "dHV% (+25%) mean": "-0.142",
+   "Importance rank": 8
+  },
+  {
+   "Method": "mopso",
+   "Coefficient": "link_setup_energy_fraction",
+   "dHV% (-25%) mean": "-0.210",
+   "SD": "0.22",
+   "p": "0.0273",
+   "dHV% (+25%) mean": "-0.171",
+   "Importance rank": 6
+  },
+  {
+   "Method": "mopso",
+   "Coefficient": "thermal_power_exponent",
+   "dHV% (-25%) mean": "-0.0453",
+   "SD": "0.21",
+   "p": "0.695",
+   "dHV% (+25%) mean": "-0.0489",
+   "Importance rank": 9
+  },
+  {
+   "Method": "mopso",
+   "Coefficient": "thermal_coupling_coeff",
+   "dHV% (-25%) mean": "-0.386",
+   "SD": "0.27",
+   "p": "0.232",
+   "dHV% (+25%) mean": "-0.123",
+   "Importance rank": 4
+  },
+  {
+   "Method": "mopso",
+   "Coefficient": "link_congestion_exponent",
+   "dHV% (-25%) mean": "-0.148",
+   "SD": "0.19",
+   "p": "0.0840",
+   "dHV% (+25%) mean": "-0.127",
+   "Importance rank": 7
+  },
+  {
+   "Method": "mopso",
+   "Coefficient": "sdc_compound_factor",
+   "dHV% (-25%) mean": "-0.130",
+   "SD": "0.14",
+   "p": "0.00195",
+   "dHV% (+25%) mean": "-0.257",
+   "Importance rank": 5
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "lambda_tasks_per_s",
+   "dHV% (-25%) mean": "1.83",
+   "SD": "1.7",
+   "p": "0.00195",
+   "dHV% (+25%) mean": "-2.29",
+   "Importance rank": 3
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "compute_gflops_per_task",
+   "dHV% (-25%) mean": "3.33",
+   "SD": "2.0",
+   "p": "0.00195",
+   "dHV% (+25%) mean": "-4.79",
+   "Importance rank": 2
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "queue_max_utilization",
+   "dHV% (-25%) mean": "6.03",
+   "SD": "2.3",
+   "p": "0.00195",
+   "dHV% (+25%) mean": "-9.77",
+   "Importance rank": 1
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "contact_sat_exponent",
+   "dHV% (-25%) mean": "-0.577",
+   "SD": "1.8",
+   "p": "0.375",
+   "dHV% (+25%) mean": "-0.459",
+   "Importance rank": 7
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "link_setup_energy_fraction",
+   "dHV% (-25%) mean": "-0.710",
+   "SD": "1.2",
+   "p": "0.492",
+   "dHV% (+25%) mean": "0.285",
+   "Importance rank": 5
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "thermal_power_exponent",
+   "dHV% (-25%) mean": "-0.394",
+   "SD": "2.0",
+   "p": "0.625",
+   "dHV% (+25%) mean": "-0.307",
+   "Importance rank": 8
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "thermal_coupling_coeff",
+   "dHV% (-25%) mean": "-0.615",
+   "SD": "1.6",
+   "p": "0.375",
+   "dHV% (+25%) mean": "-0.191",
+   "Importance rank": 6
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "link_congestion_exponent",
+   "dHV% (-25%) mean": "-0.354",
+   "SD": "1.3",
+   "p": "0.625",
+   "dHV% (+25%) mean": "-0.215",
+   "Importance rank": 9
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "sdc_compound_factor",
+   "dHV% (-25%) mean": "-0.583",
+   "SD": "2.7",
+   "p": "0.105",
+   "dHV% (+25%) mean": "-1.42",
+   "Importance rank": 4
+  },
+  {
+   "Method": "random",
+   "Coefficient": "lambda_tasks_per_s",
+   "dHV% (-25%) mean": "2.20",
+   "SD": "0.13",
+   "p": "0.00195",
+   "dHV% (+25%) mean": "-1.21",
+   "Importance rank": 3
+  },
+  {
+   "Method": "random",
+   "Coefficient": "compute_gflops_per_task",
+   "dHV% (-25%) mean": "4.19",
+   "SD": "0.13",
+   "p": "0.00195",
+   "dHV% (+25%) mean": "-3.86",
+   "Importance rank": 2
+  },
+  {
+   "Method": "random",
+   "Coefficient": "queue_max_utilization",
+   "dHV% (-25%) mean": "7.81",
+   "SD": "1.2",
+   "p": "0.00195",
+   "dHV% (+25%) mean": "-11.0",
+   "Importance rank": 1
+  },
+  {
+   "Method": "random",
+   "Coefficient": "contact_sat_exponent",
+   "dHV% (-25%) mean": "0",
+   "SD": "0",
+   "p": "1.00",
+   "dHV% (+25%) mean": "0",
+   "Importance rank": 4
+  },
+  {
+   "Method": "random",
+   "Coefficient": "link_setup_energy_fraction",
+   "dHV% (-25%) mean": "0",
+   "SD": "0",
+   "p": "1.00",
+   "dHV% (+25%) mean": "0",
+   "Importance rank": 5
+  },
+  {
+   "Method": "random",
+   "Coefficient": "thermal_power_exponent",
+   "dHV% (-25%) mean": "0",
+   "SD": "0",
+   "p": "1.00",
+   "dHV% (+25%) mean": "0",
+   "Importance rank": 6
+  },
+  {
+   "Method": "random",
+   "Coefficient": "thermal_coupling_coeff",
+   "dHV% (-25%) mean": "0",
+   "SD": "0",
+   "p": "1.00",
+   "dHV% (+25%) mean": "0",
+   "Importance rank": 7
+  },
+  {
+   "Method": "random",
+   "Coefficient": "link_congestion_exponent",
+   "dHV% (-25%) mean": "0",
+   "SD": "0",
+   "p": "1.00",
+   "dHV% (+25%) mean": "0",
+   "Importance rank": 8
+  },
+  {
+   "Method": "random",
+   "Coefficient": "sdc_compound_factor",
+   "dHV% (-25%) mean": "0",
+   "SD": "0",
+   "p": "1.00",
+   "dHV% (+25%) mean": "0",
+   "Importance rank": 9
+  }
+ ]
+}

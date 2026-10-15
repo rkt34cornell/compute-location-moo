@@ -1,0 +1,27 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "IDS",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "random",
+ "seed": 1015,
+ "cfg": {
+  "n": 16000
+ },
+ "budget": 16000,
+ "job_id": "IDS_-_linear_random_seed1015",
+ "hv": 390.3601296862601,
+ "n_returned": 5157,
+ "n_front": 5157,
+ "feasible_found": true,
+ "n_evals": 16004,
+ "n_feasible_evals": 5157,
+ "search_feasible_rate": 0.3222319420144964,
+ "runtime_s": 20.363872698973864,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

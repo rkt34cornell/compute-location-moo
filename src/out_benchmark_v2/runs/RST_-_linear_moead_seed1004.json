@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "RST",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "moead",
+ "seed": 1004,
+ "cfg": {
+  "H": 8,
+  "T": 5,
+  "generations": 132
+ },
+ "budget": 16000,
+ "job_id": "RST_-_linear_moead_seed1004",
+ "hv": 505.5339219319226,
+ "n_returned": 120,
+ "n_front": 120,
+ "feasible_found": true,
+ "n_evals": 15960,
+ "n_feasible_evals": 15883,
+ "search_feasible_rate": 0.9951754385964913,
+ "runtime_s": 16.683687896933407,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

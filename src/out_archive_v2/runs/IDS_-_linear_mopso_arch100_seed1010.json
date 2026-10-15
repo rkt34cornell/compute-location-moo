@@ -1,0 +1,30 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "archive",
+ "workload": "IDS",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "mopso",
+ "seed": 1010,
+ "cfg": {
+  "particles": 80,
+  "iters": 199,
+  "archive_max": 100
+ },
+ "archive_max": 100,
+ "budget": 16000,
+ "job_id": "IDS_-_linear_mopso_arch100_seed1010",
+ "hv": 385.6133615041003,
+ "n_returned": 100,
+ "n_front": 100,
+ "feasible_found": true,
+ "n_evals": 16080,
+ "n_feasible_evals": 11309,
+ "search_feasible_rate": 0.7032960199004975,
+ "runtime_s": 82.95064214803278,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

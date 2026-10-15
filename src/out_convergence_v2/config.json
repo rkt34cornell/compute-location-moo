@@ -1,0 +1,59 @@
+{
+  "outdir": "out_convergence_v2",
+  "workloads": [
+    "IDS",
+    "SUNCATCHER",
+    "LEO_OOS",
+    "DEEP_SPACE_CRUISE",
+    "JWST",
+    "RST"
+  ],
+  "seeds": 20,
+  "violation": "normalized",
+  "handling": "deb",
+  "jobs": 8,
+  "seeds_list": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "methods": {
+    "mopso": {
+      "particles": 60,
+      "iters": 120,
+      "archive_max": 200
+    },
+    "nsga2": {
+      "pop_size": 60,
+      "generations": 120
+    },
+    "spea2": {
+      "pop_size": 60,
+      "archive_size": 60,
+      "generations": 120
+    },
+    "moead": {
+      "H": 8,
+      "T": 5,
+      "generations": 120
+    }
+  },
+  "k_every": 50
+}

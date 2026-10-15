@@ -1,0 +1,446 @@
+{
+ "table": "violation_scales",
+ "caption": "Scales of the normalized violation $V=\\sum_k \\max(0,\\text{excess}_k)/s_k$: threshold magnitude, or the mission lifetime dose (10 krad/yr $\\times$ mission life) for the radiation margin.",
+ "columns": [
+  "Workload",
+  "Constraint",
+  "Min",
+  "Max",
+  "Scale s_k",
+  "Rule"
+ ],
+ "rows": [
+  {
+   "Workload": "IDS",
+   "Constraint": "Latency p99 (ms)",
+   "Min": "--",
+   "Max": "250",
+   "Scale s_k": "250.0",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "IDS",
+   "Constraint": "Success probability",
+   "Min": "0.9200",
+   "Max": "--",
+   "Scale s_k": "0.9200",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "IDS",
+   "Constraint": "Quality (0-1)",
+   "Min": "0.9000",
+   "Max": "--",
+   "Scale s_k": "0.9000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "IDS",
+   "Constraint": "Cost per task (USD)",
+   "Min": "--",
+   "Max": "3.000",
+   "Scale s_k": "3.000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "IDS",
+   "Constraint": "Rad dose margin (krad)",
+   "Min": "0",
+   "Max": "--",
+   "Scale s_k": "50.00",
+   "Rule": "mission lifetime dose"
+  },
+  {
+   "Workload": "IDS",
+   "Constraint": "TRL",
+   "Min": "6.000",
+   "Max": "--",
+   "Scale s_k": "6.000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "IDS",
+   "Constraint": "Autonomy compat",
+   "Min": "0.4000",
+   "Max": "--",
+   "Scale s_k": "0.4000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "IDS",
+   "Constraint": "Key mgmt feasibility",
+   "Min": "0.6500",
+   "Max": "--",
+   "Scale s_k": "0.6500",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Constraint": "Cost per unit (USD)",
+   "Min": "--",
+   "Max": "14.00",
+   "Scale s_k": "14.00",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Constraint": "Rad dose margin (krad)",
+   "Min": "0",
+   "Max": "--",
+   "Scale s_k": "100.0",
+   "Rule": "mission lifetime dose"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Constraint": "TRL",
+   "Min": "4.000",
+   "Max": "--",
+   "Scale s_k": "4.000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Constraint": "Key mgmt feasibility",
+   "Min": "0.7000",
+   "Max": "--",
+   "Scale s_k": "0.7000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "JWST",
+   "Constraint": "Latency (hrs)",
+   "Min": "--",
+   "Max": "48.00",
+   "Scale s_k": "48.00",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "JWST",
+   "Constraint": "Science quality (0-1)",
+   "Min": "0.8000",
+   "Max": "--",
+   "Scale s_k": "0.8000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "JWST",
+   "Constraint": "Success probability",
+   "Min": "0.9800",
+   "Max": "--",
+   "Scale s_k": "0.9800",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "JWST",
+   "Constraint": "Rad dose margin (krad)",
+   "Min": "0",
+   "Max": "--",
+   "Scale s_k": "100.0",
+   "Rule": "mission lifetime dose"
+  },
+  {
+   "Workload": "JWST",
+   "Constraint": "TRL",
+   "Min": "8.000",
+   "Max": "--",
+   "Scale s_k": "8.000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "JWST",
+   "Constraint": "Key mgmt feasibility",
+   "Min": "0.8000",
+   "Max": "--",
+   "Scale s_k": "0.8000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "RST",
+   "Constraint": "Latency (hrs)",
+   "Min": "--",
+   "Max": "24.00",
+   "Scale s_k": "24.00",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "RST",
+   "Constraint": "Science quality (0-1)",
+   "Min": "0.7500",
+   "Max": "--",
+   "Scale s_k": "0.7500",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "RST",
+   "Constraint": "Success probability",
+   "Min": "0.9900",
+   "Max": "--",
+   "Scale s_k": "0.9900",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "RST",
+   "Constraint": "Rad dose margin (krad)",
+   "Min": "0",
+   "Max": "--",
+   "Scale s_k": "60.00",
+   "Rule": "mission lifetime dose"
+  },
+  {
+   "Workload": "RST",
+   "Constraint": "TRL",
+   "Min": "7.000",
+   "Max": "--",
+   "Scale s_k": "7.000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "RST",
+   "Constraint": "Key mgmt feasibility",
+   "Min": "0.8500",
+   "Max": "--",
+   "Scale s_k": "0.8500",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Constraint": "Latency p99 (ms)",
+   "Min": "--",
+   "Max": "300",
+   "Scale s_k": "300.0",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Constraint": "Success probability",
+   "Min": "0.9500",
+   "Max": "--",
+   "Scale s_k": "0.9500",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Constraint": "Quality (0-1)",
+   "Min": "0.9200",
+   "Max": "--",
+   "Scale s_k": "0.9200",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Constraint": "Cost per task (USD)",
+   "Min": "--",
+   "Max": "2.000",
+   "Scale s_k": "2.000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Constraint": "Rad dose margin (krad)",
+   "Min": "0",
+   "Max": "--",
+   "Scale s_k": "50.00",
+   "Rule": "mission lifetime dose"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Constraint": "TRL",
+   "Min": "7.000",
+   "Max": "--",
+   "Scale s_k": "7.000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Constraint": "Autonomy compat",
+   "Min": "0.7000",
+   "Max": "--",
+   "Scale s_k": "0.7000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Constraint": "Key mgmt feasibility",
+   "Min": "0.7000",
+   "Max": "--",
+   "Scale s_k": "0.7000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Constraint": "Latency (hrs)",
+   "Min": "--",
+   "Max": "4.000",
+   "Scale s_k": "4.000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Constraint": "Science quality (0-1)",
+   "Min": "0.8600",
+   "Max": "--",
+   "Scale s_k": "0.8600",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Constraint": "Success probability",
+   "Min": "0.9500",
+   "Max": "--",
+   "Scale s_k": "0.9500",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Constraint": "Rad dose margin (krad)",
+   "Min": "0",
+   "Max": "--",
+   "Scale s_k": "70.00",
+   "Rule": "mission lifetime dose"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Constraint": "TRL",
+   "Min": "7.000",
+   "Max": "--",
+   "Scale s_k": "7.000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Constraint": "Key mgmt feasibility",
+   "Min": "0.7000",
+   "Max": "--",
+   "Scale s_k": "0.7000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Constraint": "Latency p99 (ms)",
+   "Min": "--",
+   "Max": "8.640e+07",
+   "Scale s_k": "8.640e+07",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Constraint": "Quality (0-1)",
+   "Min": "0.8500",
+   "Max": "--",
+   "Scale s_k": "0.8500",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Constraint": "Success probability",
+   "Min": "0.9500",
+   "Max": "--",
+   "Scale s_k": "0.9500",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Constraint": "Cost per task (USD)",
+   "Min": "--",
+   "Max": "0.1000",
+   "Scale s_k": "0.1000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Constraint": "Rad dose margin (krad)",
+   "Min": "0",
+   "Max": "--",
+   "Scale s_k": "50.00",
+   "Rule": "mission lifetime dose"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Constraint": "TRL",
+   "Min": "6.000",
+   "Max": "--",
+   "Scale s_k": "6.000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Constraint": "Autonomy compat",
+   "Min": "0.3000",
+   "Max": "--",
+   "Scale s_k": "0.3000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Constraint": "Key mgmt feasibility",
+   "Min": "0.6000",
+   "Max": "--",
+   "Scale s_k": "0.6000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Constraint": "Latency p99 (ms)",
+   "Min": "--",
+   "Max": "3.600e+06",
+   "Scale s_k": "3.600e+06",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Constraint": "Quality (0-1)",
+   "Min": "0.8500",
+   "Max": "--",
+   "Scale s_k": "0.8500",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Constraint": "Success probability",
+   "Min": "0.9500",
+   "Max": "--",
+   "Scale s_k": "0.9500",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Constraint": "Cost per task (USD)",
+   "Min": "--",
+   "Max": "0.1000",
+   "Scale s_k": "0.1000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Constraint": "Rad dose margin (krad)",
+   "Min": "0",
+   "Max": "--",
+   "Scale s_k": "50.00",
+   "Rule": "mission lifetime dose"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Constraint": "TRL",
+   "Min": "6.000",
+   "Max": "--",
+   "Scale s_k": "6.000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Constraint": "Autonomy compat",
+   "Min": "0.3000",
+   "Max": "--",
+   "Scale s_k": "0.3000",
+   "Rule": "|threshold|"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Constraint": "Key mgmt feasibility",
+   "Min": "0.6000",
+   "Max": "--",
+   "Scale s_k": "0.6000",
+   "Rule": "|threshold|"
+  }
+ ]
+}

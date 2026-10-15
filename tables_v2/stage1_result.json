@@ -1,0 +1,26 @@
+{
+ "table": "stage1_result",
+ "caption": "Stage~1 processor pre-screening: highest-ranked candidate at each criticality level (not propagated into Stage~2 in the reported experiments).",
+ "columns": [
+  "Criticality",
+  "Highest-ranked",
+  "Utility"
+ ],
+ "rows": [
+  {
+   "Criticality": "mission_critical",
+   "Highest-ranked": "FPGA",
+   "Utility": "0.7353"
+  },
+  {
+   "Criticality": "mission_enhancing",
+   "Highest-ranked": "FPGA",
+   "Utility": "0.7353"
+  },
+  {
+   "Criticality": "experimental",
+   "Highest-ranked": "FPGA",
+   "Utility": "0.7353"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "SUNCATCHER",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "moead",
+ "seed": 1008,
+ "cfg": {
+  "H": 8,
+  "T": 5,
+  "generations": 132
+ },
+ "budget": 16000,
+ "job_id": "SUNCATCHER_-_linear_moead_seed1008",
+ "hv": 107.15179638316724,
+ "n_returned": 82,
+ "n_front": 82,
+ "feasible_found": true,
+ "n_evals": 15960,
+ "n_feasible_evals": 9957,
+ "search_feasible_rate": 0.6238721804511278,
+ "runtime_s": 17.614827370038256,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

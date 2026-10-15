@@ -1,0 +1,249 @@
+workload,metric,roles
+IDS,Latency p99 (ms),"CONS,HV,NL"
+IDS,Success probability,CONS
+IDS,Quality (0-1),CONS
+IDS,Jitter (ms),LIN_ONLY
+IDS,Throughput (GFLOPS),"FC_S1,NL"
+IDS,Energy per task (J),NL
+IDS,Peak power (W),NL
+IDS,Power margin (W),LIN_ONLY
+IDS,Mass (kg),LIN_ONLY
+IDS,Thermal margin (C),NL
+IDS,Link availability,NL
+IDS,Contact duty cycle,NL
+IDS,Reduction ratio,LIN_ONLY
+IDS,TX power (W),LIN_ONLY
+IDS,Bandwidth (Mbps),LIN_ONLY
+IDS,DTN delay (s),LIN_ONLY
+IDS,Tier clearance,LIN_ONLY
+IDS,Security protocol level,NL
+IDS,Key mgmt feasibility,CONS
+IDS,TRL,"CONS,FC_S1"
+IDS,Rad dose margin (krad),"CONS,FC_S1"
+IDS,SDC rate (per hr),"FC_S1,NL"
+IDS,Compute availability,LIN_ONLY
+IDS,Recovery time (min),LIN_ONLY
+IDS,Cost per task (USD),"CONS,HV"
+IDS,NRE (kUSD),LIN_ONLY
+IDS,Ops hours/day,LIN_ONLY
+IDS,Autonomy compat,CONS
+IDS,PQC readiness,LIN_ONLY
+IDS,Ops minutes / 1000 tasks,LIN_ONLY
+IDS,Volume (cm3),LIN_ONLY
+IDS,Offload ratio,LIN_ONLY
+IDS,DTN enabled,LIN_ONLY
+IDS,Queue depth (tasks),LIN_ONLY
+IDS,Data sensitivity,LIN_ONLY
+IDS,Isolation support,LIN_ONLY
+IDS,Storage (GB),LIN_ONLY
+IDS,ECC level,LIN_ONLY
+IDS,FC_proc_type,FC_S1
+IDS,FC_bus_type,FC_S1
+IDS,FC_reconfigurable,FC_S1
+IDS,FC_mem_type,FC_S1
+SUNCATCHER,Latency p99 (ms),"HV,NL"
+SUNCATCHER,Success probability,LIN_ONLY
+SUNCATCHER,Quality score,LIN_ONLY
+SUNCATCHER,Jitter (ms),LIN_ONLY
+SUNCATCHER,Throughput (GFLOPS),"FC_S1,NL"
+SUNCATCHER,Energy per unit (J),NL
+SUNCATCHER,Peak power (W),NL
+SUNCATCHER,Power margin (W),LIN_ONLY
+SUNCATCHER,Thermal margin (C),NL
+SUNCATCHER,Link availability,NL
+SUNCATCHER,Contact duty cycle,NL
+SUNCATCHER,Reduction ratio,LIN_ONLY
+SUNCATCHER,TX power (W),LIN_ONLY
+SUNCATCHER,Bandwidth (Mbps),LIN_ONLY
+SUNCATCHER,DTN delay (s),LIN_ONLY
+SUNCATCHER,Security protocol level,NL
+SUNCATCHER,Key mgmt feasibility,CONS
+SUNCATCHER,TRL,"CONS,FC_S1"
+SUNCATCHER,Rad dose margin (krad),"CONS,FC_S1"
+SUNCATCHER,SDC rate (per hr),"FC_S1,NL"
+SUNCATCHER,Compute availability,LIN_ONLY
+SUNCATCHER,Recovery time (min),LIN_ONLY
+SUNCATCHER,Cost per unit (USD),"CONS,HV"
+SUNCATCHER,NRE (MUSD),LIN_ONLY
+SUNCATCHER,Ops min. / 1000 units,LIN_ONLY
+SUNCATCHER,Autonomy compat,LIN_ONLY
+SUNCATCHER,PQC readiness,LIN_ONLY
+SUNCATCHER,Compute mass (kg),LIN_ONLY
+SUNCATCHER,Orbital altitude (km),LIN_ONLY
+SUNCATCHER,Volume (cm3),LIN_ONLY
+SUNCATCHER,Offload ratio,LIN_ONLY
+SUNCATCHER,DTN enabled,LIN_ONLY
+SUNCATCHER,Queue depth (tasks),LIN_ONLY
+SUNCATCHER,Data sensitivity,LIN_ONLY
+SUNCATCHER,Isolation support,LIN_ONLY
+SUNCATCHER,Storage (GB),LIN_ONLY
+SUNCATCHER,ECC level,LIN_ONLY
+SUNCATCHER,FC_proc_type,FC_S1
+SUNCATCHER,FC_bus_type,FC_S1
+SUNCATCHER,FC_reconfigurable,FC_S1
+SUNCATCHER,FC_mem_type,FC_S1
+JWST,Latency (hrs),"CONS,HV,NL"
+JWST,Success probability,CONS
+JWST,Science quality (0-1),CONS
+JWST,Jitter (hrs),LIN_ONLY
+JWST,Throughput (GFLOPS),"FC_S1,NL"
+JWST,Energy per obs (kJ),NL
+JWST,Peak power (W),NL
+JWST,Power margin (W),LIN_ONLY
+JWST,Mass (kg),LIN_ONLY
+JWST,Thermal margin (C),NL
+JWST,Link availability,NL
+JWST,Contact duty cycle,NL
+JWST,Compression ratio,LIN_ONLY
+JWST,TX power (W),LIN_ONLY
+JWST,Downlink rate (Mbps),LIN_ONLY
+JWST,DTN delay (hrs),LIN_ONLY
+JWST,Tier clearance,LIN_ONLY
+JWST,Security protocol level,NL
+JWST,Key mgmt feasibility,CONS
+JWST,TRL,"CONS,FC_S1"
+JWST,Rad dose margin (krad),"CONS,FC_S1"
+JWST,SDC rate (per hr),"FC_S1,NL"
+JWST,Compute availability,LIN_ONLY
+JWST,Recovery time (min),LIN_ONLY
+JWST,Cost per obs (USD),HV
+JWST,NRE (MUSD),LIN_ONLY
+JWST,Ops hrs/day,LIN_ONLY
+JWST,Autonomy compat,LIN_ONLY
+JWST,PQC readiness,LIN_ONLY
+JWST,Volume (cm3),LIN_ONLY
+JWST,Offload ratio,LIN_ONLY
+JWST,DTN enabled,LIN_ONLY
+JWST,Queue depth (tasks),LIN_ONLY
+JWST,Data sensitivity,LIN_ONLY
+JWST,Isolation support,LIN_ONLY
+JWST,Storage (GB),LIN_ONLY
+JWST,ECC level,LIN_ONLY
+JWST,FC_proc_type,FC_S1
+JWST,FC_bus_type,FC_S1
+JWST,FC_reconfigurable,FC_S1
+JWST,FC_mem_type,FC_S1
+RST,Latency (hrs),"CONS,HV,NL"
+RST,Success probability,CONS
+RST,Science quality (0-1),CONS
+RST,Jitter (hrs),LIN_ONLY
+RST,Throughput (GFLOPS),"FC_S1,NL"
+RST,Energy per obs (kJ),NL
+RST,Peak power (W),NL
+RST,Power margin (W),LIN_ONLY
+RST,Mass (kg),LIN_ONLY
+RST,Thermal margin (C),NL
+RST,Link availability,NL
+RST,Contact duty cycle,NL
+RST,Compression ratio,LIN_ONLY
+RST,TX power (W),LIN_ONLY
+RST,Downlink rate (Mbps),LIN_ONLY
+RST,DTN delay (hrs),LIN_ONLY
+RST,Tier clearance,LIN_ONLY
+RST,Security protocol level,NL
+RST,Key mgmt feasibility,CONS
+RST,TRL,"CONS,FC_S1"
+RST,Rad dose margin (krad),"CONS,FC_S1"
+RST,SDC rate (per hr),"FC_S1,NL"
+RST,Compute availability,LIN_ONLY
+RST,Recovery time (min),LIN_ONLY
+RST,Cost per obs (USD),HV
+RST,NRE (MUSD),LIN_ONLY
+RST,Ops hrs/day,LIN_ONLY
+RST,Autonomy compat,LIN_ONLY
+RST,PQC readiness,LIN_ONLY
+RST,Volume (cm3),LIN_ONLY
+RST,Offload ratio,LIN_ONLY
+RST,DTN enabled,LIN_ONLY
+RST,Queue depth (tasks),LIN_ONLY
+RST,Data sensitivity,LIN_ONLY
+RST,Isolation support,LIN_ONLY
+RST,Storage (GB),LIN_ONLY
+RST,ECC level,LIN_ONLY
+RST,FC_proc_type,FC_S1
+RST,FC_bus_type,FC_S1
+RST,FC_reconfigurable,FC_S1
+RST,FC_mem_type,FC_S1
+LEO_OOS,Latency p99 (ms),"CONS,HV,NL"
+LEO_OOS,Success probability,CONS
+LEO_OOS,Quality (0-1),CONS
+LEO_OOS,Jitter (ms),LIN_ONLY
+LEO_OOS,Throughput (GFLOPS),"FC_S1,NL"
+LEO_OOS,Energy per task (J),NL
+LEO_OOS,Peak power (W),NL
+LEO_OOS,Power margin (W),LIN_ONLY
+LEO_OOS,Mass (kg),LIN_ONLY
+LEO_OOS,Thermal margin (C),NL
+LEO_OOS,Link availability,NL
+LEO_OOS,Contact duty cycle,NL
+LEO_OOS,Reduction ratio,LIN_ONLY
+LEO_OOS,TX power (W),LIN_ONLY
+LEO_OOS,Bandwidth (Mbps),LIN_ONLY
+LEO_OOS,DTN delay (s),LIN_ONLY
+LEO_OOS,Tier clearance,LIN_ONLY
+LEO_OOS,Security protocol level,NL
+LEO_OOS,Key mgmt feasibility,CONS
+LEO_OOS,TRL,"CONS,FC_S1"
+LEO_OOS,Rad dose margin (krad),"CONS,FC_S1"
+LEO_OOS,SDC rate (per hr),"FC_S1,NL"
+LEO_OOS,Compute availability,LIN_ONLY
+LEO_OOS,Recovery time (min),LIN_ONLY
+LEO_OOS,Cost per task (USD),"CONS,HV"
+LEO_OOS,NRE (kUSD),LIN_ONLY
+LEO_OOS,Ops hours/day,LIN_ONLY
+LEO_OOS,Autonomy compat,CONS
+LEO_OOS,PQC readiness,LIN_ONLY
+LEO_OOS,Ops minutes / 1000 tasks,LIN_ONLY
+LEO_OOS,Volume (cm3),LIN_ONLY
+LEO_OOS,Offload ratio,LIN_ONLY
+LEO_OOS,DTN enabled,LIN_ONLY
+LEO_OOS,Queue depth (tasks),LIN_ONLY
+LEO_OOS,Data sensitivity,LIN_ONLY
+LEO_OOS,Isolation support,LIN_ONLY
+LEO_OOS,Storage (GB),LIN_ONLY
+LEO_OOS,ECC level,LIN_ONLY
+LEO_OOS,FC_proc_type,FC_S1
+LEO_OOS,FC_bus_type,FC_S1
+LEO_OOS,FC_reconfigurable,FC_S1
+LEO_OOS,FC_mem_type,FC_S1
+DEEP_SPACE_CRUISE,Latency (hrs),"CONS,HV,NL"
+DEEP_SPACE_CRUISE,Success probability,CONS
+DEEP_SPACE_CRUISE,Science quality (0-1),CONS
+DEEP_SPACE_CRUISE,Jitter (hrs),LIN_ONLY
+DEEP_SPACE_CRUISE,Throughput (GFLOPS),"FC_S1,NL"
+DEEP_SPACE_CRUISE,Energy per obs (kJ),NL
+DEEP_SPACE_CRUISE,Peak power (W),NL
+DEEP_SPACE_CRUISE,Power margin (W),LIN_ONLY
+DEEP_SPACE_CRUISE,Mass (kg),LIN_ONLY
+DEEP_SPACE_CRUISE,Thermal margin (C),NL
+DEEP_SPACE_CRUISE,Link availability,NL
+DEEP_SPACE_CRUISE,Contact duty cycle,NL
+DEEP_SPACE_CRUISE,Compression ratio,LIN_ONLY
+DEEP_SPACE_CRUISE,TX power (W),LIN_ONLY
+DEEP_SPACE_CRUISE,Downlink rate (Mbps),LIN_ONLY
+DEEP_SPACE_CRUISE,DTN delay (hrs),LIN_ONLY
+DEEP_SPACE_CRUISE,Tier clearance,LIN_ONLY
+DEEP_SPACE_CRUISE,Security protocol level,NL
+DEEP_SPACE_CRUISE,Key mgmt feasibility,CONS
+DEEP_SPACE_CRUISE,TRL,"CONS,FC_S1"
+DEEP_SPACE_CRUISE,Rad dose margin (krad),"CONS,FC_S1"
+DEEP_SPACE_CRUISE,SDC rate (per hr),"FC_S1,NL"
+DEEP_SPACE_CRUISE,Compute availability,LIN_ONLY
+DEEP_SPACE_CRUISE,Recovery time (min),LIN_ONLY
+DEEP_SPACE_CRUISE,Cost per obs (USD),HV
+DEEP_SPACE_CRUISE,NRE (MUSD),LIN_ONLY
+DEEP_SPACE_CRUISE,Ops hrs/day,LIN_ONLY
+DEEP_SPACE_CRUISE,Autonomy compat,LIN_ONLY
+DEEP_SPACE_CRUISE,PQC readiness,LIN_ONLY
+DEEP_SPACE_CRUISE,Volume (cm3),LIN_ONLY
+DEEP_SPACE_CRUISE,Offload ratio,LIN_ONLY
+DEEP_SPACE_CRUISE,DTN enabled,LIN_ONLY
+DEEP_SPACE_CRUISE,Queue depth (tasks),LIN_ONLY
+DEEP_SPACE_CRUISE,Data sensitivity,LIN_ONLY
+DEEP_SPACE_CRUISE,Isolation support,LIN_ONLY
+DEEP_SPACE_CRUISE,Storage (GB),LIN_ONLY
+DEEP_SPACE_CRUISE,ECC level,LIN_ONLY
+DEEP_SPACE_CRUISE,FC_proc_type,FC_S1
+DEEP_SPACE_CRUISE,FC_bus_type,FC_S1
+DEEP_SPACE_CRUISE,FC_reconfigurable,FC_S1
+DEEP_SPACE_CRUISE,FC_mem_type,FC_S1

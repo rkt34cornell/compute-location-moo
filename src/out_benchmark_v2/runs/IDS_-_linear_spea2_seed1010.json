@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "IDS",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "spea2",
+ "seed": 1010,
+ "cfg": {
+  "pop_size": 80,
+  "archive_size": 80,
+  "generations": 199
+ },
+ "budget": 16000,
+ "job_id": "IDS_-_linear_spea2_seed1010",
+ "hv": 285.6402173038534,
+ "n_returned": 80,
+ "n_front": 80,
+ "feasible_found": true,
+ "n_evals": 16000,
+ "n_feasible_evals": 15734,
+ "search_feasible_rate": 0.983375,
+ "runtime_s": 28.216022294014692,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

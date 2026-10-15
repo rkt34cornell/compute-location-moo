@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "IDS",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "moead",
+ "seed": 1000,
+ "cfg": {
+  "H": 8,
+  "T": 5,
+  "generations": 132
+ },
+ "budget": 16000,
+ "job_id": "IDS_-_linear_moead_seed1000",
+ "hv": 304.56284532040155,
+ "n_returned": 118,
+ "n_front": 118,
+ "feasible_found": true,
+ "n_evals": 15960,
+ "n_feasible_evals": 15634,
+ "search_feasible_rate": 0.9795739348370928,
+ "runtime_s": 19.02972677408252,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

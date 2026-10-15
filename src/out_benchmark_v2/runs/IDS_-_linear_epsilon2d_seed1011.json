@@ -1,0 +1,33 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "IDS",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "epsilon2d",
+ "seed": 1011,
+ "cfg": {
+  "n_levels": 28,
+  "samples_per_level": 500
+ },
+ "budget": 16000,
+ "job_id": "IDS_-_linear_epsilon2d_seed1011",
+ "hv": 325.68507092630443,
+ "n_returned": 17,
+ "n_front": 17,
+ "feasible_found": true,
+ "n_evals": 14000,
+ "n_feasible_evals": 4535,
+ "search_feasible_rate": 0.32392857142857145,
+ "runtime_s": 5.956410232000053,
+ "epsilon_diag": {
+  "levels_satisfied": 17,
+  "n_levels": 28,
+  "fallback": false,
+  "any_feasible": true
+ },
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

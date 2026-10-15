@@ -1,0 +1,27 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "SUNCATCHER",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "random",
+ "seed": 1004,
+ "cfg": {
+  "n": 16000
+ },
+ "budget": 16000,
+ "job_id": "SUNCATCHER_-_linear_random_seed1004",
+ "hv": 175.0,
+ "n_returned": 12,
+ "n_front": 12,
+ "feasible_found": true,
+ "n_evals": 16004,
+ "n_feasible_evals": 12,
+ "search_feasible_rate": 0.0007498125468632841,
+ "runtime_s": 8.839222111040726,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

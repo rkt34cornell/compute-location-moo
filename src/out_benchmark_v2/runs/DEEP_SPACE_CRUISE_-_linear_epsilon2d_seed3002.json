@@ -1,0 +1,33 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "DEEP_SPACE_CRUISE",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "epsilon2d",
+ "seed": 3002,
+ "cfg": {
+  "n_levels": 28,
+  "samples_per_level": 500
+ },
+ "budget": 16000,
+ "job_id": "DEEP_SPACE_CRUISE_-_linear_epsilon2d_seed3002",
+ "hv": 13.317193855962026,
+ "n_returned": 16,
+ "n_front": 16,
+ "feasible_found": true,
+ "n_evals": 14000,
+ "n_feasible_evals": 2882,
+ "search_feasible_rate": 0.20585714285714285,
+ "runtime_s": 4.95713805698324,
+ "epsilon_diag": {
+  "levels_satisfied": 16,
+  "n_levels": 28,
+  "fallback": false,
+  "any_feasible": true
+ },
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

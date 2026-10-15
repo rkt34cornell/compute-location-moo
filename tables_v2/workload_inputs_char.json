@@ -1,0 +1,78 @@
+{
+ "table": "workload_inputs_char",
+ "caption": "Workload characteristics as used by the optimizer: number of admissible destinations $J$, task arrival rate $\\lambda$, per-task compute intensity $\\theta$, mission life (which sets the radiation-violation scale), and number of hard thresholds (listed in Table~\\ref{tab:v2_workload_constraints}). Destinations and per-destination values are listed in Tables~\\ref{tab:v2_tier_inputs_perf} and~\\ref{tab:v2_tier_inputs_eng}, and the sunlit duty cycles $\\eta_{\\mathrm{sun}}$ are given with the eclipse-gating coupling. Workloads are shown with short display names: Suncatcher (SUNCATCHER), LEO OOS (LEO\\_OOS), Deep-Space Cruise (DEEP\\_SPACE\\_CRUISE), Roman Transient (ROMAN\\_TRANSIENT), and Roman Follow-Up (ROMAN\\_T\\_FOLLOWUP).",
+ "columns": [
+  "Workload",
+  "J",
+  "lambda (task/s)",
+  "theta (GFLOP/task)",
+  "Mission life (yr; sets radiation-violation scale)",
+  "No. of thresholds"
+ ],
+ "rows": [
+  {
+   "Workload": "IDS",
+   "J": 4,
+   "lambda (task/s)": "500.0",
+   "theta (GFLOP/task)": "0.001000",
+   "Mission life (yr; sets radiation-violation scale)": 5,
+   "No. of thresholds": 8
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "J": 4,
+   "lambda (task/s)": "1.000e-04",
+   "theta (GFLOP/task)": "5.000e+06",
+   "Mission life (yr; sets radiation-violation scale)": 10,
+   "No. of thresholds": 4
+  },
+  {
+   "Workload": "JWST",
+   "J": 3,
+   "lambda (task/s)": "2.778e-04",
+   "theta (GFLOP/task)": "800.0",
+   "Mission life (yr; sets radiation-violation scale)": 10,
+   "No. of thresholds": 6
+  },
+  {
+   "Workload": "RST",
+   "J": 3,
+   "lambda (task/s)": "0.001667",
+   "theta (GFLOP/task)": "300.0",
+   "Mission life (yr; sets radiation-violation scale)": 6,
+   "No. of thresholds": 6
+  },
+  {
+   "Workload": "LEO_OOS",
+   "J": 4,
+   "lambda (task/s)": "10.00",
+   "theta (GFLOP/task)": "20.00",
+   "Mission life (yr; sets radiation-violation scale)": 5,
+   "No. of thresholds": 8
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "J": 3,
+   "lambda (task/s)": "0.01667",
+   "theta (GFLOP/task)": "50.00",
+   "Mission life (yr; sets radiation-violation scale)": 7,
+   "No. of thresholds": 6
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "J": 4,
+   "lambda (task/s)": "0.01000",
+   "theta (GFLOP/task)": "100.0",
+   "Mission life (yr; sets radiation-violation scale)": 5,
+   "No. of thresholds": 8
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "J": 4,
+   "lambda (task/s)": "0.01000",
+   "theta (GFLOP/task)": "100.0",
+   "Mission life (yr; sets radiation-violation scale)": 5,
+   "No. of thresholds": 8
+  }
+ ]
+}

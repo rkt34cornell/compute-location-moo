@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "JWST",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "moead",
+ "seed": 1009,
+ "cfg": {
+  "H": 8,
+  "T": 5,
+  "generations": 132
+ },
+ "budget": 16000,
+ "job_id": "JWST_-_linear_moead_seed1009",
+ "hv": 839.2672742377375,
+ "n_returned": 115,
+ "n_front": 115,
+ "feasible_found": true,
+ "n_evals": 15960,
+ "n_feasible_evals": 15601,
+ "search_feasible_rate": 0.9775062656641604,
+ "runtime_s": 15.763448915909976,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

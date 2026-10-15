@@ -1,0 +1,27 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "DEEP_SPACE_CRUISE",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "random",
+ "seed": 3013,
+ "cfg": {
+  "n": 16000
+ },
+ "budget": 16000,
+ "job_id": "DEEP_SPACE_CRUISE_-_linear_random_seed3013",
+ "hv": 13.5,
+ "n_returned": 3189,
+ "n_front": 3189,
+ "feasible_found": true,
+ "n_evals": 16003,
+ "n_feasible_evals": 3189,
+ "search_feasible_rate": 0.1992751359120165,
+ "runtime_s": 12.03958918491844,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

@@ -1,0 +1,105 @@
+{
+ "table": "workload_inputs_cons",
+ "caption": "Hard threshold constraints by workload, applied to policy-weighted aggregates (-- = no threshold). ROMAN Variant~B sets the ODC TRL to 7, and Variant~C removes the ODC. Workload display names as in Table~\\ref{tab:v2_workload_inputs}.",
+ "columns": [
+  "Workload",
+  "Latency",
+  "Success",
+  "Quality",
+  "Cost",
+  "Rad. margin",
+  "TRL",
+  "Autonomy",
+  "Key mgmt"
+ ],
+ "rows": [
+  {
+   "Workload": "IDS",
+   "Latency": "<= 250 ms",
+   "Success": ">= 0.9200",
+   "Quality": ">= 0.9000",
+   "Cost": "<= 3.000 USD/task",
+   "Rad. margin": ">= 0",
+   "TRL": ">= 6.000",
+   "Autonomy": ">= 0.4000",
+   "Key mgmt": ">= 0.6500"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Latency": "--",
+   "Success": "--",
+   "Quality": "--",
+   "Cost": "<= 14.00 USD/unit",
+   "Rad. margin": ">= 0",
+   "TRL": ">= 4.000",
+   "Autonomy": "--",
+   "Key mgmt": ">= 0.7000"
+  },
+  {
+   "Workload": "JWST",
+   "Latency": "<= 48.00 h",
+   "Success": ">= 0.9800",
+   "Quality": ">= 0.8000",
+   "Cost": "--",
+   "Rad. margin": ">= 0",
+   "TRL": ">= 8.000",
+   "Autonomy": "--",
+   "Key mgmt": ">= 0.8000"
+  },
+  {
+   "Workload": "RST",
+   "Latency": "<= 24.00 h",
+   "Success": ">= 0.9900",
+   "Quality": ">= 0.7500",
+   "Cost": "--",
+   "Rad. margin": ">= 0",
+   "TRL": ">= 7.000",
+   "Autonomy": "--",
+   "Key mgmt": ">= 0.8500"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Latency": "<= 300 ms",
+   "Success": ">= 0.9500",
+   "Quality": ">= 0.9200",
+   "Cost": "<= 2.000 USD/task",
+   "Rad. margin": ">= 0",
+   "TRL": ">= 7.000",
+   "Autonomy": ">= 0.7000",
+   "Key mgmt": ">= 0.7000"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Latency": "<= 4.000 h",
+   "Success": ">= 0.9500",
+   "Quality": ">= 0.8600",
+   "Cost": "--",
+   "Rad. margin": ">= 0",
+   "TRL": ">= 7.000",
+   "Autonomy": "--",
+   "Key mgmt": ">= 0.7000"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Latency": "<= 8.640e+07 ms",
+   "Success": ">= 0.9500",
+   "Quality": ">= 0.8500",
+   "Cost": "<= 0.1000 USD/task",
+   "Rad. margin": ">= 0",
+   "TRL": ">= 6.000",
+   "Autonomy": ">= 0.3000",
+   "Key mgmt": ">= 0.6000"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Latency": "<= 3.600e+06 ms",
+   "Success": ">= 0.9500",
+   "Quality": ">= 0.8500",
+   "Cost": "<= 0.1000 USD/task",
+   "Rad. margin": ">= 0",
+   "TRL": ">= 6.000",
+   "Autonomy": ">= 0.3000",
+   "Key mgmt": ">= 0.6000"
+  }
+ ]
+}

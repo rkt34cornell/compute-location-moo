@@ -1,0 +1,33 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "roman",
+ "workload": "ROMAN_TRANSIENT",
+ "variant": "C",
+ "evaluator": "nonlinear",
+ "method": "epsilon2d",
+ "seed": 2011,
+ "cfg": {
+  "n_levels": 20,
+  "samples_per_level": 500
+ },
+ "budget": 12000,
+ "job_id": "ROMAN_TRANSIENT_C_nonlinear_epsilon2d_seed2011",
+ "hv": 10932666.68593512,
+ "n_returned": 16,
+ "n_front": 16,
+ "feasible_found": true,
+ "n_evals": 10000,
+ "n_feasible_evals": 2653,
+ "search_feasible_rate": 0.2653,
+ "runtime_s": 5.179921732051298,
+ "epsilon_diag": {
+  "levels_satisfied": 16,
+  "n_levels": 20,
+  "fallback": false,
+  "any_feasible": true
+ },
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

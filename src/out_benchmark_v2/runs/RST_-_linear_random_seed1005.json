@@ -1,0 +1,27 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "RST",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "random",
+ "seed": 1005,
+ "cfg": {
+  "n": 16000
+ },
+ "budget": 16000,
+ "job_id": "RST_-_linear_random_seed1005",
+ "hv": 550.999200616136,
+ "n_returned": 14889,
+ "n_front": 14889,
+ "feasible_found": true,
+ "n_evals": 16003,
+ "n_feasible_evals": 14889,
+ "search_feasible_rate": 0.9303880522402049,
+ "runtime_s": 189.67880213202443,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

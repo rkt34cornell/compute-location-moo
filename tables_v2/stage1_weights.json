@@ -1,0 +1,60 @@
+{
+ "table": "stage1_weights",
+ "caption": "Stage~1 weights (sum 1.000); all five processor profiles are complete.",
+ "columns": [
+  "Attribute",
+  "Weight",
+  "Bounds",
+  "Inverted"
+ ],
+ "rows": [
+  {
+   "Attribute": "FC_proc_type",
+   "Weight": "0.2000",
+   "Bounds": "[0, 1.000]",
+   "Inverted": "no"
+  },
+  {
+   "Attribute": "FC_bus_type",
+   "Weight": "0.1000",
+   "Bounds": "[0, 1.000]",
+   "Inverted": "no"
+  },
+  {
+   "Attribute": "FC_reconfigurable",
+   "Weight": "0.1000",
+   "Bounds": "[0, 1.000]",
+   "Inverted": "no"
+  },
+  {
+   "Attribute": "FC_mem_type",
+   "Weight": "0.1500",
+   "Bounds": "[0, 1.000]",
+   "Inverted": "no"
+  },
+  {
+   "Attribute": "throughput_gflops",
+   "Weight": "0.1500",
+   "Bounds": "[0.05000, 100.0]",
+   "Inverted": "no"
+  },
+  {
+   "Attribute": "TRL",
+   "Weight": "0.1500",
+   "Bounds": "[1.000, 9.000]",
+   "Inverted": "no"
+  },
+  {
+   "Attribute": "SDC rate (per hr)",
+   "Weight": "0.1000",
+   "Bounds": "[0.001000, 0.1500]",
+   "Inverted": "yes"
+  },
+  {
+   "Attribute": "Rad dose margin (krad)",
+   "Weight": "0.05000",
+   "Bounds": "[-30.00, 80.00]",
+   "Inverted": "no"
+  }
+ ]
+}

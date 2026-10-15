@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "DEEP_SPACE_CRUISE",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "moead",
+ "seed": 3017,
+ "cfg": {
+  "H": 8,
+  "T": 5,
+  "generations": 132
+ },
+ "budget": 16000,
+ "job_id": "DEEP_SPACE_CRUISE_-_linear_moead_seed3017",
+ "hv": 13.07709346737989,
+ "n_returned": 85,
+ "n_front": 85,
+ "feasible_found": true,
+ "n_evals": 15960,
+ "n_feasible_evals": 13000,
+ "search_feasible_rate": 0.8145363408521303,
+ "runtime_s": 17.04862200189382,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

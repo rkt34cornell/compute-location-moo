@@ -1,0 +1,26 @@
+{
+ "table": "eta_sun",
+ "caption": "Sunlit duty cycle $\\eta_{\\mathrm{sun}}$ (Effect 8); all other destinations use 1.",
+ "columns": [
+  "Workload",
+  "Destination",
+  "eta_sun"
+ ],
+ "rows": [
+  {
+   "Workload": "SUNCATCHER",
+   "Destination": "LEO_TPU_CLUSTER",
+   "eta_sun": "0.6300"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Destination": "HYBRID_SPLIT",
+   "eta_sun": "0.8000"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Destination": "ODC",
+   "eta_sun": "0.6300"
+  }
+ ]
+}

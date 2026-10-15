@@ -1,0 +1,306 @@
+{
+ "table": "tier_inputs_eng",
+ "caption": "Per-destination reliability, qualification, quality, and cost inputs (workload display names as in Table~\\ref{tab:v2_workload_inputs}).",
+ "columns": [
+  "Workload",
+  "Destination",
+  "Rad margin (krad)",
+  "TRL",
+  "SDC (/hr)",
+  "Success prob.",
+  "Quality",
+  "Cost"
+ ],
+ "rows": [
+  {
+   "Workload": "IDS",
+   "Destination": "FC",
+   "Rad margin (krad)": "50.00",
+   "TRL": "8.000",
+   "SDC (/hr)": "0.005000",
+   "Success prob.": "0.9600",
+   "Quality": "0.9300",
+   "Cost": "2.400"
+  },
+  {
+   "Workload": "IDS",
+   "Destination": "ODC",
+   "Rad margin (krad)": "-15.00",
+   "TRL": "4.000",
+   "SDC (/hr)": "0.08000",
+   "Success prob.": "0.9300",
+   "Quality": "0.9100",
+   "Cost": "1.600"
+  },
+  {
+   "Workload": "IDS",
+   "Destination": "GSE",
+   "Rad margin (krad)": "1.000",
+   "TRL": "9.000",
+   "SDC (/hr)": "0.001000",
+   "Success prob.": "0.9800",
+   "Quality": "0.9500",
+   "Cost": "0.9000"
+  },
+  {
+   "Workload": "IDS",
+   "Destination": "TDC",
+   "Rad margin (krad)": "1.000",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-04",
+   "Success prob.": "0.9000",
+   "Quality": "0.8800",
+   "Cost": "0.4000"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Destination": "LEO_TPU_CLUSTER",
+   "Rad margin (krad)": "-70.00",
+   "TRL": "3.000",
+   "SDC (/hr)": "0.1200",
+   "Success prob.": "0.9950",
+   "Quality": "--",
+   "Cost": "10.00"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Destination": "GROUND_TPU_DC",
+   "Rad margin (krad)": "1.000",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-04",
+   "Success prob.": "0.9990",
+   "Quality": "--",
+   "Cost": "12.00"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Destination": "GROUND_GPU_DC",
+   "Rad margin (krad)": "1.000",
+   "TRL": "9.000",
+   "SDC (/hr)": "2.000e-04",
+   "Success prob.": "0.9980",
+   "Quality": "--",
+   "Cost": "15.00"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Destination": "HYBRID_SPLIT",
+   "Rad margin (krad)": "-35.00",
+   "TRL": "4.000",
+   "SDC (/hr)": "0.06000",
+   "Success prob.": "0.9930",
+   "Quality": "--",
+   "Cost": "13.00"
+  },
+  {
+   "Workload": "JWST",
+   "Destination": "FC_ICDH",
+   "Rad margin (krad)": "980.0",
+   "TRL": "9.000",
+   "SDC (/hr)": "0.002000",
+   "Success prob.": "0.9970",
+   "Quality": "0.6500",
+   "Cost": "15.00"
+  },
+  {
+   "Workload": "JWST",
+   "Destination": "GSE_STSCI",
+   "Rad margin (krad)": "1.000",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-04",
+   "Success prob.": "0.9920",
+   "Quality": "0.8500",
+   "Cost": "3.000"
+  },
+  {
+   "Workload": "JWST",
+   "Destination": "TDC_MAST",
+   "Rad margin (krad)": "1.000",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-05",
+   "Success prob.": "0.9950",
+   "Quality": "0.9900",
+   "Cost": "0.5000"
+  },
+  {
+   "Workload": "RST",
+   "Destination": "FC_ROMAN",
+   "Rad margin (krad)": "188.0",
+   "TRL": "8.000",
+   "SDC (/hr)": "0.003000",
+   "Success prob.": "0.9960",
+   "Quality": "0.7000",
+   "Cost": "20.00"
+  },
+  {
+   "Workload": "RST",
+   "Destination": "GSE_GODDARD",
+   "Rad margin (krad)": "1.000",
+   "TRL": "8.000",
+   "SDC (/hr)": "1.000e-04",
+   "Success prob.": "0.9930",
+   "Quality": "0.8200",
+   "Cost": "4.000"
+  },
+  {
+   "Workload": "RST",
+   "Destination": "TDC_IPAC",
+   "Rad margin (krad)": "1.000",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-05",
+   "Success prob.": "0.9970",
+   "Quality": "0.9900",
+   "Cost": "0.5000"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Destination": "FC",
+   "Rad margin (krad)": "50.00",
+   "TRL": "8.000",
+   "SDC (/hr)": "0.005000",
+   "Success prob.": "0.9400",
+   "Quality": "0.9100",
+   "Cost": "0.8000"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Destination": "ODC",
+   "Rad margin (krad)": "-15.00",
+   "TRL": "5.000",
+   "SDC (/hr)": "0.08000",
+   "Success prob.": "0.9600",
+   "Quality": "0.9500",
+   "Cost": "1.400"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Destination": "GSE",
+   "Rad margin (krad)": "1.000",
+   "TRL": "9.000",
+   "SDC (/hr)": "0.001000",
+   "Success prob.": "0.9700",
+   "Quality": "0.9600",
+   "Cost": "1.600"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Destination": "TDC",
+   "Rad margin (krad)": "1.000",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-04",
+   "Success prob.": "0.9800",
+   "Quality": "0.9700",
+   "Cost": "2.400"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Destination": "FC_DSCRUISE",
+   "Rad margin (krad)": "80.00",
+   "TRL": "9.000",
+   "SDC (/hr)": "0.002000",
+   "Success prob.": "0.9600",
+   "Quality": "0.7800",
+   "Cost": "2.000"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Destination": "GSE_DSN",
+   "Rad margin (krad)": "1000",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-04",
+   "Success prob.": "0.9700",
+   "Quality": "0.8600",
+   "Cost": "6.000"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Destination": "TDC_JPL",
+   "Rad margin (krad)": "1000",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-05",
+   "Success prob.": "0.9800",
+   "Quality": "0.9300",
+   "Cost": "12.00"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Destination": "FC",
+   "Rad margin (krad)": "90.00",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-07",
+   "Success prob.": "0.9700",
+   "Quality": "0.5500",
+   "Cost": "0.001000"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Destination": "ODC",
+   "Rad margin (krad)": "15.00",
+   "TRL": "3.000",
+   "SDC (/hr)": "1.000e-04",
+   "Success prob.": "0.9300",
+   "Quality": "0.8500",
+   "Cost": "0.05000"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Destination": "GSE",
+   "Rad margin (krad)": "1.000e+06",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-09",
+   "Success prob.": "0.9600",
+   "Quality": "0.9200",
+   "Cost": "0.01000"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT",
+   "Destination": "TDC",
+   "Rad margin (krad)": "1.000e+06",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-10",
+   "Success prob.": "0.9900",
+   "Quality": "0.9900",
+   "Cost": "0.05000"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Destination": "FC",
+   "Rad margin (krad)": "90.00",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-07",
+   "Success prob.": "0.9700",
+   "Quality": "0.5500",
+   "Cost": "0.001000"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Destination": "ODC",
+   "Rad margin (krad)": "15.00",
+   "TRL": "3.000",
+   "SDC (/hr)": "1.000e-04",
+   "Success prob.": "0.9300",
+   "Quality": "0.8500",
+   "Cost": "0.05000"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Destination": "GSE",
+   "Rad margin (krad)": "1.000e+06",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-09",
+   "Success prob.": "0.9600",
+   "Quality": "0.9200",
+   "Cost": "0.01000"
+  },
+  {
+   "Workload": "ROMAN_TRANSIENT_FOLLOWUP",
+   "Destination": "TDC",
+   "Rad margin (krad)": "1.000e+06",
+   "TRL": "9.000",
+   "SDC (/hr)": "1.000e-10",
+   "Success prob.": "0.9900",
+   "Quality": "0.9900",
+   "Cost": "0.05000"
+  }
+ ]
+}

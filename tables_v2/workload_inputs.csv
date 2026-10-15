@@ -1,0 +1,9 @@
+Workload,J,Destinations,lambda (task/s),theta (GFLOP/task),eta_sun,lambda_burst,Mission life (yr; sets radiation-violation scale),No. of thresholds,Latency,Success,Quality,Cost,Rad. margin,TRL,Autonomy,Key mgmt
+IDS,4,FC/ODC/GSE/TDC,500.0,0.001000,--,--,5,8,<= 250 ms,>= 0.9200,>= 0.9000,<= 3.000 USD/task,>= 0,>= 6.000,>= 0.4000,>= 0.6500
+SUNCATCHER,4,LEO_TPU_CLUSTER/GROUND_TPU_DC/GROUND_GPU_DC/HYBRID_SPLIT,1.000e-04,5.000e+06,LEO_TPU_CLUSTER=0.63;HYBRID_SPLIT=0.8,--,10,4,--,--,--,<= 14.00 USD/unit,>= 0,>= 4.000,--,>= 0.7000
+JWST,3,FC_ICDH/GSE_STSCI/TDC_MAST,2.778e-04,800.0,--,--,10,6,<= 48.00 h,>= 0.9800,>= 0.8000,--,>= 0,>= 8.000,--,>= 0.8000
+RST,3,FC_ROMAN/GSE_GODDARD/TDC_IPAC,0.001667,300.0,--,--,6,6,<= 24.00 h,>= 0.9900,>= 0.7500,--,>= 0,>= 7.000,--,>= 0.8500
+LEO_OOS,4,FC/ODC/GSE/TDC,10.00,20.00,ODC=0.63,--,5,8,<= 300 ms,>= 0.9500,>= 0.9200,<= 2.000 USD/task,>= 0,>= 7.000,>= 0.7000,>= 0.7000
+DEEP_SPACE_CRUISE,3,FC_DSCRUISE/GSE_DSN/TDC_JPL,0.01667,50.00,--,--,7,6,<= 4.000 h,>= 0.9500,>= 0.8600,--,>= 0,>= 7.000,--,>= 0.7000
+ROMAN_TRANSIENT,4,FC/ODC/GSE/TDC,0.01000,100.0,--,0.1000,5,8,<= 8.640e+07 ms,>= 0.9500,>= 0.8500,<= 0.1000 USD/task,>= 0,>= 6.000,>= 0.3000,>= 0.6000
+ROMAN_TRANSIENT_FOLLOWUP,4,FC/ODC/GSE/TDC,0.01000,100.0,--,0.1000,5,8,<= 3.600e+06 ms,>= 0.9500,>= 0.8500,<= 0.1000 USD/task,>= 0,>= 6.000,>= 0.3000,>= 0.6000

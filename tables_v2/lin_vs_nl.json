@@ -1,0 +1,123 @@
+{
+ "table": "lin_vs_nl",
+ "caption": "Linear-optimal policies remaining feasible under the nonlinear evaluator.",
+ "columns": [
+  "label",
+  "n_picks",
+  "n_picks_nl_feasible",
+  "pct_picks_nl_feasible",
+  "n_front_points",
+  "pct_all_front_points_nl_feasible",
+  "nl_latency_median_of_picks"
+ ],
+ "rows": [
+  {
+   "label": "SUNCATCHER",
+   "n_picks": "120",
+   "n_picks_nl_feasible": "120",
+   "pct_picks_nl_feasible": "100.0",
+   "n_front_points": "12216",
+   "pct_all_front_points_nl_feasible": "100.0",
+   "nl_latency_median_of_picks": "4797524.650032757"
+  },
+  {
+   "label": "LEO_OOS",
+   "n_picks": "120",
+   "n_picks_nl_feasible": "0",
+   "pct_picks_nl_feasible": "0.0",
+   "n_front_points": "21146",
+   "pct_all_front_points_nl_feasible": "0.0",
+   "nl_latency_median_of_picks": "316467.07619160245"
+  },
+  {
+   "label": "IDS",
+   "n_picks": "120",
+   "n_picks_nl_feasible": "120",
+   "pct_picks_nl_feasible": "100.0",
+   "n_front_points": "116011",
+   "pct_all_front_points_nl_feasible": "74.58",
+   "nl_latency_median_of_picks": "91.1189968868907"
+  },
+  {
+   "label": "DEEP_SPACE_CRUISE",
+   "n_picks": "120",
+   "n_picks_nl_feasible": "0",
+   "pct_picks_nl_feasible": "0.0",
+   "n_front_points": "76377",
+   "pct_all_front_points_nl_feasible": "0.74",
+   "nl_latency_median_of_picks": "28.571458764665287"
+  },
+  {
+   "label": "JWST",
+   "n_picks": "120",
+   "n_picks_nl_feasible": "120",
+   "pct_picks_nl_feasible": "100.0",
+   "n_front_points": "226414",
+   "pct_all_front_points_nl_feasible": "100.0",
+   "nl_latency_median_of_picks": "34.013730286121934"
+  },
+  {
+   "label": "RST",
+   "n_picks": "120",
+   "n_picks_nl_feasible": "120",
+   "pct_picks_nl_feasible": "100.0",
+   "n_front_points": "309648",
+   "pct_all_front_points_nl_feasible": "100.0",
+   "nl_latency_median_of_picks": "19.753103254769925"
+  },
+  {
+   "label": "ROMAN_TRANSIENT|A",
+   "n_picks": "120",
+   "n_picks_nl_feasible": "120",
+   "pct_picks_nl_feasible": "100.0",
+   "n_front_points": "84653",
+   "pct_all_front_points_nl_feasible": "100.0",
+   "nl_latency_median_of_picks": "129502.4706420706"
+  },
+  {
+   "label": "ROMAN_TRANSIENT|B",
+   "n_picks": "120",
+   "n_picks_nl_feasible": "120",
+   "pct_picks_nl_feasible": "100.0",
+   "n_front_points": "88656",
+   "pct_all_front_points_nl_feasible": "100.0",
+   "nl_latency_median_of_picks": "132106.26270269084"
+  },
+  {
+   "label": "ROMAN_TRANSIENT|C",
+   "n_picks": "120",
+   "n_picks_nl_feasible": "120",
+   "pct_picks_nl_feasible": "100.0",
+   "n_front_points": "71397",
+   "pct_all_front_points_nl_feasible": "100.0",
+   "nl_latency_median_of_picks": "183721.59737276443"
+  },
+  {
+   "label": "ROMAN_TRANSIENT_FOLLOWUP|A",
+   "n_picks": "120",
+   "n_picks_nl_feasible": "120",
+   "pct_picks_nl_feasible": "100.0",
+   "n_front_points": "84653",
+   "pct_all_front_points_nl_feasible": "100.0",
+   "nl_latency_median_of_picks": "129502.4706420706"
+  },
+  {
+   "label": "ROMAN_TRANSIENT_FOLLOWUP|B",
+   "n_picks": "120",
+   "n_picks_nl_feasible": "120",
+   "pct_picks_nl_feasible": "100.0",
+   "n_front_points": "88656",
+   "pct_all_front_points_nl_feasible": "100.0",
+   "nl_latency_median_of_picks": "132106.26270269084"
+  },
+  {
+   "label": "ROMAN_TRANSIENT_FOLLOWUP|C",
+   "n_picks": "120",
+   "n_picks_nl_feasible": "120",
+   "pct_picks_nl_feasible": "100.0",
+   "n_front_points": "71397",
+   "pct_all_front_points_nl_feasible": "100.0",
+   "nl_latency_median_of_picks": "183721.59737276443"
+  }
+ ]
+}

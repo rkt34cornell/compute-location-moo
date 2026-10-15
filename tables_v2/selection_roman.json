@@ -1,0 +1,62 @@
+{
+ "table": "selection_roman",
+ "caption": "HV regret relative to the per-workload oracle (best mean HV among the six benchmarked methods). Rule: feasibility $<t_1$ $\\to$ NSGA-II, $t_1\\le f<t_2$ $\\to$ MOPSO, $\\ge t_2$ $\\to$ Random.",
+ "columns": [
+  "Policy",
+  "Mean HV regret (%)",
+  "Median HV regret (%)",
+  "Worst-case HV regret (%)",
+  "Choices"
+ ],
+ "rows": [
+  {
+   "Policy": "Feasibility rule ($t_1$ = 1\\%, $t_2$ = 10\\%)",
+   "Mean HV regret (%)": "1.112",
+   "Median HV regret (%)": "1.261",
+   "Worst-case HV regret (%)": "1.723",
+   "Choices": "Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random"
+  },
+  {
+   "Policy": "Always MOPSO",
+   "Mean HV regret (%)": "0.002858",
+   "Median HV regret (%)": "0",
+   "Worst-case HV regret (%)": "0.01715",
+   "Choices": "MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO"
+  },
+  {
+   "Policy": "Always Random",
+   "Mean HV regret (%)": "1.112",
+   "Median HV regret (%)": "1.261",
+   "Worst-case HV regret (%)": "1.723",
+   "Choices": "Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random"
+  },
+  {
+   "Policy": "Always NSGA-II",
+   "Mean HV regret (%)": "0.9604",
+   "Median HV regret (%)": "1.191",
+   "Worst-case HV regret (%)": "1.683",
+   "Choices": "NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II"
+  },
+  {
+   "Policy": "Oracle (best per workload)",
+   "Mean HV regret (%)": "0",
+   "Median HV regret (%)": "0",
+   "Worst-case HV regret (%)": "0",
+   "Choices": "MOPSO, MOPSO, MOPSO, MOPSO, NSGA-II, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, NSGA-II, MOPSO"
+  },
+  {
+   "Policy": "Feasibility rule, best thresholds in range ($t_1$ = 0.2\\%, $t_2$ = 5.0\\%)",
+   "Mean HV regret (%)": "1.112",
+   "Median HV regret (%)": "1.261",
+   "Worst-case HV regret (%)": "1.723",
+   "Choices": ""
+  },
+  {
+   "Policy": "Feasibility rule, worst thresholds in range ($t_1$ = 0.2\\%, $t_2$ = 5.0\\%)",
+   "Mean HV regret (%)": "1.112",
+   "Median HV regret (%)": "1.261",
+   "Worst-case HV regret (%)": "1.723",
+   "Choices": ""
+  }
+ ]
+}

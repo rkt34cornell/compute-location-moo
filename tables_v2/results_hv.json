@@ -1,0 +1,78 @@
+{
+ "table": "results_hv",
+ "caption": "Hypervolume (mean $\\pm$ SD over 20 seeds; linear evaluator; 16{,}000 evaluations; normalized constraint violation with Deb handling). Columns sorted by measured random-policy feasibility. Bold = best of the six benchmarked methods; the bi-objective $\\varepsilon$ row is supplementary.",
+ "columns": [
+  "Algorithm",
+  "SUNCATCHER (0.09%)",
+  "LEO_OOS (2.69%)",
+  "DEEP_SPACE_CRUISE (19.97%)",
+  "IDS (32.57%)",
+  "JWST (67.20%)",
+  "RST (92.92%)"
+ ],
+ "rows": [
+  {
+   "Algorithm": "random",
+   "SUNCATCHER (0.09%)": "175.0000 +/- 0.0000",
+   "LEO_OOS (2.69%)": "170.0299 +/- 6.6139",
+   "DEEP_SPACE_CRUISE (19.97%)": "13.5000 +/- 0.0000",
+   "IDS (32.57%)": "390.6748 +/- 0.3772",
+   "JWST (67.20%)": "856.8824 +/- 0.4852",
+   "RST (92.92%)": "551.0484 +/- 0.1693"
+  },
+  {
+   "Algorithm": "mopso",
+   "SUNCATCHER (0.09%)": "176.7694 +/- 0.2321",
+   "LEO_OOS (2.69%)": "185.7217 +/- 1.3229",
+   "DEEP_SPACE_CRUISE (19.97%)": "13.5000 +/- 0.0000",
+   "IDS (32.57%)": "392.3778 +/- 0.6413",
+   "JWST (67.20%)": "854.8254 +/- 0.4760",
+   "RST (92.92%)": "547.8406 +/- 0.6428"
+  },
+  {
+   "Algorithm": "nsga2",
+   "SUNCATCHER (0.09%)": "170.5424 +/- 17.2778",
+   "LEO_OOS (2.69%)": "188.0582 +/- 0.2410",
+   "DEEP_SPACE_CRUISE (19.97%)": "13.5000 +/- 0.0000",
+   "IDS (32.57%)": "371.5177 +/- 5.8324",
+   "JWST (67.20%)": "847.1587 +/- 2.2730",
+   "RST (92.92%)": "535.0286 +/- 3.6405"
+  },
+  {
+   "Algorithm": "spea2",
+   "SUNCATCHER (0.09%)": "112.1477 +/- 44.0707",
+   "LEO_OOS (2.69%)": "140.0817 +/- 30.7443",
+   "DEEP_SPACE_CRUISE (19.97%)": "13.4867 +/- 0.0279",
+   "IDS (32.57%)": "303.2366 +/- 24.5767",
+   "JWST (67.20%)": "841.5330 +/- 4.7525",
+   "RST (92.92%)": "529.5342 +/- 3.7565"
+  },
+  {
+   "Algorithm": "moead",
+   "SUNCATCHER (0.09%)": "134.0671 +/- 33.3382",
+   "LEO_OOS (2.69%)": "116.4621 +/- 33.7490",
+   "DEEP_SPACE_CRUISE (19.97%)": "13.2491 +/- 0.1683",
+   "IDS (32.57%)": "273.3069 +/- 31.3926",
+   "JWST (67.20%)": "824.1135 +/- 10.2740",
+   "RST (92.92%)": "499.1852 +/- 6.4341"
+  },
+  {
+   "Algorithm": "epsilon",
+   "SUNCATCHER (0.09%)": "158.5535 +/- 8.7216",
+   "LEO_OOS (2.69%)": "166.6528 +/- 7.4049",
+   "DEEP_SPACE_CRUISE (19.97%)": "13.3910 +/- 0.0576",
+   "IDS (32.57%)": "206.8297 +/- 2.9709",
+   "JWST (67.20%)": "639.0936 +/- 2.9313",
+   "RST (92.92%)": "283.9969 +/- 1.8924"
+  },
+  {
+   "Algorithm": "epsilon2d",
+   "SUNCATCHER (0.09%)": "147.1175 +/- 22.8425",
+   "LEO_OOS (2.69%)": "165.8546 +/- 7.5107",
+   "DEEP_SPACE_CRUISE (19.97%)": "13.3735 +/- 0.0559",
+   "IDS (32.57%)": "341.5530 +/- 9.6760",
+   "JWST (67.20%)": "838.2757 +/- 4.8812",
+   "RST (92.92%)": "537.9078 +/- 2.4474"
+  }
+ ]
+}

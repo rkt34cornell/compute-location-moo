@@ -1,0 +1,90 @@
+[
+  {
+    "lambda": 50.0,
+    "rho_FC_at_pFC_1": 0.125,
+    "hv_mean": 389.08691048584836,
+    "hv_sd": 1.035408846927214,
+    "random_feasible_pct": 24.884999999999998,
+    "FC_frac_of_min_cost_policy_mean": 0.21316398084426455,
+    "ODC_frac_of_min_cost_policy_mean": 0.23008616725191247,
+    "GSE_frac_of_min_cost_policy_mean": 0.0628855095698722,
+    "TDC_frac_of_min_cost_policy_mean": 0.49386434233395093
+  },
+  {
+    "lambda": 100.0,
+    "rho_FC_at_pFC_1": 0.25,
+    "hv_mean": 389.0856012458551,
+    "hv_sd": 0.9384895672484481,
+    "random_feasible_pct": 24.884999999999998,
+    "FC_frac_of_min_cost_policy_mean": 0.19325916519754638,
+    "ODC_frac_of_min_cost_policy_mean": 0.2680533447244137,
+    "GSE_frac_of_min_cost_policy_mean": 0.04517468028540074,
+    "TDC_frac_of_min_cost_policy_mean": 0.49351280979263923
+  },
+  {
+    "lambda": 250.0,
+    "rho_FC_at_pFC_1": 0.625,
+    "hv_mean": 384.4946453937474,
+    "hv_sd": 0.7112766348144914,
+    "random_feasible_pct": 24.875,
+    "FC_frac_of_min_cost_policy_mean": 0.2085784726564876,
+    "ODC_frac_of_min_cost_policy_mean": 0.23741634281199292,
+    "GSE_frac_of_min_cost_policy_mean": 0.06408767669415043,
+    "TDC_frac_of_min_cost_policy_mean": 0.4899175078373691
+  },
+  {
+    "lambda": 500.0,
+    "rho_FC_at_pFC_1": 1.25,
+    "hv_mean": 353.40163879459425,
+    "hv_sd": 0.6237681999092974,
+    "random_feasible_pct": 24.805,
+    "FC_frac_of_min_cost_policy_mean": 0.164103272381372,
+    "ODC_frac_of_min_cost_policy_mean": 0.3118633737147302,
+    "GSE_frac_of_min_cost_policy_mean": 0.05578549625704794,
+    "TDC_frac_of_min_cost_policy_mean": 0.46824785764684995
+  },
+  {
+    "lambda": 1000.0,
+    "rho_FC_at_pFC_1": 2.5,
+    "hv_mean": 344.13329126368586,
+    "hv_sd": 0.4222760246036415,
+    "random_feasible_pct": 24.43,
+    "FC_frac_of_min_cost_policy_mean": 0.16488792066799865,
+    "ODC_frac_of_min_cost_policy_mean": 0.3121234179895881,
+    "GSE_frac_of_min_cost_policy_mean": 0.056363624583083916,
+    "TDC_frac_of_min_cost_policy_mean": 0.4666250367593294
+  },
+  {
+    "lambda": 2000.0,
+    "rho_FC_at_pFC_1": 5.0,
+    "hv_mean": 343.2614461975683,
+    "hv_sd": 0.5320247053024876,
+    "random_feasible_pct": 24.055,
+    "FC_frac_of_min_cost_policy_mean": 0.19685831674729487,
+    "ODC_frac_of_min_cost_policy_mean": 0.2628409835792488,
+    "GSE_frac_of_min_cost_policy_mean": 0.05060727910648184,
+    "TDC_frac_of_min_cost_policy_mean": 0.4896934205669744
+  },
+  {
+    "lambda": 4000.0,
+    "rho_FC_at_pFC_1": 10.0,
+    "hv_mean": 343.3194064070507,
+    "hv_sd": 0.6754198426864616,
+    "random_feasible_pct": 23.985,
+    "FC_frac_of_min_cost_policy_mean": 0.18467859038842233,
+    "ODC_frac_of_min_cost_policy_mean": 0.28180628210337494,
+    "GSE_frac_of_min_cost_policy_mean": 0.050572121626930554,
+    "TDC_frac_of_min_cost_policy_mean": 0.48294300588127215
+  },
+  {
+    "lambda": 8000.0,
+    "rho_FC_at_pFC_1": 20.0,
+    "hv_mean": 343.60912570329367,
+    "hv_sd": 0.8121998640680534,
+    "random_feasible_pct": 23.985,
+    "FC_frac_of_min_cost_policy_mean": 0.221881931825091,
+    "ODC_frac_of_min_cost_policy_mean": 0.2198489089091465,
+    "GSE_frac_of_min_cost_policy_mean": 0.05473174820468142,
+    "TDC_frac_of_min_cost_policy_mean": 0.5035374110610811
+  }
+]

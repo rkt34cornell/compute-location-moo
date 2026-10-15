@@ -1,0 +1,9 @@
+Attribute,Weight,Bounds,Inverted
+FC_proc_type,0.2000,"[0, 1.000]",no
+FC_bus_type,0.1000,"[0, 1.000]",no
+FC_reconfigurable,0.1000,"[0, 1.000]",no
+FC_mem_type,0.1500,"[0, 1.000]",no
+throughput_gflops,0.1500,"[0.05000, 100.0]",no
+TRL,0.1500,"[1.000, 9.000]",no
+SDC rate (per hr),0.1000,"[0.001000, 0.1500]",yes
+Rad dose margin (krad),0.05000,"[-30.00, 80.00]",no

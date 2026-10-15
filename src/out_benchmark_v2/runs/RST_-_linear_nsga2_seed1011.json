@@ -1,0 +1,28 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "RST",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "nsga2",
+ "seed": 1011,
+ "cfg": {
+  "pop_size": 80,
+  "generations": 199
+ },
+ "budget": 16000,
+ "job_id": "RST_-_linear_nsga2_seed1011",
+ "hv": 537.5052399476306,
+ "n_returned": 76,
+ "n_front": 76,
+ "feasible_found": true,
+ "n_evals": 16000,
+ "n_feasible_evals": 15392,
+ "search_feasible_rate": 0.962,
+ "runtime_s": 13.074074947973713,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

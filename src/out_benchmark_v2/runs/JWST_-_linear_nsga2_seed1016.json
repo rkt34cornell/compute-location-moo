@@ -1,0 +1,28 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "JWST",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "nsga2",
+ "seed": 1016,
+ "cfg": {
+  "pop_size": 80,
+  "generations": 199
+ },
+ "budget": 16000,
+ "job_id": "JWST_-_linear_nsga2_seed1016",
+ "hv": 846.5825181872705,
+ "n_returned": 79,
+ "n_front": 79,
+ "feasible_found": true,
+ "n_evals": 16000,
+ "n_feasible_evals": 15473,
+ "search_feasible_rate": 0.9670625,
+ "runtime_s": 13.915262704947963,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

@@ -1,0 +1,285 @@
+{
+ "table": "pointcount_rankings",
+ "caption": "Solver orderings by mean HV before and after controlling for front cardinality.",
+ "columns": [
+  "Workload",
+  "k",
+  "Full-front order",
+  "Random-subsample order",
+  "Greedy best-k order",
+  "tau(full,rand)",
+  "tau(full,greedy)"
+ ],
+ "rows": [
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "5",
+   "Full-front order": "random>mopso>nsga2>spea2>epsilon>moead",
+   "Random-subsample order": "epsilon>spea2>nsga2>mopso>random>moead",
+   "Greedy best-k order": "random>mopso>nsga2>spea2>epsilon>moead",
+   "tau(full,rand)": "-0.333",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "10",
+   "Full-front order": "random>mopso>nsga2>spea2>epsilon>moead",
+   "Random-subsample order": "epsilon>spea2>nsga2>mopso>random>moead",
+   "Greedy best-k order": "random>mopso>nsga2>spea2>epsilon>moead",
+   "tau(full,rand)": "-0.333",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "16",
+   "Full-front order": "random>mopso>nsga2>spea2>epsilon>moead",
+   "Random-subsample order": "epsilon>spea2>nsga2>mopso>random>moead",
+   "Greedy best-k order": "random>mopso>nsga2>spea2>epsilon>moead",
+   "tau(full,rand)": "-0.333",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "25",
+   "Full-front order": "random>mopso>nsga2>spea2>epsilon>moead",
+   "Random-subsample order": "epsilon>spea2>nsga2>mopso>random>moead",
+   "Greedy best-k order": "random>mopso>nsga2>spea2>epsilon>moead",
+   "tau(full,rand)": "-0.333",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "50",
+   "Full-front order": "random>mopso>nsga2>spea2>epsilon>moead",
+   "Random-subsample order": "epsilon>spea2>nsga2>mopso>moead>random",
+   "Greedy best-k order": "random>mopso>nsga2>spea2>epsilon>moead",
+   "tau(full,rand)": "-0.467",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "IDS",
+   "k": "5",
+   "Full-front order": "mopso>random>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "mopso>nsga2>random>spea2>epsilon>moead",
+   "Greedy best-k order": "mopso>random>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.733",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "IDS",
+   "k": "10",
+   "Full-front order": "mopso>random>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "mopso>nsga2>random>spea2>epsilon>moead",
+   "Greedy best-k order": "mopso>random>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.733",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "IDS",
+   "k": "18",
+   "Full-front order": "mopso>random>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "mopso>nsga2>random>spea2>epsilon>moead",
+   "Greedy best-k order": "mopso>random>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.733",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "IDS",
+   "k": "25",
+   "Full-front order": "mopso>random>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "mopso>nsga2>random>spea2>moead>epsilon",
+   "Greedy best-k order": "mopso>random>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.867",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "IDS",
+   "k": "50",
+   "Full-front order": "mopso>random>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "mopso>nsga2>random>spea2>moead>epsilon",
+   "Greedy best-k order": "mopso>random>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.867",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "JWST",
+   "k": "5",
+   "Full-front order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "spea2>nsga2>mopso>random>moead>epsilon",
+   "Greedy best-k order": "mopso>random>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.200",
+   "tau(full,greedy)": "0.867"
+  },
+  {
+   "Workload": "JWST",
+   "k": "10",
+   "Full-front order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "nsga2>spea2>mopso>random>moead>epsilon",
+   "Greedy best-k order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.333",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "JWST",
+   "k": "25",
+   "Full-front order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "nsga2>spea2>mopso>random>moead>epsilon",
+   "Greedy best-k order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.333",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "JWST",
+   "k": "27",
+   "Full-front order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "nsga2>spea2>mopso>random>moead>epsilon",
+   "Greedy best-k order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.333",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "JWST",
+   "k": "50",
+   "Full-front order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "nsga2>spea2>mopso>random>moead>epsilon",
+   "Greedy best-k order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.333",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "5",
+   "Full-front order": "nsga2>mopso>random>epsilon>spea2>moead",
+   "Random-subsample order": "epsilon>nsga2>mopso>spea2>random>moead",
+   "Greedy best-k order": "nsga2>mopso>random>epsilon>spea2>moead",
+   "tau(full,rand)": "0.467",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "10",
+   "Full-front order": "nsga2>mopso>random>epsilon>spea2>moead",
+   "Random-subsample order": "epsilon>nsga2>mopso>spea2>random>moead",
+   "Greedy best-k order": "nsga2>mopso>random>epsilon>spea2>moead",
+   "tau(full,rand)": "0.467",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "23",
+   "Full-front order": "nsga2>mopso>random>epsilon>spea2>moead",
+   "Random-subsample order": "nsga2>epsilon>mopso>random>spea2>moead",
+   "Greedy best-k order": "nsga2>mopso>random>epsilon>spea2>moead",
+   "tau(full,rand)": "0.733",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "25",
+   "Full-front order": "nsga2>mopso>random>epsilon>spea2>moead",
+   "Random-subsample order": "nsga2>epsilon>mopso>random>spea2>moead",
+   "Greedy best-k order": "nsga2>mopso>random>epsilon>spea2>moead",
+   "tau(full,rand)": "0.733",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "50",
+   "Full-front order": "nsga2>mopso>random>epsilon>spea2>moead",
+   "Random-subsample order": "nsga2>mopso>epsilon>random>spea2>moead",
+   "Greedy best-k order": "nsga2>mopso>random>epsilon>spea2>moead",
+   "tau(full,rand)": "0.867",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "RST",
+   "k": "5",
+   "Full-front order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "spea2>nsga2>random>mopso>moead>epsilon",
+   "Greedy best-k order": "mopso>random>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.333",
+   "tau(full,greedy)": "0.867"
+  },
+  {
+   "Workload": "RST",
+   "k": "10",
+   "Full-front order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "nsga2>spea2>mopso>random>moead>epsilon",
+   "Greedy best-k order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.333",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "RST",
+   "k": "25",
+   "Full-front order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "nsga2>mopso>spea2>random>moead>epsilon",
+   "Greedy best-k order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.467",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "RST",
+   "k": "27",
+   "Full-front order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "nsga2>mopso>spea2>random>moead>epsilon",
+   "Greedy best-k order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.467",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "RST",
+   "k": "50",
+   "Full-front order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "Random-subsample order": "nsga2>mopso>spea2>random>moead>epsilon",
+   "Greedy best-k order": "random>mopso>nsga2>spea2>moead>epsilon",
+   "tau(full,rand)": "0.467",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "3",
+   "Full-front order": "mopso>random>nsga2>epsilon>moead>spea2",
+   "Random-subsample order": "epsilon>random>mopso>nsga2>moead>spea2",
+   "Greedy best-k order": "mopso>random>nsga2>epsilon>moead>spea2",
+   "tau(full,rand)": "0.467",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "5",
+   "Full-front order": "mopso>random>nsga2>epsilon>moead>spea2",
+   "Random-subsample order": "epsilon>random>mopso>nsga2>moead>spea2",
+   "Greedy best-k order": "mopso>random>nsga2>epsilon>moead>spea2",
+   "tau(full,rand)": "0.467",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "10",
+   "Full-front order": "mopso>random>nsga2>epsilon>moead>spea2",
+   "Random-subsample order": "random>mopso>nsga2>epsilon>moead>spea2",
+   "Greedy best-k order": "mopso>random>nsga2>epsilon>moead>spea2",
+   "tau(full,rand)": "0.867",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "25",
+   "Full-front order": "mopso>random>nsga2>epsilon>moead>spea2",
+   "Random-subsample order": "random>mopso>nsga2>epsilon>moead>spea2",
+   "Greedy best-k order": "mopso>random>nsga2>epsilon>moead>spea2",
+   "tau(full,rand)": "0.867",
+   "tau(full,greedy)": "1.000"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "50",
+   "Full-front order": "mopso>random>nsga2>epsilon>moead>spea2",
+   "Random-subsample order": "random>mopso>nsga2>epsilon>moead>spea2",
+   "Greedy best-k order": "mopso>random>nsga2>epsilon>moead>spea2",
+   "tau(full,rand)": "0.867",
+   "tau(full,greedy)": "1.000"
+  }
+ ]
+}

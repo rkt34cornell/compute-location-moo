@@ -1,0 +1,316 @@
+{
+ "table": "ablation",
+ "caption": "Variable ablation (equal 4{,}860-evaluation budget, 20 seeds, constraints preserved).",
+ "columns": [
+  "Workload",
+  "Method",
+  "Vars (full)",
+  "Vars (reduced)",
+  "HV full",
+  "HV reduced",
+  "Delta (red-full)",
+  "p"
+ ],
+ "rows": [
+  {
+   "Workload": "IDS",
+   "Method": "random",
+   "Vars (full)": "42",
+   "Vars (reduced)": "12",
+   "HV full": "386.3 \\pm 1.2",
+   "HV reduced": "386.3 \\pm 1.2",
+   "Delta (red-full)": "0",
+   "p": "1.00"
+  },
+  {
+   "Workload": "IDS",
+   "Method": "mopso",
+   "Vars (full)": "42",
+   "Vars (reduced)": "12",
+   "HV full": "389.8 \\pm 0.99",
+   "HV reduced": "390.5 \\pm 1.2",
+   "Delta (red-full)": "0.7349",
+   "p": "0.0759"
+  },
+  {
+   "Workload": "IDS",
+   "Method": "nsga2",
+   "Vars (full)": "42",
+   "Vars (reduced)": "12",
+   "HV full": "366.0 \\pm 6.4",
+   "HV reduced": "364.6 \\pm 8.5",
+   "Delta (red-full)": "-1.405",
+   "p": "0.571"
+  },
+  {
+   "Workload": "IDS",
+   "Method": "spea2",
+   "Vars (full)": "42",
+   "Vars (reduced)": "12",
+   "HV full": "294.6 \\pm 21",
+   "HV reduced": "328.0 \\pm 31",
+   "Delta (red-full)": "33.38",
+   "p": "9.54e-06"
+  },
+  {
+   "Workload": "IDS",
+   "Method": "moead",
+   "Vars (full)": "42",
+   "Vars (reduced)": "12",
+   "HV full": "270.6 \\pm 32",
+   "HV reduced": "311.6 \\pm 24",
+   "Delta (red-full)": "40.97",
+   "p": "2.67e-05"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Method": "random",
+   "Vars (full)": "41",
+   "Vars (reduced)": "10",
+   "HV full": "175.0 \\pm 0",
+   "HV reduced": "175.0 \\pm 0",
+   "Delta (red-full)": "0",
+   "p": "1.00"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Method": "mopso",
+   "Vars (full)": "41",
+   "Vars (reduced)": "10",
+   "HV full": "176.5 \\pm 0.49",
+   "HV reduced": "176.7 \\pm 0.67",
+   "Delta (red-full)": "0.1568",
+   "p": "0.133"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Method": "nsga2",
+   "Vars (full)": "41",
+   "Vars (reduced)": "10",
+   "HV full": "130.2 \\pm 53",
+   "HV reduced": "132.8 \\pm 49",
+   "Delta (red-full)": "2.579",
+   "p": "0.0826"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Method": "spea2",
+   "Vars (full)": "41",
+   "Vars (reduced)": "10",
+   "HV full": "103.9 \\pm 51",
+   "HV reduced": "127.4 \\pm 49",
+   "Delta (red-full)": "23.51",
+   "p": "1.91e-06"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Method": "moead",
+   "Vars (full)": "41",
+   "Vars (reduced)": "10",
+   "HV full": "104.0 \\pm 42",
+   "HV reduced": "136.3 \\pm 45",
+   "Delta (red-full)": "32.40",
+   "p": "0.00199"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Method": "random",
+   "Vars (full)": "42",
+   "Vars (reduced)": "12",
+   "HV full": "161.0 \\pm 11",
+   "HV reduced": "161.0 \\pm 11",
+   "Delta (red-full)": "0",
+   "p": "1.00"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Method": "mopso",
+   "Vars (full)": "42",
+   "Vars (reduced)": "12",
+   "HV full": "183.4 \\pm 2.1",
+   "HV reduced": "183.7 \\pm 2.0",
+   "Delta (red-full)": "0.3554",
+   "p": "0.869"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Method": "nsga2",
+   "Vars (full)": "42",
+   "Vars (reduced)": "12",
+   "HV full": "173.2 \\pm 18",
+   "HV reduced": "168.2 \\pm 19",
+   "Delta (red-full)": "-5.009",
+   "p": "0.177"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Method": "spea2",
+   "Vars (full)": "42",
+   "Vars (reduced)": "12",
+   "HV full": "117.0 \\pm 29",
+   "HV reduced": "138.6 \\pm 28",
+   "Delta (red-full)": "21.62",
+   "p": "2.61e-04"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Method": "moead",
+   "Vars (full)": "42",
+   "Vars (reduced)": "12",
+   "HV full": "106.9 \\pm 39",
+   "HV reduced": "142.0 \\pm 28",
+   "Delta (red-full)": "35.11",
+   "p": "0.00143"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Method": "random",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "13.50 \\pm 0",
+   "HV reduced": "13.50 \\pm 0",
+   "Delta (red-full)": "0",
+   "p": "1.00"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Method": "mopso",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "13.50 \\pm 0",
+   "HV reduced": "13.50 \\pm 0",
+   "Delta (red-full)": "0",
+   "p": "1.00"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Method": "nsga2",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "13.49 \\pm 0.065",
+   "HV reduced": "13.50 \\pm 0",
+   "Delta (red-full)": "0.01461",
+   "p": "0.317"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Method": "spea2",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "13.19 \\pm 0.44",
+   "HV reduced": "13.07 \\pm 0.57",
+   "Delta (red-full)": "-0.1238",
+   "p": "0.0486"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Method": "moead",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "13.06 \\pm 0.30",
+   "HV reduced": "13.49 \\pm 0.045",
+   "Delta (red-full)": "0.4237",
+   "p": "1.96e-04"
+  },
+  {
+   "Workload": "JWST",
+   "Method": "random",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "855.7 \\pm 0.94",
+   "HV reduced": "855.7 \\pm 0.94",
+   "Delta (red-full)": "0",
+   "p": "1.00"
+  },
+  {
+   "Workload": "JWST",
+   "Method": "mopso",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "854.2 \\pm 0.92",
+   "HV reduced": "856.2 \\pm 0.37",
+   "Delta (red-full)": "2.010",
+   "p": "1.91e-06"
+  },
+  {
+   "Workload": "JWST",
+   "Method": "nsga2",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "847.7 \\pm 2.5",
+   "HV reduced": "848.8 \\pm 1.6",
+   "Delta (red-full)": "1.082",
+   "p": "0.277"
+  },
+  {
+   "Workload": "JWST",
+   "Method": "spea2",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "836.4 \\pm 4.4",
+   "HV reduced": "840.2 \\pm 5.3",
+   "Delta (red-full)": "3.850",
+   "p": "0.0266"
+  },
+  {
+   "Workload": "JWST",
+   "Method": "moead",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "821.9 \\pm 7.8",
+   "HV reduced": "730.8 \\pm 36",
+   "Delta (red-full)": "-91.18",
+   "p": "1.91e-06"
+  },
+  {
+   "Workload": "RST",
+   "Method": "random",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "549.7 \\pm 0.46",
+   "HV reduced": "549.7 \\pm 0.46",
+   "Delta (red-full)": "0",
+   "p": "1.00"
+  },
+  {
+   "Workload": "RST",
+   "Method": "mopso",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "546.8 \\pm 0.74",
+   "HV reduced": "550.9 \\pm 0.23",
+   "Delta (red-full)": "4.127",
+   "p": "1.91e-06"
+  },
+  {
+   "Workload": "RST",
+   "Method": "nsga2",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "534.0 \\pm 3.0",
+   "HV reduced": "536.2 \\pm 3.4",
+   "Delta (red-full)": "2.187",
+   "p": "0.0441"
+  },
+  {
+   "Workload": "RST",
+   "Method": "spea2",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "524.9 \\pm 5.0",
+   "HV reduced": "528.7 \\pm 4.8",
+   "Delta (red-full)": "3.863",
+   "p": "8.20e-05"
+  },
+  {
+   "Workload": "RST",
+   "Method": "moead",
+   "Vars (full)": "41",
+   "Vars (reduced)": "11",
+   "HV full": "497.1 \\pm 7.2",
+   "HV reduced": "502.8 \\pm 12",
+   "Delta (red-full)": "5.646",
+   "p": "0.0441"
+  }
+ ]
+}

@@ -1,0 +1,281 @@
+{
+ "table": "convergence",
+ "caption": "Convergence (20 seeds; anytime HV of all feasible evaluated points; per-method configuration of the original convergence study).",
+ "columns": [
+  "Workload",
+  "Method",
+  "Evals",
+  "Final HV",
+  "HV at 7,250 evals",
+  "Evals to 95% of final",
+  "Evals to 98% of final",
+  "Gain last 1,000 evals (% of final)",
+  "Plateaued"
+ ],
+ "rows": [
+  {
+   "Workload": "IDS",
+   "Method": "mopso",
+   "Evals": "7320",
+   "Final HV": "397.34 \\pm 0.20",
+   "HV at 7,250 evals": "397.33 \\pm 0.20",
+   "Evals to 95% of final": "300",
+   "Evals to 98% of final": "550",
+   "Gain last 1,000 evals (% of final)": "0.0420",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "IDS",
+   "Method": "nsga2",
+   "Evals": "7260",
+   "Final HV": "385.32 \\pm 3.9",
+   "HV at 7,250 evals": "385.32 \\pm 3.9",
+   "Evals to 95% of final": "2150",
+   "Evals to 98% of final": "3250",
+   "Gain last 1,000 evals (% of final)": "0.256",
+   "Plateaued": "no"
+  },
+  {
+   "Workload": "IDS",
+   "Method": "spea2",
+   "Evals": "7260",
+   "Final HV": "321.69 \\pm 23",
+   "HV at 7,250 evals": "321.69 \\pm 23",
+   "Evals to 95% of final": "1000",
+   "Evals to 98% of final": "2650",
+   "Gain last 1,000 evals (% of final)": "0.381",
+   "Plateaued": "no"
+  },
+  {
+   "Workload": "IDS",
+   "Method": "moead",
+   "Evals": "14520",
+   "Final HV": "333.59 \\pm 19",
+   "HV at 7,250 evals": "329.81 \\pm 19",
+   "Evals to 95% of final": "600",
+   "Evals to 98% of final": "4600",
+   "Gain last 1,000 evals (% of final)": "0.163",
+   "Plateaued": "no"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Method": "mopso",
+   "Evals": "7320",
+   "Final HV": "176.64 \\pm 0.34",
+   "HV at 7,250 evals": "176.64 \\pm 0.34",
+   "Evals to 95% of final": "350",
+   "Evals to 98% of final": "350",
+   "Gain last 1,000 evals (% of final)": "0.0471",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Method": "nsga2",
+   "Evals": "7260",
+   "Final HV": "145.85 \\pm 43",
+   "HV at 7,250 evals": "145.85 \\pm 43",
+   "Evals to 95% of final": "6250",
+   "Evals to 98% of final": "6850",
+   "Gain last 1,000 evals (% of final)": "4.70",
+   "Plateaued": "no"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Method": "spea2",
+   "Evals": "7260",
+   "Final HV": "107.49 \\pm 51",
+   "HV at 7,250 evals": "107.49 \\pm 51",
+   "Evals to 95% of final": "3550",
+   "Evals to 98% of final": "4800",
+   "Gain last 1,000 evals (% of final)": "0.867",
+   "Plateaued": "no"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "Method": "moead",
+   "Evals": "14520",
+   "Final HV": "132.07 \\pm 28",
+   "HV at 7,250 evals": "112.72 \\pm 37",
+   "Evals to 95% of final": "12200",
+   "Evals to 98% of final": "13550",
+   "Gain last 1,000 evals (% of final)": "1.92",
+   "Plateaued": "no"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Method": "mopso",
+   "Evals": "7320",
+   "Final HV": "184.30 \\pm 1.9",
+   "HV at 7,250 evals": "184.30 \\pm 1.9",
+   "Evals to 95% of final": "750",
+   "Evals to 98% of final": "1800",
+   "Gain last 1,000 evals (% of final)": "0.217",
+   "Plateaued": "no"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Method": "nsga2",
+   "Evals": "7260",
+   "Final HV": "181.58 \\pm 13",
+   "HV at 7,250 evals": "181.58 \\pm 13",
+   "Evals to 95% of final": "4800",
+   "Evals to 98% of final": "5900",
+   "Gain last 1,000 evals (% of final)": "1.11",
+   "Plateaued": "no"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Method": "spea2",
+   "Evals": "7260",
+   "Final HV": "126.79 \\pm 27",
+   "HV at 7,250 evals": "126.79 \\pm 27",
+   "Evals to 95% of final": "2150",
+   "Evals to 98% of final": "3900",
+   "Gain last 1,000 evals (% of final)": "0.0449",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "Method": "moead",
+   "Evals": "14520",
+   "Final HV": "131.59 \\pm 38",
+   "HV at 7,250 evals": "128.36 \\pm 37",
+   "Evals to 95% of final": "1750",
+   "Evals to 98% of final": "8250",
+   "Gain last 1,000 evals (% of final)": "0.219",
+   "Plateaued": "no"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Method": "mopso",
+   "Evals": "7320",
+   "Final HV": "13.500 \\pm 0",
+   "HV at 7,250 evals": "13.500 \\pm 0",
+   "Evals to 95% of final": "200",
+   "Evals to 98% of final": "250",
+   "Gain last 1,000 evals (% of final)": "0",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Method": "nsga2",
+   "Evals": "7260",
+   "Final HV": "13.500 \\pm 0",
+   "HV at 7,250 evals": "13.500 \\pm 0",
+   "Evals to 95% of final": "1100",
+   "Evals to 98% of final": "2050",
+   "Gain last 1,000 evals (% of final)": "0",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Method": "spea2",
+   "Evals": "7260",
+   "Final HV": "13.341 \\pm 0.39",
+   "HV at 7,250 evals": "13.341 \\pm 0.39",
+   "Evals to 95% of final": "950",
+   "Evals to 98% of final": "2300",
+   "Gain last 1,000 evals (% of final)": "0.0557",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "Method": "moead",
+   "Evals": "14520",
+   "Final HV": "13.499 \\pm 0.0059",
+   "HV at 7,250 evals": "13.355 \\pm 0.19",
+   "Evals to 95% of final": "2100",
+   "Evals to 98% of final": "5250",
+   "Gain last 1,000 evals (% of final)": "0.0455",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "JWST",
+   "Method": "mopso",
+   "Evals": "7320",
+   "Final HV": "858.65 \\pm 0.058",
+   "HV at 7,250 evals": "858.65 \\pm 0.058",
+   "Evals to 95% of final": "150",
+   "Evals to 98% of final": "200",
+   "Gain last 1,000 evals (% of final)": "0.00276",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "JWST",
+   "Method": "nsga2",
+   "Evals": "7260",
+   "Final HV": "855.76 \\pm 0.98",
+   "HV at 7,250 evals": "855.76 \\pm 0.98",
+   "Evals to 95% of final": "100",
+   "Evals to 98% of final": "650",
+   "Gain last 1,000 evals (% of final)": "0.0179",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "JWST",
+   "Method": "spea2",
+   "Evals": "7260",
+   "Final HV": "848.95 \\pm 3.7",
+   "HV at 7,250 evals": "848.95 \\pm 3.7",
+   "Evals to 95% of final": "50",
+   "Evals to 98% of final": "650",
+   "Gain last 1,000 evals (% of final)": "0.0327",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "JWST",
+   "Method": "moead",
+   "Evals": "14520",
+   "Final HV": "847.81 \\pm 4.3",
+   "HV at 7,250 evals": "843.33 \\pm 5.6",
+   "Evals to 95% of final": "50",
+   "Evals to 98% of final": "500",
+   "Gain last 1,000 evals (% of final)": "0.0523",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "RST",
+   "Method": "mopso",
+   "Evals": "7320",
+   "Final HV": "552.46 \\pm 0.058",
+   "HV at 7,250 evals": "552.46 \\pm 0.058",
+   "Evals to 95% of final": "150",
+   "Evals to 98% of final": "250",
+   "Gain last 1,000 evals (% of final)": "0.00261",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "RST",
+   "Method": "nsga2",
+   "Evals": "7260",
+   "Final HV": "547.69 \\pm 1.7",
+   "HV at 7,250 evals": "547.69 \\pm 1.7",
+   "Evals to 95% of final": "150",
+   "Evals to 98% of final": "900",
+   "Gain last 1,000 evals (% of final)": "0.0372",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "RST",
+   "Method": "spea2",
+   "Evals": "7260",
+   "Final HV": "540.66 \\pm 4.1",
+   "HV at 7,250 evals": "540.66 \\pm 4.1",
+   "Evals to 95% of final": "50",
+   "Evals to 98% of final": "700",
+   "Gain last 1,000 evals (% of final)": "0.0397",
+   "Plateaued": "yes"
+  },
+  {
+   "Workload": "RST",
+   "Method": "moead",
+   "Evals": "14520",
+   "Final HV": "538.38 \\pm 4.1",
+   "HV at 7,250 evals": "536.86 \\pm 4.4",
+   "Evals to 95% of final": "50",
+   "Evals to 98% of final": "150",
+   "Gain last 1,000 evals (% of final)": "0.0328",
+   "Plateaued": "yes"
+  }
+ ]
+}

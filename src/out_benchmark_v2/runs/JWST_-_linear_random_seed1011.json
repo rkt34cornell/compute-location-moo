@@ -1,0 +1,27 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "main",
+ "workload": "JWST",
+ "variant": null,
+ "evaluator": "linear",
+ "method": "random",
+ "seed": 1011,
+ "cfg": {
+  "n": 16000
+ },
+ "budget": 16000,
+ "job_id": "JWST_-_linear_random_seed1011",
+ "hv": 856.1190005214254,
+ "n_returned": 10656,
+ "n_front": 10656,
+ "feasible_found": true,
+ "n_evals": 16003,
+ "n_feasible_evals": 10656,
+ "search_feasible_rate": 0.6658751484096732,
+ "runtime_s": 99.39200337592047,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

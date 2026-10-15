@@ -1,0 +1,1201 @@
+workload,variable_set,n_vars,method,seed,hv,n_front,kept_keys
+DEEP_SPACE_CRUISE,full,41,moead,11,13.266929752650315,102,
+DEEP_SPACE_CRUISE,full,41,moead,12,13.25887857840141,100,
+DEEP_SPACE_CRUISE,full,41,moead,13,13.5,103,
+DEEP_SPACE_CRUISE,full,41,moead,14,12.477899493194943,102,
+DEEP_SPACE_CRUISE,full,41,moead,15,13.191508930667176,106,
+DEEP_SPACE_CRUISE,full,41,moead,16,13.404437195122984,106,
+DEEP_SPACE_CRUISE,full,41,moead,17,13.0566898181607,105,
+DEEP_SPACE_CRUISE,full,41,moead,18,12.621093059389429,106,
+DEEP_SPACE_CRUISE,full,41,moead,19,13.033964204913035,108,
+DEEP_SPACE_CRUISE,full,41,moead,20,13.5,106,
+DEEP_SPACE_CRUISE,full,41,moead,21,12.77195094946952,105,
+DEEP_SPACE_CRUISE,full,41,moead,22,13.286918867554837,105,
+DEEP_SPACE_CRUISE,full,41,moead,23,12.997486021309074,100,
+DEEP_SPACE_CRUISE,full,41,moead,24,12.82271706519629,96,
+DEEP_SPACE_CRUISE,full,41,moead,25,13.250499608664386,101,
+DEEP_SPACE_CRUISE,full,41,moead,26,13.296398970991344,105,
+DEEP_SPACE_CRUISE,full,41,moead,27,13.171411057813808,104,
+DEEP_SPACE_CRUISE,full,41,moead,28,12.624918603710217,101,
+DEEP_SPACE_CRUISE,full,41,moead,29,12.843500564319022,95,
+DEEP_SPACE_CRUISE,full,41,moead,30,12.857687344410948,105,
+DEEP_SPACE_CRUISE,full,41,mopso,11,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,12,13.5,199,
+DEEP_SPACE_CRUISE,full,41,mopso,13,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,14,13.5,199,
+DEEP_SPACE_CRUISE,full,41,mopso,15,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,16,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,17,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,18,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,19,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,20,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,21,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,22,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,23,13.5,199,
+DEEP_SPACE_CRUISE,full,41,mopso,24,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,25,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,26,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,27,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,28,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,29,13.5,200,
+DEEP_SPACE_CRUISE,full,41,mopso,30,13.5,200,
+DEEP_SPACE_CRUISE,full,41,nsga2,11,13.5,58,
+DEEP_SPACE_CRUISE,full,41,nsga2,12,13.5,57,
+DEEP_SPACE_CRUISE,full,41,nsga2,13,13.5,59,
+DEEP_SPACE_CRUISE,full,41,nsga2,14,13.5,59,
+DEEP_SPACE_CRUISE,full,41,nsga2,15,13.5,58,
+DEEP_SPACE_CRUISE,full,41,nsga2,16,13.5,56,
+DEEP_SPACE_CRUISE,full,41,nsga2,17,13.5,59,
+DEEP_SPACE_CRUISE,full,41,nsga2,18,13.5,57,
+DEEP_SPACE_CRUISE,full,41,nsga2,19,13.5,59,
+DEEP_SPACE_CRUISE,full,41,nsga2,20,13.5,59,
+DEEP_SPACE_CRUISE,full,41,nsga2,21,13.5,57,
+DEEP_SPACE_CRUISE,full,41,nsga2,22,13.5,59,
+DEEP_SPACE_CRUISE,full,41,nsga2,23,13.5,58,
+DEEP_SPACE_CRUISE,full,41,nsga2,24,13.207731948107016,60,
+DEEP_SPACE_CRUISE,full,41,nsga2,25,13.5,57,
+DEEP_SPACE_CRUISE,full,41,nsga2,26,13.5,59,
+DEEP_SPACE_CRUISE,full,41,nsga2,27,13.5,59,
+DEEP_SPACE_CRUISE,full,41,nsga2,28,13.5,60,
+DEEP_SPACE_CRUISE,full,41,nsga2,29,13.5,59,
+DEEP_SPACE_CRUISE,full,41,nsga2,30,13.5,60,
+DEEP_SPACE_CRUISE,full,41,random,11,13.5,970,
+DEEP_SPACE_CRUISE,full,41,random,12,13.5,919,
+DEEP_SPACE_CRUISE,full,41,random,13,13.5,986,
+DEEP_SPACE_CRUISE,full,41,random,14,13.5,1001,
+DEEP_SPACE_CRUISE,full,41,random,15,13.5,997,
+DEEP_SPACE_CRUISE,full,41,random,16,13.5,962,
+DEEP_SPACE_CRUISE,full,41,random,17,13.5,965,
+DEEP_SPACE_CRUISE,full,41,random,18,13.5,973,
+DEEP_SPACE_CRUISE,full,41,random,19,13.5,955,
+DEEP_SPACE_CRUISE,full,41,random,20,13.5,996,
+DEEP_SPACE_CRUISE,full,41,random,21,13.5,980,
+DEEP_SPACE_CRUISE,full,41,random,22,13.5,973,
+DEEP_SPACE_CRUISE,full,41,random,23,13.5,973,
+DEEP_SPACE_CRUISE,full,41,random,24,13.5,968,
+DEEP_SPACE_CRUISE,full,41,random,25,13.5,994,
+DEEP_SPACE_CRUISE,full,41,random,26,13.5,953,
+DEEP_SPACE_CRUISE,full,41,random,27,13.5,1002,
+DEEP_SPACE_CRUISE,full,41,random,28,13.5,960,
+DEEP_SPACE_CRUISE,full,41,random,29,13.5,1009,
+DEEP_SPACE_CRUISE,full,41,random,30,13.5,986,
+DEEP_SPACE_CRUISE,full,41,spea2,11,13.32361930954953,60,
+DEEP_SPACE_CRUISE,full,41,spea2,12,13.5,60,
+DEEP_SPACE_CRUISE,full,41,spea2,13,12.844994948409054,60,
+DEEP_SPACE_CRUISE,full,41,spea2,14,13.451538032812987,60,
+DEEP_SPACE_CRUISE,full,41,spea2,15,13.441042679028682,60,
+DEEP_SPACE_CRUISE,full,41,spea2,16,12.346353666375881,60,
+DEEP_SPACE_CRUISE,full,41,spea2,17,13.201955549879772,60,
+DEEP_SPACE_CRUISE,full,41,spea2,18,13.353210677111864,60,
+DEEP_SPACE_CRUISE,full,41,spea2,19,13.442564179475804,60,
+DEEP_SPACE_CRUISE,full,41,spea2,20,13.406528768935297,60,
+DEEP_SPACE_CRUISE,full,41,spea2,21,13.197734572595586,60,
+DEEP_SPACE_CRUISE,full,41,spea2,22,12.700025846617903,60,
+DEEP_SPACE_CRUISE,full,41,spea2,23,13.497133998354352,60,
+DEEP_SPACE_CRUISE,full,41,spea2,24,11.827232417922636,60,
+DEEP_SPACE_CRUISE,full,41,spea2,25,13.4012594531519,60,
+DEEP_SPACE_CRUISE,full,41,spea2,26,13.5,60,
+DEEP_SPACE_CRUISE,full,41,spea2,27,13.329352733777215,60,
+DEEP_SPACE_CRUISE,full,41,spea2,28,13.387377050594873,60,
+DEEP_SPACE_CRUISE,full,41,spea2,29,13.5,60,
+DEEP_SPACE_CRUISE,full,41,spea2,30,13.131018948651187,60,
+DEEP_SPACE_CRUISE,reduced,11,moead,11,13.5,32,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,12,13.500000000000004,32,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,13,13.5,50,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,14,13.5,33,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,15,13.5,78,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,16,13.5,35,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,17,13.5,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,18,13.5,32,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,19,13.500000000000004,38,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,20,13.5,32,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,21,13.5,32,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,22,13.5,33,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,23,13.500000000000005,36,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,24,13.5,34,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,25,13.5,30,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,26,13.5,33,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,27,13.500000000000004,37,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,28,13.5,33,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,29,13.35124680791386,92,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,moead,30,13.358218546041995,90,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,11,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,12,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,13,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,14,13.5,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,15,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,16,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,17,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,18,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,19,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,20,13.5,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,21,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,22,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,23,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,24,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,25,13.5,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,26,13.5,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,27,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,28,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,29,13.5,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,mopso,30,13.5,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,11,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,12,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,13,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,14,13.5,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,15,13.5,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,16,13.5,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,17,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,18,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,19,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,20,13.5,57,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,21,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,22,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,23,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,24,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,25,13.5,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,26,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,27,13.5,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,28,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,29,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,nsga2,30,13.5,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,11,13.5,970,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,12,13.5,919,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,13,13.5,986,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,14,13.5,1001,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,15,13.5,997,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,16,13.5,962,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,17,13.5,965,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,18,13.5,973,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,19,13.5,955,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,20,13.5,996,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,21,13.5,980,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,22,13.5,973,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,23,13.5,973,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,24,13.5,968,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,25,13.5,994,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,26,13.5,953,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,27,13.5,1002,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,28,13.5,960,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,29,13.5,1009,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,random,30,13.5,986,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,11,13.5,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,12,13.361340931199729,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,13,13.468311824088174,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,14,13.485243792017362,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,15,13.5,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,16,11.446548335727162,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,17,13.062101747888544,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,18,13.188540581450193,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,19,13.332190535736451,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,20,13.102975949690133,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,21,12.80120733329514,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,22,12.511483061048429,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,23,13.397858155239346,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,24,11.736024326004404,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,25,13.247219875412073,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,26,13.5,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,27,12.964276265068785,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,28,13.173190361685265,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,29,13.028270079001175,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+DEEP_SPACE_CRUISE,reduced,11,spea2,30,13.5,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+IDS,full,42,moead,11,258.4548579545907,118,
+IDS,full,42,moead,12,196.45270146028105,118,
+IDS,full,42,moead,13,262.531526583984,119,
+IDS,full,42,moead,14,300.17003465327497,115,
+IDS,full,42,moead,15,296.1339217335481,119,
+IDS,full,42,moead,16,298.63299344069804,118,
+IDS,full,42,moead,17,287.51596027189856,118,
+IDS,full,42,moead,18,292.2830526343544,119,
+IDS,full,42,moead,19,286.17565388318593,118,
+IDS,full,42,moead,20,278.7985063815919,118,
+IDS,full,42,moead,21,305.5690266297854,118,
+IDS,full,42,moead,22,299.7574188522461,118,
+IDS,full,42,moead,23,239.0914638699546,118,
+IDS,full,42,moead,24,247.50766997614056,118,
+IDS,full,42,moead,25,284.60568047591295,119,
+IDS,full,42,moead,26,247.70856954019752,118,
+IDS,full,42,moead,27,300.58188844866794,116,
+IDS,full,42,moead,28,245.87494322216554,117,
+IDS,full,42,moead,29,200.30850977345975,118,
+IDS,full,42,moead,30,283.53443754433215,116,
+IDS,full,42,mopso,11,387.58870650945573,199,
+IDS,full,42,mopso,12,389.2004209474989,199,
+IDS,full,42,mopso,13,389.9490701485308,199,
+IDS,full,42,mopso,14,388.56006298768494,199,
+IDS,full,42,mopso,15,391.32618289666965,199,
+IDS,full,42,mopso,16,389.42812967982826,199,
+IDS,full,42,mopso,17,389.0616014282498,199,
+IDS,full,42,mopso,18,391.4472736925392,199,
+IDS,full,42,mopso,19,390.4829403145881,199,
+IDS,full,42,mopso,20,390.54879701448107,199,
+IDS,full,42,mopso,21,390.146079318022,199,
+IDS,full,42,mopso,22,390.7888792552776,199,
+IDS,full,42,mopso,23,389.23872647794303,200,
+IDS,full,42,mopso,24,389.8284195135807,199,
+IDS,full,42,mopso,25,389.9713292874737,199,
+IDS,full,42,mopso,26,390.18704284059913,199,
+IDS,full,42,mopso,27,389.73658937068626,199,
+IDS,full,42,mopso,28,390.0809815559814,199,
+IDS,full,42,mopso,29,387.990813637327,199,
+IDS,full,42,mopso,30,389.6201982491114,199,
+IDS,full,42,nsga2,11,360.22552257005117,58,
+IDS,full,42,nsga2,12,367.70712071994143,59,
+IDS,full,42,nsga2,13,351.6383204648627,59,
+IDS,full,42,nsga2,14,365.1059643795703,60,
+IDS,full,42,nsga2,15,378.2055923891305,60,
+IDS,full,42,nsga2,16,372.42035029728834,58,
+IDS,full,42,nsga2,17,370.6106009279831,60,
+IDS,full,42,nsga2,18,370.084718895932,59,
+IDS,full,42,nsga2,19,367.0314204709374,58,
+IDS,full,42,nsga2,20,361.7417519992734,59,
+IDS,full,42,nsga2,21,367.0542782218203,59,
+IDS,full,42,nsga2,22,371.02184416072413,59,
+IDS,full,42,nsga2,23,367.2236568322016,60,
+IDS,full,42,nsga2,24,359.15091351953293,58,
+IDS,full,42,nsga2,25,366.371855603939,57,
+IDS,full,42,nsga2,26,364.14086265049764,60,
+IDS,full,42,nsga2,27,357.55992242935343,59,
+IDS,full,42,nsga2,28,360.3797241404129,59,
+IDS,full,42,nsga2,29,375.8927886830535,60,
+IDS,full,42,nsga2,30,366.18850633731944,59,
+IDS,full,42,random,11,386.39349130536823,1545,
+IDS,full,42,random,12,387.08293161867203,1599,
+IDS,full,42,random,13,386.3611282406149,1559,
+IDS,full,42,random,14,385.67932735857653,1590,
+IDS,full,42,random,15,386.1804401853443,1504,
+IDS,full,42,random,16,387.47202868595053,1549,
+IDS,full,42,random,17,386.2857855301114,1514,
+IDS,full,42,random,18,386.2096223273436,1560,
+IDS,full,42,random,19,387.19617386923693,1579,
+IDS,full,42,random,20,386.24954298963087,1578,
+IDS,full,42,random,21,387.34780768490083,1526,
+IDS,full,42,random,22,386.79131114328356,1562,
+IDS,full,42,random,23,388.0083594760727,1616,
+IDS,full,42,random,24,387.3386730633444,1591,
+IDS,full,42,random,25,387.10063388893633,1567,
+IDS,full,42,random,26,385.5330198287843,1513,
+IDS,full,42,random,27,384.8888981262415,1532,
+IDS,full,42,random,28,386.0299487435153,1543,
+IDS,full,42,random,29,385.77101409697605,1606,
+IDS,full,42,random,30,382.55545940261163,1564,
+IDS,full,42,spea2,11,321.3302058978524,60,
+IDS,full,42,spea2,12,308.4640616381552,60,
+IDS,full,42,spea2,13,271.6725494126862,60,
+IDS,full,42,spea2,14,296.27813936998336,60,
+IDS,full,42,spea2,15,264.4703920312056,60,
+IDS,full,42,spea2,16,317.20604748783404,60,
+IDS,full,42,spea2,17,282.3294151876682,60,
+IDS,full,42,spea2,18,272.7631811684933,60,
+IDS,full,42,spea2,19,284.9439998374067,60,
+IDS,full,42,spea2,20,339.5817215213005,60,
+IDS,full,42,spea2,21,300.5640549902481,60,
+IDS,full,42,spea2,22,312.05875407667713,60,
+IDS,full,42,spea2,23,287.17090878749553,60,
+IDS,full,42,spea2,24,287.64218789759434,60,
+IDS,full,42,spea2,25,300.6897003680418,60,
+IDS,full,42,spea2,26,296.06963435511847,60,
+IDS,full,42,spea2,27,311.2040976195113,60,
+IDS,full,42,spea2,28,303.21393642677407,60,
+IDS,full,42,spea2,29,282.31231050592504,60,
+IDS,full,42,spea2,30,251.74453235786615,60,
+IDS,reduced,12,moead,11,340.36828424924926,100,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,12,330.36417153778376,101,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,13,298.0513706197597,94,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,14,325.5674707794635,93,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,15,293.1579227062996,93,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,16,325.1584586748992,98,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,17,343.4503872609486,98,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,18,293.5171402731169,96,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,19,290.12662328890616,98,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,20,333.12264534707384,108,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,21,329.6232375800252,100,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,22,335.1433475354703,100,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,23,266.6156106586499,98,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,24,293.4398919588713,92,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,25,321.7543471016518,94,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,26,294.7815346584871,97,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,27,338.68223447531545,103,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,28,315.01186575408013,93,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,29,288.9575127362731,96,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,moead,30,274.287580045423,99,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,11,390.76180742237824,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,12,388.92333563192926,199,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,13,389.5612641692012,199,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,14,392.2949956337452,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,15,390.39256490351903,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,16,390.08335895555564,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,17,391.1045339792147,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,18,391.6635221786136,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,19,389.6302287060783,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,20,391.5203676655004,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,21,389.95251633704146,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,22,391.0215712423255,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,23,390.8910810982016,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,24,391.19251432371243,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,25,390.15947511523666,199,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,26,391.58453883954616,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,27,389.4875715637281,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,28,387.0666264586175,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,29,390.2538818510701,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,mopso,30,392.3336279699925,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,11,372.1103611288697,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,12,372.60720618200435,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,13,341.66703702034397,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,14,372.16731270511673,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,15,370.44352457622415,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,16,367.39627367964005,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,17,378.6993777422729,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,18,363.10520448880516,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,19,363.942160906954,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,20,361.8772140560347,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,21,352.99949668913933,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,22,369.454367379921,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,23,359.28474738430816,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,24,364.826918267728,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,25,361.5772894358206,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,26,375.5195611782302,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,27,363.3666141303035,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,28,358.2533660286572,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,29,356.8133312703855,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,nsga2,30,365.54431653519083,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,11,386.39349130536823,1545,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,12,387.08293161867203,1599,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,13,386.3611282406149,1559,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,14,385.67932735857653,1590,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,15,386.1804401853443,1504,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,16,387.47202868595053,1549,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,17,386.2857855301114,1514,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,18,386.2096223273436,1560,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,19,387.19617386923693,1579,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,20,386.24954298963087,1578,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,21,387.34780768490083,1526,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,22,386.79131114328356,1562,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,23,388.0083594760727,1616,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,24,387.3386730633444,1591,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,25,387.10063388893633,1567,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,26,385.5330198287843,1513,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,27,384.8888981262415,1532,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,28,386.0299487435153,1543,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,29,385.77101409697605,1606,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,random,30,382.55545940261163,1564,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,11,349.2360548170584,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,12,350.672506306312,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,13,307.10081849091097,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,14,304.31275581643376,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,15,319.5875956177334,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,16,346.74415229052016,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,17,343.7499811448537,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,18,270.31913646050606,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,19,364.8451561748443,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,20,362.47167606507617,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,21,314.6998753171789,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,22,346.5517169391085,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,23,289.8672826930968,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,24,322.91659017758525,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,25,340.8217578900481,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,26,349.3313347364085,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,27,336.12598821574574,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,28,337.1613675490683,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,29,352.79302609342517,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+IDS,reduced,12,spea2,30,249.95506225675942,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+JWST,full,41,moead,11,833.3352750802081,120,
+JWST,full,41,moead,12,807.139988332866,118,
+JWST,full,41,moead,13,828.2764386047693,118,
+JWST,full,41,moead,14,810.5246895728912,119,
+JWST,full,41,moead,15,824.6138408969324,118,
+JWST,full,41,moead,16,828.0732794354824,119,
+JWST,full,41,moead,17,815.2293104873185,116,
+JWST,full,41,moead,18,821.0764503836238,118,
+JWST,full,41,moead,19,813.537845771876,120,
+JWST,full,41,moead,20,813.3939361898833,118,
+JWST,full,41,moead,21,822.7078685759969,113,
+JWST,full,41,moead,22,829.2181690301667,117,
+JWST,full,41,moead,23,822.2210015412226,118,
+JWST,full,41,moead,24,831.6658380584203,118,
+JWST,full,41,moead,25,816.5413671114346,112,
+JWST,full,41,moead,26,828.7066191391759,117,
+JWST,full,41,moead,27,815.5470377741404,119,
+JWST,full,41,moead,28,833.0368176536666,116,
+JWST,full,41,moead,29,819.1154113385597,119,
+JWST,full,41,moead,30,824.9119765418193,120,
+JWST,full,41,mopso,11,855.4047862433155,200,
+JWST,full,41,mopso,12,854.4824499114864,200,
+JWST,full,41,mopso,13,854.0039311473198,200,
+JWST,full,41,mopso,14,853.2884602815601,200,
+JWST,full,41,mopso,15,854.4383747549042,200,
+JWST,full,41,mopso,16,854.9904006016418,200,
+JWST,full,41,mopso,17,855.1437164036219,200,
+JWST,full,41,mopso,18,854.7385170970826,200,
+JWST,full,41,mopso,19,851.6545259897471,200,
+JWST,full,41,mopso,20,855.567189288186,200,
+JWST,full,41,mopso,21,853.9498596140695,200,
+JWST,full,41,mopso,22,854.7391492617081,199,
+JWST,full,41,mopso,23,853.4148451854047,198,
+JWST,full,41,mopso,24,853.8021338993623,200,
+JWST,full,41,mopso,25,854.4759486162234,200,
+JWST,full,41,mopso,26,854.5599384564936,200,
+JWST,full,41,mopso,27,853.8279401935221,200,
+JWST,full,41,mopso,28,854.7992969208018,200,
+JWST,full,41,mopso,29,852.981399162147,200,
+JWST,full,41,mopso,30,854.2575558585725,199,
+JWST,full,41,nsga2,11,843.2203741516867,59,
+JWST,full,41,nsga2,12,848.6360891654639,59,
+JWST,full,41,nsga2,13,849.4715120325407,59,
+JWST,full,41,nsga2,14,844.1945267645312,58,
+JWST,full,41,nsga2,15,847.8120063549791,58,
+JWST,full,41,nsga2,16,850.3631334568864,59,
+JWST,full,41,nsga2,17,850.4555638593501,58,
+JWST,full,41,nsga2,18,849.6917950303891,57,
+JWST,full,41,nsga2,19,843.6067497660306,58,
+JWST,full,41,nsga2,20,844.3918998055505,58,
+JWST,full,41,nsga2,21,847.7958001847798,58,
+JWST,full,41,nsga2,22,848.7829962609053,57,
+JWST,full,41,nsga2,23,848.7209821643901,58,
+JWST,full,41,nsga2,24,848.6437154405023,59,
+JWST,full,41,nsga2,25,843.8965771856044,58,
+JWST,full,41,nsga2,26,846.4036028190724,57,
+JWST,full,41,nsga2,27,848.9738727067519,60,
+JWST,full,41,nsga2,28,848.807933156026,59,
+JWST,full,41,nsga2,29,848.6244183616187,59,
+JWST,full,41,nsga2,30,851.2685674857446,59,
+JWST,full,41,random,11,854.5158677403809,3260,
+JWST,full,41,random,12,856.7389295558795,3289,
+JWST,full,41,random,13,853.8793402088339,3274,
+JWST,full,41,random,14,855.994031649816,3256,
+JWST,full,41,random,15,856.5570437595865,3227,
+JWST,full,41,random,16,855.4289654742478,3287,
+JWST,full,41,random,17,857.0494089121751,3259,
+JWST,full,41,random,18,855.4608291383873,3227,
+JWST,full,41,random,19,855.975654859089,3260,
+JWST,full,41,random,20,854.8454052271795,3271,
+JWST,full,41,random,21,855.0678445630821,3254,
+JWST,full,41,random,22,855.108287323006,3256,
+JWST,full,41,random,23,856.7898231276616,3280,
+JWST,full,41,random,24,854.2262710646988,3240,
+JWST,full,41,random,25,855.1968547786008,3278,
+JWST,full,41,random,26,856.645892278384,3202,
+JWST,full,41,random,27,857.0683777225436,3288,
+JWST,full,41,random,28,855.2560098065079,3226,
+JWST,full,41,random,29,855.5828128369587,3231,
+JWST,full,41,random,30,855.6385355416461,3238,
+JWST,full,41,spea2,11,836.9874491995641,60,
+JWST,full,41,spea2,12,835.3655025580032,60,
+JWST,full,41,spea2,13,835.973448093428,60,
+JWST,full,41,spea2,14,832.8792604790174,60,
+JWST,full,41,spea2,15,833.6759624012675,60,
+JWST,full,41,spea2,16,839.2297049005625,60,
+JWST,full,41,spea2,17,836.7985998455463,60,
+JWST,full,41,spea2,18,838.4384775410227,60,
+JWST,full,41,spea2,19,826.7522817511428,60,
+JWST,full,41,spea2,20,835.6574118251831,60,
+JWST,full,41,spea2,21,844.0373639003886,60,
+JWST,full,41,spea2,22,838.0894690809325,60,
+JWST,full,41,spea2,23,839.1183479927168,60,
+JWST,full,41,spea2,24,830.4228651988818,60,
+JWST,full,41,spea2,25,843.3988787348695,60,
+JWST,full,41,spea2,26,829.1063496556085,60,
+JWST,full,41,spea2,27,838.7768024888126,60,
+JWST,full,41,spea2,28,834.5611673033538,60,
+JWST,full,41,spea2,29,837.1658838245529,60,
+JWST,full,41,spea2,30,840.8610706741159,60,
+JWST,reduced,11,moead,11,777.7643345971753,95,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,12,735.8767718294141,94,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,13,775.1139185584112,97,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,14,763.3525054874272,100,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,15,653.9479853012487,99,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,16,712.0422303838587,97,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,17,707.4412387784466,94,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,18,728.8745800102539,95,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,19,774.7646207816613,103,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,20,742.2817291071161,95,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,21,769.7753588928464,100,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,22,727.1174745604736,98,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,23,682.2333733468982,94,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,24,694.2706250388302,96,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,25,745.0238082132294,94,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,26,702.6725019932771,97,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,27,750.1589592429904,93,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,28,761.4095876236823,97,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,29,730.9925885747284,100,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,moead,30,680.1708526409108,99,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,11,856.4847719884639,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,12,855.8703401585968,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,13,856.1914561756399,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,14,854.9894616889901,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,15,856.0231865610366,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,16,856.4917094843626,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,17,856.5064257676635,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,18,856.623865778835,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,19,856.4586394605877,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,20,856.2644116515081,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,21,856.0727338947366,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,22,856.4374291321841,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,23,856.2569102069973,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,24,856.4234823104784,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,25,856.6264528219801,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,26,856.5640632957235,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,27,855.9209468752281,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,28,856.1394105808414,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,29,856.2556615584432,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,mopso,30,856.1151840377725,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,11,850.6683047319788,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,12,848.450927296469,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,13,845.8949715319609,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,14,848.1613507661696,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,15,852.2089511076791,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,16,849.4311840713113,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,17,848.3360253960944,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,18,848.7501737867727,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,19,848.141977715408,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,20,851.1469727554464,56,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,21,849.6397888142707,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,22,849.2893336652364,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,23,849.0347729139269,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,24,849.6150968928563,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,25,848.580082709992,57,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,26,847.4451680079137,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,27,848.3762378053495,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,28,845.8844747981021,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,29,847.0677517036924,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,nsga2,30,849.2749364346054,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,11,854.5158677403809,3260,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,12,856.7389295558795,3289,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,13,853.8793402088339,3274,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,14,855.994031649816,3256,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,15,856.5570437595865,3227,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,16,855.4289654742478,3287,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,17,857.0494089121751,3259,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,18,855.4608291383873,3227,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,19,855.975654859089,3260,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,20,854.8454052271795,3271,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,21,855.0678445630821,3254,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,22,855.108287323006,3256,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,23,856.7898231276616,3280,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,24,854.2262710646988,3240,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,25,855.1968547786008,3278,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,26,856.645892278384,3202,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,27,857.0683777225436,3288,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,28,855.2560098065079,3226,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,29,855.5828128369587,3231,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,random,30,855.6385355416461,3238,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,11,844.3095014444692,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,12,837.0378527539286,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,13,836.4300104339544,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,14,838.1478412484694,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,15,844.8940311076117,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,16,832.5953544415203,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,17,833.2146861727153,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,18,836.012994455875,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,19,844.8580051534084,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,20,842.2533939452134,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,21,846.5638037300847,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,22,836.5674026302489,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,23,838.6462932660207,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,24,831.8790474325701,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,25,850.0375501914738,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,26,843.0600760590715,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,27,836.4813503811783,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,28,848.8669031562778,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,29,839.7460003131231,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+JWST,reduced,11,spea2,30,842.6868195943474,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+LEO_OOS,full,42,moead,11,69.40185752514039,106,
+LEO_OOS,full,42,moead,12,84.81099509772764,105,
+LEO_OOS,full,42,moead,13,111.43060448095763,109,
+LEO_OOS,full,42,moead,14,80.88219679020125,108,
+LEO_OOS,full,42,moead,15,174.7721568440769,107,
+LEO_OOS,full,42,moead,16,135.5441485738837,111,
+LEO_OOS,full,42,moead,17,156.94873683619778,107,
+LEO_OOS,full,42,moead,18,107.8821203566386,107,
+LEO_OOS,full,42,moead,19,62.17841056210748,103,
+LEO_OOS,full,42,moead,20,170.13013145770722,114,
+LEO_OOS,full,42,moead,21,162.7674308300582,111,
+LEO_OOS,full,42,moead,22,72.11987095309834,107,
+LEO_OOS,full,42,moead,23,83.44025268102152,106,
+LEO_OOS,full,42,moead,24,128.8366028709539,113,
+LEO_OOS,full,42,moead,25,59.113821111260144,107,
+LEO_OOS,full,42,moead,26,124.05484935298479,112,
+LEO_OOS,full,42,moead,27,57.396275685854725,110,
+LEO_OOS,full,42,moead,28,78.87326899111805,106,
+LEO_OOS,full,42,moead,29,130.62881375008064,108,
+LEO_OOS,full,42,moead,30,86.26535172773592,109,
+LEO_OOS,full,42,mopso,11,183.17279851292415,200,
+LEO_OOS,full,42,mopso,12,181.2263434999811,200,
+LEO_OOS,full,42,mopso,13,185.45046409908116,200,
+LEO_OOS,full,42,mopso,14,182.80560177788252,200,
+LEO_OOS,full,42,mopso,15,183.31477702146591,200,
+LEO_OOS,full,42,mopso,16,183.4910803254791,200,
+LEO_OOS,full,42,mopso,17,183.5409605324797,200,
+LEO_OOS,full,42,mopso,18,182.96662418031784,200,
+LEO_OOS,full,42,mopso,19,177.81294972791915,200,
+LEO_OOS,full,42,mopso,20,187.16749709614984,200,
+LEO_OOS,full,42,mopso,21,183.01601276168725,200,
+LEO_OOS,full,42,mopso,22,184.9787740138849,200,
+LEO_OOS,full,42,mopso,23,182.4476113113243,200,
+LEO_OOS,full,42,mopso,24,182.33905489815294,200,
+LEO_OOS,full,42,mopso,25,185.0014718923187,200,
+LEO_OOS,full,42,mopso,26,186.2259252657857,200,
+LEO_OOS,full,42,mopso,27,182.0698616103097,200,
+LEO_OOS,full,42,mopso,28,183.62919858594697,200,
+LEO_OOS,full,42,mopso,29,180.81285822709864,200,
+LEO_OOS,full,42,mopso,30,185.61764224962062,200,
+LEO_OOS,full,42,nsga2,11,152.71882628260005,60,
+LEO_OOS,full,42,nsga2,12,185.12457168792562,58,
+LEO_OOS,full,42,nsga2,13,186.7677642069674,60,
+LEO_OOS,full,42,nsga2,14,144.89486675780066,59,
+LEO_OOS,full,42,nsga2,15,187.45986999710203,58,
+LEO_OOS,full,42,nsga2,16,152.6734978595129,57,
+LEO_OOS,full,42,nsga2,17,182.8835450408636,60,
+LEO_OOS,full,42,nsga2,18,176.2894534655496,60,
+LEO_OOS,full,42,nsga2,19,179.31791893411582,60,
+LEO_OOS,full,42,nsga2,20,170.93461218989083,60,
+LEO_OOS,full,42,nsga2,21,171.12873953704462,60,
+LEO_OOS,full,42,nsga2,22,187.1838534519784,60,
+LEO_OOS,full,42,nsga2,23,186.66153207728584,60,
+LEO_OOS,full,42,nsga2,24,185.26063665073147,60,
+LEO_OOS,full,42,nsga2,25,157.0591112626531,58,
+LEO_OOS,full,42,nsga2,26,181.61858557471132,60,
+LEO_OOS,full,42,nsga2,27,122.63712518793976,60,
+LEO_OOS,full,42,nsga2,28,186.21601577846673,58,
+LEO_OOS,full,42,nsga2,29,187.20643747114443,56,
+LEO_OOS,full,42,nsga2,30,180.49469077153188,59,
+LEO_OOS,full,42,random,11,164.06284340040807,137,
+LEO_OOS,full,42,random,12,152.69321819049276,124,
+LEO_OOS,full,42,random,13,160.85799194729955,133,
+LEO_OOS,full,42,random,14,146.58861197502907,153,
+LEO_OOS,full,42,random,15,157.07501826460438,129,
+LEO_OOS,full,42,random,16,143.4991980615894,141,
+LEO_OOS,full,42,random,17,149.7509095171325,130,
+LEO_OOS,full,42,random,18,147.33274747660693,119,
+LEO_OOS,full,42,random,19,156.75174897423108,157,
+LEO_OOS,full,42,random,20,177.76422363848317,115,
+LEO_OOS,full,42,random,21,167.16506861851693,116,
+LEO_OOS,full,42,random,22,170.0423441312372,133,
+LEO_OOS,full,42,random,23,163.54726046627948,134,
+LEO_OOS,full,42,random,24,152.54764969485436,129,
+LEO_OOS,full,42,random,25,156.57384737196912,127,
+LEO_OOS,full,42,random,26,169.58297255890164,149,
+LEO_OOS,full,42,random,27,171.72870529308307,104,
+LEO_OOS,full,42,random,28,158.46250532307923,115,
+LEO_OOS,full,42,random,29,177.5637497106385,162,
+LEO_OOS,full,42,random,30,176.05066301155608,133,
+LEO_OOS,full,42,spea2,11,82.75437925592682,60,
+LEO_OOS,full,42,spea2,12,89.97470194612087,60,
+LEO_OOS,full,42,spea2,13,145.90642339907384,60,
+LEO_OOS,full,42,spea2,14,90.3696778613118,60,
+LEO_OOS,full,42,spea2,15,96.65219503623018,60,
+LEO_OOS,full,42,spea2,16,136.94359068406524,60,
+LEO_OOS,full,42,spea2,17,92.34225247451502,60,
+LEO_OOS,full,42,spea2,18,123.48207354008365,60,
+LEO_OOS,full,42,spea2,19,71.62741134800028,60,
+LEO_OOS,full,42,spea2,20,139.3814861462134,60,
+LEO_OOS,full,42,spea2,21,152.50434365833172,60,
+LEO_OOS,full,42,spea2,22,184.74361402551452,60,
+LEO_OOS,full,42,spea2,23,116.71817772067203,60,
+LEO_OOS,full,42,spea2,24,122.03960299369179,60,
+LEO_OOS,full,42,spea2,25,81.32044957638892,60,
+LEO_OOS,full,42,spea2,26,131.42896812327706,60,
+LEO_OOS,full,42,spea2,27,111.03316890767483,60,
+LEO_OOS,full,42,spea2,28,152.23404015614062,60,
+LEO_OOS,full,42,spea2,29,110.71823408564393,60,
+LEO_OOS,full,42,spea2,30,107.56105803004895,60,
+LEO_OOS,reduced,12,moead,11,134.97703828877192,90,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,12,123.08222730721515,88,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,13,128.04286067088455,88,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,14,142.8751513323799,92,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,15,123.32871316979887,90,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,16,154.6991710069523,92,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,17,185.75271887260845,92,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,18,149.73602797333245,89,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,19,88.06352478397397,86,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,20,130.35068194076854,85,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,21,177.14301154195857,88,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,22,184.2486013529674,89,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,23,113.5556520071045,91,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,24,160.309961639548,90,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,25,113.73762861531264,88,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,26,138.13681689591647,86,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,27,100.76199784946438,88,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,28,153.6505979158296,90,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,29,178.4498477535152,89,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,moead,30,158.69365999779126,88,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,11,183.16616837942172,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,12,186.17763027068688,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,13,182.91013450106095,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,14,184.51550659290825,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,15,181.6513818925748,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,16,183.17136748787965,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,17,186.1733959804811,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,18,179.80026520374432,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,19,184.66300448189173,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,20,185.00140395777262,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,21,184.11184748227322,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,22,184.13369658583116,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,23,185.83087241966058,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,24,181.08509067179452,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,25,183.94880856002982,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,26,184.18805255945458,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,27,179.3975357974187,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,28,183.64548327701274,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,29,184.7370684102991,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,mopso,30,185.88645170459614,200,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,11,154.30825536244734,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,12,170.17624895710122,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,13,187.5971555923244,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,14,142.030145249117,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,15,177.8603032039808,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,16,163.01629718947441,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,17,168.4532784717523,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,18,183.60552261785247,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,19,142.35806997190824,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,20,153.80201638887488,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,21,166.03463932895076,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,22,187.21984867485523,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,23,178.97242820840995,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,24,187.45559424875714,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,25,163.51466694001243,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,26,158.55053628829722,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,27,119.12134938961887,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,28,187.9881138879709,59,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,29,187.99556891723543,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,nsga2,30,184.2864520869413,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,11,164.06284340040807,137,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,12,152.69321819049276,124,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,13,160.85799194729955,133,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,14,146.58861197502907,153,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,15,157.07501826460438,129,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,16,143.4991980615894,141,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,17,149.7509095171325,130,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,18,147.33274747660693,119,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,19,156.75174897423108,157,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,20,177.76422363848317,115,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,21,167.16506861851693,116,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,22,170.0423441312372,133,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,23,163.54726046627948,134,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,24,152.54764969485436,129,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,25,156.57384737196912,127,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,26,169.58297255890164,149,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,27,171.72870529308307,104,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,28,158.46250532307923,115,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,29,177.5637497106385,162,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,random,30,176.05066301155608,133,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,11,104.89396727699511,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,12,109.25858713260139,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,13,175.47427872260334,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,14,131.6543681198434,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,15,104.0253140535546,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,16,132.84967793657123,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,17,117.29888248599188,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,18,132.01202460074376,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,19,100.46051770910513,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,20,142.35152015432638,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,21,174.96538465160492,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,22,176.4894100005488,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,23,160.43716791840998,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,24,137.53826150401372,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,25,135.7796460786009,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,26,128.18607739221193,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,27,104.99836834796929,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,28,182.34454539413687,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,29,176.29234424602348,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+LEO_OOS,reduced,12,spea2,30,144.7346191623206,60,Latency p99 (ms)|Success probability|Quality (0-1)|Throughput (GFLOPS)|Energy per task (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per task (USD)|Autonomy compat
+RST,full,41,moead,11,496.47476947162926,118,
+RST,full,41,moead,12,501.28022520508733,118,
+RST,full,41,moead,13,504.76987755418764,114,
+RST,full,41,moead,14,482.62682162588686,120,
+RST,full,41,moead,15,498.1707252644805,110,
+RST,full,41,moead,16,502.1783404967527,117,
+RST,full,41,moead,17,487.61434630780235,113,
+RST,full,41,moead,18,504.5871111567034,115,
+RST,full,41,moead,19,492.1274432420884,117,
+RST,full,41,moead,20,486.4348623403243,118,
+RST,full,41,moead,21,496.1862346842674,115,
+RST,full,41,moead,22,493.5763261916957,119,
+RST,full,41,moead,23,499.3594301136115,119,
+RST,full,41,moead,24,502.2506210595205,119,
+RST,full,41,moead,25,489.88631013741946,117,
+RST,full,41,moead,26,508.5403310210851,119,
+RST,full,41,moead,27,504.1252885091254,112,
+RST,full,41,moead,28,501.32429047705466,118,
+RST,full,41,moead,29,489.4277434062859,112,
+RST,full,41,moead,30,501.57816026669553,116,
+RST,full,41,mopso,11,546.6747763188376,200,
+RST,full,41,mopso,12,547.1853172001637,199,
+RST,full,41,mopso,13,547.5764124195473,200,
+RST,full,41,mopso,14,547.2238971729988,200,
+RST,full,41,mopso,15,545.0748749269425,200,
+RST,full,41,mopso,16,545.7936594615725,200,
+RST,full,41,mopso,17,547.3820290615648,200,
+RST,full,41,mopso,18,547.6394888228992,200,
+RST,full,41,mopso,19,545.6600854374823,200,
+RST,full,41,mopso,20,547.39252130438,200,
+RST,full,41,mopso,21,546.1583994931839,200,
+RST,full,41,mopso,22,547.3229582669094,199,
+RST,full,41,mopso,23,547.2427491768132,199,
+RST,full,41,mopso,24,546.8268687633421,200,
+RST,full,41,mopso,25,547.2001705501211,200,
+RST,full,41,mopso,26,546.5710156902782,200,
+RST,full,41,mopso,27,546.8506746541087,200,
+RST,full,41,mopso,28,545.8093218015814,200,
+RST,full,41,mopso,29,547.3422723097424,199,
+RST,full,41,mopso,30,547.3765570710746,200,
+RST,full,41,nsga2,11,534.8294409246429,58,
+RST,full,41,nsga2,12,535.4884794076149,57,
+RST,full,41,nsga2,13,528.0247148153337,58,
+RST,full,41,nsga2,14,531.3889781030101,57,
+RST,full,41,nsga2,15,536.2482876222441,56,
+RST,full,41,nsga2,16,538.6690440351323,57,
+RST,full,41,nsga2,17,534.1523335630302,56,
+RST,full,41,nsga2,18,532.1928585938132,58,
+RST,full,41,nsga2,19,535.9497633815039,58,
+RST,full,41,nsga2,20,530.7992294375559,57,
+RST,full,41,nsga2,21,532.0604544831398,57,
+RST,full,41,nsga2,22,530.8320524912092,57,
+RST,full,41,nsga2,23,537.079311856051,57,
+RST,full,41,nsga2,24,537.1343556658779,59,
+RST,full,41,nsga2,25,536.0998255724257,58,
+RST,full,41,nsga2,26,536.210775285627,55,
+RST,full,41,nsga2,27,536.5907399665527,59,
+RST,full,41,nsga2,28,534.7650666469393,58,
+RST,full,41,nsga2,29,531.7108736865754,57,
+RST,full,41,nsga2,30,529.138609556445,60,
+RST,full,41,random,11,549.8046927445428,4502,
+RST,full,41,random,12,549.3160417825637,4528,
+RST,full,41,random,13,549.8087997963547,4519,
+RST,full,41,random,14,550.0681659309879,4524,
+RST,full,41,random,15,549.7075825160696,4526,
+RST,full,41,random,16,549.3077684317855,4494,
+RST,full,41,random,17,549.4029696491274,4498,
+RST,full,41,random,18,550.0312681363646,4496,
+RST,full,41,random,19,549.3895493052906,4503,
+RST,full,41,random,20,549.85774371731,4527,
+RST,full,41,random,21,550.1926563656585,4520,
+RST,full,41,random,22,550.1838201546161,4495,
+RST,full,41,random,23,549.7798676371026,4508,
+RST,full,41,random,24,548.8247933536669,4536,
+RST,full,41,random,25,549.8484531293021,4504,
+RST,full,41,random,26,549.4094447395385,4484,
+RST,full,41,random,27,550.4223355483002,4528,
+RST,full,41,random,28,549.0187861723607,4527,
+RST,full,41,random,29,550.0187017148985,4522,
+RST,full,41,random,30,548.7989302376691,4520,
+RST,full,41,spea2,11,517.9144415175017,60,
+RST,full,41,spea2,12,529.6500452921197,60,
+RST,full,41,spea2,13,528.4602010218334,60,
+RST,full,41,spea2,14,530.0633222262462,60,
+RST,full,41,spea2,15,529.843867690249,60,
+RST,full,41,spea2,16,522.8147289048567,60,
+RST,full,41,spea2,17,526.5029843999038,60,
+RST,full,41,spea2,18,532.1139149351827,60,
+RST,full,41,spea2,19,529.4092133976062,60,
+RST,full,41,spea2,20,519.9345317354349,60,
+RST,full,41,spea2,21,526.0972536168316,60,
+RST,full,41,spea2,22,519.9183698665269,60,
+RST,full,41,spea2,23,521.5180739092922,60,
+RST,full,41,spea2,24,515.8549923061327,60,
+RST,full,41,spea2,25,522.5957943367254,60,
+RST,full,41,spea2,26,516.9194665469319,60,
+RST,full,41,spea2,27,529.6265380528562,60,
+RST,full,41,spea2,28,523.580679574437,60,
+RST,full,41,spea2,29,530.5003838228675,60,
+RST,full,41,spea2,30,523.9509870519688,60,
+RST,reduced,11,moead,11,500.13811864965555,110,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,12,511.22706243504894,108,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,13,498.3436097436215,111,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,14,500.53908072491777,110,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,15,494.75490500223367,117,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,16,507.86971238285616,115,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,17,479.56453192195687,115,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,18,520.9619204537436,111,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,19,501.4498011357812,113,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,20,499.7761150439923,102,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,21,516.414545506237,107,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,22,499.06581585468246,109,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,23,473.82714288153466,109,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,24,514.5213304378182,108,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,25,517.5847230820956,106,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,26,495.42065727523436,109,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,27,516.386195870353,110,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,28,503.68677015663417,111,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,29,499.3523945440216,118,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,moead,30,504.5602241406076,113,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,11,550.6952879345607,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,12,551.1524956722476,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,13,550.6645463548848,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,14,550.7167078030702,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,15,550.8361953573628,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,16,551.1052627483757,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,17,551.0664773754529,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,18,551.2816232330682,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,19,550.9605205255589,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,20,551.2609627439655,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,21,550.6194366445302,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,22,551.182347701812,200,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,23,550.9496677814441,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,24,550.7977866537434,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,25,551.214718511213,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,26,550.8476375874949,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,27,551.059996455361,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,28,550.5786139432869,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,29,551.0995175317214,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,mopso,30,550.7527406399132,199,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,11,531.0017872866172,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,12,537.8689462639469,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,13,534.1508442257775,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,14,538.8069109118795,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,15,530.0655004624322,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,16,537.8047550204703,57,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,17,538.5015789762174,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,18,539.5963620240985,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,19,530.4623267667848,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,20,538.3470232650803,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,21,535.2677385747869,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,22,534.8330750690818,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,23,534.2639428822832,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,24,534.4204220537189,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,25,543.0401742309315,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,26,535.7717504548929,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,27,539.3090013626289,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,28,539.5227589199571,59,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,29,535.1718740322935,58,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,nsga2,30,534.8968419147411,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,11,549.8046927445428,4502,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,12,549.3160417825637,4528,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,13,549.8087997963547,4519,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,14,550.0681659309879,4524,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,15,549.7075825160696,4526,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,16,549.3077684317855,4494,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,17,549.4029696491274,4498,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,18,550.0312681363646,4496,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,19,549.3895493052906,4503,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,20,549.85774371731,4527,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,21,550.1926563656585,4520,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,22,550.1838201546161,4495,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,23,549.7798676371026,4508,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,24,548.8247933536669,4536,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,25,549.8484531293021,4504,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,26,549.4094447395385,4484,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,27,550.4223355483002,4528,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,28,549.0187861723607,4527,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,29,550.0187017148985,4522,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,random,30,548.7989302376691,4520,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,11,521.717008430057,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,12,528.5291584711658,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,13,533.4735963410192,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,14,528.3849705507287,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,15,532.2585870460047,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,16,525.5661040579074,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,17,532.0656648398003,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,18,531.4844975183136,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,19,532.2836128897737,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,20,523.061554637181,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,21,534.1045622947277,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,22,523.1723945774036,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,23,526.1575289427803,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,24,533.8015402830833,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,25,531.0460433457017,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,26,516.9957887920016,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,27,534.4791308950707,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,28,525.7762035901643,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,29,531.8289962547443,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+RST,reduced,11,spea2,30,528.3355081635872,60,Latency (hrs)|Success probability|Science quality (0-1)|Throughput (GFLOPS)|Energy per obs (kJ)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per obs (USD)
+SUNCATCHER,full,41,moead,11,149.33044538955883,81,
+SUNCATCHER,full,41,moead,12,52.795535722248374,84,
+SUNCATCHER,full,41,moead,13,93.71495009493717,84,
+SUNCATCHER,full,41,moead,14,103.82569622729294,82,
+SUNCATCHER,full,41,moead,15,175.2482513858622,91,
+SUNCATCHER,full,41,moead,16,147.08991400840972,87,
+SUNCATCHER,full,41,moead,17,52.07874108060037,84,
+SUNCATCHER,full,41,moead,18,125.89321173590228,82,
+SUNCATCHER,full,41,moead,19,47.55345538051125,85,
+SUNCATCHER,full,41,moead,20,155.71565661824232,85,
+SUNCATCHER,full,41,moead,21,59.9548542887314,91,
+SUNCATCHER,full,41,moead,22,115.53812349174943,83,
+SUNCATCHER,full,41,moead,23,97.25951577223162,82,
+SUNCATCHER,full,41,moead,24,128.1938301700173,82,
+SUNCATCHER,full,41,moead,25,83.13632569825297,81,
+SUNCATCHER,full,41,moead,26,57.08784376584182,89,
+SUNCATCHER,full,41,moead,27,174.7563815801406,87,
+SUNCATCHER,full,41,moead,28,72.35154674953186,87,
+SUNCATCHER,full,41,moead,29,78.86166047768056,86,
+SUNCATCHER,full,41,moead,30,108.68876062000332,90,
+SUNCATCHER,full,41,mopso,11,176.8140595953156,200,
+SUNCATCHER,full,41,mopso,12,176.94011220136252,200,
+SUNCATCHER,full,41,mopso,13,176.93057320786096,200,
+SUNCATCHER,full,41,mopso,14,176.9386990917145,199,
+SUNCATCHER,full,41,mopso,15,176.93950592366568,200,
+SUNCATCHER,full,41,mopso,16,176.93730011504715,200,
+SUNCATCHER,full,41,mopso,17,176.27055438887677,200,
+SUNCATCHER,full,41,mopso,18,176.47792469854113,200,
+SUNCATCHER,full,41,mopso,19,176.3488557835364,200,
+SUNCATCHER,full,41,mopso,20,176.4119090411654,200,
+SUNCATCHER,full,41,mopso,21,176.56490457829932,200,
+SUNCATCHER,full,41,mopso,22,176.48447190020588,200,
+SUNCATCHER,full,41,mopso,23,176.63036016628948,200,
+SUNCATCHER,full,41,mopso,24,176.92460788526148,200,
+SUNCATCHER,full,41,mopso,25,176.7813358563914,200,
+SUNCATCHER,full,41,mopso,26,175.7406901577977,200,
+SUNCATCHER,full,41,mopso,27,176.1045095342613,200,
+SUNCATCHER,full,41,mopso,28,175.09161003590606,200,
+SUNCATCHER,full,41,mopso,29,176.00659057286882,200,
+SUNCATCHER,full,41,mopso,30,176.90573117318843,199,
+SUNCATCHER,full,41,nsga2,11,176.94793452817717,58,
+SUNCATCHER,full,41,nsga2,12,176.95737870836993,60,
+SUNCATCHER,full,41,nsga2,13,176.87668437726873,60,
+SUNCATCHER,full,41,nsga2,14,171.2090046604427,59,
+SUNCATCHER,full,41,nsga2,15,176.9491716281938,60,
+SUNCATCHER,full,41,nsga2,16,176.35120615372765,60,
+SUNCATCHER,full,41,nsga2,17,50.1484125848568,60,
+SUNCATCHER,full,41,nsga2,18,84.1811177134175,60,
+SUNCATCHER,full,41,nsga2,19,46.21753198784864,59,
+SUNCATCHER,full,41,nsga2,20,122.46265610250052,60,
+SUNCATCHER,full,41,nsga2,21,68.7578650003142,60,
+SUNCATCHER,full,41,nsga2,22,63.77868774822136,60,
+SUNCATCHER,full,41,nsga2,23,176.95067314276935,58,
+SUNCATCHER,full,41,nsga2,24,157.82509240628877,60,
+SUNCATCHER,full,41,nsga2,25,176.94077006750084,56,
+SUNCATCHER,full,41,nsga2,26,43.36063868467458,60,
+SUNCATCHER,full,41,nsga2,27,176.8826796142804,60,
+SUNCATCHER,full,41,nsga2,28,91.59947091950089,59,
+SUNCATCHER,full,41,nsga2,29,141.08065448257312,60,
+SUNCATCHER,full,41,nsga2,30,148.18670844857502,60,
+SUNCATCHER,full,41,random,11,175.0,2,
+SUNCATCHER,full,41,random,12,175.0,5,
+SUNCATCHER,full,41,random,13,175.0,3,
+SUNCATCHER,full,41,random,14,175.0,4,
+SUNCATCHER,full,41,random,15,175.0,6,
+SUNCATCHER,full,41,random,16,175.0,3,
+SUNCATCHER,full,41,random,17,175.0,4,
+SUNCATCHER,full,41,random,18,175.0,8,
+SUNCATCHER,full,41,random,19,175.0,4,
+SUNCATCHER,full,41,random,20,175.0,3,
+SUNCATCHER,full,41,random,21,175.0,5,
+SUNCATCHER,full,41,random,22,175.0,3,
+SUNCATCHER,full,41,random,23,175.0,3,
+SUNCATCHER,full,41,random,24,175.0,9,
+SUNCATCHER,full,41,random,25,175.0,7,
+SUNCATCHER,full,41,random,26,175.0,3,
+SUNCATCHER,full,41,random,27,175.0,6,
+SUNCATCHER,full,41,random,28,175.0,9,
+SUNCATCHER,full,41,random,29,175.0,3,
+SUNCATCHER,full,41,random,30,175.0,5,
+SUNCATCHER,full,41,spea2,11,157.21083198648134,60,
+SUNCATCHER,full,41,spea2,12,169.35310668885924,60,
+SUNCATCHER,full,41,spea2,13,162.75745465650252,60,
+SUNCATCHER,full,41,spea2,14,111.6827912414824,60,
+SUNCATCHER,full,41,spea2,15,169.39833433957347,60,
+SUNCATCHER,full,41,spea2,16,142.98711158685376,60,
+SUNCATCHER,full,41,spea2,17,43.68650772753474,60,
+SUNCATCHER,full,41,spea2,18,71.56782901928706,60,
+SUNCATCHER,full,41,spea2,19,39.58105106025571,60,
+SUNCATCHER,full,41,spea2,20,98.0535068255871,60,
+SUNCATCHER,full,41,spea2,21,53.31307072692142,60,
+SUNCATCHER,full,41,spea2,22,47.56606112746754,60,
+SUNCATCHER,full,41,spea2,23,146.85190461180653,60,
+SUNCATCHER,full,41,spea2,24,126.12303923363638,60,
+SUNCATCHER,full,41,spea2,25,175.18935168935226,60,
+SUNCATCHER,full,41,spea2,26,38.3853129153819,60,
+SUNCATCHER,full,41,spea2,27,43.30091536823097,60,
+SUNCATCHER,full,41,spea2,28,53.51970888643975,60,
+SUNCATCHER,full,41,spea2,29,126.29742725864836,60,
+SUNCATCHER,full,41,spea2,30,101.612906667285,60,
+SUNCATCHER,reduced,10,moead,11,176.3372331684623,37,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,12,176.12957752125595,82,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,13,104.67993425134414,10,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,14,141.31343899243987,8,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,15,119.60669748455219,8,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,16,167.5568992623726,10,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,17,54.37105473797673,11,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,18,154.00055289168037,4,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,19,35.31048148031531,3,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,20,176.35477067794318,79,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,21,79.495697499016,16,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,22,99.68163020352524,10,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,23,123.83700504001924,21,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,24,165.58255387097654,13,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,25,176.6922182658312,18,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,26,159.35147802454918,8,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,27,175.79601160311145,82,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,28,175.80859646567237,16,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,29,88.96528415727484,23,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,moead,30,176.1231667165781,87,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,11,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,12,176.92204523507442,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,13,176.91625209712547,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,14,176.9332156169257,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,15,176.9511414563704,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,16,176.94662978109218,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,17,176.93618201294512,199,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,18,176.96368722475768,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,19,176.9238780955614,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,20,175.33899717244537,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,21,176.93524699991931,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,22,176.96025626908255,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,23,176.95147078013767,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,24,176.95573776705876,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,25,176.94418701282353,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,26,176.94002487302174,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,27,176.95192342550368,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,28,176.95628890134546,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,29,176.95363158974754,200,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,mopso,30,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,11,176.96181187096755,57,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,12,176.9602997882885,59,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,13,176.9636505843017,60,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,14,156.29680561492873,10,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,15,176.96363741644686,59,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,16,176.9626029605884,59,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,17,56.35134630134103,4,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,18,82.65989484831992,10,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,19,55.93901076068061,9,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,20,124.90124824379961,3,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,21,84.92966216430662,8,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,22,75.82754144442795,10,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,23,176.93607880868157,35,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,24,167.54812328021472,16,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,25,176.96348166777838,59,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,26,51.389150196315775,11,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,27,165.11428789045323,16,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,28,94.88802031139278,3,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,29,159.37433929952857,8,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,nsga2,30,141.31524000961988,12,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,11,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,12,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,13,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,14,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,15,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,16,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,17,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,18,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,19,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,20,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,21,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,22,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,23,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,24,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,25,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,26,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,27,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,28,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,29,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,random,30,175.0,1,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,11,170.8960670707834,22,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,12,176.9473434198227,60,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,13,176.95272428290926,60,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,14,146.18685568866482,7,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,15,176.95932597605994,60,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,16,176.44639049378281,35,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,17,56.71832194271548,14,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,18,92.2461624544103,9,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,19,55.23640950070375,20,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,20,122.5268612188982,6,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,21,82.08122055250179,13,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,22,73.28276670150274,9,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,23,176.961946767923,60,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,24,167.99799439569554,8,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,25,176.9610009514911,60,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,26,47.991298780776454,14,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,27,79.73140160184356,4,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,28,90.298749966397,11,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,29,162.06264325458307,22,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)
+SUNCATCHER,reduced,10,spea2,30,140.1108277874349,22,Latency p99 (ms)|Success probability|Throughput (GFLOPS)|Energy per unit (J)|Link availability|Security protocol level|Key mgmt feasibility|TRL|Rad dose margin (krad)|Cost per unit (USD)

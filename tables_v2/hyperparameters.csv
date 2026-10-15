@@ -1,0 +1,35 @@
+Experiment,Method,Configuration (from code),Evaluations
+Main benchmark (16k),random,"{""n"": 16000}",16000
+Main benchmark (16k),mopso,"{""particles"": 80, ""iters"": 199, ""archive_max"": 350}",16000
+Main benchmark (16k),nsga2,"{""pop_size"": 80, ""generations"": 199}",16000
+Main benchmark (16k),spea2,"{""pop_size"": 80, ""archive_size"": 80, ""generations"": 199}",16000
+Main benchmark (16k),moead,"{""T"": 5, ""generations"": 132}",15960
+Main benchmark (16k),epsilon,"{""n_levels"": 28, ""samples_per_level"": 500}",16000
+Main benchmark (16k),epsilon2d,"{""n_levels"": 28, ""samples_per_level"": 500, ""secondary_keys"": [""<HV cost metric>""]}",16000
+ROMAN benchmark (12k),random,"{""n"": 12000}",12000
+ROMAN benchmark (12k),mopso,"{""particles"": 60, ""iters"": 199, ""archive_max"": 250}",12000
+ROMAN benchmark (12k),nsga2,"{""pop_size"": 60, ""generations"": 199}",12000
+ROMAN benchmark (12k),spea2,"{""pop_size"": 60, ""archive_size"": 60, ""generations"": 199}",12000
+ROMAN benchmark (12k),moead,"{""T"": 5, ""generations"": 99}",12000
+ROMAN benchmark (12k),epsilon,"{""n_levels"": 20, ""samples_per_level"": 500}",12000
+ROMAN benchmark (12k),epsilon2d,"{""n_levels"": 20, ""samples_per_level"": 500, ""secondary_keys"": [""<HV cost metric>""]}",12000
+Convergence (20 seeds),mopso,"{""particles"": 60, ""iters"": 120, ""archive_max"": 200}",7260
+Convergence (20 seeds),nsga2,"{""pop_size"": 60, ""generations"": 120}",7260
+Convergence (20 seeds),spea2,"{""pop_size"": 60, ""archive_size"": 60, ""generations"": 120}",7260
+Convergence (20 seeds),moead,"{""T"": 5, ""generations"": 120}",14520
+Variable ablation,random,"{""n"": 4860}",4860
+Variable ablation,mopso,"{""particles"": 60, ""iters"": 80, ""archive_max"": 200}",4860
+Variable ablation,nsga2,"{""pop_size"": 60, ""generations"": 80}",4860
+Variable ablation,spea2,"{""pop_size"": 60, ""archive_size"": 60, ""generations"": 80}",4860
+Variable ablation,moead,"{""T"": 5, ""generations"": 39}",4800
+Inner loop vs proxy,mopso,"{""particles"": 60, ""iters"": 80, ""archive_max"": 200}",4860
+Inner loop vs proxy,nsga2,"{""pop_size"": 60, ""generations"": 80}",4860
+Coefficient sensitivity,mopso,"{""particles"": 60, ""iters"": 60, ""archive_max"": 200}",3660
+Coefficient sensitivity,nsga2,"{""pop_size"": 60, ""generations"": 60}",3660
+Coefficient sensitivity,random,"{""n"": 3660}",3660
+ODC throughput x radiation-margin sweep,mopso,"{""particles"": 50, ""iters"": 60, ""archive_max"": 150}",3050
+ROMAN arrival sweep,mopso,"{""particles"": 50, ""iters"": 70, ""archive_max"": 180, ""seeds"": ""21-30""}",3550
+ROMAN burst sweep,mopso,"{""particles"": 50, ""iters"": 70, ""archive_max"": 180, ""seeds"": ""31-40""}",3550
+ROMAN quality sweep,mopso,"{""particles"": 50, ""iters"": 70, ""archive_max"": 180, ""seeds"": ""22-31""}",3550
+ROMAN nre sweep,mopso,"{""particles"": 50, ""iters"": 60, ""archive_max"": 180, ""seeds"": ""41-50""}",3050
+q-EHVI (BO),qehvi,"{""n_sobol"": 16, ""n_dirichlet"": 4, ""n_bo_iter"": 64, ""q"": 1, ""num_restarts"": 4, ""raw_samples"": 128, ""mc_samples"": 64}",84

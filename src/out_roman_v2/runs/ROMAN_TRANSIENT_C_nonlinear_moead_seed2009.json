@@ -1,0 +1,29 @@
+{
+ "violation": "normalized",
+ "handling": "deb",
+ "data": "data.json",
+ "suite": "roman",
+ "workload": "ROMAN_TRANSIENT",
+ "variant": "C",
+ "evaluator": "nonlinear",
+ "method": "moead",
+ "seed": 2009,
+ "cfg": {
+  "H": 8,
+  "T": 5,
+  "generations": 99
+ },
+ "budget": 12000,
+ "job_id": "ROMAN_TRANSIENT_C_nonlinear_moead_seed2009",
+ "hv": 11161305.9444084,
+ "n_returned": 106,
+ "n_front": 106,
+ "feasible_found": true,
+ "n_evals": 12000,
+ "n_feasible_evals": 10560,
+ "search_feasible_rate": 0.88,
+ "runtime_s": 13.327063255012035,
+ "epsilon_diag": null,
+ "violation_mode": "normalized",
+ "handling_mode": "deb"
+}

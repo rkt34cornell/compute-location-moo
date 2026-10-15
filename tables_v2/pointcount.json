@@ -1,0 +1,2117 @@
+{
+ "table": "pointcount",
+ "caption": "Point-count-controlled HV: each front reduced to $k$ points by random subsampling (100 repeats) or by greedy HV-maximizing selection; fronts with $\\le k$ points are used whole.",
+ "columns": [
+  "Workload",
+  "k",
+  "Method",
+  "Median front",
+  "Random-subsample HV mean",
+  "SD",
+  "Greedy best-k HV mean",
+  "SD",
+  "Seeds with front <= k"
+ ],
+ "rows": [
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "5",
+   "Method": "random",
+   "Median front": "3215.0",
+   "Random-subsample HV mean": "11.116087131343129",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "5",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "11.729897101166758",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "5",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "11.775380093325284",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "5",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "11.866926219210844",
+   "SD": "0.027936222433007477",
+   "Greedy best-k HV mean": "13.486715396039674",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "5",
+   "Method": "moead",
+   "Median front": "103.0",
+   "Random-subsample HV mean": "10.334745558494214",
+   "SD": "0.16833910469922034",
+   "Greedy best-k HV mean": "13.24912761926945",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "5",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "13.390975596788584",
+   "SD": "0.057568518356740976",
+   "Greedy best-k HV mean": "13.390975596788584",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "5",
+   "Method": "epsilon2d",
+   "Median front": "16.0",
+   "Random-subsample HV mean": "13.251735776542741",
+   "SD": "0.055942117132895125",
+   "Greedy best-k HV mean": "13.373453814224064",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "10",
+   "Method": "random",
+   "Median front": "3215.0",
+   "Random-subsample HV mean": "11.725843092967134",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "10",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "12.435915406928654",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "10",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "12.512514683143078",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "10",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "12.5423089192299",
+   "SD": "0.027936222433007477",
+   "Greedy best-k HV mean": "13.486715396039674",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "10",
+   "Method": "moead",
+   "Median front": "103.0",
+   "Random-subsample HV mean": "11.183141538183497",
+   "SD": "0.16833910469922034",
+   "Greedy best-k HV mean": "13.24912761926945",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "10",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "13.390975596788584",
+   "SD": "0.057568518356740976",
+   "Greedy best-k HV mean": "13.390975596788584",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "10",
+   "Method": "epsilon2d",
+   "Median front": "16.0",
+   "Random-subsample HV mean": "13.329279690323608",
+   "SD": "0.055942117132895125",
+   "Greedy best-k HV mean": "13.373453814224064",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "16",
+   "Method": "random",
+   "Median front": "3215.0",
+   "Random-subsample HV mean": "12.018921052428842",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "16",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "12.777745271983097",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "16",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "12.893932915348987",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "16",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "12.931738500638719",
+   "SD": "0.027936222433007477",
+   "Greedy best-k HV mean": "13.486715396039674",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "16",
+   "Method": "moead",
+   "Median front": "103.0",
+   "Random-subsample HV mean": "11.705192865984499",
+   "SD": "0.16833910469922034",
+   "Greedy best-k HV mean": "13.24912761926945",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "16",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "13.390975596788584",
+   "SD": "0.057568518356740976",
+   "Greedy best-k HV mean": "13.390975596788584",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "16",
+   "Method": "epsilon2d",
+   "Median front": "16.0",
+   "Random-subsample HV mean": "13.372295425211297",
+   "SD": "0.055942117132895125",
+   "Greedy best-k HV mean": "13.373453814224064",
+   "Seeds with front <= k": "12"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "25",
+   "Method": "random",
+   "Median front": "3215.0",
+   "Random-subsample HV mean": "12.31097280095879",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "25",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "12.989808812203297",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "25",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "13.123873369932321",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "25",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "13.146919401662098",
+   "SD": "0.027936222433007477",
+   "Greedy best-k HV mean": "13.486715396039674",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "25",
+   "Method": "moead",
+   "Median front": "103.0",
+   "Random-subsample HV mean": "12.187985678588536",
+   "SD": "0.16833910469922034",
+   "Greedy best-k HV mean": "13.24912761926945",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "25",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "13.390975596788584",
+   "SD": "0.057568518356740976",
+   "Greedy best-k HV mean": "13.390975596788584",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "25",
+   "Method": "epsilon2d",
+   "Median front": "16.0",
+   "Random-subsample HV mean": "13.373453814224064",
+   "SD": "0.055942117132895125",
+   "Greedy best-k HV mean": "13.373453814224064",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "50",
+   "Method": "random",
+   "Median front": "3215.0",
+   "Random-subsample HV mean": "12.654445780775497",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "50",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "13.222983291438151",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "50",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "13.384470680225878",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "13.5",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "50",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "13.386267547220996",
+   "SD": "0.027936222433007477",
+   "Greedy best-k HV mean": "13.486715396039674",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "50",
+   "Method": "moead",
+   "Median front": "103.0",
+   "Random-subsample HV mean": "12.731668672203138",
+   "SD": "0.16833910469922034",
+   "Greedy best-k HV mean": "13.24912761926945",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "50",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "13.390975596788584",
+   "SD": "0.057568518356740976",
+   "Greedy best-k HV mean": "13.390975596788584",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "DEEP_SPACE_CRUISE",
+   "k": "50",
+   "Method": "epsilon2d",
+   "Median front": "16.0",
+   "Random-subsample HV mean": "13.373453814224064",
+   "SD": "0.055942117132895125",
+   "Greedy best-k HV mean": "13.373453814224064",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "IDS",
+   "k": "5",
+   "Method": "random",
+   "Median front": "5187.5",
+   "Random-subsample HV mean": "215.89155838492738",
+   "SD": "1.4675210286112206",
+   "Greedy best-k HV mean": "362.1048974936817",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "5",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "261.16189219892624",
+   "SD": "0.9396741450433707",
+   "Greedy best-k HV mean": "364.30344280804275",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "5",
+   "Method": "nsga2",
+   "Median front": "79.0",
+   "Random-subsample HV mean": "246.95928273844643",
+   "SD": "5.326364064963394",
+   "Greedy best-k HV mean": "351.93204201732334",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "5",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "211.48782746580378",
+   "SD": "23.414519352902868",
+   "Greedy best-k HV mean": "295.25124146629133",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "5",
+   "Method": "moead",
+   "Median front": "119.0",
+   "Random-subsample HV mean": "146.4464180131422",
+   "SD": "29.37518070327222",
+   "Greedy best-k HV mean": "270.1368783890457",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "5",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "206.8296588863524",
+   "SD": "2.970890026248523",
+   "Greedy best-k HV mean": "206.8296588863524",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "IDS",
+   "k": "5",
+   "Method": "epsilon2d",
+   "Median front": "18.0",
+   "Random-subsample HV mean": "297.1234291730996",
+   "SD": "8.85700567527347",
+   "Greedy best-k HV mean": "329.9392795582345",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "10",
+   "Method": "random",
+   "Median front": "5187.5",
+   "Random-subsample HV mean": "253.97944162013104",
+   "SD": "0.505240160928018",
+   "Greedy best-k HV mean": "379.78568696150177",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "10",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "309.0085920612696",
+   "SD": "0.499171354008448",
+   "Greedy best-k HV mean": "382.07694187861074",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "10",
+   "Method": "nsga2",
+   "Median front": "79.0",
+   "Random-subsample HV mean": "300.00704123221857",
+   "SD": "5.540685708681543",
+   "Greedy best-k HV mean": "366.9359262963528",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "10",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "247.75388346643894",
+   "SD": "24.539231452526487",
+   "Greedy best-k HV mean": "302.03144220560955",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "10",
+   "Method": "moead",
+   "Median front": "119.0",
+   "Random-subsample HV mean": "178.86400787745387",
+   "SD": "31.025334205452946",
+   "Greedy best-k HV mean": "273.04010254422144",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "10",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "206.8296588863524",
+   "SD": "2.970890026248523",
+   "Greedy best-k HV mean": "206.8296588863524",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "IDS",
+   "k": "10",
+   "Method": "epsilon2d",
+   "Median front": "18.0",
+   "Random-subsample HV mean": "326.6849441720707",
+   "SD": "9.47757343461728",
+   "Greedy best-k HV mean": "339.982438600494",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "18",
+   "Method": "random",
+   "Median front": "5187.5",
+   "Random-subsample HV mean": "278.86357518486983",
+   "SD": "0.42535552341464333",
+   "Greedy best-k HV mean": "386.47670763188",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "18",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "338.54289301539654",
+   "SD": "0.48105200108289237",
+   "Greedy best-k HV mean": "388.92194266190864",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "18",
+   "Method": "nsga2",
+   "Median front": "79.0",
+   "Random-subsample HV mean": "331.83343933970355",
+   "SD": "5.830043568071007",
+   "Greedy best-k HV mean": "370.9480468389529",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "18",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "271.20686848519705",
+   "SD": "24.59302470245076",
+   "Greedy best-k HV mean": "303.15502509368247",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "18",
+   "Method": "moead",
+   "Median front": "119.0",
+   "Random-subsample HV mean": "204.78135123768158",
+   "SD": "31.33909349803859",
+   "Greedy best-k HV mean": "273.2815064070718",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "18",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "206.8296588863524",
+   "SD": "2.970890026248523",
+   "Greedy best-k HV mean": "206.8296588863524",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "IDS",
+   "k": "18",
+   "Method": "epsilon2d",
+   "Median front": "18.0",
+   "Random-subsample HV mean": "341.55304831430664",
+   "SD": "9.67603564286637",
+   "Greedy best-k HV mean": "341.55304831430664",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "IDS",
+   "k": "25",
+   "Method": "random",
+   "Median front": "5187.5",
+   "Random-subsample HV mean": "293.12436326256045",
+   "SD": "0.40437210594407375",
+   "Greedy best-k HV mean": "388.509257658301",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "25",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "350.943943945518",
+   "SD": "0.5642205519772895",
+   "Greedy best-k HV mean": "390.9295180161033",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "25",
+   "Method": "nsga2",
+   "Median front": "79.0",
+   "Random-subsample HV mean": "345.0021350586518",
+   "SD": "5.81982425839723",
+   "Greedy best-k HV mean": "371.46251795312526",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "25",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "279.64570743488474",
+   "SD": "24.580209088724192",
+   "Greedy best-k HV mean": "303.23193425580445",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "25",
+   "Method": "moead",
+   "Median front": "119.0",
+   "Random-subsample HV mean": "219.11582591338947",
+   "SD": "31.38137075095264",
+   "Greedy best-k HV mean": "273.30153860822105",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "25",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "206.8296588863524",
+   "SD": "2.970890026248523",
+   "Greedy best-k HV mean": "206.8296588863524",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "IDS",
+   "k": "25",
+   "Method": "epsilon2d",
+   "Median front": "18.0",
+   "Random-subsample HV mean": "341.55304831430664",
+   "SD": "9.67603564286637",
+   "Greedy best-k HV mean": "341.55304831430664",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "IDS",
+   "k": "50",
+   "Method": "random",
+   "Median front": "5187.5",
+   "Random-subsample HV mean": "316.04130067814384",
+   "SD": "0.3698671480569365",
+   "Greedy best-k HV mean": "390.4521532410102",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "50",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "369.99339294022514",
+   "SD": "0.6374078969023073",
+   "Greedy best-k HV mean": "392.34459500079384",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "50",
+   "Method": "nsga2",
+   "Median front": "79.0",
+   "Random-subsample HV mean": "364.47742615971254",
+   "SD": "5.832373714700941",
+   "Greedy best-k HV mean": "371.5176687483548",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "50",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "296.4335109921241",
+   "SD": "24.576725844265102",
+   "Greedy best-k HV mean": "303.2365651231906",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "50",
+   "Method": "moead",
+   "Median front": "119.0",
+   "Random-subsample HV mean": "244.6924531156207",
+   "SD": "31.392634359742324",
+   "Greedy best-k HV mean": "273.3068598080482",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "IDS",
+   "k": "50",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "206.8296588863524",
+   "SD": "2.970890026248523",
+   "Greedy best-k HV mean": "206.8296588863524",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "IDS",
+   "k": "50",
+   "Method": "epsilon2d",
+   "Median front": "18.0",
+   "Random-subsample HV mean": "341.55304831430664",
+   "SD": "9.67603564286637",
+   "Greedy best-k HV mean": "341.55304831430664",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "JWST",
+   "k": "5",
+   "Method": "random",
+   "Median front": "10702.0",
+   "Random-subsample HV mean": "725.9079654243153",
+   "SD": "0.42591131929280535",
+   "Greedy best-k HV mean": "847.251025086732",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "5",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "731.6433181111618",
+   "SD": "0.4424985934307524",
+   "Greedy best-k HV mean": "848.1432700399748",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "5",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "744.3771235890108",
+   "SD": "2.3187557569401323",
+   "Greedy best-k HV mean": "844.183028703142",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "5",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "747.366575936653",
+   "SD": "4.589084506580941",
+   "Greedy best-k HV mean": "837.5032371489991",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "5",
+   "Method": "moead",
+   "Median front": "119.5",
+   "Random-subsample HV mean": "713.0846993727785",
+   "SD": "9.449572273248055",
+   "Greedy best-k HV mean": "821.2196384545654",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "5",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "639.0936014586413",
+   "SD": "2.9312906192516333",
+   "Greedy best-k HV mean": "639.0936014586413",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "JWST",
+   "k": "5",
+   "Method": "epsilon2d",
+   "Median front": "27.0",
+   "Random-subsample HV mean": "766.3627682979256",
+   "SD": "4.5508461899980555",
+   "Greedy best-k HV mean": "834.391647605407",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "10",
+   "Method": "random",
+   "Median front": "10702.0",
+   "Random-subsample HV mean": "765.3774005252175",
+   "SD": "0.46435055131319386",
+   "Greedy best-k HV mean": "853.116897705622",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "10",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "776.999047582199",
+   "SD": "0.39158425723228907",
+   "Greedy best-k HV mean": "853.1100773944829",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "10",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "793.3545184105558",
+   "SD": "2.258320672592614",
+   "Greedy best-k HV mean": "846.8274444066244",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "10",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "786.3364396362132",
+   "SD": "4.75164762972612",
+   "Greedy best-k HV mean": "840.9078058503653",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "10",
+   "Method": "moead",
+   "Median front": "119.5",
+   "Random-subsample HV mean": "754.18799845224",
+   "SD": "10.140216740736468",
+   "Greedy best-k HV mean": "823.7724457067668",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "10",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "639.0936014586413",
+   "SD": "2.9312906192516333",
+   "Greedy best-k HV mean": "639.0936014586413",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "JWST",
+   "k": "10",
+   "Method": "epsilon2d",
+   "Median front": "27.0",
+   "Random-subsample HV mean": "805.3899696467126",
+   "SD": "4.852462229873113",
+   "Greedy best-k HV mean": "838.1825351996442",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "25",
+   "Method": "random",
+   "Median front": "10702.0",
+   "Random-subsample HV mean": "799.2443781545701",
+   "SD": "0.47751309502863304",
+   "Greedy best-k HV mean": "855.868528153427",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "25",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "816.9361719671698",
+   "SD": "0.47832082410753257",
+   "Greedy best-k HV mean": "854.7304878905045",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "25",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "828.9997037134812",
+   "SD": "2.272956080166327",
+   "Greedy best-k HV mean": "847.1587177079036",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "25",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "820.0522523381829",
+   "SD": "4.752252793056166",
+   "Greedy best-k HV mean": "841.5327792331225",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "25",
+   "Method": "moead",
+   "Median front": "119.5",
+   "Random-subsample HV mean": "788.9480064823549",
+   "SD": "10.273831252589492",
+   "Greedy best-k HV mean": "824.1133738824572",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "25",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "639.0936014586413",
+   "SD": "2.9312906192516333",
+   "Greedy best-k HV mean": "639.0936014586413",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "JWST",
+   "k": "25",
+   "Method": "epsilon2d",
+   "Median front": "27.0",
+   "Random-subsample HV mean": "836.3784186550399",
+   "SD": "4.881155633187169",
+   "Greedy best-k HV mean": "838.2756799134413",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "27",
+   "Method": "random",
+   "Median front": "10702.0",
+   "Random-subsample HV mean": "802.2890029846301",
+   "SD": "0.47762396139284546",
+   "Greedy best-k HV mean": "855.980827991858",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "27",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "818.1369490243799",
+   "SD": "0.47920447381613357",
+   "Greedy best-k HV mean": "854.7619614953468",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "27",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "831.23734203065",
+   "SD": "2.272956080166327",
+   "Greedy best-k HV mean": "847.1587177079036",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "27",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "821.8971558665937",
+   "SD": "4.752521706025164",
+   "Greedy best-k HV mean": "841.5330288562657",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "27",
+   "Method": "moead",
+   "Median front": "119.5",
+   "Random-subsample HV mean": "791.43688737187",
+   "SD": "10.274005076291658",
+   "Greedy best-k HV mean": "824.1135070733242",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "27",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "639.0936014586413",
+   "SD": "2.9312906192516333",
+   "Greedy best-k HV mean": "639.0936014586413",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "JWST",
+   "k": "27",
+   "Method": "epsilon2d",
+   "Median front": "27.0",
+   "Random-subsample HV mean": "838.1452227071479",
+   "SD": "4.881155633187169",
+   "Greedy best-k HV mean": "838.2756799134413",
+   "Seeds with front <= k": "16"
+  },
+  {
+   "Workload": "JWST",
+   "k": "50",
+   "Method": "random",
+   "Median front": "10702.0",
+   "Random-subsample HV mean": "817.5116874901341",
+   "SD": "0.47934632332389937",
+   "Greedy best-k HV mean": "856.6162930529703",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "50",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "833.8005015809525",
+   "SD": "0.47600823730100994",
+   "Greedy best-k HV mean": "854.8253535160133",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "50",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "842.8646926941477",
+   "SD": "2.272956080166327",
+   "Greedy best-k HV mean": "847.1587177079036",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "50",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "835.136854939208",
+   "SD": "4.752521706025164",
+   "Greedy best-k HV mean": "841.5330288562657",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "50",
+   "Method": "moead",
+   "Median front": "119.5",
+   "Random-subsample HV mean": "806.9295397156145",
+   "SD": "10.274005076291658",
+   "Greedy best-k HV mean": "824.1135070733242",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "JWST",
+   "k": "50",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "639.0936014586413",
+   "SD": "2.9312906192516333",
+   "Greedy best-k HV mean": "639.0936014586413",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "JWST",
+   "k": "50",
+   "Method": "epsilon2d",
+   "Median front": "27.0",
+   "Random-subsample HV mean": "838.2756799134413",
+   "SD": "4.881155633187169",
+   "Greedy best-k HV mean": "838.2756799134413",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "5",
+   "Method": "random",
+   "Median front": "437.5",
+   "Random-subsample HV mean": "106.87291781004265",
+   "SD": "6.618770512810468",
+   "Greedy best-k HV mean": "170.02097917353908",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "5",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "112.98792965615709",
+   "SD": "1.3284982850289455",
+   "Greedy best-k HV mean": "185.63188840239135",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "5",
+   "Method": "nsga2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "114.15926756890428",
+   "SD": "0.24098507903750666",
+   "Greedy best-k HV mean": "188.0582243279145",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "5",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "111.2727085083125",
+   "SD": "30.744321825052786",
+   "Greedy best-k HV mean": "140.08168633290583",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "5",
+   "Method": "moead",
+   "Median front": "109.0",
+   "Random-subsample HV mean": "71.99559537893265",
+   "SD": "33.7489995723746",
+   "Greedy best-k HV mean": "116.46213461097462",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "5",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "166.65284387918103",
+   "SD": "7.404915808204825",
+   "Greedy best-k HV mean": "166.65284387918103",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "5",
+   "Method": "epsilon2d",
+   "Median front": "23.0",
+   "Random-subsample HV mean": "151.65946409884344",
+   "SD": "7.5108946300021335",
+   "Greedy best-k HV mean": "165.85397769270745",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "10",
+   "Method": "random",
+   "Median front": "437.5",
+   "Random-subsample HV mean": "122.84232989138343",
+   "SD": "6.613893489216507",
+   "Greedy best-k HV mean": "170.02990241612503",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "10",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "133.04221752888762",
+   "SD": "1.3221671880926968",
+   "Greedy best-k HV mean": "185.7201026680269",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "10",
+   "Method": "nsga2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "142.5748245818564",
+   "SD": "0.24098507903750666",
+   "Greedy best-k HV mean": "188.0582243279145",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "10",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "123.54174198752158",
+   "SD": "30.744321825052786",
+   "Greedy best-k HV mean": "140.08168633290583",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "10",
+   "Method": "moead",
+   "Median front": "109.0",
+   "Random-subsample HV mean": "84.13384819290187",
+   "SD": "33.7489995723746",
+   "Greedy best-k HV mean": "116.46213461097462",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "10",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "166.65284387918103",
+   "SD": "7.404915808204825",
+   "Greedy best-k HV mean": "166.65284387918103",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "10",
+   "Method": "epsilon2d",
+   "Median front": "23.0",
+   "Random-subsample HV mean": "158.83922371958758",
+   "SD": "7.510682445034963",
+   "Greedy best-k HV mean": "165.85458879189048",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "23",
+   "Method": "random",
+   "Median front": "437.5",
+   "Random-subsample HV mean": "137.7017653962881",
+   "SD": "6.613893489216507",
+   "Greedy best-k HV mean": "170.02990241612503",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "23",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "155.22102104633208",
+   "SD": "1.3229104391712116",
+   "Greedy best-k HV mean": "185.7217469073106",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "23",
+   "Method": "nsga2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "168.42941313281466",
+   "SD": "0.24098507903750666",
+   "Greedy best-k HV mean": "188.0582243279145",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "23",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "132.31471808438977",
+   "SD": "30.744321825052786",
+   "Greedy best-k HV mean": "140.08168633290583",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "23",
+   "Method": "moead",
+   "Median front": "109.0",
+   "Random-subsample HV mean": "98.66341085519524",
+   "SD": "33.7489995723746",
+   "Greedy best-k HV mean": "116.46213461097462",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "23",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "166.65284387918103",
+   "SD": "7.404915808204825",
+   "Greedy best-k HV mean": "166.65284387918103",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "23",
+   "Method": "epsilon2d",
+   "Median front": "23.0",
+   "Random-subsample HV mean": "165.81257908872098",
+   "SD": "7.510682445034963",
+   "Greedy best-k HV mean": "165.85458879189048",
+   "Seeds with front <= k": "16"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "25",
+   "Method": "random",
+   "Median front": "437.5",
+   "Random-subsample HV mean": "138.95923783915924",
+   "SD": "6.613893489216507",
+   "Greedy best-k HV mean": "170.02990241612503",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "25",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "157.5558348419218",
+   "SD": "1.3229104391712116",
+   "Greedy best-k HV mean": "185.7217469073106",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "25",
+   "Method": "nsga2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "170.8406951018814",
+   "SD": "0.24098507903750666",
+   "Greedy best-k HV mean": "188.0582243279145",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "25",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "133.01845705827904",
+   "SD": "30.744321825052786",
+   "Greedy best-k HV mean": "140.08168633290583",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "25",
+   "Method": "moead",
+   "Median front": "109.0",
+   "Random-subsample HV mean": "99.68532063010491",
+   "SD": "33.7489995723746",
+   "Greedy best-k HV mean": "116.46213461097462",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "25",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "166.65284387918103",
+   "SD": "7.404915808204825",
+   "Greedy best-k HV mean": "166.65284387918103",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "25",
+   "Method": "epsilon2d",
+   "Median front": "23.0",
+   "Random-subsample HV mean": "165.85458879189048",
+   "SD": "7.510682445034963",
+   "Greedy best-k HV mean": "165.85458879189048",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "50",
+   "Method": "random",
+   "Median front": "437.5",
+   "Random-subsample HV mean": "149.02925553175055",
+   "SD": "6.613893489216507",
+   "Greedy best-k HV mean": "170.02990241612503",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "50",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "170.29191040897575",
+   "SD": "1.3229104391712116",
+   "Greedy best-k HV mean": "185.7217469073106",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "50",
+   "Method": "nsga2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "183.18193186223883",
+   "SD": "0.24098507903750666",
+   "Greedy best-k HV mean": "188.0582243279145",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "50",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "137.85921484351005",
+   "SD": "30.744321825052786",
+   "Greedy best-k HV mean": "140.08168633290583",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "50",
+   "Method": "moead",
+   "Median front": "109.0",
+   "Random-subsample HV mean": "108.67899829385131",
+   "SD": "33.7489995723746",
+   "Greedy best-k HV mean": "116.46213461097462",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "50",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "166.65284387918103",
+   "SD": "7.404915808204825",
+   "Greedy best-k HV mean": "166.65284387918103",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "LEO_OOS",
+   "k": "50",
+   "Method": "epsilon2d",
+   "Median front": "23.0",
+   "Random-subsample HV mean": "165.85458879189048",
+   "SD": "7.510682445034963",
+   "Greedy best-k HV mean": "165.85458879189048",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "RST",
+   "k": "5",
+   "Method": "random",
+   "Median front": "14864.0",
+   "Random-subsample HV mean": "437.3835605867063",
+   "SD": "0.20623331241218912",
+   "Greedy best-k HV mean": "532.8061583054205",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "5",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "436.3186071374359",
+   "SD": "0.8187104988846801",
+   "Greedy best-k HV mean": "533.014811178186",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "5",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "441.89230279857867",
+   "SD": "3.20379861347414",
+   "Greedy best-k HV mean": "529.943253069287",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "5",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "441.90066414949814",
+   "SD": "5.102105186553632",
+   "Greedy best-k HV mean": "521.5722871850252",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "5",
+   "Method": "moead",
+   "Median front": "120.0",
+   "Random-subsample HV mean": "382.12307515550367",
+   "SD": "6.318978009674225",
+   "Greedy best-k HV mean": "492.41030910473063",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "5",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "283.99691120795455",
+   "SD": "1.8924031312994765",
+   "Greedy best-k HV mean": "283.99691120795455",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "RST",
+   "k": "5",
+   "Method": "epsilon2d",
+   "Median front": "27.0",
+   "Random-subsample HV mean": "478.34878154626347",
+   "SD": "2.22753371579241",
+   "Greedy best-k HV mean": "527.4942284286607",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "10",
+   "Method": "random",
+   "Median front": "14864.0",
+   "Random-subsample HV mean": "471.62470560716895",
+   "SD": "0.2694623137222879",
+   "Greedy best-k HV mean": "544.3027755432985",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "10",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "475.62964468271593",
+   "SD": "0.5430932849725885",
+   "Greedy best-k HV mean": "543.834280105072",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "10",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "482.2713909397952",
+   "SD": "3.601132621976624",
+   "Greedy best-k HV mean": "534.440517836329",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "10",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "478.5360737931225",
+   "SD": "3.7269319713234768",
+   "Greedy best-k HV mean": "528.7983735539592",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "10",
+   "Method": "moead",
+   "Median front": "120.0",
+   "Random-subsample HV mean": "424.30733280662145",
+   "SD": "6.383134464826787",
+   "Greedy best-k HV mean": "498.4725594824305",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "10",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "283.99691120795455",
+   "SD": "1.8924031312994765",
+   "Greedy best-k HV mean": "283.99691120795455",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "RST",
+   "k": "10",
+   "Method": "epsilon2d",
+   "Median front": "27.0",
+   "Random-subsample HV mean": "512.4200889683734",
+   "SD": "2.3255406947926898",
+   "Greedy best-k HV mean": "536.5727640647683",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "25",
+   "Method": "random",
+   "Median front": "14864.0",
+   "Random-subsample HV mean": "500.79499664299584",
+   "SD": "0.16541047088257232",
+   "Greedy best-k HV mean": "549.0003824693565",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "25",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "510.79466253631546",
+   "SD": "0.6398958767345314",
+   "Greedy best-k HV mean": "547.3424362476919",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "25",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "517.0373298458837",
+   "SD": "3.6405345848469834",
+   "Greedy best-k HV mean": "535.0285807192863",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "25",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "509.0138494490151",
+   "SD": "3.7544782687691147",
+   "Greedy best-k HV mean": "529.5328752703001",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "25",
+   "Method": "moead",
+   "Median front": "120.0",
+   "Random-subsample HV mean": "461.68264623421203",
+   "SD": "6.435160141772005",
+   "Greedy best-k HV mean": "499.1839379209725",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "25",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "283.99691120795455",
+   "SD": "1.8924031312994765",
+   "Greedy best-k HV mean": "283.99691120795455",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "RST",
+   "k": "25",
+   "Method": "epsilon2d",
+   "Median front": "27.0",
+   "Random-subsample HV mean": "536.5357718063719",
+   "SD": "2.447429597411052",
+   "Greedy best-k HV mean": "537.9078422923151",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "27",
+   "Method": "random",
+   "Median front": "14864.0",
+   "Random-subsample HV mean": "502.9071485968708",
+   "SD": "0.1660113203624276",
+   "Greedy best-k HV mean": "549.2177191778018",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "27",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "513.7356449612768",
+   "SD": "0.6426986863050163",
+   "Greedy best-k HV mean": "547.4661696267426",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "27",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "518.9021104435882",
+   "SD": "3.6405345848469834",
+   "Greedy best-k HV mean": "535.0285807192863",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "27",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "510.7918361090441",
+   "SD": "3.756059534674653",
+   "Greedy best-k HV mean": "529.5338775447275",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "27",
+   "Method": "moead",
+   "Median front": "120.0",
+   "Random-subsample HV mean": "463.8005433867643",
+   "SD": "6.434351639172466",
+   "Greedy best-k HV mean": "499.184963787132",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "27",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "283.99691120795455",
+   "SD": "1.8924031312994765",
+   "Greedy best-k HV mean": "283.99691120795455",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "RST",
+   "k": "27",
+   "Method": "epsilon2d",
+   "Median front": "27.0",
+   "Random-subsample HV mean": "537.8006176024106",
+   "SD": "2.447429597411052",
+   "Greedy best-k HV mean": "537.9078422923151",
+   "Seeds with front <= k": "16"
+  },
+  {
+   "Workload": "RST",
+   "k": "50",
+   "Method": "random",
+   "Median front": "14864.0",
+   "Random-subsample HV mean": "516.1968037303612",
+   "SD": "0.16342470534618478",
+   "Greedy best-k HV mean": "550.4221290941713",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "50",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "527.513538113312",
+   "SD": "0.6432909982792253",
+   "Greedy best-k HV mean": "547.8401568174893",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "50",
+   "Method": "nsga2",
+   "Median front": "78.0",
+   "Random-subsample HV mean": "530.7892922974978",
+   "SD": "3.6405345848469834",
+   "Greedy best-k HV mean": "535.0285807192863",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "50",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "523.0240939969553",
+   "SD": "3.756549096665471",
+   "Greedy best-k HV mean": "529.5341872499287",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "50",
+   "Method": "moead",
+   "Median front": "120.0",
+   "Random-subsample HV mean": "480.21857954308024",
+   "SD": "6.434110370270953",
+   "Greedy best-k HV mean": "499.18519687947116",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "RST",
+   "k": "50",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "283.99691120795455",
+   "SD": "1.8924031312994765",
+   "Greedy best-k HV mean": "283.99691120795455",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "RST",
+   "k": "50",
+   "Method": "epsilon2d",
+   "Median front": "27.0",
+   "Random-subsample HV mean": "537.9078422923151",
+   "SD": "2.447429597411052",
+   "Greedy best-k HV mean": "537.9078422923151",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "3",
+   "Method": "random",
+   "Median front": "12.5",
+   "Random-subsample HV mean": "144.52412214170238",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "175.0",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "3",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "140.76842825023903",
+   "SD": "0.23158635671264718",
+   "Greedy best-k HV mean": "176.76769358883175",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "3",
+   "Method": "nsga2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "131.74263187827947",
+   "SD": "17.277749245554062",
+   "Greedy best-k HV mean": "170.54226307805874",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "3",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "100.34726246125683",
+   "SD": "44.0718897471099",
+   "Greedy best-k HV mean": "112.14621736329794",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "3",
+   "Method": "moead",
+   "Median front": "87.5",
+   "Random-subsample HV mean": "131.72612953379908",
+   "SD": "33.33817244129734",
+   "Greedy best-k HV mean": "134.06706979074892",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "3",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "158.5535419006332",
+   "SD": "8.72159505676403",
+   "Greedy best-k HV mean": "158.5535419006332",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "3",
+   "Method": "epsilon2d",
+   "Median front": "3.5",
+   "Random-subsample HV mean": "143.24404593322902",
+   "SD": "22.842468745552498",
+   "Greedy best-k HV mean": "147.117455226886",
+   "Seeds with front <= k": "10"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "5",
+   "Method": "random",
+   "Median front": "12.5",
+   "Random-subsample HV mean": "157.96863587798904",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "175.0",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "5",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "153.36609173781252",
+   "SD": "0.2320461771897602",
+   "Greedy best-k HV mean": "176.76912636607526",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "5",
+   "Method": "nsga2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "148.32755862988935",
+   "SD": "17.277814280536255",
+   "Greedy best-k HV mean": "170.54243048102165",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "5",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "103.95486498999692",
+   "SD": "44.070662766585585",
+   "Greedy best-k HV mean": "112.14765057885488",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "5",
+   "Method": "moead",
+   "Median front": "87.5",
+   "Random-subsample HV mean": "132.33564922958445",
+   "SD": "33.338170178444194",
+   "Greedy best-k HV mean": "134.06707602346506",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "5",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "158.5535419006332",
+   "SD": "8.72159505676403",
+   "Greedy best-k HV mean": "158.5535419006332",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "5",
+   "Method": "epsilon2d",
+   "Median front": "3.5",
+   "Random-subsample HV mean": "146.66687615646677",
+   "SD": "22.842468745552498",
+   "Greedy best-k HV mean": "147.117455226886",
+   "Seeds with front <= k": "19"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "10",
+   "Method": "random",
+   "Median front": "12.5",
+   "Random-subsample HV mean": "171.7794722134738",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "175.0",
+   "Seeds with front <= k": "4"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "10",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "164.37813982821206",
+   "SD": "0.23211488968790428",
+   "Greedy best-k HV mean": "176.7693546563887",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "10",
+   "Method": "nsga2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "159.7692155430335",
+   "SD": "17.277814280536255",
+   "Greedy best-k HV mean": "170.54243048102165",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "10",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "107.8175995542417",
+   "SD": "44.07065468735756",
+   "Greedy best-k HV mean": "112.14765912583061",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "10",
+   "Method": "moead",
+   "Median front": "87.5",
+   "Random-subsample HV mean": "132.73891701973264",
+   "SD": "33.338170178444194",
+   "Greedy best-k HV mean": "134.06707602346506",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "10",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "158.5535419006332",
+   "SD": "8.72159505676403",
+   "Greedy best-k HV mean": "158.5535419006332",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "10",
+   "Method": "epsilon2d",
+   "Median front": "3.5",
+   "Random-subsample HV mean": "147.117455226886",
+   "SD": "22.842468745552498",
+   "Greedy best-k HV mean": "147.117455226886",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "25",
+   "Method": "random",
+   "Median front": "12.5",
+   "Random-subsample HV mean": "175.0",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "175.0",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "25",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "172.54499036439717",
+   "SD": "0.23211500867278942",
+   "Greedy best-k HV mean": "176.76935500718332",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "25",
+   "Method": "nsga2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "167.74203130288396",
+   "SD": "17.277814280536255",
+   "Greedy best-k HV mean": "170.54243048102165",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "25",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "110.59935846572705",
+   "SD": "44.07065468735756",
+   "Greedy best-k HV mean": "112.14765912583061",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "25",
+   "Method": "moead",
+   "Median front": "87.5",
+   "Random-subsample HV mean": "133.25455385150252",
+   "SD": "33.338170178444194",
+   "Greedy best-k HV mean": "134.06707602346506",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "25",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "158.5535419006332",
+   "SD": "8.72159505676403",
+   "Greedy best-k HV mean": "158.5535419006332",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "25",
+   "Method": "epsilon2d",
+   "Median front": "3.5",
+   "Random-subsample HV mean": "147.117455226886",
+   "SD": "22.842468745552498",
+   "Greedy best-k HV mean": "147.117455226886",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "50",
+   "Method": "random",
+   "Median front": "12.5",
+   "Random-subsample HV mean": "175.0",
+   "SD": "0.0",
+   "Greedy best-k HV mean": "175.0",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "50",
+   "Method": "mopso",
+   "Median front": "350.0",
+   "Random-subsample HV mean": "174.789791735368",
+   "SD": "0.23211500867278942",
+   "Greedy best-k HV mean": "176.76935500718332",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "50",
+   "Method": "nsga2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "169.8746045765543",
+   "SD": "17.277814280536255",
+   "Greedy best-k HV mean": "170.54243048102165",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "50",
+   "Method": "spea2",
+   "Median front": "80.0",
+   "Random-subsample HV mean": "111.60232440162511",
+   "SD": "44.07065468735756",
+   "Greedy best-k HV mean": "112.14765912583061",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "50",
+   "Method": "moead",
+   "Median front": "87.5",
+   "Random-subsample HV mean": "133.72357770752836",
+   "SD": "33.338170178444194",
+   "Greedy best-k HV mean": "134.06707602346506",
+   "Seeds with front <= k": "0"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "50",
+   "Method": "epsilon",
+   "Median front": "1.0",
+   "Random-subsample HV mean": "158.5535419006332",
+   "SD": "8.72159505676403",
+   "Greedy best-k HV mean": "158.5535419006332",
+   "Seeds with front <= k": "20"
+  },
+  {
+   "Workload": "SUNCATCHER",
+   "k": "50",
+   "Method": "epsilon2d",
+   "Median front": "3.5",
+   "Random-subsample HV mean": "147.117455226886",
+   "SD": "22.842468745552498",
+   "Greedy best-k HV mean": "147.117455226886",
+   "Seeds with front <= k": "20"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+  "outdir": "out_var_ablation_v2",
+  "workloads": [
+    "IDS",
+    "SUNCATCHER",
+    "LEO_OOS",
+    "DEEP_SPACE_CRUISE",
+    "JWST",
+    "RST"
+  ],
+  "seeds": 20,
+  "violation": "normalized",
+  "handling": "deb",
+  "jobs": 8,
+  "budget": 4860,
+  "cfg": {
+    "random": {
+      "n": 4860
+    },
+    "mopso": {
+      "particles": 60,
+      "iters": 80,
+      "archive_max": 200
+    },
+    "nsga2": {
+      "pop_size": 60,
+      "generations": 80
+    },
+    "spea2": {
+      "pop_size": 60,
+      "archive_size": 60,
+      "generations": 80
+    },
+    "moead": {
+      "H": 8,
+      "T": 5,
+      "generations": 39
+    }
+  }
+}
