@@ -48,7 +48,7 @@ instead of returning a selection, and `stage1_rank` reports the leading complete
 | E10 ODC specification sweep | `exp_odc_sweep_v2.py` | `src/out_odc_sweep_v2/` |
 | E11 Roman arrival, burst, quality, NRE sweeps | `exp_roman_sweeps_v2.py` | `src/out_roman_sweeps_v2/` |
 | E12 Evaluator consistency, inner loop | `exp_lin_vs_nl_v2.py`, `exp_inner_loop_v2.py` | `src/out_lin_vs_nl_v2/`, `src/out_inner_loop_v2/` |
-| E13 Coefficient sensitivity, IDS arrival sweep | `exp_nl_sensitivity_v2.py`, `exp_arrival_sweep_v2.py` | `src/out_nl_sensitivity_v2/`, `src/out_arrival_sweep_v2/` |
+| E13 Coefficient sensitivity, IDS arrival sweep | `exp_nl_sensitivity_v2.py`, then `exp_nl_sensitivity_rhocap_v2.py` (reruns the upper utilization-cap arm at 0.99, the values reported in the paper), and `exp_arrival_sweep_v2.py` | `src/out_nl_sensitivity_rhocap_v2/`, `src/out_arrival_sweep_v2/` |
 | E14 Mission duration and radiation hardness | `exp_mission_duration_sweep.py` | `src/out_duration_sweep/` |
 | Stage 1 missing-attribute tests (appendix table) | `exp_stage1_robustness_v2.py` | `src/out_stage1_robustness_v2/` |
 

@@ -693,8 +693,12 @@ def aggregate_metrics_nonlinear(
     Starts from the linear aggregate M_i(p) = sum_j p_j M_i(j), then
     overrides six metric groups with physically motivated nonlinear models.
     Each effect is independent and additive/multiplicative on top of the
-    linear base — the linear evaluator is recoverable by setting all
-    nonlinear parameters to zero.
+    linear base. The linear evaluator is recovered (to machine precision) by
+    setting each effect to its neutral value: lambda = 0, contact_sat_exponent
+    = 0, link_setup_energy_fraction = 0, unit sec_overhead, thermal_coupling_coeff
+    = 0, link_congestion_exponent = 0, sdc_compound_factor = 1, and no
+    eclipse_duty_cycle entries. Setting every parameter to zero does not do
+    this (sdc_compound_factor = 0 zeroes the SDC rate).
 
     Parameters
     ----------
