@@ -1,0 +1,121 @@
+{
+  "mission_critical": {
+    "baseline_status": {
+      "OBC": "ranked",
+      "FPGA": "ranked",
+      "MCU": "ranked",
+      "GPU": "gate_failed",
+      "SEC_PROC": "ranked"
+    },
+    "baseline_utilities": {
+      "OBC": 0.487,
+      "FPGA": 0.7353,
+      "MCU": 0.4746,
+      "GPU": null,
+      "SEC_PROC": 0.5346
+    },
+    "baseline_ranking": "FPGA > SEC_PROC > OBC > MCU",
+    "baseline_best": "FPGA",
+    "baseline_best_utility": 0.7353,
+    "scenarios": 40,
+    "test_A": 30,
+    "test_B": 10,
+    "missing_detected": 40,
+    "affected_candidate_scored": 0,
+    "gate_passed_without_input": 0,
+    "other_candidates_changed": 0,
+    "remaining_order_changed": 0,
+    "status_counts": {
+      "incomplete": 24,
+      "gate_unconfirmed": 8,
+      "gate_failed": 8,
+      "ranked": 0
+    },
+    "scenarios_on_gate_failed_candidates": 8,
+    "final_selection_withheld": 32,
+    "final_issued_while_pending": 0,
+    "provisional_best_when_top_masked": [
+      "SEC_PROC"
+    ]
+  },
+  "mission_enhancing": {
+    "baseline_status": {
+      "OBC": "ranked",
+      "FPGA": "ranked",
+      "MCU": "ranked",
+      "GPU": "gate_failed",
+      "SEC_PROC": "ranked"
+    },
+    "baseline_utilities": {
+      "OBC": 0.487,
+      "FPGA": 0.7353,
+      "MCU": 0.4746,
+      "GPU": null,
+      "SEC_PROC": 0.5346
+    },
+    "baseline_ranking": "FPGA > SEC_PROC > OBC > MCU",
+    "baseline_best": "FPGA",
+    "baseline_best_utility": 0.7353,
+    "scenarios": 40,
+    "test_A": 30,
+    "test_B": 10,
+    "missing_detected": 40,
+    "affected_candidate_scored": 0,
+    "gate_passed_without_input": 0,
+    "other_candidates_changed": 0,
+    "remaining_order_changed": 0,
+    "status_counts": {
+      "incomplete": 24,
+      "gate_unconfirmed": 9,
+      "gate_failed": 7,
+      "ranked": 0
+    },
+    "scenarios_on_gate_failed_candidates": 8,
+    "final_selection_withheld": 33,
+    "final_issued_while_pending": 0,
+    "provisional_best_when_top_masked": [
+      "SEC_PROC"
+    ]
+  },
+  "experimental": {
+    "baseline_status": {
+      "OBC": "ranked",
+      "FPGA": "ranked",
+      "MCU": "ranked",
+      "GPU": "gate_failed",
+      "SEC_PROC": "ranked"
+    },
+    "baseline_utilities": {
+      "OBC": 0.487,
+      "FPGA": 0.7353,
+      "MCU": 0.4746,
+      "GPU": null,
+      "SEC_PROC": 0.5346
+    },
+    "baseline_ranking": "FPGA > SEC_PROC > OBC > MCU",
+    "baseline_best": "FPGA",
+    "baseline_best_utility": 0.7353,
+    "scenarios": 40,
+    "test_A": 30,
+    "test_B": 10,
+    "missing_detected": 40,
+    "affected_candidate_scored": 0,
+    "gate_passed_without_input": 0,
+    "other_candidates_changed": 0,
+    "remaining_order_changed": 0,
+    "status_counts": {
+      "incomplete": 24,
+      "gate_unconfirmed": 9,
+      "gate_failed": 7,
+      "ranked": 0
+    },
+    "scenarios_on_gate_failed_candidates": 8,
+    "final_selection_withheld": 33,
+    "final_issued_while_pending": 0,
+    "provisional_best_when_top_masked": [
+      "SEC_PROC"
+    ]
+  },
+  "unique_scenarios": 40,
+  "evaluations": 120
+}

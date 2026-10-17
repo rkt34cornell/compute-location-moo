@@ -1,0 +1,121 @@
+criticality,test,masked_processor,masked_attribute,baseline_status,status,missing_detected,affected_scored,passed_gate_without_input,others_unchanged,remaining_order_preserved,can_still_qualify,final_selection_issued,final_issued_while_pending,provisional_best,provisional_best_utility
+mission_critical,A,OBC,FC_proc_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,OBC,FC_bus_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,OBC,FC_reconfigurable,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,OBC,FC_mem_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,OBC,throughput_gflops,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,OBC,SDC rate (per hr),ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,FPGA,FC_proc_type,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_critical,A,FPGA,FC_bus_type,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_critical,A,FPGA,FC_reconfigurable,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_critical,A,FPGA,FC_mem_type,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_critical,A,FPGA,throughput_gflops,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_critical,A,FPGA,SDC rate (per hr),ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_critical,A,MCU,FC_proc_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,MCU,FC_bus_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,MCU,FC_reconfigurable,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,MCU,FC_mem_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,MCU,throughput_gflops,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,MCU,SDC rate (per hr),ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,GPU,FC_proc_type,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_critical,A,GPU,FC_bus_type,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_critical,A,GPU,FC_reconfigurable,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_critical,A,GPU,FC_mem_type,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_critical,A,GPU,throughput_gflops,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_critical,A,GPU,SDC rate (per hr),gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_critical,A,SEC_PROC,FC_proc_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,SEC_PROC,FC_bus_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,SEC_PROC,FC_reconfigurable,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,SEC_PROC,FC_mem_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,SEC_PROC,throughput_gflops,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,A,SEC_PROC,SDC rate (per hr),ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,B,OBC,TRL,ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,B,OBC,Rad dose margin (krad),ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,B,FPGA,TRL,ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_critical,B,FPGA,Rad dose margin (krad),ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_critical,B,MCU,TRL,ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,B,MCU,Rad dose margin (krad),ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,B,GPU,TRL,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_critical,B,GPU,Rad dose margin (krad),gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_critical,B,SEC_PROC,TRL,ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_critical,B,SEC_PROC,Rad dose margin (krad),ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,OBC,FC_proc_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,OBC,FC_bus_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,OBC,FC_reconfigurable,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,OBC,FC_mem_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,OBC,throughput_gflops,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,OBC,SDC rate (per hr),ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,FPGA,FC_proc_type,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_enhancing,A,FPGA,FC_bus_type,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_enhancing,A,FPGA,FC_reconfigurable,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_enhancing,A,FPGA,FC_mem_type,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_enhancing,A,FPGA,throughput_gflops,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_enhancing,A,FPGA,SDC rate (per hr),ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_enhancing,A,MCU,FC_proc_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,MCU,FC_bus_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,MCU,FC_reconfigurable,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,MCU,FC_mem_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,MCU,throughput_gflops,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,MCU,SDC rate (per hr),ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,GPU,FC_proc_type,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_enhancing,A,GPU,FC_bus_type,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_enhancing,A,GPU,FC_reconfigurable,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_enhancing,A,GPU,FC_mem_type,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_enhancing,A,GPU,throughput_gflops,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_enhancing,A,GPU,SDC rate (per hr),gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_enhancing,A,SEC_PROC,FC_proc_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,SEC_PROC,FC_bus_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,SEC_PROC,FC_reconfigurable,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,SEC_PROC,FC_mem_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,SEC_PROC,throughput_gflops,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,A,SEC_PROC,SDC rate (per hr),ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,B,OBC,TRL,ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,B,OBC,Rad dose margin (krad),ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,B,FPGA,TRL,ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_enhancing,B,FPGA,Rad dose margin (krad),ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+mission_enhancing,B,MCU,TRL,ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,B,MCU,Rad dose margin (krad),ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,B,GPU,TRL,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+mission_enhancing,B,GPU,Rad dose margin (krad),gate_failed,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,B,SEC_PROC,TRL,ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+mission_enhancing,B,SEC_PROC,Rad dose margin (krad),ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,OBC,FC_proc_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,OBC,FC_bus_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,OBC,FC_reconfigurable,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,OBC,FC_mem_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,OBC,throughput_gflops,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,OBC,SDC rate (per hr),ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,FPGA,FC_proc_type,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+experimental,A,FPGA,FC_bus_type,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+experimental,A,FPGA,FC_reconfigurable,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+experimental,A,FPGA,FC_mem_type,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+experimental,A,FPGA,throughput_gflops,ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+experimental,A,FPGA,SDC rate (per hr),ranked,incomplete,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+experimental,A,MCU,FC_proc_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,MCU,FC_bus_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,MCU,FC_reconfigurable,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,MCU,FC_mem_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,MCU,throughput_gflops,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,MCU,SDC rate (per hr),ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,GPU,FC_proc_type,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+experimental,A,GPU,FC_bus_type,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+experimental,A,GPU,FC_reconfigurable,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+experimental,A,GPU,FC_mem_type,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+experimental,A,GPU,throughput_gflops,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+experimental,A,GPU,SDC rate (per hr),gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+experimental,A,SEC_PROC,FC_proc_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,SEC_PROC,FC_bus_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,SEC_PROC,FC_reconfigurable,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,SEC_PROC,FC_mem_type,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,SEC_PROC,throughput_gflops,ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,A,SEC_PROC,SDC rate (per hr),ranked,incomplete,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,B,OBC,TRL,ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,B,OBC,Rad dose margin (krad),ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,B,FPGA,TRL,ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+experimental,B,FPGA,Rad dose margin (krad),ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,SEC_PROC,0.5346
+experimental,B,MCU,TRL,ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,B,MCU,Rad dose margin (krad),ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,B,GPU,TRL,gate_failed,gate_failed,True,False,False,True,True,False,True,False,FPGA,0.7353
+experimental,B,GPU,Rad dose margin (krad),gate_failed,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,B,SEC_PROC,TRL,ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353
+experimental,B,SEC_PROC,Rad dose margin (krad),ranked,gate_unconfirmed,True,False,False,True,True,True,False,False,FPGA,0.7353

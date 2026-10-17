@@ -5,6 +5,7 @@ Run from src/:  python -m unittest tests/test_v2.py -v
 """
 from __future__ import annotations
 
+import copy
 import sys
 import unittest
 from dataclasses import replace
@@ -210,6 +211,46 @@ class TestConstraintModes(unittest.TestCase):
                 i += 1; fr.append(nxt)
             ref = [f for f in fr if f]
             self.assertEqual(ae._fast_nondominated_sort_min(C), ref)
+
+
+class TestStage1CompleteData(unittest.TestCase):
+
+    def test_complete_profiles_reproduce_reported_ranking(self):
+        best, u, _ = mc.stage1_select_fc_processor("mission_critical")
+        self.assertEqual(best, "FPGA")
+        self.assertAlmostEqual(u, 0.7353, places=4)
+
+    def test_missing_non_gate_attribute_is_not_scored(self):
+        prof = copy.deepcopy(mc.FC_PROCESSOR_PROFILES)
+        del prof["FPGA"]["throughput_gflops"]
+        res = mc.stage1_score_candidates("mission_critical", prof)
+        self.assertEqual(res["FPGA"]["status"], "incomplete")
+        self.assertIsNone(res["FPGA"]["utility"])
+        self.assertEqual(res["FPGA"]["missing"], ["throughput_gflops"])
+
+    def test_incomplete_leader_defers_final_selection(self):
+        prof = copy.deepcopy(mc.FC_PROCESSOR_PROFILES)
+        del prof["FPGA"]["throughput_gflops"]
+        r = mc.stage1_rank("mission_critical", prof)
+        self.assertEqual(r["best"], "SEC_PROC")
+        self.assertFalse(r["final"])
+        self.assertEqual(r["pending"], ["FPGA"])
+        with self.assertRaises(ValueError):
+            mc.stage1_select_fc_processor("mission_critical", prof)
+
+    def test_gate_failed_candidate_does_not_block_selection(self):
+        prof = copy.deepcopy(mc.FC_PROCESSOR_PROFILES)
+        del prof["GPU"]["throughput_gflops"]
+        best, _, _ = mc.stage1_select_fc_processor("mission_critical", prof)
+        self.assertEqual(best, "FPGA")
+
+    def test_missing_gate_attribute_does_not_pass_gate(self):
+        for attr in mc.FC_STAGE1_GATE_VARS:
+            prof = copy.deepcopy(mc.FC_PROCESSOR_PROFILES)
+            del prof["OBC"][attr]
+            res = mc.stage1_score_candidates("experimental", prof)
+            self.assertEqual(res["OBC"]["status"], "gate_unconfirmed")
+            self.assertIsNone(res["OBC"]["utility"])
 
 
 if __name__ == "__main__":

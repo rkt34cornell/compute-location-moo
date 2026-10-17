@@ -34,7 +34,7 @@ import os
 from dataclasses import dataclass, field
 from enum import Enum
 from pathlib import Path
-from typing import Dict, List, Mapping, Optional, Sequence, Tuple
+from typing import Any, Dict, List, Mapping, Optional, Sequence, Tuple
 
 import numpy as np
 
@@ -155,38 +155,105 @@ FC_STAGE1_BOUNDS   = {"FC_proc_type":(0.0,1.0),"FC_bus_type":(0.0,1.0),"FC_recon
                        "SDC rate (per hr)":(0.001,0.15),"Rad dose margin (krad)":(-30.0,80.0)}
 
 
-def stage1_select_fc_processor(
+FC_STAGE1_GATE_VARS = ("TRL", "Rad dose margin (krad)")
+
+
+def stage1_score_candidates(
     mission_criticality: str = "mission_critical",
-) -> Tuple[str, float, Dict[str, float]]:
+    profiles: Optional[Dict[str, Dict[str, float]]] = None,
+) -> Dict[str, Dict[str, Any]]:
     """
-    Stage 1: score FC processor candidates; return (best_name, score, profile).
+    Stage 1: gate and score every FC processor candidate.
 
-    Hard gates: TRL floor (7/5/3 by criticality), radiation margin >= 0.
-    Missing variables are excluded from the sum (no penalty).
+    Complete-data rule: a candidate is ranked only if every Stage-1 attribute
+    is present. A candidate that fails a gate on an available value is
+    "gate_failed" whatever else is missing. Otherwise a missing gate attribute
+    (TRL, radiation dose margin) leaves it "gate_unconfirmed", and a missing
+    non-gate attribute leaves it "incomplete". None of these receives a
+    utility, and no weight renormalization is applied, so every ranked
+    candidate uses the same fixed weight vector.
+
+    Returns {name: {"status", "utility", "missing"}} with status one of
+    "ranked", "gate_failed", "gate_unconfirmed", "incomplete".
     """
+    if profiles is None:
+        profiles = FC_PROCESSOR_PROFILES
     trl_floor = {"mission_critical":7, "mission_enhancing":5, "experimental":3}[mission_criticality]
-    scores: Dict[str, float] = {}
+    out: Dict[str, Dict[str, Any]] = {}
 
-    for proc_name, profile in FC_PROCESSOR_PROFILES.items():
-        if profile["TRL"] < trl_floor or profile["Rad dose margin (krad)"] < 0:
-            scores[proc_name] = -1.0
+    for proc_name, profile in profiles.items():
+        missing = [v for v in FC_STAGE1_WEIGHTS if profile.get(v) is None]
+        trl, rad = profile.get("TRL"), profile.get("Rad dose margin (krad)")
+        if (trl is not None and trl < trl_floor) or (rad is not None and rad < 0):
+            out[proc_name] = {"status": "gate_failed", "utility": None, "missing": missing}
             continue
-        total_w = weighted_sum = 0.0
+        if trl is None or rad is None:
+            out[proc_name] = {"status": "gate_unconfirmed", "utility": None, "missing": missing}
+            continue
+        if missing:
+            out[proc_name] = {"status": "incomplete", "utility": None, "missing": missing}
+            continue
+        utility = 0.0
         for var, w in FC_STAGE1_WEIGHTS.items():
-            val = profile.get(var)
-            if val is None:
-                continue   # missing — skip, no penalty
             lo, hi = FC_STAGE1_BOUNDS[var]
-            norm = max(0.0, min(1.0, (val - lo) / max(hi - lo, 1e-9)))
+            norm = max(0.0, min(1.0, (profile[var] - lo) / max(hi - lo, 1e-9)))
             if var in FC_STAGE1_INVERT:
                 norm = 1.0 - norm
-            weighted_sum += w * norm
-            total_w += w
-        scores[proc_name] = weighted_sum / total_w if total_w > 0 else 0.0
+            utility += w * norm
+        out[proc_name] = {"status": "ranked", "utility": utility, "missing": []}
+    return out
 
-    feasible = {k: v for k, v in scores.items() if v >= 0}
-    best_name = max(feasible, key=lambda k: feasible[k]) if feasible else "OBC"
-    return best_name, scores[best_name], FC_PROCESSOR_PROFILES[best_name]
+
+def stage1_rank(
+    mission_criticality: str = "mission_critical",
+    profiles: Optional[Dict[str, Dict[str, float]]] = None,
+) -> Dict[str, Any]:
+    """
+    Stage 1 ranking with an explicit final/provisional flag.
+
+    "ranking" lists ranked candidates by utility (ties by candidate-list order).
+    "pending" lists candidates that are "incomplete" or "gate_unconfirmed" and
+    could still change the result once their data are resolved. "final" is
+    True only when nothing is pending, so a provisional leader is never
+    reported as the selected processor.
+    """
+    if profiles is None:
+        profiles = FC_PROCESSOR_PROFILES
+    res = stage1_score_candidates(mission_criticality, profiles)
+    order = list(profiles)
+    ranking = sorted((k for k, r in res.items() if r["status"] == "ranked"),
+                     key=lambda k: (-res[k]["utility"], order.index(k)))
+    pending = [k for k, r in res.items() if r["status"] in ("incomplete", "gate_unconfirmed")]
+    return {
+        "best": ranking[0] if ranking else None,
+        "utility": res[ranking[0]]["utility"] if ranking else None,
+        "ranking": ranking,
+        "pending": pending,
+        "final": not pending,
+        "candidates": res,
+    }
+
+
+def stage1_select_fc_processor(
+    mission_criticality: str = "mission_critical",
+    profiles: Optional[Dict[str, Dict[str, float]]] = None,
+) -> Tuple[Optional[str], Optional[float], Optional[Dict[str, float]]]:
+    """
+    Stage 1: return the final (best_name, utility, profile).
+
+    Raises ValueError if any candidate is incomplete or has unconfirmed gates,
+    because the leader among complete candidates is then only provisional (use
+    stage1_rank to inspect it). Returns (None, None, None) when no candidate
+    qualifies.
+    """
+    if profiles is None:
+        profiles = FC_PROCESSOR_PROFILES
+    r = stage1_rank(mission_criticality, profiles)
+    if not r["final"]:
+        raise ValueError(f"Stage 1 selection deferred: incomplete candidates {r['pending']}")
+    if r["best"] is None:
+        return None, None, None
+    return r["best"], r["utility"], profiles[r["best"]]
 
 
 # ── Stage 2: metric aggregation and feasibility ───────────────────────────────

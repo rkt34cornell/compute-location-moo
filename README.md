@@ -9,6 +9,12 @@ workload across compute destinations (flight computer, orbital data center, grou
 terrestrial data center) for a fixed, mission-specific flight-computer configuration. In the reported
 experiments the Stage-1 ranking is a separate pre-screening result and is not propagated into Stage 2.
 
+Stage 1 ranks a processor only when all eight Stage-1 attributes are available, so every ranked
+candidate uses the same fixed weight vector. A candidate missing a non-gate attribute is reported as
+incomplete, and one missing TRL or radiation dose margin as having unconfirmed qualification. Neither
+receives a utility. While any such candidate could still qualify, `stage1_select_fc_processor` raises
+instead of returning a selection, and `stage1_rank` reports the leading complete candidate as provisional.
+
 ## Layout
 
 | Path | Contents |
@@ -44,6 +50,7 @@ experiments the Stage-1 ranking is a separate pre-screening result and is not pr
 | E12 Evaluator consistency, inner loop | `exp_lin_vs_nl_v2.py`, `exp_inner_loop_v2.py` | `src/out_lin_vs_nl_v2/`, `src/out_inner_loop_v2/` |
 | E13 Coefficient sensitivity, IDS arrival sweep | `exp_nl_sensitivity_v2.py`, `exp_arrival_sweep_v2.py` | `src/out_nl_sensitivity_v2/`, `src/out_arrival_sweep_v2/` |
 | E14 Mission duration and radiation hardness | `exp_mission_duration_sweep.py` | `src/out_duration_sweep/` |
+| Stage 1 missing-attribute tests (appendix table) | `exp_stage1_robustness_v2.py` | `src/out_stage1_robustness_v2/` |
 
 The hardware-in-the-loop measurements (E15) were taken with a separate NASA cFS application and are
 not part of this repository.
