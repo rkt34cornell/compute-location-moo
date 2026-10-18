@@ -135,6 +135,11 @@ class TestNonlinearEvaluator(unittest.TestCase):
             self.assertFalse(f)
             self.assertAlmostEqual(v, mc.OVERLOAD_PENALTY + 0.25, places=6)
             self.assertFalse(mc.feasibility_and_violation(wl, {k: pm[k] for k in mk})[0])
+            # SUNCATCHER has no latency threshold: overload must still be infeasible (eclipse-gated rho = 1.59)
+            sc = load("SUNCATCHER"); sk = [m.key for m in sc.metrics]
+            pm_sc = mc.aggregate_metrics_nonlinear(sc, np.array([1.0, 0, 0, 0]), params_for("SUNCATCHER"))
+            self.assertFalse(mc.feasibility_and_violation(sc, pm_sc)[0])
+            self.assertFalse(mc.feasibility_and_violation(sc, {k: pm_sc[k] for k in sk})[0])
             stable = mc.aggregate_metrics_nonlinear(wl, np.array([0.5, 0.5 / 3, 0.5 / 3, 0.5 / 3]), pr)
             self.assertNotIn(mc.QUEUE_OVERLOAD_KEY, stable)
             self.assertLess(mc.feasibility_and_violation(wl, stable)[1], v)
