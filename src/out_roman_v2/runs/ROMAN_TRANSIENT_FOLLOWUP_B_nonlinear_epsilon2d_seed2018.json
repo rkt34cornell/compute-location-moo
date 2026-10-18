@@ -19,9 +19,9 @@
  "n_front": 16,
  "feasible_found": true,
  "n_evals": 10000,
- "n_feasible_evals": 3295,
- "search_feasible_rate": 0.3295,
- "runtime_s": 6.6409254390746355,
+ "n_feasible_evals": 3291,
+ "search_feasible_rate": 0.3291,
+ "runtime_s": 6.311175316921435,
  "epsilon_diag": {
   "levels_satisfied": 16,
   "n_levels": 20,

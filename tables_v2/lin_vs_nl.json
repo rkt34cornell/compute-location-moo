@@ -27,16 +27,16 @@
    "pct_picks_nl_feasible": "0.0",
    "n_front_points": "21146",
    "pct_all_front_points_nl_feasible": "0.0",
-   "nl_latency_median_of_picks": "316467.07619160245"
+   "nl_latency_median_of_picks": "1000000000000.0"
   },
   {
    "label": "IDS",
    "n_picks": "120",
-   "n_picks_nl_feasible": "120",
-   "pct_picks_nl_feasible": "100.0",
+   "n_picks_nl_feasible": "53",
+   "pct_picks_nl_feasible": "44.17",
    "n_front_points": "116011",
-   "pct_all_front_points_nl_feasible": "74.58",
-   "nl_latency_median_of_picks": "91.1189968868907"
+   "pct_all_front_points_nl_feasible": "70.88",
+   "nl_latency_median_of_picks": "2341.5643839172135"
   },
   {
    "label": "DEEP_SPACE_CRUISE",
@@ -44,7 +44,7 @@
    "n_picks_nl_feasible": "0",
    "pct_picks_nl_feasible": "0.0",
    "n_front_points": "76377",
-   "pct_all_front_points_nl_feasible": "0.74",
+   "pct_all_front_points_nl_feasible": "0.0",
    "nl_latency_median_of_picks": "28.571458764665287"
   },
   {
@@ -71,7 +71,7 @@
    "n_picks_nl_feasible": "120",
    "pct_picks_nl_feasible": "100.0",
    "n_front_points": "84653",
-   "pct_all_front_points_nl_feasible": "100.0",
+   "pct_all_front_points_nl_feasible": "99.7",
    "nl_latency_median_of_picks": "129502.4706420706"
   },
   {
@@ -80,7 +80,7 @@
    "n_picks_nl_feasible": "120",
    "pct_picks_nl_feasible": "100.0",
    "n_front_points": "88656",
-   "pct_all_front_points_nl_feasible": "100.0",
+   "pct_all_front_points_nl_feasible": "99.74",
    "nl_latency_median_of_picks": "132106.26270269084"
   },
   {
@@ -89,7 +89,7 @@
    "n_picks_nl_feasible": "120",
    "pct_picks_nl_feasible": "100.0",
    "n_front_points": "71397",
-   "pct_all_front_points_nl_feasible": "100.0",
+   "pct_all_front_points_nl_feasible": "98.29",
    "nl_latency_median_of_picks": "183721.59737276443"
   },
   {
@@ -98,7 +98,7 @@
    "n_picks_nl_feasible": "120",
    "pct_picks_nl_feasible": "100.0",
    "n_front_points": "84653",
-   "pct_all_front_points_nl_feasible": "100.0",
+   "pct_all_front_points_nl_feasible": "99.58",
    "nl_latency_median_of_picks": "129502.4706420706"
   },
   {
@@ -107,7 +107,7 @@
    "n_picks_nl_feasible": "120",
    "pct_picks_nl_feasible": "100.0",
    "n_front_points": "88656",
-   "pct_all_front_points_nl_feasible": "100.0",
+   "pct_all_front_points_nl_feasible": "99.62",
    "nl_latency_median_of_picks": "132106.26270269084"
   },
   {
@@ -116,7 +116,7 @@
    "n_picks_nl_feasible": "120",
    "pct_picks_nl_feasible": "100.0",
    "n_front_points": "71397",
-   "pct_all_front_points_nl_feasible": "100.0",
+   "pct_all_front_points_nl_feasible": "97.53",
    "nl_latency_median_of_picks": "183721.59737276443"
   }
  ]

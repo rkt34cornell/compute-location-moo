@@ -1,6 +1,6 @@
 {
  "table": "tier_inputs_perf",
- "caption": "Per-destination performance, communications, and derived queueing inputs (workload display names as in Table~\\ref{tab:v2_workload_inputs}). The M/M/1 service rate is $\\mu_j = \\mathrm{Throughput}_j\\,\\eta_{\\mathrm{sun},j}/\\theta$, and the utilization at full allocation ($p_j = 1$) is $\\rho = \\lambda/\\mu_j$ before clipping at $\\rho_{\\max} = 0.92$.",
+ "caption": "Per-destination performance, communications, and derived queueing inputs (workload display names as in Table~\\ref{tab:v2_workload_inputs}). The effective M/M/1 service rate is $\\mu_j^{\\mathrm{eff}} = \\mathrm{Throughput}_j\\,\\eta_{\\mathrm{sun},j}/\\theta$, and the eclipse-adjusted utilization at full allocation ($p_j = 1$) is $\\lambda/\\mu_j^{\\mathrm{eff}}$. A value of one or more means the destination cannot sustain the full workload.",
  "columns": [
   "Workload",
   "Destination",

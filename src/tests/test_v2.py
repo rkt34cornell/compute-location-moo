@@ -116,13 +116,30 @@ class TestNonlinearEvaluator(unittest.TestCase):
                                        delta=1e-9 * max(1.0, abs(base.tier_values[t][lk])))
 
     def test_queue_wait_matches_mm1_formula(self):
-        """Effect 1 adds rho/(mu(1-rho)) at a vertex (contact saturation off)."""
-        wl = with_contact_one(load("IDS")); pr = params_for("IDS")
+        """Effect 1 adds the exact rho/(mu(1-rho)) at a stable vertex (no utilization cap)."""
+        wl = with_contact_one(load("IDS")); pr = replace(params_for("IDS"), lambda_tasks_per_s=380.0)
         p = np.array([1.0, 0, 0, 0])
         mu = 0.4 / pr.compute_gflops_per_task
-        rho = min(pr.lambda_tasks_per_s / mu, pr.queue_max_utilization)
+        rho = pr.lambda_tasks_per_s / mu          # 0.95, above the former 0.92 cap
         expect = wl.tier_values["FC"]["Latency p99 (ms)"] + 1000.0 * rho / (mu * (1 - rho))
         self.assertAlmostEqual(mc.aggregate_metrics_nonlinear(wl, p, pr)["Latency p99 (ms)"], expect, places=9)
+
+    def test_overloaded_destination_is_infeasible(self):
+        """rho_j >= 1 marks the policy overloaded, also when re-checked from metric rows."""
+        mc.set_constraint_modes("normalized", "deb")
+        try:
+            wl = load("IDS"); pr = params_for("IDS")       # FC: mu = 400/s, lambda = 500/s
+            mk = [m.key for m in wl.metrics]
+            pm = mc.aggregate_metrics_nonlinear(wl, np.array([1.0, 0, 0, 0]), pr)
+            f, v, _ = mc.feasibility_and_violation(wl, pm)
+            self.assertFalse(f)
+            self.assertAlmostEqual(v, mc.OVERLOAD_PENALTY + 0.25, places=6)
+            self.assertFalse(mc.feasibility_and_violation(wl, {k: pm[k] for k in mk})[0])
+            stable = mc.aggregate_metrics_nonlinear(wl, np.array([0.5, 0.5 / 3, 0.5 / 3, 0.5 / 3]), pr)
+            self.assertNotIn(mc.QUEUE_OVERLOAD_KEY, stable)
+            self.assertLess(mc.feasibility_and_violation(wl, stable)[1], v)
+        finally:
+            mc.set_constraint_modes("raw", "legacy_penalty")
 
 
 class TestConstraintModes(unittest.TestCase):
@@ -139,7 +156,9 @@ class TestConstraintModes(unittest.TestCase):
                 mc.set_constraint_modes("normalized"); f_n, v_n, per_n = mc.feasibility_and_violation(wl, pm)
                 self.assertEqual(f_raw, f_n)
                 scales = mc.violation_scales(wl)
-                self.assertAlmostEqual(v_n, sum(per_raw[k] / scales[k] for k in per_raw), places=9)
+                expect = sum(per_raw[k] / scales[k] for k in per_raw if k != mc.QUEUE_OVERLOAD_KEY)
+                expect += per_raw.get(mc.QUEUE_OVERLOAD_KEY, 0.0)   # overload term is already dimensionless
+                self.assertAlmostEqual(v_n, expect, places=9)
 
     def test_violation_scale_rules(self):
         wl = load("IDS")

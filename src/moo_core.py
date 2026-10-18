@@ -309,6 +309,19 @@ if VIOLATION_MODE not in VIOLATION_MODES:
 if CONSTRAINT_HANDLING not in CONSTRAINT_HANDLING_MODES:
     raise ValueError(f"MOO_CONSTRAINT_HANDLING must be one of {CONSTRAINT_HANDLING_MODES}")
 
+# Queue stability. When the nonlinear evaluator finds a destination with
+# utilization rho_j >= 1, it sets the latency metric to OVERLOAD_LATENCY (a
+# sentinel, so feasibility re-checks on stored metric rows still detect the
+# overload) and records OVERLOAD_PENALTY + sum_j max(0, rho_j - 1) under
+# QUEUE_OVERLOAD_KEY. The penalty exceeds any finite latency violation a stable
+# policy reaches outside ~1e-8 of rho = 1 (the stable-side violation diverges as
+# rho -> 1), so Deb's rules always rank overloaded policies behind stable ones
+# and order overloaded policies by their excess utilization.
+OVERLOAD_LATENCY = 1.0e12
+OVERLOAD_PENALTY = 1.0e6
+QUEUE_OVERLOAD_KEY = "__queue_overload"
+LATENCY_KEYS = ("Latency p99 (ms)", "Latency (hrs)")
+
 
 def set_constraint_modes(violation: Optional[str] = None,
                          handling: Optional[str] = None) -> None:
@@ -358,19 +371,38 @@ def violation_scales(workload: Workload) -> Dict[str, float]:
     return {k: violation_scale(workload, k, thr) for k, thr in workload.thresholds.items()}
 
 
+def queue_overloaded(pm: Mapping[str, float]) -> bool:
+    """True if the nonlinear evaluator found a destination with rho_j >= 1."""
+    if pm.get(QUEUE_OVERLOAD_KEY, 0.0) > 0.0:
+        return True
+    return any(pm.get(k, 0.0) >= OVERLOAD_LATENCY for k in LATENCY_KEYS)
+
+
 def feasibility_and_violation(
     workload: Workload, pm: Mapping[str, float]
 ) -> Tuple[bool, float, Dict[str, float]]:
+    """
+    Feasibility and aggregate violation V. A queue-overloaded policy (some
+    destination at rho_j >= 1 under the nonlinear evaluator) is infeasible.
+    Its latency is undefined, so the latency threshold is skipped and the
+    overload term OVERLOAD_PENALTY + sum_j max(0, rho_j - 1) is added instead,
+    which ranks any overloaded policy behind stable ones under Deb's rules.
+    """
     normalized = VIOLATION_MODE == "normalized"
+    overloaded = queue_overloaded(pm)
     total = 0.0
     per: Dict[str, float] = {}
     for k, thr in workload.thresholds.items():
-        if k not in pm:
+        if k not in pm or (overloaded and k in LATENCY_KEYS):
             continue
         v = thr.violation(float(pm[k]))
         if normalized and v > 0.0:
             v = v / violation_scale(workload, k, thr)
         per[k] = v
+        total += v
+    if overloaded:
+        v = float(pm.get(QUEUE_OVERLOAD_KEY, OVERLOAD_PENALTY))
+        per[QUEUE_OVERLOAD_KEY] = v
         total += v
     return (total <= 0.0), total, per
 
@@ -507,7 +539,9 @@ class NonlinearParams:
     # Effect 1: M/M/1 queuing
     lambda_tasks_per_s: float = 100.0       # task arrival rate (tasks/s)
     compute_gflops_per_task: float = 0.002  # GFLOPS required per task
-    queue_max_utilization: float = 0.92     # utilisation cap (rho clipped here)
+    # Retained so saved configurations still load. No longer used: rho_j >= 1
+    # marks the policy overloaded and rho_j < 1 uses the exact M/M/1 wait.
+    queue_max_utilization: float = 0.92
 
     # Effect 2: Contact window saturation
     contact_sat_exponent: float = 2.0       # latency blowup exponent
@@ -743,6 +777,8 @@ def aggregate_metrics_nonlinear(
     if latency_key is not None and contact_key is not None and throughput_key is not None:
         lat_total = 0.0
         weight_sum = 0.0
+        overload = 0.0
+        n_overloaded = 0
         for j, t in enumerate(workload.tiers):
             L_base = tv(t, latency_key)
             c_j    = tv(t, contact_key)
@@ -759,17 +795,20 @@ def aggregate_metrics_nonlinear(
             # Effect 1+8: M/M/1 queuing with eclipse-driven service-rate gating.
             # Effective service rate mu_eff = mu_j * eta_sun_j, contracting the
             # saturation threshold for orbital destinations whose peak power
-            # exceeds practical battery-buffering capacity.
+            # exceeds practical battery-buffering capacity. A destination with
+            # rho_j >= 1 has no stationary queue: the policy is marked
+            # overloaded (infeasible) instead of being charged a capped wait.
             if mu_raw is not None and mu_raw > 1e-9 and params.compute_gflops_per_task > 0:
                 eta_sun = params.eclipse_duty_cycle.get(t, 1.0)
                 mu_j = (mu_raw / params.compute_gflops_per_task) * eta_sun
                 lam_j = p[j] * params.lambda_tasks_per_s
                 rho_j = lam_j / max(mu_j, 1e-12)
-                rho_j = min(rho_j, params.queue_max_utilization)
-                if rho_j > 0:
-                    # Queue wait in same units as L_base
-                    # W_j (seconds) = rho_j / (mu_j * (1 - rho_j))
-                    W_j_s = rho_j / (mu_j * max(1.0 - rho_j, 1e-6))
+                if rho_j >= 1.0:
+                    overload += rho_j - 1.0
+                    n_overloaded += 1
+                elif rho_j > 0:
+                    # mean M/M/1 wait (seconds); added to the base p99 latency
+                    W_j_s = rho_j / (mu_j * max(1.0 - rho_j, 1e-12))
                     # Convert to latency units: ms -> multiply by 1000; hrs -> /3600
                     if "ms" in latency_key:
                         L_eff += W_j_s * 1000.0
@@ -779,7 +818,10 @@ def aggregate_metrics_nonlinear(
             lat_total  += p[j] * L_eff
             weight_sum += p[j]
 
-        if weight_sum > 1e-12:
+        if n_overloaded:
+            out[latency_key] = OVERLOAD_LATENCY
+            out[QUEUE_OVERLOAD_KEY] = OVERLOAD_PENALTY + overload
+        elif weight_sum > 1e-12:
             out[latency_key] = lat_total / weight_sum
 
     # ── Effects 3+4: Nonlinear energy ────────────────────────────────────

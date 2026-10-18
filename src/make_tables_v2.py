@@ -225,13 +225,13 @@ def input_tables():
     perf_idx, eng_idx = [2, 3, 4, 5, 6, 7], [8, 9, 10, 11, 12, 13]
     write("tier_inputs_perf", [tier_header[i] for i in [0, 1] + perf_idx], [[r[i] for i in [0, 1] + perf_idx] for r in trows],
           "Per-destination performance, communications, and derived queueing inputs (workload display names as in "
-          "Table~\\ref{tab:v2_workload_inputs}). The M/M/1 service rate is "
-          "$\\mu_j = \\mathrm{Throughput}_j\\,\\eta_{\\mathrm{sun},j}/\\theta$, and the utilization at full allocation "
-          "($p_j = 1$) is $\\rho = \\lambda/\\mu_j$ before clipping at $\\rho_{\\max} = 0.92$.",
+          "Table~\\ref{tab:v2_workload_inputs}). The effective M/M/1 service rate is "
+          "$\\mu_j^{\\mathrm{eff}} = \\mathrm{Throughput}_j\\,\\eta_{\\mathrm{sun},j}/\\theta$, and the eclipse-adjusted utilization at full allocation "
+          "($p_j = 1$) is $\\lambda/\\mu_j^{\\mathrm{eff}}$. A value of one or more means the destination cannot sustain the full workload.",
           colspec=colspec,
           tex_rows=[[wl_name(r[0]), wrap_name(r[1])] + [tex_escape(r[i]) for i in perf_idx] for r in trows],
           tex_header=["Workload", "Destination", "Base latency", "Throughput (GFLOPS)",
-                      "Sunlit duty cycle $\\eta_{\\mathrm{sun}}$", "Service rate $\\mu_j$ (tasks/s)",
+                      "Sunlit duty cycle $\\eta_{\\mathrm{sun}}$", "Effective service rate $\\mu_j^{\\mathrm{eff}}$ (tasks/s)",
                       "Utilization at full allocation $\\rho$", "Contact duty cycle $c_j$"])
     write("tier_inputs_eng", [tier_header[i] for i in [0, 1] + eng_idx], [[r[i] for i in [0, 1] + eng_idx] for r in trows],
           "Per-destination reliability, qualification, quality, and cost inputs (workload display names as in "
@@ -250,7 +250,6 @@ def input_tables():
     nrows = []
     desc = {"lambda_tasks_per_s": "Effect 1 arrival rate (per workload)",
             "compute_gflops_per_task": "Effect 1 compute intensity (per workload)",
-            "queue_max_utilization": "Effect 1 utilization cap rho_max",
             "contact_sat_exponent": "Effect 2 contact-saturation exponent", "contact_sat_scale": "Effect 2 scale",
             "link_setup_threshold": "Effect 3 activation threshold on p_j",
             "link_setup_energy_fraction": "Effect 3 fixed setup energy fraction",
@@ -262,6 +261,8 @@ def input_tables():
             "eclipse_duty_cycle": "Effect 8 sunlit fraction eta_sun (per destination)",
             "lambda_burst": "Burst arrival rate (experiments only)"}
     for f in fields(d0):
+        if f.name == "queue_max_utilization":   # unused: rho_j >= 1 makes a policy infeasible
+            continue
         v = getattr(d0, f.name)
         overrides = []
         for w, p in mc.WORKLOAD_NONLINEAR_PARAMS.items():
@@ -348,16 +349,15 @@ def schema_and_coefficient_tables():
     vs = OUT / "variable_schema.tex"
     vs.write_text(vs.read_text().replace("{\\scriptsize\n", "{\\scriptsize\\setlength{\\tabcolsep}{3pt}\n", 1))
 
-    from exp_nonlinear_sensitivity import COEFFS, PERTURB_FRAC
-    sym = {"lambda_tasks_per_s": "$\\lambda$", "compute_gflops_per_task": "$\\theta$", "queue_max_utilization": "$\\rho_{\\max}$",
+    from exp_nl_sensitivity_v2 import COEFFS, PERTURB_FRAC
+    sym = {"lambda_tasks_per_s": "$\\lambda$", "compute_gflops_per_task": "$\\theta$", 
            "contact_sat_exponent": "$\\alpha_c$", "link_setup_energy_fraction": "$\\eta$", "thermal_power_exponent": "$\\beta$",
            "thermal_coupling_coeff": "$\\kappa$", "link_congestion_exponent": "$\\gamma_c$", "sdc_compound_factor": "$\\xi$"}
     p = mc.WORKLOAD_NONLINEAR_PARAMS["IDS"]
     rows = [[c, sym[c], fmt(getattr(p, c)), fmt(getattr(p, c) * (1 - PERTURB_FRAC)), fmt(getattr(p, c) * (1 + PERTURB_FRAC))]
             for c in COEFFS]
     write("perturbed_coefficients", ["Coefficient", "Symbol", "IDS baseline", "-25%", "+25%"], rows,
-          "The nine coefficients perturbed in the sensitivity experiment (IDS). $\\rho_{\\max}$ at +25\\% exceeds 1; "
-          "the M/M/1 term is then evaluated with $(1-\\rho)$ floored at $10^{-6}$.",
+          "The eight coefficients perturbed in the sensitivity experiment (IDS).",
           tex_rows=[[tex_escape(r[0]), r[1], r[2], r[3], r[4]] for r in rows])
     er = [[w, t, fmt(v)] for w, pp in mc.WORKLOAD_NONLINEAR_PARAMS.items() for t, v in pp.eclipse_duty_cycle.items()]
     write("eta_sun", ["Workload", "Destination", "eta_sun"], er,

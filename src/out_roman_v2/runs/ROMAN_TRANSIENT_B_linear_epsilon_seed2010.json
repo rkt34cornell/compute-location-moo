@@ -21,7 +21,7 @@
  "n_evals": 10000,
  "n_feasible_evals": 3284,
  "search_feasible_rate": 0.3284,
- "runtime_s": 4.3814951418899,
+ "runtime_s": 4.450570603017695,
  "epsilon_diag": {
   "levels_satisfied": 0,
   "n_levels": 20,

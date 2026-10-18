@@ -2,12 +2,12 @@
   "IDS": {
     "eight_effect": {
       "mopso": {
-        "inner_hv_mean": 353.40163879459425,
-        "inner_hv_std": 0.6237681999092974,
-        "proxy_hv_mean": 353.079853298905,
-        "proxy_hv_std": 0.1838635000607028,
-        "delta_pct": 0.09113674787239784,
-        "wilcoxon_p": 0.193359375,
+        "inner_hv_mean": 322.0301640530451,
+        "inner_hv_std": 0.47551947737854444,
+        "proxy_hv_mean": 0.0,
+        "proxy_hv_std": 0.0,
+        "delta_pct": NaN,
+        "wilcoxon_p": 0.001953125,
         "n_seeds": 10,
         "hv_ref": [
           260.0,
@@ -15,12 +15,12 @@
         ]
       },
       "nsga2": {
-        "inner_hv_mean": 332.62621503392086,
-        "inner_hv_std": 6.782260734134546,
-        "proxy_hv_mean": 266.30382245663066,
-        "proxy_hv_std": 97.0558316182338,
-        "delta_pct": 24.9047843044353,
-        "wilcoxon_p": 0.005859375,
+        "inner_hv_mean": 304.62537860132386,
+        "inner_hv_std": 6.751304018741936,
+        "proxy_hv_mean": 0.0,
+        "proxy_hv_std": 0.0,
+        "delta_pct": NaN,
+        "wilcoxon_p": 0.001953125,
         "n_seeds": 10,
         "hv_ref": [
           260.0,
@@ -30,12 +30,12 @@
     },
     "seven_effect": {
       "mopso": {
-        "inner_hv_mean": 353.40163879459425,
-        "inner_hv_std": 0.6237681999092974,
-        "proxy_hv_mean": 353.079853298905,
-        "proxy_hv_std": 0.1838635000607028,
-        "delta_pct": 0.09113674787239784,
-        "wilcoxon_p": 0.193359375,
+        "inner_hv_mean": 322.0301640530451,
+        "inner_hv_std": 0.47551947737854444,
+        "proxy_hv_mean": 0.0,
+        "proxy_hv_std": 0.0,
+        "delta_pct": NaN,
+        "wilcoxon_p": 0.001953125,
         "n_seeds": 10,
         "hv_ref": [
           260.0,
@@ -43,12 +43,12 @@
         ]
       },
       "nsga2": {
-        "inner_hv_mean": 332.62621503392086,
-        "inner_hv_std": 6.782260734134546,
-        "proxy_hv_mean": 266.30382245663066,
-        "proxy_hv_std": 97.0558316182338,
-        "delta_pct": 24.9047843044353,
-        "wilcoxon_p": 0.005859375,
+        "inner_hv_mean": 304.62537860132386,
+        "inner_hv_std": 6.751304018741936,
+        "proxy_hv_mean": 0.0,
+        "proxy_hv_std": 0.0,
+        "delta_pct": NaN,
+        "wilcoxon_p": 0.001953125,
         "n_seeds": 10,
         "hv_ref": [
           260.0,
@@ -62,10 +62,10 @@
       "mopso": {
         "inner_hv_mean": 7836278.110397207,
         "inner_hv_std": 21418.751359482034,
-        "proxy_hv_mean": 7824758.414211528,
-        "proxy_hv_std": 20278.854254673555,
-        "delta_pct": 0.1472211099163889,
-        "wilcoxon_p": 0.322265625,
+        "proxy_hv_mean": 7831996.493944101,
+        "proxy_hv_std": 24374.656285064728,
+        "delta_pct": 0.05466826314869061,
+        "wilcoxon_p": 0.4921875,
         "n_seeds": 10,
         "hv_ref": [
           5000000.0,
@@ -75,10 +75,10 @@
       "nsga2": {
         "inner_hv_mean": 6299982.29247586,
         "inner_hv_std": 1806715.6889920433,
-        "proxy_hv_mean": 6277719.565488511,
-        "proxy_hv_std": 1671772.4316723635,
-        "delta_pct": 0.354630797937156,
-        "wilcoxon_p": 0.322265625,
+        "proxy_hv_mean": 6272583.588237356,
+        "proxy_hv_std": 1720158.9576835409,
+        "delta_pct": 0.4368009425953698,
+        "wilcoxon_p": 0.625,
         "n_seeds": 10,
         "hv_ref": [
           5000000.0,
@@ -90,10 +90,10 @@
       "mopso": {
         "inner_hv_mean": 7844497.64382834,
         "inner_hv_std": 21220.703797425474,
-        "proxy_hv_mean": 7835173.897792374,
-        "proxy_hv_std": 25352.061448433273,
-        "delta_pct": 0.11899858455717409,
-        "wilcoxon_p": 0.275390625,
+        "proxy_hv_mean": 7838869.214212881,
+        "proxy_hv_std": 25724.694699670374,
+        "delta_pct": 0.07180155021917453,
+        "wilcoxon_p": 0.322265625,
         "n_seeds": 10,
         "hv_ref": [
           5000000.0,
@@ -103,10 +103,10 @@
       "nsga2": {
         "inner_hv_mean": 6323596.916804535,
         "inner_hv_std": 1771100.2355648065,
-        "proxy_hv_mean": 6385392.4443926895,
-        "proxy_hv_std": 1706642.0177475861,
-        "delta_pct": -0.9677639726344419,
-        "wilcoxon_p": 0.193359375,
+        "proxy_hv_mean": 6376387.784105831,
+        "proxy_hv_std": 1716684.2634638327,
+        "delta_pct": -0.8279118066326708,
+        "wilcoxon_p": 0.76953125,
         "n_seeds": 10,
         "hv_ref": [
           5000000.0,

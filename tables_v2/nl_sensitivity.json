@@ -16,190 +16,163 @@
   {
    "Method": "mopso",
    "Coefficient": "lambda_tasks_per_s",
-   "dHV% (-25%) mean": "2.29",
+   "dHV% (-25%) mean": "12.4",
+   "SD": "0.29",
+   "p": "0.00195",
+   "dHV% (+25%) mean": "-9.16",
+   "Importance rank": 2
+  },
+  {
+   "Method": "mopso",
+   "Coefficient": "compute_gflops_per_task",
+   "dHV% (-25%) mean": "14.0",
    "SD": "0.15",
    "p": "0.00195",
-   "dHV% (+25%) mean": "-1.43",
-   "Importance rank": 3
-  },
-  {
-   "Method": "mopso",
-   "Coefficient": "compute_gflops_per_task",
-   "dHV% (-25%) mean": "4.05",
-   "SD": "0.19",
-   "p": "0.00195",
-   "dHV% (+25%) mean": "-4.10",
-   "Importance rank": 2
-  },
-  {
-   "Method": "mopso",
-   "Coefficient": "queue_max_utilization",
-   "dHV% (-25%) mean": "7.71",
-   "SD": "0.20",
-   "p": "0.00195",
-   "dHV% (+25%) mean": "-8.96",
+   "dHV% (+25%) mean": "-10.1",
    "Importance rank": 1
   },
   {
    "Method": "mopso",
    "Coefficient": "contact_sat_exponent",
-   "dHV% (-25%) mean": "-0.0548",
-   "SD": "0.19",
-   "p": "0.0371",
-   "dHV% (+25%) mean": "-0.142",
-   "Importance rank": 8
+   "dHV% (-25%) mean": "-0.0486",
+   "SD": "0.32",
+   "p": "0.492",
+   "dHV% (+25%) mean": "0.103",
+   "Importance rank": 3
   },
   {
    "Method": "mopso",
    "Coefficient": "link_setup_energy_fraction",
-   "dHV% (-25%) mean": "-0.210",
-   "SD": "0.22",
-   "p": "0.0273",
-   "dHV% (+25%) mean": "-0.171",
-   "Importance rank": 6
-  },
-  {
-   "Method": "mopso",
-   "Coefficient": "thermal_power_exponent",
-   "dHV% (-25%) mean": "-0.0453",
-   "SD": "0.21",
-   "p": "0.695",
-   "dHV% (+25%) mean": "-0.0489",
-   "Importance rank": 9
-  },
-  {
-   "Method": "mopso",
-   "Coefficient": "thermal_coupling_coeff",
-   "dHV% (-25%) mean": "-0.386",
-   "SD": "0.27",
-   "p": "0.232",
-   "dHV% (+25%) mean": "-0.123",
+   "dHV% (-25%) mean": "0.0240",
+   "SD": "0.26",
+   "p": "0.557",
+   "dHV% (+25%) mean": "0.0676",
    "Importance rank": 4
   },
   {
    "Method": "mopso",
-   "Coefficient": "link_congestion_exponent",
-   "dHV% (-25%) mean": "-0.148",
-   "SD": "0.19",
-   "p": "0.0840",
-   "dHV% (+25%) mean": "-0.127",
+   "Coefficient": "thermal_power_exponent",
+   "dHV% (-25%) mean": "0.0112",
+   "SD": "0.20",
+   "p": "1.00",
+   "dHV% (+25%) mean": "0.0344",
+   "Importance rank": 6
+  },
+  {
+   "Method": "mopso",
+   "Coefficient": "thermal_coupling_coeff",
+   "dHV% (-25%) mean": "-0.0276",
+   "SD": "0.17",
+   "p": "0.922",
+   "dHV% (+25%) mean": "0.00782",
    "Importance rank": 7
   },
   {
    "Method": "mopso",
+   "Coefficient": "link_congestion_exponent",
+   "dHV% (-25%) mean": "-0.0124",
+   "SD": "0.18",
+   "p": "0.846",
+   "dHV% (+25%) mean": "-0.0180",
+   "Importance rank": 8
+  },
+  {
+   "Method": "mopso",
    "Coefficient": "sdc_compound_factor",
-   "dHV% (-25%) mean": "-0.130",
-   "SD": "0.14",
-   "p": "0.00195",
-   "dHV% (+25%) mean": "-0.257",
+   "dHV% (-25%) mean": "0.0532",
+   "SD": "0.32",
+   "p": "0.432",
+   "dHV% (+25%) mean": "-0.0529",
    "Importance rank": 5
   },
   {
    "Method": "nsga2",
    "Coefficient": "lambda_tasks_per_s",
-   "dHV% (-25%) mean": "1.83",
+   "dHV% (-25%) mean": "12.4",
+   "SD": "4.9",
+   "p": "0.00195",
+   "dHV% (+25%) mean": "-10.5",
+   "Importance rank": 2
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "compute_gflops_per_task",
+   "dHV% (-25%) mean": "13.5",
+   "SD": "4.2",
+   "p": "0.00195",
+   "dHV% (+25%) mean": "-10.8",
+   "Importance rank": 1
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "contact_sat_exponent",
+   "dHV% (-25%) mean": "-0.323",
+   "SD": "3.0",
+   "p": "0.557",
+   "dHV% (+25%) mean": "-0.540",
+   "Importance rank": 7
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "link_setup_energy_fraction",
+   "dHV% (-25%) mean": "-0.257",
+   "SD": "2.1",
+   "p": "0.00977",
+   "dHV% (+25%) mean": "-2.01",
+   "Importance rank": 3
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "thermal_power_exponent",
+   "dHV% (-25%) mean": "-0.931",
+   "SD": "2.5",
+   "p": "0.922",
+   "dHV% (+25%) mean": "0.0921",
+   "Importance rank": 6
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "thermal_coupling_coeff",
+   "dHV% (-25%) mean": "-0.506",
+   "SD": "2.5",
+   "p": "1.00",
+   "dHV% (+25%) mean": "0.0472",
+   "Importance rank": 8
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "link_congestion_exponent",
+   "dHV% (-25%) mean": "0.0522",
+   "SD": "2.2",
+   "p": "0.105",
+   "dHV% (+25%) mean": "1.41",
+   "Importance rank": 4
+  },
+  {
+   "Method": "nsga2",
+   "Coefficient": "sdc_compound_factor",
+   "dHV% (-25%) mean": "1.12",
+   "SD": "2.8",
+   "p": "1.00",
+   "dHV% (+25%) mean": "-0.524",
+   "Importance rank": 5
+  },
+  {
+   "Method": "random",
+   "Coefficient": "lambda_tasks_per_s",
+   "dHV% (-25%) mean": "13.3",
    "SD": "1.7",
    "p": "0.00195",
-   "dHV% (+25%) mean": "-2.29",
-   "Importance rank": 3
-  },
-  {
-   "Method": "nsga2",
-   "Coefficient": "compute_gflops_per_task",
-   "dHV% (-25%) mean": "3.33",
-   "SD": "2.0",
-   "p": "0.00195",
-   "dHV% (+25%) mean": "-4.79",
-   "Importance rank": 2
-  },
-  {
-   "Method": "nsga2",
-   "Coefficient": "queue_max_utilization",
-   "dHV% (-25%) mean": "6.03",
-   "SD": "2.3",
-   "p": "0.00195",
-   "dHV% (+25%) mean": "-9.77",
-   "Importance rank": 1
-  },
-  {
-   "Method": "nsga2",
-   "Coefficient": "contact_sat_exponent",
-   "dHV% (-25%) mean": "-0.577",
-   "SD": "1.8",
-   "p": "0.375",
-   "dHV% (+25%) mean": "-0.459",
-   "Importance rank": 7
-  },
-  {
-   "Method": "nsga2",
-   "Coefficient": "link_setup_energy_fraction",
-   "dHV% (-25%) mean": "-0.710",
-   "SD": "1.2",
-   "p": "0.492",
-   "dHV% (+25%) mean": "0.285",
-   "Importance rank": 5
-  },
-  {
-   "Method": "nsga2",
-   "Coefficient": "thermal_power_exponent",
-   "dHV% (-25%) mean": "-0.394",
-   "SD": "2.0",
-   "p": "0.625",
-   "dHV% (+25%) mean": "-0.307",
-   "Importance rank": 8
-  },
-  {
-   "Method": "nsga2",
-   "Coefficient": "thermal_coupling_coeff",
-   "dHV% (-25%) mean": "-0.615",
-   "SD": "1.6",
-   "p": "0.375",
-   "dHV% (+25%) mean": "-0.191",
-   "Importance rank": 6
-  },
-  {
-   "Method": "nsga2",
-   "Coefficient": "link_congestion_exponent",
-   "dHV% (-25%) mean": "-0.354",
-   "SD": "1.3",
-   "p": "0.625",
-   "dHV% (+25%) mean": "-0.215",
-   "Importance rank": 9
-  },
-  {
-   "Method": "nsga2",
-   "Coefficient": "sdc_compound_factor",
-   "dHV% (-25%) mean": "-0.583",
-   "SD": "2.7",
-   "p": "0.105",
-   "dHV% (+25%) mean": "-1.42",
-   "Importance rank": 4
-  },
-  {
-   "Method": "random",
-   "Coefficient": "lambda_tasks_per_s",
-   "dHV% (-25%) mean": "2.20",
-   "SD": "0.13",
-   "p": "0.00195",
-   "dHV% (+25%) mean": "-1.21",
-   "Importance rank": 3
-  },
-  {
-   "Method": "random",
-   "Coefficient": "compute_gflops_per_task",
-   "dHV% (-25%) mean": "4.19",
-   "SD": "0.13",
-   "p": "0.00195",
-   "dHV% (+25%) mean": "-3.86",
+   "dHV% (+25%) mean": "-9.25",
    "Importance rank": 2
   },
   {
    "Method": "random",
-   "Coefficient": "queue_max_utilization",
-   "dHV% (-25%) mean": "7.81",
-   "SD": "1.2",
+   "Coefficient": "compute_gflops_per_task",
+   "dHV% (-25%) mean": "15.4",
+   "SD": "1.7",
    "p": "0.00195",
-   "dHV% (+25%) mean": "-11.0",
+   "dHV% (+25%) mean": "-10.4",
    "Importance rank": 1
   },
   {
@@ -209,7 +182,7 @@
    "SD": "0",
    "p": "1.00",
    "dHV% (+25%) mean": "0",
-   "Importance rank": 4
+   "Importance rank": 3
   },
   {
    "Method": "random",
@@ -218,7 +191,7 @@
    "SD": "0",
    "p": "1.00",
    "dHV% (+25%) mean": "0",
-   "Importance rank": 5
+   "Importance rank": 4
   },
   {
    "Method": "random",
@@ -227,7 +200,7 @@
    "SD": "0",
    "p": "1.00",
    "dHV% (+25%) mean": "0",
-   "Importance rank": 6
+   "Importance rank": 5
   },
   {
    "Method": "random",
@@ -236,7 +209,7 @@
    "SD": "0",
    "p": "1.00",
    "dHV% (+25%) mean": "0",
-   "Importance rank": 7
+   "Importance rank": 6
   },
   {
    "Method": "random",
@@ -245,7 +218,7 @@
    "SD": "0",
    "p": "1.00",
    "dHV% (+25%) mean": "0",
-   "Importance rank": 8
+   "Importance rank": 7
   },
   {
    "Method": "random",
@@ -254,7 +227,7 @@
    "SD": "0",
    "p": "1.00",
    "dHV% (+25%) mean": "0",
-   "Importance rank": 9
+   "Importance rank": 8
   }
  ]
 }

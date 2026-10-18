@@ -11,8 +11,8 @@
  "rows": [
   {
    "Policy": "Feasibility rule ($t_1$ = 1\\%, $t_2$ = 10\\%)",
-   "Mean HV regret (%)": "1.112",
-   "Median HV regret (%)": "1.261",
+   "Mean HV regret (%)": "1.108",
+   "Median HV regret (%)": "1.244",
    "Worst-case HV regret (%)": "1.723",
    "Choices": "Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random"
   },
@@ -25,15 +25,15 @@
   },
   {
    "Policy": "Always Random",
-   "Mean HV regret (%)": "1.112",
-   "Median HV regret (%)": "1.261",
+   "Mean HV regret (%)": "1.108",
+   "Median HV regret (%)": "1.244",
    "Worst-case HV regret (%)": "1.723",
    "Choices": "Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random"
   },
   {
    "Policy": "Always NSGA-II",
-   "Mean HV regret (%)": "0.9604",
-   "Median HV regret (%)": "1.191",
+   "Mean HV regret (%)": "1.023",
+   "Median HV regret (%)": "1.436",
    "Worst-case HV regret (%)": "1.683",
    "Choices": "NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II"
   },
@@ -46,15 +46,15 @@
   },
   {
    "Policy": "Feasibility rule, best thresholds in range ($t_1$ = 0.2\\%, $t_2$ = 5.0\\%)",
-   "Mean HV regret (%)": "1.112",
-   "Median HV regret (%)": "1.261",
+   "Mean HV regret (%)": "1.108",
+   "Median HV regret (%)": "1.244",
    "Worst-case HV regret (%)": "1.723",
    "Choices": ""
   },
   {
    "Policy": "Feasibility rule, worst thresholds in range ($t_1$ = 0.2\\%, $t_2$ = 5.0\\%)",
-   "Mean HV regret (%)": "1.112",
-   "Median HV regret (%)": "1.261",
+   "Mean HV regret (%)": "1.108",
+   "Median HV regret (%)": "1.244",
    "Worst-case HV regret (%)": "1.723",
    "Choices": ""
   }

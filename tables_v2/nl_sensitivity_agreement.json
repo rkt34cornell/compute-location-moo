@@ -12,27 +12,27 @@
  "rows": [
   {
    "Pair": "mopso_vs_nsga2",
-   "Kendall tau": "0.778",
-   "p": "0.00243",
-   "Spearman rho": "0.900",
-   "Top-3 A": "queue_max_utilization compute_gflops_per_task lambda_tasks_per_s",
-   "Top-3 B": "queue_max_utilization compute_gflops_per_task lambda_tasks_per_s"
+   "Kendall tau": "0.500",
+   "p": "0.109",
+   "Spearman rho": "0.595",
+   "Top-3 A": "compute_gflops_per_task lambda_tasks_per_s contact_sat_exponent",
+   "Top-3 B": "compute_gflops_per_task lambda_tasks_per_s link_setup_energy_fraction"
   },
   {
    "Pair": "mopso_vs_random",
-   "Kendall tau": "0.764",
-   "p": "0.00849",
-   "Spearman rho": "0.842",
-   "Top-3 A": "queue_max_utilization compute_gflops_per_task lambda_tasks_per_s",
-   "Top-3 B": "queue_max_utilization compute_gflops_per_task lambda_tasks_per_s"
+   "Kendall tau": "0.681",
+   "p": "0.0326",
+   "Spearman rho": "0.764",
+   "Top-3 A": "compute_gflops_per_task lambda_tasks_per_s contact_sat_exponent",
+   "Top-3 B": "compute_gflops_per_task lambda_tasks_per_s contact_sat_exponent"
   },
   {
    "Pair": "nsga2_vs_random",
-   "Kendall tau": "0.764",
-   "p": "0.00849",
-   "Spearman rho": "0.842",
-   "Top-3 A": "queue_max_utilization compute_gflops_per_task lambda_tasks_per_s",
-   "Top-3 B": "queue_max_utilization compute_gflops_per_task lambda_tasks_per_s"
+   "Kendall tau": "0.681",
+   "p": "0.0326",
+   "Spearman rho": "0.764",
+   "Top-3 A": "compute_gflops_per_task lambda_tasks_per_s link_setup_energy_fraction",
+   "Top-3 B": "compute_gflops_per_task lambda_tasks_per_s contact_sat_exponent"
   }
  ]
 }

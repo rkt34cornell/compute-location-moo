@@ -1,8 +1,8 @@
 Policy,Mean HV regret (%),Median HV regret (%),Worst-case HV regret (%),Choices
-"Feasibility rule ($t_1$ = 1\%, $t_2$ = 10\%)",1.112,1.261,1.723,"Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random"
+"Feasibility rule ($t_1$ = 1\%, $t_2$ = 10\%)",1.108,1.244,1.723,"Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random"
 Always MOPSO,0.002858,0,0.01715,"MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO"
-Always Random,1.112,1.261,1.723,"Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random"
-Always NSGA-II,0.9604,1.191,1.683,"NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II"
+Always Random,1.108,1.244,1.723,"Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random"
+Always NSGA-II,1.023,1.436,1.683,"NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II"
 Oracle (best per workload),0,0,0,"MOPSO, MOPSO, MOPSO, MOPSO, NSGA-II, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, NSGA-II, MOPSO"
-"Feasibility rule, best thresholds in range ($t_1$ = 0.2\%, $t_2$ = 5.0\%)",1.112,1.261,1.723,
-"Feasibility rule, worst thresholds in range ($t_1$ = 0.2\%, $t_2$ = 5.0\%)",1.112,1.261,1.723,
+"Feasibility rule, best thresholds in range ($t_1$ = 0.2\%, $t_2$ = 5.0\%)",1.108,1.244,1.723,
+"Feasibility rule, worst thresholds in range ($t_1$ = 0.2\%, $t_2$ = 5.0\%)",1.108,1.244,1.723,

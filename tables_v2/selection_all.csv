@@ -1,8 +1,8 @@
 Policy,Mean HV regret (%),Median HV regret (%),Worst-case HV regret (%),Choices
-"Feasibility rule ($t_1$ = 1\%, $t_2$ = 10\%)",1.030,1.248,3.523,"NSGA-II, MOPSO, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random"
+"Feasibility rule ($t_1$ = 1\%, $t_2$ = 10\%)",1.027,1.242,3.523,"NSGA-II, MOPSO, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random"
 Always MOPSO,0.1166,0,1.242,"MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO"
-Always Random,1.354,1.127,9.587,"Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random"
-Always NSGA-II,1.356,1.330,5.316,"NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II"
+Always Random,1.351,1.121,9.587,"Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random, Random"
+Always NSGA-II,1.398,1.436,5.316,"NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II, NSGA-II"
 Oracle (best per workload),0,0,0,"MOPSO, NSGA-II, MOPSO, Random, Random, Random, MOPSO, MOPSO, MOPSO, MOPSO, NSGA-II, MOPSO, MOPSO, MOPSO, MOPSO, MOPSO, NSGA-II, MOPSO"
-"Feasibility rule, best thresholds in range ($t_1$ = 2.8\%, $t_2$ = 5.0\%)",0.9613,0.9518,3.523,
-"Feasibility rule, worst thresholds in range ($t_1$ = 0.2\%, $t_2$ = 5.0\%)",1.030,1.248,3.523,
+"Feasibility rule, best thresholds in range ($t_1$ = 2.8\%, $t_2$ = 5.0\%)",0.9584,0.9458,3.523,
+"Feasibility rule, worst thresholds in range ($t_1$ = 0.2\%, $t_2$ = 5.0\%)",1.027,1.242,3.523,

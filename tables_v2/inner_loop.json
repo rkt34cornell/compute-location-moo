@@ -16,40 +16,40 @@
    "Workload": "IDS",
    "Evaluator": "eight_effect",
    "Method": "mopso",
-   "Inner-loop HV": "353.40 \\pm 0.62",
-   "Proxy HV": "353.08 \\pm 0.18",
-   "Delta (%)": "0.0911",
-   "p": "0.193",
+   "Inner-loop HV": "322.03 \\pm 0.48",
+   "Proxy HV": "0 \\pm 0",
+   "Delta (%)": "--",
+   "p": "0.00195",
    "Seeds": "10"
   },
   {
    "Workload": "IDS",
    "Evaluator": "eight_effect",
    "Method": "nsga2",
-   "Inner-loop HV": "332.63 \\pm 6.8",
-   "Proxy HV": "266.30 \\pm 97",
-   "Delta (%)": "24.9",
-   "p": "0.00586",
+   "Inner-loop HV": "304.63 \\pm 6.8",
+   "Proxy HV": "0 \\pm 0",
+   "Delta (%)": "--",
+   "p": "0.00195",
    "Seeds": "10"
   },
   {
    "Workload": "IDS",
    "Evaluator": "seven_effect",
    "Method": "mopso",
-   "Inner-loop HV": "353.40 \\pm 0.62",
-   "Proxy HV": "353.08 \\pm 0.18",
-   "Delta (%)": "0.0911",
-   "p": "0.193",
+   "Inner-loop HV": "322.03 \\pm 0.48",
+   "Proxy HV": "0 \\pm 0",
+   "Delta (%)": "--",
+   "p": "0.00195",
    "Seeds": "10"
   },
   {
    "Workload": "IDS",
    "Evaluator": "seven_effect",
    "Method": "nsga2",
-   "Inner-loop HV": "332.63 \\pm 6.8",
-   "Proxy HV": "266.30 \\pm 97",
-   "Delta (%)": "24.9",
-   "p": "0.00586",
+   "Inner-loop HV": "304.63 \\pm 6.8",
+   "Proxy HV": "0 \\pm 0",
+   "Delta (%)": "--",
+   "p": "0.00195",
    "Seeds": "10"
   },
   {
@@ -57,9 +57,9 @@
    "Evaluator": "eight_effect",
    "Method": "mopso",
    "Inner-loop HV": "7.8363e+06 \\pm 21419",
-   "Proxy HV": "7.8248e+06 \\pm 20279",
-   "Delta (%)": "0.147",
-   "p": "0.322",
+   "Proxy HV": "7.8320e+06 \\pm 24375",
+   "Delta (%)": "0.0547",
+   "p": "0.492",
    "Seeds": "10"
   },
   {
@@ -67,9 +67,9 @@
    "Evaluator": "eight_effect",
    "Method": "nsga2",
    "Inner-loop HV": "6.3000e+06 \\pm 1.8e+06",
-   "Proxy HV": "6.2777e+06 \\pm 1.7e+06",
-   "Delta (%)": "0.355",
-   "p": "0.322",
+   "Proxy HV": "6.2726e+06 \\pm 1.7e+06",
+   "Delta (%)": "0.437",
+   "p": "0.625",
    "Seeds": "10"
   },
   {
@@ -77,9 +77,9 @@
    "Evaluator": "seven_effect",
    "Method": "mopso",
    "Inner-loop HV": "7.8445e+06 \\pm 21221",
-   "Proxy HV": "7.8352e+06 \\pm 25352",
-   "Delta (%)": "0.119",
-   "p": "0.275",
+   "Proxy HV": "7.8389e+06 \\pm 25725",
+   "Delta (%)": "0.0718",
+   "p": "0.322",
    "Seeds": "10"
   },
   {
@@ -87,9 +87,9 @@
    "Evaluator": "seven_effect",
    "Method": "nsga2",
    "Inner-loop HV": "6.3236e+06 \\pm 1.8e+06",
-   "Proxy HV": "6.3854e+06 \\pm 1.7e+06",
-   "Delta (%)": "-0.968",
-   "p": "0.193",
+   "Proxy HV": "6.3764e+06 \\pm 1.7e+06",
+   "Delta (%)": "-0.828",
+   "p": "0.770",
    "Seeds": "10"
   }
  ]

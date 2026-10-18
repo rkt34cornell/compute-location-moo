@@ -1,6 +1,6 @@
 {
  "table": "perturbed_coefficients",
- "caption": "The nine coefficients perturbed in the sensitivity experiment (IDS). $\\rho_{\\max}$ at +25\\% exceeds 1; the M/M/1 term is then evaluated with $(1-\\rho)$ floored at $10^{-6}$.",
+ "caption": "The eight coefficients perturbed in the sensitivity experiment (IDS).",
  "columns": [
   "Coefficient",
   "Symbol",
@@ -22,13 +22,6 @@
    "IDS baseline": "0.001000",
    "-25%": "7.500e-04",
    "+25%": "0.001250"
-  },
-  {
-   "Coefficient": "queue_max_utilization",
-   "Symbol": "$\\rho_{\\max}$",
-   "IDS baseline": "0.9200",
-   "-25%": "0.6900",
-   "+25%": "1.150"
   },
   {
    "Coefficient": "contact_sat_exponent",

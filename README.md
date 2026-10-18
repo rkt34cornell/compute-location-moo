@@ -9,6 +9,10 @@ workload across compute destinations (flight computer, orbital data center, grou
 terrestrial data center) for a fixed, mission-specific flight-computer configuration. In the reported
 experiments the Stage-1 ranking is a separate pre-screening result and is not propagated into Stage 2.
 
+The nonlinear evaluator models each destination as an M/M/1 queue. A policy that loads any destination to
+utilization rho_j >= 1 is infeasible (its latency is reported as a 1e12 sentinel and its constraint violation
+includes the excess utilization), and stable queues use the exact M/M/1 mean wait with no utilization cap.
+
 Stage 1 ranks a processor only when all eight Stage-1 attributes are available, so every ranked
 candidate uses the same fixed weight vector. A candidate missing a non-gate attribute is reported as
 incomplete, and one missing TRL or radiation dose margin as having unconfirmed qualification. Neither
@@ -48,7 +52,7 @@ instead of returning a selection, and `stage1_rank` reports the leading complete
 | E10 ODC specification sweep | `exp_odc_sweep_v2.py` | `src/out_odc_sweep_v2/` |
 | E11 Roman arrival, burst, quality, NRE sweeps | `exp_roman_sweeps_v2.py` | `src/out_roman_sweeps_v2/` |
 | E12 Evaluator consistency, inner loop | `exp_lin_vs_nl_v2.py`, `exp_inner_loop_v2.py` | `src/out_lin_vs_nl_v2/`, `src/out_inner_loop_v2/` |
-| E13 Coefficient sensitivity, IDS arrival sweep | `exp_nl_sensitivity_v2.py`, then `exp_nl_sensitivity_rhocap_v2.py` (reruns the upper utilization-cap arm at 0.99, the values reported in the paper), and `exp_arrival_sweep_v2.py` | `src/out_nl_sensitivity_rhocap_v2/`, `src/out_arrival_sweep_v2/` |
+| E13 Coefficient sensitivity, IDS arrival sweep | `exp_nl_sensitivity_v2.py`, `exp_arrival_sweep_v2.py` | `src/out_nl_sensitivity_v2/`, `src/out_arrival_sweep_v2/` |
 | E14 Mission duration and radiation hardness | `exp_mission_duration_sweep.py` | `src/out_duration_sweep/` |
 | Stage 1 missing-attribute tests (appendix table) | `exp_stage1_robustness_v2.py` | `src/out_stage1_robustness_v2/` |
 
@@ -63,7 +67,8 @@ configurations are in `tables_v2/hyperparameters.*`, constraint-violation scales
 ## Reproducing
 
 Python 3.10 with the packages in `requirements.txt`. Run scripts from `src/`. The `run_queue_v2*.sh`
-scripts list the exact command sequence used for the reported runs. They hard-code the interpreter
+scripts list the exact command sequence used for the reported runs (`run_queue_v2_stability.sh` runs every
+experiment that uses the nonlinear evaluator). They hard-code the interpreter
 path of the original machine, so edit `PY=` before using them.
 
 ```bash

@@ -2,15 +2,15 @@
 """
 exp_nl_sensitivity_v2.py — coefficient +/-25% sensitivity across algorithms.
 
-Same nine coefficients and +/-25% perturbations as exp_nonlinear_sensitivity.py
+Same +/-25% perturbations as exp_nonlinear_sensitivity.py
 (IDS, nonlinear evaluator, current data.json). Differences: three algorithms
 (MOPSO 60x61 / archive 200 = legacy config; NSGA-II pop 60 x 60 generations,
 3,660 evals; Random Dirichlet 3,660 samples incl. vertices), 10 seeds (11-20)
 instead of one, feasibility re-checked before HV (an infeasible fallback scores
 HV = 0), and the constraint modes given on the command line.
 
-Caveat preserved from legacy: +25% on queue_max_utilization gives a cap of
-1.15 > 1, where the M/M/1 term is evaluated with (1 - rho) floored at 1e-6.
+The eight perturbed coefficients exclude the legacy utilization cap, which the
+evaluator no longer uses (overloaded destinations make a policy infeasible).
 
 Output: out_nl_sensitivity_v2/{runs.csv, summary.json}
 """
@@ -28,7 +28,11 @@ import numpy as np
 import moo_core as mc
 import optimizers_methods
 import algorithms_extended
-from exp_nonlinear_sensitivity import COEFFS, PERTURB_FRAC
+from exp_nonlinear_sensitivity import COEFFS as _LEGACY_COEFFS, PERTURB_FRAC
+
+# The utilization cap is no longer a model parameter: rho_j >= 1 marks a policy
+# overloaded and rho_j < 1 uses the exact M/M/1 wait, so the cap is not perturbed.
+COEFFS = [c for c in _LEGACY_COEFFS if c != "queue_max_utilization"]
 from run_multiseed_benchmark import WCFG, hv2d, to_min_2d
 
 WL = "IDS"

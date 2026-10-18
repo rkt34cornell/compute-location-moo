@@ -226,19 +226,16 @@ def fig_lin_vs_nl():
 
 
 def fig_sensitivity():
-    # admissible-cap rerun: rho_max upper arm is 0.99 instead of 0.92 x 1.25 = 1.15
-    p = Path("out_nl_sensitivity_rhocap_v2/summary.json")
+    p = Path("out_nl_sensitivity_v2/summary.json")
     if not p.exists():
         return
     S = json.loads(p.read_text())
-    rho_up = S["perturbed_values"]["queue_max_utilization"]["upper"]
     ms = [m for m in ["mopso", "nsga2", "random"] if m in S]
     coeffs = S[ms[0]]["importance_order"]
     fig, axes = plt.subplots(1, len(ms), figsize=(10, 3.8), sharey=True)
     for ax, m in zip(axes, ms):
         y = np.arange(len(coeffs))
-        for d, lab, col, off in [("lower", "\u221225%", "#2a78d6", -0.2),
-                                 ("upper", f"+25% ($\\rho_{{\\max}}$: {rho_up:.2f})", "#eb6834", 0.2)]:
+        for d, lab, col, off in [("-25%", "\u221225%", "#2a78d6", -0.2), ("+25%", "+25%", "#eb6834", 0.2)]:
             mu = [S[m]["coeffs"][c][d]["delta_pct_mean"] for c in coeffs]
             sd = [S[m]["coeffs"][c][d]["delta_pct_std"] for c in coeffs]
             ax.barh(y + off, mu, 0.38, xerr=sd, color=col, error_kw=dict(ecolor=MUTED, lw=0.8),
@@ -248,7 +245,7 @@ def fig_sensitivity():
         ax.set_title(f"{LABEL[m]} (baseline HV {S[m]['baseline_hv_mean']:.1f})", fontsize=8, color=INK)
         ax.set_xlabel("ΔHV (%) vs baseline, mean ± SD (10 seeds)")
     axes[0].legend(fontsize=7)
-    fig.suptitle("IDS nonlinear-coefficient sensitivity across algorithms", fontsize=9, color=INK)
+    fig.suptitle("IDS nonlinear-coefficient sensitivity (±25%) across algorithms", fontsize=9, color=INK)
     fig.tight_layout()
     save(fig, "fig_nl_sensitivity_v2")
 

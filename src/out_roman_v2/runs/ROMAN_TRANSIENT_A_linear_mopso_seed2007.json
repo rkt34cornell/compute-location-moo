@@ -22,7 +22,7 @@
  "n_evals": 12060,
  "n_feasible_evals": 7546,
  "search_feasible_rate": 0.6257048092868989,
- "runtime_s": 89.57502601202577,
+ "runtime_s": 89.85137539904099,
  "epsilon_diag": null,
  "violation_mode": "normalized",
  "handling_mode": "deb"

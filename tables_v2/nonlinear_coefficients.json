@@ -21,12 +21,6 @@
    "Per-workload overrides": "IDS: 0.001; SUNCATCHER: 5000000.0; JWST: 800.0; RST: 300.0; ROMAN_TRANSIENT: 100.0; ROMAN_TRANSIENT_FOLLOWUP: 100.0; LEO_OOS: 20.0; DEEP_SPACE_CRUISE: 50.0"
   },
   {
-   "Parameter": "queue_max_utilization",
-   "Role": "Effect 1 utilization cap rho_max",
-   "Default": "0.92",
-   "Per-workload overrides": "--"
-  },
-  {
    "Parameter": "contact_sat_exponent",
    "Role": "Effect 2 contact-saturation exponent",
    "Default": "2.0",
