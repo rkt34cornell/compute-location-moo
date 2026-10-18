@@ -245,7 +245,7 @@ def fig_sensitivity():
         ax.set_title(f"{LABEL[m]} (baseline HV {S[m]['baseline_hv_mean']:.1f})", fontsize=8, color=INK)
         ax.set_xlabel("ΔHV (%) vs baseline, mean ± SD (10 seeds)")
     axes[0].legend(fontsize=7)
-    fig.suptitle("IDS nonlinear-coefficient sensitivity (±25%) across algorithms", fontsize=9, color=INK)
+    fig.suptitle("IDS nonlinear-evaluator parameter sensitivity (±25%) across algorithms", fontsize=9, color=INK)
     fig.tight_layout()
     save(fig, "fig_nl_sensitivity_v2")
 
