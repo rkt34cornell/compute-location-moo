@@ -257,16 +257,21 @@ def fig_bo():
     S = json.loads(p.read_text())
     M = {r["method"]: r for r in read_csv(A / "main_metrics.csv") if r["config"] == "IDS"}
     fig, ax = plt.subplots(figsize=(6.4, 3.6))
-    for m, r in M.items():
-        ax.errorbar(float(r["evals_mean"]), float(r["hv_mean"]), yerr=float(r["hv_sd"]), fmt=MARK[m], color=COLOR[m],
-                    ms=7, capsize=2, label=f"{LABEL[m]} (20 seeds)")
+    # the population methods all use about 16,000 evaluations, so their markers are spread
+    # horizontally around that budget to keep overlapping means (e.g. Random and MOPSO) visible
+    offsets = np.geomspace(0.72, 1.39, len(M))
+    for k, (m, r) in enumerate(M.items()):
+        ax.errorbar(float(r["evals_mean"]) * offsets[k], float(r["hv_mean"]), yerr=float(r["hv_sd"]), fmt=MARK[m],
+                    color=COLOR[m], ms=7, capsize=2, label=f"{LABEL[m]} (20 seeds)")
     if "IDS_linear" in S:
         b = S["IDS_linear"]
         ax.errorbar(b.get("n_evals_actual", 84), b["hv_mean"], yerr=b["hv_std"], fmt="*", color=INK, ms=11, capsize=2,
                     label=f"q-EHVI ({b['n_seeds']} seeds)")
-    ax.set_xscale("log"); ax.set_xlabel("Function evaluations (log)"); ax.set_ylabel("HV (IDS, linear)")
-    ax.legend(fontsize=6.5, ncol=2); ax.set_title("IDS: q-EHVI at 84 evaluations vs population methods at 16,000",
-                                                   fontsize=8, color=INK)
+    ax.set_xscale("log"); ax.set_xlabel("Function evaluations (log scale)")
+    ax.set_ylabel("Hypervolume (IDS, linear evaluator)")
+    ax.legend(fontsize=6.5, ncol=2, loc="upper left")
+    ax.set_title("IDS, linear evaluator: q-EHVI at 84 evaluations vs population methods at about 16,000",
+                 fontsize=8, color=INK)
     fig.tight_layout()
     save(fig, "fig_bo_vs_evolutionary_v2")
 
