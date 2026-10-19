@@ -196,12 +196,16 @@ def fig_ablation():
             mu = [S[w][m][f"{vs}_hv_mean"] for m in ms]; sd = [S[w][m][f"{vs}_hv_std"] for m in ms]
             nv = S[w][ms[0]][f"n_vars_{vs}"]
             ax.bar(x + (j - 0.5) * 0.38, mu, 0.36, yerr=sd, color=col, edgecolor="white", linewidth=1,
-                   error_kw=dict(ecolor=MUTED, lw=0.8), label=f"{vs} ({nv} metrics)")
+                   error_kw=dict(ecolor=MUTED, lw=0.8), label=f"{vs} metric set")
         ax.set_xticks(x); ax.set_xticklabels([LABEL[m] for m in ms], rotation=30, ha="right", fontsize=7)
-        ax.set_title(WL_SHORT[w], fontsize=8, color=INK); ax.set_ylabel("HV"); ax.legend(fontsize=6.5)
+        nf, nr = S[w][ms[0]]["n_vars_full"], S[w][ms[0]]["n_vars_reduced"]
+        ax.set_title(f"{WL_SHORT[w]} (full {nf}, reduced {nr} metrics)", fontsize=8, color=INK); ax.set_ylabel("HV")
+    # one shared legend above the panels so no legend covers bars or error bars
+    h, l = axes.flat[0].get_legend_handles_labels()
+    fig.legend(h, l, loc="upper center", bbox_to_anchor=(0.5, 0.955), ncol=2, fontsize=7.5, frameon=False)
     fig.suptitle("Full vs reduced metric set (constraints preserved; equal 4,860-evaluation budget; 20 seeds; mean ± SD)",
                  fontsize=9, color=INK)
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0, 1, 0.93))
     save(fig, "fig_variable_ablation_v2")
 
 
@@ -354,6 +358,8 @@ def fig_pointcount():
                     label=r"$\varepsilon$-constraint" if m == "epsilon" else LABEL[m])
             ax.plot(k, [float(r["greedy_best_k_hv_mean"]) for r in rr], color=COLOR[m], linestyle=":", linewidth=1.2)
         ax.set_xscale("log"); ax.set_xlabel("retained points k"); ax.set_ylabel("HV")
+        ticks = sorted({int(r["k"]) for r in P if r["config"] == w and int(r["k"]) < 5} | {5, 10, 25, 50})
+        ax.set_xticks(ticks); ax.set_xticklabels([str(t) for t in ticks]); ax.minorticks_off()
         ax.set_title(WL_SHORT[w], fontsize=8, color=INK)
     h, l = axes.flat[0].get_legend_handles_labels()
     fig.legend(h, l, loc="lower center", ncol=6, fontsize=7)
@@ -421,6 +427,9 @@ def fig_feasibility():
     for yi, r in zip(y, F):
         ax.annotate(f"{r['linear_pct']:.2f}%", (max(r["linear_pct"], 1e-3), yi - 0.2), fontsize=6, color=INK,
                     xytext=(2, 0), textcoords="offset points", va="center")
+        if r["nonlinear_pct"] == 0:
+            ax.annotate("0 (no feasible policy found)", (1e-3, yi + 0.2), fontsize=6, color=INK,
+                        xytext=(2, 0), textcoords="offset points", va="center")
     ax.set_xscale("log"); ax.set_yticks(y); ax.set_yticklabels(lab, fontsize=7)
     ax.set_xlabel("random-policy feasibility (%; 100,000 samples; log scale; 0 drawn at 0.001)")
     ax.legend(fontsize=7, loc="lower right"); ax.set_title("Measured feasibility density", fontsize=8, color=INK)
@@ -457,10 +466,18 @@ def fig_roman_sweeps():
         ax.set_ylabel("HV (tight reference)")
     if "quality" in D:
         ax = axes[2]
+        # thresholds where no seed found a feasible policy are not joined to the curve, they are marked separately
         for v in "ABC":
-            R = [r for r in D["quality"] if r["variant"] == v]
+            R = [r for r in D["quality"] if r["variant"] == v and r["seeds_feasible"] > 0]
             ax.errorbar([r["q"] for r in R], [r["hv_tight_mean"] for r in R], yerr=[r["hv_tight_sd"] for r in R],
                         color=vcol[v], marker="o", ms=4, capsize=2, label=vlab[v])
+        q_none = sorted({r["q"] for r in D["quality"]} - {r["q"] for r in D["quality"] if r["seeds_feasible"] > 0})
+        if q_none:
+            ax.plot(q_none, [0.06] * len(q_none), "x", color=INK, ms=7, mew=1.5, transform=ax.get_xaxis_transform(),
+                    clip_on=False)
+            ax.text(np.mean(q_none), 0.13, "no feasible\npolicy found", transform=ax.get_xaxis_transform(),
+                    ha="center", va="bottom", fontsize=6.5, color=INK)
+            ax.set_xlim(min(r["q"] for r in D["quality"]) - 0.01, max(q_none) + 0.01)
         ax.set_xlabel("minimum quality threshold"); ax.set_ylabel("HV (tight reference)")
         ax.set_title("Quality-threshold sweep", fontsize=8, color=INK)
     if "nre" in D:
