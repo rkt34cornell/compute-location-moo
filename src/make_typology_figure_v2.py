@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
-make_typology_figure_v2.py — metric-role figure for main_R1.tex.
+make_typology_figure_v2.py — metric-role figure (counts of each engineering metric's roles per workload).
 
-Same data (out_audit/audit_summary.json), same plotting code and style as
-make_paper_figures.fig4_variable_typology; only two labels differ:
-  title  "Variable-role memberships by workload" -> "Metric-role memberships by workload"
-  legend "LIN_ONLY"                              -> "Documentation only"
+Reads out_audit/audit_summary.json and uses the plotting style of make_paper_figures.
+Legend entries use the role names from the paper's text (HV-driving, constraint-defining,
+nonlinear coupling, FC Stage 1, documentation only).
 
 Output: ../figures/fig_variable_typology_v2.{png,pdf}
 """
@@ -20,7 +19,8 @@ import make_paper_figures as mpf  # applies the legacy rcParams; does not regene
 plt = mpf.plt
 
 OUT = Path("../figures")
-LEGEND_LABEL = {"LIN_ONLY": "Documentation only"}
+LEGEND_LABEL = {"HV": "HV-driving", "CONS": "Constraint-defining", "NL": "Nonlinear coupling",
+                "FC_S1": "FC Stage 1", "LIN_ONLY": "Documentation only"}
 WL_LABEL = {"SUNCATCHER": "Suncatcher", "RST": "Roman Survey (RST)", "LEO_OOS": "LEO OOS",
             "DEEP_SPACE_CRUISE": "Deep-Space Cruise"}
 
